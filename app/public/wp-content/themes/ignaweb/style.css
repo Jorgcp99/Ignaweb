@@ -11,6 +11,119 @@
     Text Domain: ignasertheme
 */
 
-h1 {
-  color: purple;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.gradientContainer {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  position: absolute;
+}
+
+.indexTitle {
+  color: white;
+  font-family: 'PT Serif', serif;
+  font-weight: 500;
+  font-size: 70px;
+  margin-top: 40vh;
+}
+
+.indexSubTitle {
+  color: white;
+  font-family: 'PT Serif', serif;
+  font-weight: 400;
+  font-size: 30px;
+  margin-top: 3vh;
+}
+
+@media screen and (max-width: 992px) {
+  .indexTitle {
+    display: none;
+  }
+  .indexSubTitle {
+    padding-left: 15%;
+    padding-right: 15%;
+    font-weight: 500;
+    font-size: 45px;
+    margin-top: 29vh;
+  }
+}
+
+/* Carousel */
+
+#container {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.photobanner {
+  height: 100vh;
+  width: 30550px;
+}
+
+img {
+  display: inline-block;
+}
+
+/*keyframe animations*/
+.first {
+  animation: bannermove 200s linear infinite;
+}
+.arrow,
+.arrow:before {
+  position: absolute;
+  left: 50%;
+}
+.arrow {
+  width: 40px;
+  height: 40px;
+  top: 85%;
+  margin: -20px 0 0 -20px;
+  -webkit-transform: rotate(45deg);
+  border-left: none;
+  border-top: none;
+  border-right: 2px #fff solid;
+  border-bottom: 2px #fff solid;
+}
+
+.arrow:before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  margin: -10px 0 0 -10px;
+  border-left: none;
+  border-top: none;
+  border-right: 1px #fff solid;
+  border-bottom: 1px #fff solid;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: arrow;
+}
+
+@keyframes arrow {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-10px, -10px);
+  }
+}
+
+@keyframes bannermove {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -5760px;
+  }
 }

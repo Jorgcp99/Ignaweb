@@ -1,0 +1,314 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Image horizontal reel scroll slideshow 11.0\n"
+"POT-Creation-Date: 2015-10-03 23:34+0800\n"
+"PO-Revision-Date: 2015-10-03 23:34+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../image-horizontal-reel-scroll-slideshow.php:89
+#: ../image-horizontal-reel-scroll-slideshow.php:242
+msgid "No images available in this Gallery Type. Please check admin setting."
+msgstr "No images available in this Gallery Type. Please check admin setting."
+
+#: ../image-horizontal-reel-scroll-slideshow.php:142
+#: ../image-horizontal-reel-scroll-slideshow.php:251
+#: ../image-horizontal-reel-scroll-slideshow.php:252
+#: ../image-horizontal-reel-scroll-slideshow.php:260
+#: ../image-horizontal-reel-scroll-slideshow.php:265
+#: ../pages/image-management-add.php:121
+#: ../pages/image-management-edit.php:143
+#: ../pages/image-management-show.php:54 ../pages/image-setting.php:6
+msgid "Image horizontal reel scroll slideshow"
+msgstr "Image horizontal reel scroll slideshow"
+
+#: ../image-horizontal-reel-scroll-slideshow.php:144
+#: ../pages/image-management-add.php:193
+#: ../pages/image-management-edit.php:213
+#: ../pages/image-management-show.php:172 ../pages/image-setting.php:111
+msgid "Check official website for more information"
+msgstr "Check official website for more information"
+
+#: ../image-horizontal-reel-scroll-slideshow.php:145
+#: ../pages/image-management-add.php:194
+#: ../pages/image-management-edit.php:214
+#: ../pages/image-management-show.php:173 ../pages/image-setting.php:112
+msgid "click here"
+msgstr "click here"
+
+#: ../pages/image-management-add.php:28 ../pages/image-management-add.php:125
+#: ../pages/image-management-edit.php:57
+#: ../pages/image-management-edit.php:147
+msgid "Enter image path"
+msgstr "Enter image path"
+
+#: ../pages/image-management-add.php:35 ../pages/image-management-add.php:132
+#: ../pages/image-management-edit.php:64
+#: ../pages/image-management-edit.php:152
+msgid "Enter target link"
+msgstr "Enter target link"
+
+#: ../pages/image-management-add.php:56
+msgid "New image details was successfully added."
+msgstr "New image details was successfully added."
+
+#: ../pages/image-management-add.php:84 ../pages/image-management-edit.php:108
+msgid "Click here"
+msgstr "Click here"
+
+#: ../pages/image-management-add.php:84 ../pages/image-management-edit.php:109
+msgid "to view the details"
+msgstr "to view the details"
+
+#: ../pages/image-management-add.php:123
+msgid "Add new image details"
+msgstr "Add new image details"
+
+#: ../pages/image-management-add.php:129
+msgid ""
+"Where is the picture located on the internet (ex: http://www.gopiplus.com/"
+"work/wp-content/uploads/pluginimages/88x88/1.jpg)"
+msgstr ""
+"Where is the picture located on the internet (ex: http://www.gopiplus.com/"
+"work/wp-content/uploads/pluginimages/88x88/1.jpg)"
+
+#: ../pages/image-management-add.php:134
+#: ../pages/image-management-edit.php:154
+msgid ""
+"When someone clicks on the picture, where do you want to send them. url must "
+"start with either http or https."
+msgstr "When someone clicks on the picture, where do you want to send them"
+
+#: ../pages/image-management-add.php:135
+#: ../pages/image-management-edit.php:155
+msgid "Enter target option"
+msgstr "Enter target option"
+
+#: ../pages/image-management-add.php:142
+#: ../pages/image-management-edit.php:162
+msgid "Do you want to open link in new window?"
+msgstr "Do you want to open link in new window?"
+
+#: ../pages/image-management-add.php:143
+#: ../pages/image-management-edit.php:163
+msgid "Enter image reference"
+msgstr "Enter image reference"
+
+#: ../pages/image-management-add.php:145
+#: ../pages/image-management-edit.php:165
+msgid "Enter image reference. This is only for reference."
+msgstr "Enter image reference. This is only for reference."
+
+#: ../pages/image-management-add.php:146
+#: ../pages/image-management-edit.php:166
+msgid "Select gallery type"
+msgstr "Select gallery type"
+
+#: ../pages/image-management-add.php:172
+#: ../pages/image-management-edit.php:192
+msgid "This is to group the images. Select your slideshow group."
+msgstr "This is to group the images. Select your slideshow group."
+
+#: ../pages/image-management-add.php:173
+#: ../pages/image-management-edit.php:193
+msgid "Display status"
+msgstr "Display status"
+
+#: ../pages/image-management-add.php:178
+#: ../pages/image-management-edit.php:198
+msgid "Do you want the picture to show in your galler?"
+msgstr "Do you want the picture to show in your galler?"
+
+#: ../pages/image-management-add.php:179
+#: ../pages/image-management-edit.php:199
+msgid "Display order"
+msgstr "Display order"
+
+#: ../pages/image-management-add.php:181
+#: ../pages/image-management-edit.php:201
+msgid ""
+"What order should the picture be played in. should it come 1st, 2nd, 3rd, "
+"etc."
+msgstr ""
+"What order should the picture be played in. should it come 1st, 2nd, 3rd, "
+"etc."
+
+#: ../pages/image-management-add.php:185
+#: ../pages/image-management-edit.php:205
+msgid "Save Details"
+msgstr "Save Details"
+
+#: ../pages/image-management-add.php:186
+#: ../pages/image-management-edit.php:206 ../pages/image-setting.php:104
+msgid "Cancel"
+msgstr "Cancel"
+
+#: ../pages/image-management-add.php:187
+#: ../pages/image-management-edit.php:207
+#: ../pages/image-management-show.php:163 ../pages/image-setting.php:105
+msgid "Help"
+msgstr "Help"
+
+#: ../pages/image-management-edit.php:18
+msgid "Oops, selected details doesnt exist."
+msgstr "Oops, selected details doesnt exist."
+
+#: ../pages/image-management-edit.php:92
+msgid "Image details was successfully updated."
+msgstr "Image details was successfully updated."
+
+#: ../pages/image-management-edit.php:145
+msgid "Update image details"
+msgstr "Update image details"
+
+#: ../pages/image-management-edit.php:150
+msgid "Where is the picture located on the internet"
+msgstr "Where is the picture located on the internet"
+
+#: ../pages/image-management-show.php:23
+msgid "Oops, selected details doesnt exist"
+msgstr "Oops, selected details doesnt exist"
+
+#: ../pages/image-management-show.php:41
+msgid "Selected record was successfully deleted."
+msgstr "Selected record was successfully deleted."
+
+#: ../pages/image-management-show.php:55
+#: ../pages/image-management-show.php:161
+msgid "Add New"
+msgstr "Add New"
+
+#: ../pages/image-management-show.php:77 ../pages/image-management-show.php:88
+msgid "Image Preview"
+msgstr "Image Preview"
+
+#: ../pages/image-management-show.php:78 ../pages/image-management-show.php:89
+msgid "Reference"
+msgstr "Reference"
+
+#: ../pages/image-management-show.php:79 ../pages/image-management-show.php:90
+msgid "Type"
+msgstr "Type"
+
+#: ../pages/image-management-show.php:80 ../pages/image-management-show.php:91
+msgid "Target"
+msgstr "Target"
+
+#: ../pages/image-management-show.php:81 ../pages/image-management-show.php:92
+msgid "Order"
+msgstr "Order"
+
+#: ../pages/image-management-show.php:82 ../pages/image-management-show.php:93
+msgid "Display"
+msgstr "Display"
+
+#: ../pages/image-management-show.php:116
+msgid "Edit"
+msgstr "Edit"
+
+#: ../pages/image-management-show.php:122
+msgid "Delete"
+msgstr "Delete"
+
+#: ../pages/image-management-show.php:139
+msgid "No records available."
+msgstr "No records available."
+
+#: ../pages/image-management-show.php:148
+msgid " &lt;&lt; "
+msgstr " &lt;&lt; "
+
+#: ../pages/image-management-show.php:149
+msgid " &gt;&gt; "
+msgstr " &gt;&gt; "
+
+#: ../pages/image-management-show.php:162 ../pages/image-setting.php:7
+msgid "Widget setting"
+msgstr "Widget setting"
+
+#: ../pages/image-setting.php:43
+msgid "Details successfully updated."
+msgstr "Details successfully updated."
+
+#: ../pages/image-setting.php:50
+msgid "Enter widget title"
+msgstr "Enter widget title"
+
+#: ../pages/image-setting.php:52
+msgid "Enter widget title, Only for widget."
+msgstr "Enter widget title, Only for widget."
+
+#: ../pages/image-setting.php:54
+msgid "Enter width"
+msgstr "Enter width"
+
+#: ../pages/image-setting.php:56
+msgid "Enter widget width, only number. (Example: 600)"
+msgstr "Enter widget width, only number. (Example: 600)"
+
+#: ../pages/image-setting.php:58
+msgid "Enter height"
+msgstr "Enter height"
+
+#: ../pages/image-setting.php:60
+msgid "Enter widget height, only number. (Example: 170)"
+msgstr "Enter widget height, only number. (Example: 170)"
+
+#: ../pages/image-setting.php:62
+msgid "Enter slide speed"
+msgstr "Enter slide speed"
+
+#: ../pages/image-setting.php:64
+msgid "This box is to manage scroller speed. (Example: 1)"
+msgstr "This box is to manage scroller speed. (Example: 1)"
+
+#: ../pages/image-setting.php:66
+msgid "Enter slide bgcolor"
+msgstr "Enter slide bgcolor"
+
+#: ../pages/image-setting.php:68
+msgid "Background color of the slideshow. (Example: #ffffff)"
+msgstr "Background color of the slideshow. (Example: #ffffff)"
+
+#: ../pages/image-setting.php:70
+msgid "Enter slideshow gap"
+msgstr "Enter slideshow gap"
+
+#: ../pages/image-setting.php:72
+msgid ""
+"This is pixels gap between each image in slideshow. Enter only number. "
+"(Example: 5)"
+msgstr "This is pixels gap between each image in slideshow. (Example: 5)"
+
+#: ../pages/image-setting.php:74
+msgid "Enter random display"
+msgstr "Enter random display"
+
+#: ../pages/image-setting.php:76
+msgid ""
+"This option is to retrieve the images in random order. (Enter: YES/NO Only)"
+msgstr ""
+"This option is to retrieve the images in random order. (Enter: Yes/No Only)"
+
+#: ../pages/image-setting.php:78
+msgid "Select gallery group (Type)"
+msgstr "Select gallery group (Type)"
+
+#: ../pages/image-setting.php:101
+msgid ""
+"This field is to group the images. Select your group name to fetch the "
+"images for widget. (Example: GROUP1)"
+msgstr ""
+"This field is to group the images. Select your group name to fetch the "
+"images for widget. (Example: GROUP1)"
+
+#: ../pages/image-setting.php:103
+msgid "Submit"
+msgstr "Submit"
