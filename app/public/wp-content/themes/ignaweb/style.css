@@ -59,9 +59,9 @@ p {
   padding: 0.5rem 2rem;
 }
 
-div.logo{
-    display: flex;
-    align-items: center;
+div.logo {
+  display: flex;
+  align-items: center;
 }
 
 @media (min-width: 1024px) {
@@ -74,7 +74,6 @@ div.logo{
 
 .logo {
   text-align: center;
-
 }
 
 /** Menu principal **/
@@ -194,9 +193,29 @@ div.logo{
   color: black;
   margin-top: 58px;
 }
-.pageContent{
-    border: solid red 1px;
-    height: 100vh;
+.pageContent {
+  height: 10vh;
+}
+/* Footer  */
+.siteFooter {
+  background-color: var(--colorAppBar);
+  margin-top: 4rem;
+}
+
+.copyright {
+  color: white;
+}
+.footerContent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footerTit {
+  margin: 0.5rem 0;
+}
+.footerInfo {
+  color: white;
+  margin: 0.5rem 0;
 }
 
 @media (min-width: 1024px) {
