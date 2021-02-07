@@ -64,7 +64,7 @@ div.logo{
     align-items: center;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .navBar {
     display: flex;
     justify-content: space-between;
@@ -83,7 +83,7 @@ div.logo{
   display: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .menuPrincipal {
     display: flex;
     align-items: center;
@@ -102,7 +102,7 @@ div.logo{
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .menuPrincipal {
     display: flex;
     text-decoration: none;
@@ -118,7 +118,7 @@ div.logo{
   text-decoration: none;
   font-weight: bold;
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .menuPrincipal a {
     font-size: 2.6rem;
     position: relative;
@@ -157,7 +157,7 @@ div.logo{
   border-bottom: solid var(--colorContraste);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .mobileMenu {
   }
 }
@@ -169,7 +169,7 @@ div.logo{
   display: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .slicknav_menu {
     display: none;
   }
@@ -199,7 +199,7 @@ div.logo{
     height: 100vh;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .pageTitle {
     margin-top: 0px;
   }

@@ -55,13 +55,13 @@
 	}
 }
 
-@media only screen and (min-width:769px){
+@media only screen and (min-width:1025px){
 	.mob_menu, .mobmenu-panel, .mobmenu, .mobmenu-cart-panel, .mobmenu-footer-menu-holder, .mobmenu-right-panel, .mobmenu-left-panel  {
 		display: none!important;
 	}
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:1024px) {
 
 			
 	.mobmenur-container i {
@@ -86,7 +86,7 @@
 
 	}
 	.mob-cancel-button {
-		font-size: 30px!important;
+		font-size: 40px!important;
 	}
 
 	/* 3rd Level Left Menu Items Background color on Hover*/
@@ -303,12 +303,12 @@
 	}
 	.right-menu-icon-text {
 		float: right;
-		line-height: 25px;
+		line-height: 32px;
 		color: #777777;
 	}
 	.mobmenur-container i {
-		line-height: 25px;
-		font-size: 25px;
+		line-height: 32px;
+		font-size: 32px;
 		float: right;
 	}
 	.nav, .main-navigation, .genesis-nav-menu, #main-header, #et-top-navigation, .site-header, .site-branding, .ast-mobile-menu-buttons, .storefront-handheld-footer-bar, .hide {
