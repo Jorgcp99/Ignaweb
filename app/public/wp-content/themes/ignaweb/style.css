@@ -194,7 +194,7 @@ div.logo {
   margin-top: 58px;
 }
 .pageContent {
-  height: 10vh;
+  border: solid red 1px;
 }
 /* Footer  */
 .siteFooter {
