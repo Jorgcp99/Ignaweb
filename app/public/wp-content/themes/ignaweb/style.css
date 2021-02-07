@@ -73,10 +73,20 @@ img {
   display: inline-block;
 }
 
-/*keyframe animations*/
 .first {
   animation: bannermove 200s linear infinite;
 }
+
+@keyframes bannermove {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -5760px;
+  }
+}
+
+/* Arrow */
 .arrow,
 .arrow:before {
   position: absolute;
@@ -119,11 +129,147 @@ img {
   }
 }
 
-@keyframes bannermove {
-  0% {
-    margin-left: 0px;
+.sectionTitle {
+  text-align: center;
+  color: black;
+  font-family: 'PT Serif', serif;
+  font-weight: 500;
+  font-size: 40px;
+  margin-top: 90px;
+  margin-bottom: 50px;
+}
+
+.contenedor-productos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contenedor-productos .producto {
+  flex: 0 0 100%;
+  height: 250px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+@media (min-width: 480px) {
+  .contenedor-productos .producto {
+    flex: 0 0 33.3333%;
+    width: auto;
+    height: 250px;
   }
-  100% {
-    margin-left: -5760px;
+}
+
+@media (min-width: 768px) {
+  .contenedor-productos .producto {
+    flex: 0 0 33.3333%;
+    width: auto;
+    height: 300px;
   }
+}
+
+.contenedor-productos .producto img {
+  height: 250px;
+  width: 100%;
+  object-fit: fill;
+}
+
+@media (min-width: 768px) {
+  .contenedor-productos .producto img {
+    height: 300px;
+    width: 100%;
+    object-fit: fill;
+  }
+}
+
+.contenedor-productos .producto:after {
+  content: '';
+  background-color: rgba(0, 0, 0, 0.7);
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.producto h3 {
+  position: absolute;
+  margin: auto;
+  color: white;
+  font-size: 2rem;
+  font-weight: 900;
+  z-index: 100;
+  top: 45%;
+}
+
+.producto p,
+a {
+  position: absolute;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+  z-index: 100;
+}
+
+.producto p {
+  top: 40%;
+}
+
+.producto a {
+  top: 70%;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .producto h3 {
+    transition: 0.5s;
+  }
+
+  .producto:hover h3 {
+    top: 20%;
+    transition: 0.5s;
+  }
+
+  .producto p {
+    padding-left: 10%;
+    padding-right: 10%;
+    opacity: 0;
+  }
+
+  .producto:hover p {
+    opacity: 1;
+    transition: 0.8s;
+  }
+
+  .producto a {
+    opacity: 0;
+  }
+
+  .producto:hover a {
+    opacity: 1;
+    transition: 0.8s;
+  }
+
+  .contenedor-productos:hover .producto {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+}
+
+.linkProduct {
+  padding-top: 50px;
+  margin-bottom: 50px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.linkReferences {
+  text-decoration: none;
+  color: #2a69a8;
+}
+
+.servicios {
+  background-color: #f7f7f7;
 }
