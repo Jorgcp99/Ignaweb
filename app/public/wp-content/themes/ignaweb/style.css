@@ -194,7 +194,6 @@ div.logo {
   margin-top: 58px;
 }
 .pageContent {
-  border: solid red 1px;
 }
 /* Footer  */
 .siteFooter {
@@ -218,8 +217,43 @@ div.logo {
   margin: 0.5rem 0;
 }
 
+/* Galeria */
+
+.galeriaImagenes{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, auto);
+    margin: 0;
+    padding: 0;
+}
+
+.imgContainer{
+    text-align: center;
+}
+
+.imgContainer.img{
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .galeriaImagenes{
+        grid-template-columns: repeat(2, 2fr);
+    }
+}
+@media (min-width: 1400px) {
+    .galeriaImagenes{
+        grid-template-columns: repeat(3, 2fr);
+    }
+}
+@media (min-width: 1920px) {
+    .galeriaImagenes{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
 @media (min-width: 1024px) {
   .pageTitle {
-    margin-top: 0px;
+    margin-top: 1rem;
+    text-align: center;
   }
 }
