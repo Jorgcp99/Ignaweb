@@ -82,26 +82,24 @@
         <h1 class="serviciosTitle">Servicios</h1>
 
         <ul class ="contenedor-servicios">
+            <?php
+            $services = get_field('servicios');
+            ?>
+            <li class="image-servicios">
                 <?php
-                $services = get_field('servicios');
+                    $imagen = wp_get_attachment_image_src($services['servicios_imagen'], 'mediano')[0];
                 ?>
-                <li class="image-servicios">
-                    <?php
-                        $imagen = wp_get_attachment_image_src($services['servicios_imagen'], 'mediano')[0];
-                    ?>
-                    <div class="imageServicios">
-                        <img src="<?php echo esc_attr($imagen); ?>"/>
-                    </div>
-                </li>
-                <li class="text-servicios">
-                    <div class="textServicios">
-                        <p class="baseTextServicios"><?php echo esc_html($services['servivicos_descripcion']);?></p>
-                    </div>
-                    <div class="servicios-button">
-                        <p class="text-servicios-button">Conócenos</p>
-                    </div>
-                </li>
-            </ul>
+                <div class="imageServicios">
+                    <img src="<?php echo esc_attr($imagen); ?>"/>
+                </div>
+            </li>
+            <li class="text-servicios">
+                <div class="textServicios">
+                    <p class="baseTextServicios"><?php echo esc_html($services['servivicos_descripcion']);?></p>
+                </div>
+                <button class="servicios-button"><span><p class="text-servicios-button">Conócenos</p> </span></button>
+            </li>
+        </ul>
     </div>
     
 </body>
