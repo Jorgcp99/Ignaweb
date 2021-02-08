@@ -35,3 +35,10 @@
 [07-Feb-2021 16:39:09 UTC] PHP   4. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
 [07-Feb-2021 16:39:09 UTC] PHP   5. wp_update_themes() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
 [07-Feb-2021 16:39:09 UTC] PHP   6. trigger_error() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/update.php:612
+[08-Feb-2021 14:41:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/front-page.php:45
+Stack trace:
+#0 /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/alfredo/...')
+#2 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
+#3 {main}
+  thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/front-page.php on line 45
