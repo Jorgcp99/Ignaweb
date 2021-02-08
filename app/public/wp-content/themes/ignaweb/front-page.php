@@ -42,32 +42,32 @@
             <ul class ="contenedor-productos">
                 <li class="producto">
                     <?php
-                        $producto1 = get_field('producto_1');
-                        $imagen = wp_get_attachment_image_src($producto1['product_imagen'], 'mediano')[0];
+                        $services = get_field('producto_1');
+                        $imagen = wp_get_attachment_image_src($services['product_imagen'], 'mediano')[0];
                     ?>
                     <img src="<?php echo esc_attr($imagen); ?>"/>
-                    <h3><?php echo esc_html($producto1['product_texto']);?></h3>
-                    <p><?php echo esc_html($producto1['product_descripcion']);?></p>
+                    <h3><?php echo esc_html($services['product_texto']);?></h3>
+                    <p><?php echo esc_html($services['product_descripcion']);?></p>
                     <a href="https://example.com" >Ver más ></a>
                 </li>
                 <li class="producto">
                     <?php
-                        $area2 = get_field('producto_2');
-                        $imagen = wp_get_attachment_image_src($area2['product_imagen'], 'mediano')[0];
+                        $producto2 = get_field('producto_2');
+                        $imagen = wp_get_attachment_image_src($producto2['product_imagen'], 'mediano')[0];
                     ?>
                     <img src="<?php echo esc_attr($imagen); ?>"/>
-                    <h3><?php echo esc_html($area2['product_texto']);?></h3>
-                    <p><?php echo esc_html($producto1['product_descripcion']);?></p>
+                    <h3><?php echo esc_html($producto2['product_texto']);?></h3>
+                    <p><?php echo esc_html($producto2['product_descripcion']);?></p>
                     <a href="https://example.com" >Ver más ></a>
                 </li>
                 <li class="producto">
                     <?php
-                        $area3 = get_field('producto_3');
-                        $imagen = wp_get_attachment_image_src($area3['product_imagen'], 'mediano')[0];
+                        $producto3 = get_field('producto_3');
+                        $imagen = wp_get_attachment_image_src($producto3['product_imagen'], 'mediano')[0];
                     ?>
                     <img src="<?php echo esc_attr($imagen); ?>"/>
-                    <h3><?php echo esc_html($area3['product_texto']);?></h3>
-                    <p><?php echo esc_html($producto1['product_descripcion']);?></p>
+                    <h3><?php echo esc_html($producto3['product_texto']);?></h3>
+                    <p><?php echo esc_html($producto3['product_descripcion']);?></p>
                     <a href="https://example.com" >Ver más ></a>
                 </li>
             </ul>
@@ -79,7 +79,29 @@
     </div>
 
     <div class="servicios">
-    <h1 class="sectionTitle">Servicios</h1>
+        <h1 class="serviciosTitle">Servicios</h1>
+
+        <ul class ="contenedor-servicios">
+                <?php
+                $services = get_field('servicios');
+                ?>
+                <li class="image-servicios">
+                    <?php
+                        $imagen = wp_get_attachment_image_src($services['servicios_imagen'], 'mediano')[0];
+                    ?>
+                    <div class="imageServicios">
+                        <img src="<?php echo esc_attr($imagen); ?>"/>
+                    </div>
+                </li>
+                <li class="text-servicios">
+                    <div class="textServicios">
+                        <p class="baseTextServicios"><?php echo esc_html($services['servivicos_descripcion']);?></p>
+                    </div>
+                    <div class="servicios-button">
+                        <p class="text-servicios-button">Conócenos</p>
+                    </div>
+                </li>
+            </ul>
     </div>
     
 </body>
