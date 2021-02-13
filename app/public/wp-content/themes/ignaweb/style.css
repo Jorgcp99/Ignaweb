@@ -171,11 +171,13 @@ img {
 
 .contenedor-productos .producto {
   flex: 0 0 100%;
-  height: 250px;
+  height: 500px;
   position: relative;
   display: flex;
   justify-content: center;
   text-align: center;
+  background-color: #F7F7F7;
+  margin-bottom: 10%;
 }
 
 @media (min-width: 480px) {
@@ -183,6 +185,9 @@ img {
     flex: 0 0 33.3333%;
     width: auto;
     height: 250px;
+    position: relative;
+    display: flex;
+    margin-bottom: 0;
   }
 }
 
@@ -191,6 +196,11 @@ img {
     flex: 0 0 33.3333%;
     width: auto;
     height: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0;
   }
 }
 
@@ -205,12 +215,11 @@ img {
     height: 300px;
     width: 100%;
     object-fit: cover;
+    background-color: rgba(0, 0, 0, 0.5);
   }
 }
 
 .contenedor-productos .producto:after {
-  content: '';
-  background-color: rgba(0, 0, 0, 0.7);
   display: block;
   width: 100%;
   height: 100%;
@@ -221,28 +230,30 @@ img {
 .producto h3 {
   position: absolute;
   margin: auto;
-  color: white;
+  color: #000;
   font-size: 2rem;
   font-weight: 900;
   z-index: 100;
-  top: 45%;
+  top: 53%;
 }
 
 .producto p,
 a {
+  padding-left: 5%;
+  padding-right: 5%;
+  color: #000;
   position: absolute;
-  color: white;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 500;
   z-index: 100;
 }
 
 .producto p {
-  top: 40%;
+  top: 65%;
 }
 
 .producto a {
-  top: 70%;
+  top: 88%;
   text-decoration: none;
 }
 
@@ -279,16 +290,32 @@ a {
   .contenedor-productos:hover .producto {
     background-color: rgba(0, 0, 0, 0.8);
   }
+
+  .contenedor-productos .producto:after {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.7);
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+  }
 }
 
 .linkProduct {
   height: 100px;
-  padding-top: 65px;
+  padding-top: 35px;
   position: relative;
   display: flex;
   justify-content: center;
   text-align: center;
   background-color: white;
+}
+
+@media (min-width: 768px) {
+  .linkProduct {
+    padding-top: 65px;
+  }
 }
 
 .linkReferences {
@@ -300,6 +327,13 @@ a {
 
 .servicios {
   background-color: #f7f7f7;
+  height: 900px;
+}
+
+@media (min-width: 768px) {
+  .servicios {
+    height: auto;
+  }
 }
 
 .serviciosTitle {
@@ -330,11 +364,18 @@ a {
 }
 
 .contenedor-servicios .text-servicios {
-  flex: 0 0 100%;
-  position: relative;
-  display: flex;
   justify-content: center;
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .contenedor-servicios .text-servicios {
+    flex: 0 0 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
 }
 
 .contenedor-servicios .image-servicios img {
@@ -355,7 +396,6 @@ a {
 
 .contenedor-servicios .imageServicios:after {
   content: '';
-  background-color: rgba(0, 0, 0, 0.5);
   display: block;
   width: 100%;
   height: 400px;
@@ -364,6 +404,13 @@ a {
 }
 
 @media (min-width: 768px) {
+
+  .contenedor-servicios .imageServicios:after {
+    background-color: rgba(0, 0, 0, 0.5);
+
+  }
+
+  
   .contenedor-servicios .image-servicios {
     height: 400px;
     width: 45%;
@@ -374,9 +421,9 @@ a {
   }
 
   .contenedor-servicios .image-servicios img {
-    height: 100%;
-    width: 100%;
     object-fit: cover;
+    width: 100%;
+    height: 100%;
   }
 
   .contenedor-servicios .text-servicios .baseTextServicios {
@@ -398,11 +445,8 @@ a {
   padding-left: 20px;
   padding-right: 20px;
   font-size: 28px;
-  transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
-  position: absolute;
-  top: 60%;
   background-color: transparent;
   border-color: #2a69a8;
   border-width: 2px;
@@ -418,6 +462,22 @@ a {
 }
 
 @media (min-width: 768px) {
+
+  .servicios-button {
+    width: 200px;
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 28px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    position: absolute;
+    top: 60%;
+  }
+
   .servicios-button span {
     cursor: pointer;
     display: inline-block;
