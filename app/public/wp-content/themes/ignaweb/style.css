@@ -192,9 +192,9 @@ div.logo {
 .pageTitle {
   color: black;
   margin-top: 58px;
+  text-align: center;
 }
-.pageContent {
-}
+
 /* Footer  */
 .siteFooter {
   background-color: var(--colorAppBar);
@@ -235,7 +235,7 @@ div.logo {
   display: block;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 874px) {
   .galeriaImagenes {
     grid-template-columns: repeat(2, 2fr);
   }
