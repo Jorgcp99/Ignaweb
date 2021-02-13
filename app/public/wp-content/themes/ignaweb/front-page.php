@@ -7,9 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IgnaWeb</title>
     <?php wp_head(); ?>
+
 </head>
 
 <body>
+
     <?php
     $args = array(
         'theme_location' => 'menu-principal',
@@ -36,7 +38,9 @@
     </div>
 
     <div class="topProducts">
-        <h1 class="sectionTitle">Top Productos</h1>
+        <div class="sectionTitleContainer">
+            <h1 class="sectionTitle">Top Productos</h1>
+        </div>
 
         <div class="seccion-productos">
             <ul class ="contenedor-productos">
@@ -101,7 +105,125 @@
             </li>
         </ul>
     </div>
-    
+
+    <header class="ignaserCifras">
+        <h1>Ignaser en cifras</h1>
+        <div class="row">
+            <div class="column">
+                <?php
+                    $cifra1 = get_field('cifra_1');
+                ?>
+                <p><?php echo esc_html($cifra1['descripcion_cifra']);?></p>
+                <h2><?php echo esc_html($cifra1['valor_cifra']);?><h2>
+            </div>
+            <div class="column">
+                <?php
+                    $cifra2 = get_field('cifra_2');
+                ?>
+                <p><?php echo esc_html($cifra2['descripcion_cifra']);?></p>
+                <h2><?php echo esc_html($cifra2['valor_cifra']);?><h2>
+            </div>
+            <div class="column">
+                <?php
+                    $cifra3 = get_field('cifra_3');
+                ?>
+                <p><?php echo esc_html($cifra3['descripcion_cifra']);?></p>
+                <h2><?php echo esc_html($cifra3['valor_cifra']);?><h2>
+            </div>
+        </div>
+    </header>
+
+    <div class="clientes">
+        <h1 class="serviciosTitle">Nuestros clientes</h1>
+
+        <div class="slider-container">
+  
+            <ul class="slider">
+                <li id="slide1">
+                    <div class="row">
+                        <div class="column-clientes">
+                            <?php
+                                $cliente1 = get_field('cliente_1');
+                                $imagen1 = wp_get_attachment_image_src($cliente1['imagen_cliente'], 'mediano')[0];
+                            ?>
+                            <img src="<?php echo esc_attr($imagen1); ?>"/>
+                            <p><?php echo esc_html($cliente1['nombre_cliente']);?></p>
+                        </div>
+                        <div class="column-clientes">
+                            <?php
+                                $cliente2 = get_field('cliente_2');
+                                $imagen2 = wp_get_attachment_image_src($cliente2['imagen_cliente'], 'mediano')[0];
+                            ?>
+                            <img src="<?php echo esc_attr($imagen1); ?>"/>
+                            <p><?php echo esc_html($cliente2['nombre_cliente']);?></p>
+                        </div>
+                        <div class="column-clientes">
+                            <?php
+                                $cliente3 = get_field('cliente_3');
+                                $imagen3 = wp_get_attachment_image_src($cliente3['imagen_cliente'], 'mediano')[0];
+                            ?>
+                            <img src="<?php echo esc_attr($imagen1); ?>"/>
+                            <p><?php echo esc_html($cliente3['nombre_cliente']);?></p>
+                        </div>
+                        <div class="column-clientes">
+                            <?php
+                                $cliente4 = get_field('cliente_4');
+                                $imagen4 = wp_get_attachment_image_src($cliente4['imagen_cliente'], 'mediano')[0];
+                            ?>
+                            <img src="<?php echo esc_attr($imagen1); ?>"/>
+                            <p><?php echo esc_html($cliente4['nombre_cliente']);?></p>
+                        </div>
+                    </div>
+                </li>
+                <li id="slide2">
+                    <div class="row">
+                        <div class="column-clientes">
+                            <?php
+                                $cliente5 = get_field('cliente_5');
+                                $imagen5 = wp_get_attachment_image_src($cliente5['imagen_cliente'], 'mediano')[0];
+                            ?>
+                            <img src="<?php echo esc_attr($imagen5); ?>"/>
+                            <p><?php echo esc_html($cliente5['nombre_cliente']);?></p>
+                        </div>
+                        <div class="column-clientes">
+                            <?php
+                                $cliente6 = get_field('cliente_6');
+                                $imagen6 = wp_get_attachment_image_src($cliente6['imagen_cliente'], 'mediano')[0];
+                            ?>
+                            <img src="<?php echo esc_attr($imagen6); ?>"/>
+                            <p><?php echo esc_html($cliente6['nombre_cliente']);?></p>
+                        </div>
+                        <div class="column-clientes">
+                            <?php
+                                $cliente7 = get_field('cliente_7');
+                                $imagen7 = wp_get_attachment_image_src($cliente7['imagen_cliente'], 'mediano')[0];
+                            ?>
+                            <img src="<?php echo esc_attr($imagen7); ?>"/>
+                            <p><?php echo esc_html($cliente7['nombre_cliente']);?></p>
+                        </div>
+                        <div class="column-clientes">
+                            <?php
+                                $cliente7 = get_field('cliente_7');
+                                $imagen7 = wp_get_attachment_image_src($cliente7['imagen_cliente'], 'mediano')[0];
+                            ?>
+                            <img src="<?php echo esc_attr($imagen7); ?>"/>
+                            <p><?php echo esc_html($cliente7['nombre_cliente']);?></p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            
+            <ul class="menu">
+                <li>
+                    <a href="#slide1">1</a>
+                </li>
+                <li>
+                    <a href="#slide2">2</a>
+                </li>
+            </ul>
+            
+        </div>
+    </div>
 </body>
 
 </html>
