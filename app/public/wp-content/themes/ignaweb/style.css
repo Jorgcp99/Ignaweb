@@ -63,6 +63,9 @@ div.logo {
   display: flex;
   align-items: center;
 }
+::marker {
+    color: transparent;
+  }
 
 @media (min-width: 1024px) {
   .navBar {
@@ -96,9 +99,7 @@ div.logo {
     margin-right: 2rem;
     text-decoration: none;
   }
-  ::marker {
-    color: transparent;
-  }
+
 }
 
 @media (min-width: 1024px) {
@@ -191,7 +192,8 @@ div.logo {
 
 .pageTitle {
   color: black;
-  margin-top: 58px;
+  margin-top: 68px;
+  text-align: center;
 }
 .pageContent {
 }
@@ -235,7 +237,7 @@ div.logo {
     display: block;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 906px) {
     .galeriaImagenes{
         grid-template-columns: repeat(2, 2fr);
     }
@@ -254,6 +256,5 @@ div.logo {
 @media (min-width: 1024px) {
   .pageTitle {
     margin-top: 1rem;
-    text-align: center;
   }
 }
