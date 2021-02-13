@@ -311,9 +311,7 @@
 		font-size: 32px;
 		float: right;
 	}
-	.nav, .main-navigation, .genesis-nav-menu, #main-header, #et-top-navigation, .site-header, .site-branding, .ast-mobile-menu-buttons, .storefront-handheld-footer-bar, .hide {
-		display: none!important;
-	}
+
 	
 	.mob-standard-logo {
 		display: inline-block;
