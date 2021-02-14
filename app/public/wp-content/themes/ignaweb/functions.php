@@ -10,6 +10,9 @@ function ignawebtheme_setup()
     //Agregar imagenes de tamaño personalizado
     add_image_size('square', 350, 350, true);
     add_image_size('gallery', 430, 322.5, true);
+    add_image_size('galleryMobile', 355, 265.5, true);
+    add_image_size('galleryMobile2', 300, 225, true);
+    add_image_size('galleryMobile3', 320, 240, true);
     add_image_size('small', 100, 100, true);
     add_image_size('portrait', 350, 724, true);
     add_image_size('cajas', 400, 375, true);
