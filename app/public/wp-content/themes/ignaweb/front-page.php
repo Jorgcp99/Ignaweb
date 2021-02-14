@@ -101,34 +101,36 @@
                 <div class="textServicios">
                     <p class="baseTextServicios"><?php echo esc_html($services['servivicos_descripcion']);?></p>
                 </div>
-                <button class="servicios-button"><span><p class="text-servicios-button">Conócenos</p> </span></button>
+                <div class="serviciosButton">
+                    <button class="servicios-button"><span><p class="text-servicios-button">Conócenos</p> </span></button>
+                </div>
             </li>
         </ul>
     </div>
 
     <header class="ignaserCifras">
-        <h1>Ignaser en cifras</h1>
+        <h1 class="sectionTitleWhite">Ignaser en cifras</h1>
         <div class="row">
             <div class="column">
                 <?php
                     $cifra1 = get_field('cifra_1');
                 ?>
                 <p><?php echo esc_html($cifra1['descripcion_cifra']);?></p>
-                <h2><?php echo esc_html($cifra1['valor_cifra']);?><h2>
+                <h2><?php echo esc_html($cifra1['valor_cifra']);?></h2>
             </div>
             <div class="column">
                 <?php
                     $cifra2 = get_field('cifra_2');
                 ?>
                 <p><?php echo esc_html($cifra2['descripcion_cifra']);?></p>
-                <h2><?php echo esc_html($cifra2['valor_cifra']);?><h2>
+                <h2><?php echo esc_html($cifra2['valor_cifra']);?></h2>
             </div>
             <div class="column">
                 <?php
                     $cifra3 = get_field('cifra_3');
                 ?>
                 <p><?php echo esc_html($cifra3['descripcion_cifra']);?></p>
-                <h2><?php echo esc_html($cifra3['valor_cifra']);?><h2>
+                <h2><?php echo esc_html($cifra3['valor_cifra']);?></h2>
             </div>
         </div>
     </header>
@@ -203,11 +205,11 @@
                         </div>
                         <div class="column-clientes">
                             <?php
-                                $cliente7 = get_field('cliente_7');
-                                $imagen7 = wp_get_attachment_image_src($cliente7['imagen_cliente'], 'mediano')[0];
+                                $cliente8 = get_field('cliente_8');
+                                $imagen8 = wp_get_attachment_image_src($cliente8['imagen_cliente'], 'mediano')[0];
                             ?>
-                            <img src="<?php echo esc_attr($imagen7); ?>"/>
-                            <p><?php echo esc_html($cliente7['nombre_cliente']);?></p>
+                            <img src="<?php echo esc_attr($imagen8); ?>"/>
+                            <p><?php echo esc_html($cliente8['nombre_cliente']);?></p>
                         </div>
                     </div>
                 </li>
