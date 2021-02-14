@@ -57,11 +57,15 @@ p {
 .site-header {
   background-color: var(--colorAppBar);
   padding: 0.5rem 2rem;
+  display: none;
 }
 
 div.logo {
   display: flex;
   align-items: center;
+}
+::marker {
+  color: transparent;
 }
 
 @media (min-width: 1024px) {
@@ -69,6 +73,9 @@ div.logo {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+  .site-header {
+    display: block;
   }
 }
 
@@ -80,6 +87,9 @@ div.logo {
 
 .menuPrincipal {
   display: none;
+}
+::marker {
+  color: transparent;
 }
 
 @media (min-width: 1024px) {
@@ -95,9 +105,6 @@ div.logo {
   .menuPrincipal li {
     margin-right: 2rem;
     text-decoration: none;
-  }
-  ::marker {
-    color: transparent;
   }
 }
 
@@ -192,9 +199,9 @@ div.logo {
 .pageTitle {
   color: black;
   margin-top: 58px;
+  text-align: center;
 }
-.pageContent {
-}
+
 /* Footer  */
 .siteFooter {
   background-color: var(--colorAppBar);
@@ -219,41 +226,19 @@ div.logo {
 
 /* Galeria */
 
-.galeriaImagenes{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(6, auto);
-    margin: 0;
-    padding: 0;
+.imagesGrid{
+  display: flex;
+  justify-content: start;
+}
+.imgContainer {
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
-.imgContainer{
-    text-align: center;
-}
-
-.imgContainer.img{
-    display: block;
-}
-
-@media (min-width: 768px) {
-    .galeriaImagenes{
-        grid-template-columns: repeat(2, 2fr);
-    }
-}
-@media (min-width: 1400px) {
-    .galeriaImagenes{
-        grid-template-columns: repeat(3, 2fr);
-    }
-}
-@media (min-width: 1920px) {
-    .galeriaImagenes{
-        grid-template-columns: repeat(4, 1fr);
-    }
-}
 
 @media (min-width: 1024px) {
   .pageTitle {
     margin-top: 1rem;
-    text-align: center;
   }
 }
