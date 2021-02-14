@@ -57,6 +57,7 @@ p {
 .site-header {
   background-color: var(--colorAppBar);
   padding: 0.5rem 2rem;
+  display: none;
 }
 
 div.logo {
@@ -69,6 +70,9 @@ div.logo {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+  .site-header{
+    display: block;
   }
 }
 
