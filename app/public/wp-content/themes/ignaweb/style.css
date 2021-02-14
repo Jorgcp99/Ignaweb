@@ -65,8 +65,8 @@ div.logo {
   align-items: center;
 }
 ::marker {
-    color: transparent;
-  }
+  color: transparent;
+}
 
 @media (min-width: 1024px) {
   .navBar {
@@ -74,7 +74,7 @@ div.logo {
     justify-content: space-between;
     align-items: center;
   }
-  .site-header{
+  .site-header {
     display: block;
   }
 }
@@ -226,37 +226,16 @@ div.logo {
 
 /* Galeria */
 
-.galeriaImagenes {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(6, auto);
-  margin: 0;
-  padding: 0;
+.imagesGrid{
+  display: flex;
+  justify-content: start;
 }
-
 .imgContainer {
   text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
-.imgContainer.img {
-  display: block;
-}
-
-@media (min-width: 874px) {
-  .galeriaImagenes {
-    grid-template-columns: repeat(2, 2fr);
-  }
-}
-@media (min-width: 1400px) {
-  .galeriaImagenes {
-    grid-template-columns: repeat(3, 2fr);
-  }
-}
-@media (min-width: 1920px) {
-  .galeriaImagenes {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
 
 @media (min-width: 1024px) {
   .pageTitle {

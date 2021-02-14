@@ -16,21 +16,21 @@ while (have_posts()) : the_post();
         $galeria_imagenes_ids = explode(',', $galeria['ids']);
         ?>
 
-        <ul class="galeriaImagenes">
-                <?php
-                    foreach($galeria_imagenes_ids as $ids):
-                        $imagenThumb = wp_get_attachment_image_src($ids, 'gallery')[0];
-                        $imagenFull = wp_get_attachment_image_src($ids, 'full')[0];
-                    ?>
+        <div class="imagesGrid row">
+            <?php
+            foreach ($galeria_imagenes_ids as $ids) :
+                $imagenThumb = wp_get_attachment_image_src($ids, 'galleryMobile3')[0];
+                $imagenFull = wp_get_attachment_image_src($ids, 'full')[0];
+            ?>
 
-                    <li class="imgContainer">
-                        <a href="<?php echo $imagenFull; ?>" data-lightbox="galeria">
+                <div class="imgContainer col-12 col-md-6 col-lg-4 col-xl-3">
+                    <a href="<?php echo $imagenFull; ?>" data-lightbox="galeria">
                         <img src="<?php echo $imagenThumb; ?> " sizes="square" alt="imagen">
-                        </a>
-                    </li>
+                    </a>
+            </div>
 
-                    <?php endforeach;?>
-        </ul>
+            <?php endforeach; ?>
+        </div>
     </div>
 
 <?php
