@@ -19,6 +19,12 @@ while (have_posts()) : the_post();
                 </div>
             </div>
         </div>
+        <div class="mobileTop">
+            <h1 class="title mobTit"><?php the_title() ?></h1>
+            <div class="nosotrosContentMob">
+                <?php the_content() ?>
+            </div>
+        </div>
 
         <h1 class="valoresTitle">Nuestros valores</h1>
         <?php ignaser_lista_valores(); ?>

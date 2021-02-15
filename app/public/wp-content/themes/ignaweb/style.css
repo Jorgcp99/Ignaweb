@@ -267,10 +267,27 @@ div.logo {
 }
 
 .nosotrosSuperior {
+  display: none;
   background-image: url(img/nosotros.jpeg);
   background-size: cover;
   padding: 0;
   height: 400px;
+}
+.mobileTop{
+  padding: 0 4rem;
+  margin-top: 2rem;
+}
+.mobTit{
+  text-align: center;
+  color: black;
+}
+@media (min-width: 768px) {
+  .nosotrosSuperior{
+    display: block;
+  }
+  .mobileTop{
+    display: none;
+  }
 }
 .imageDark{
   background-color: rgba(0, 0, 0, 0.411);
@@ -297,7 +314,7 @@ div.logo {
   }
 }
 .valoresTitle{
-  margin-top: 15rem;
+  margin-top: 5rem;
   color: black;
   text-align: center;
 }
