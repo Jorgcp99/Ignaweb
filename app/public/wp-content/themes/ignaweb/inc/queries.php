@@ -10,14 +10,21 @@ function ignaser_lista_valores()
             'order' => 'ASC'
         );
         $valores = new WP_Query($args);
-        while ($valores->have_posts()) : $valores->the_post(); ?>
-            <li>
-                <h1 class="titValor"><?php the_title() ?></h1>
-                <?php the_post_thumbnail('small'); ?>
-            </li>
-        <?php endwhile;
-        wp_reset_postdata() ?>
+        ?>
+        <div class="valoresDiv">
+            <?php
+            while ($valores->have_posts()) : $valores->the_post(); ?>
+                <li class="valorContent row">
+                    <div>
+                        <?php the_post_thumbnail('small'); ?>
+                    </div>
+                    <?php the_content() ?>
+                </li>
+
+            <?php endwhile;
+            wp_reset_postdata() ?>
     </ul>
+    </div>
 <?php
 }
 ?>
