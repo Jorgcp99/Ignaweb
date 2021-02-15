@@ -11,10 +11,10 @@ function ignaser_lista_valores()
         );
         $valores = new WP_Query($args);
         ?>
-        <div class="valoresDiv">
+        <div class="valoresDiv row">
             <?php
             while ($valores->have_posts()) : $valores->the_post(); ?>
-                <li class="valorContent row">
+                <li class="valorContent col-12 col-md-5 col-lg-3">
                     <div>
                         <?php the_post_thumbnail('small'); ?>
                     </div>

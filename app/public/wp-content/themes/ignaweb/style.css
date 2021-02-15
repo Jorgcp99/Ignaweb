@@ -40,6 +40,7 @@ body {
   line-height: 2;
   margin: 0 !important;
   padding: 0 !important;
+  overflow-x: hidden;
 }
 div {
   margin:0;
@@ -251,6 +252,13 @@ div.logo {
 }
 .nosotrosTitle{
   color: white;
+  margin-top: 3rem;
+}
+
+@media (min-width: 1024px) {
+  .nosotrosTitle{
+    margin-top: 2rem;
+  }
 }
 
 .nosotrosDiv{
@@ -279,14 +287,31 @@ div.logo {
   position: absolute;
   background-color: white;
   width: 80%;
-  margin-top: 350px;
+  margin-top: 320px;
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.018), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
+@media (min-width: 1024px) {
+  .nosotrosContentDiv{
+    margin-top: 350px;
+  }
+}
 .valoresTitle{
-  margin-top: 10rem;
+  margin-top: 15rem;
   color: black;
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .valoresTitle{
+    margin-top: 14rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .valoresTitle{
+    margin-top: 11rem;
+  }
 }
 
 .valoresDiv{
@@ -296,7 +321,7 @@ div.logo {
 }
 
 .valorContent{
-  padding: 0 4rem;
+  padding: 1rem 4rem;
 }
 .valorContent div{
   text-align: center;
