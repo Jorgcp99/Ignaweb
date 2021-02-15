@@ -40,7 +40,12 @@ body {
   line-height: 2;
   margin: 0 !important;
   padding: 0 !important;
+  overflow-x: hidden;
 }
+div {
+  margin:0;
+  padding:0;
+  }
 
 h1,
 h2,
@@ -52,6 +57,11 @@ h4 {
 
 p {
   font-family: var(--fuenteTexto);
+}
+
+.title{
+  margin-top: 2rem;
+  padding: 0;
 }
 /** Header **/
 .site-header {
@@ -198,7 +208,6 @@ div.logo {
 
 .pageTitle {
   color: black;
-  margin-top: 58px;
   text-align: center;
 }
 
@@ -226,7 +235,7 @@ div.logo {
 
 /* Galeria */
 
-.imagesGrid{
+.imagesGrid {
   display: flex;
   justify-content: start;
 }
@@ -236,9 +245,108 @@ div.logo {
   padding-bottom: 1rem;
 }
 
+/* Nosotros */
+
+.titleDiv{
+  position: absolute;
+}
+.nosotrosTitle{
+  color: white;
+  margin-top: 3rem;
+}
 
 @media (min-width: 1024px) {
-  .pageTitle {
+  .nosotrosTitle{
+    margin-top: 2rem;
+  }
+}
+
+.nosotrosDiv{
+  display: flex;
+  justify-content: center;
+}
+
+.nosotrosSuperior {
+  display: none;
+  background-image: url(img/nosotros.jpeg);
+  background-size: cover;
+  padding: 0;
+  height: 400px;
+}
+.mobileTop{
+  padding: 0 4rem;
+  margin-top: 2rem;
+}
+.mobTit{
+  text-align: center;
+  color: black;
+}
+@media (min-width: 768px) {
+  .nosotrosSuperior{
+    display: block;
+  }
+  .mobileTop{
+    display: none;
+  }
+}
+.imageDark{
+  background-color: rgba(0, 0, 0, 0.411);
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.titValor {
+  color: black;
+}
+
+.nosotrosContentDiv {
+  position: absolute;
+  background-color: white;
+  width: 80%;
+  margin-top: 320px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.018), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+@media (min-width: 1024px) {
+  .nosotrosContentDiv{
+    margin-top: 350px;
+  }
+}
+.valoresTitle{
+  margin-top: 5rem;
+  color: black;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .valoresTitle{
+    margin-top: 14rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .valoresTitle{
+    margin-top: 11rem;
+  }
+}
+
+.valoresDiv{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+.valorContent{
+  padding: 1rem 4rem;
+}
+.valorContent div{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 1024px) {
+  .title {
     margin-top: 1rem;
   }
 }

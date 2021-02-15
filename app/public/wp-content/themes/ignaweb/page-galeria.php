@@ -8,7 +8,9 @@ get_header(); ?>
 while (have_posts()) : the_post();
 
 ?>
-    <h1 class="pageTitle"><?php the_title() ?></h1>
+    <div class="title">
+        <h1 class="pageTitle"><?php the_title() ?></h1>
+    </div>
     <div class="pageContent">
         <?php
         $galeria = get_post_gallery(get_the_ID(), false);
@@ -27,7 +29,7 @@ while (have_posts()) : the_post();
                     <a href="<?php echo $imagenFull; ?>" data-lightbox="galeria">
                         <img src="<?php echo $imagenThumb; ?> " sizes="square" alt="imagen">
                     </a>
-            </div>
+                </div>
 
             <?php endforeach; ?>
         </div>
