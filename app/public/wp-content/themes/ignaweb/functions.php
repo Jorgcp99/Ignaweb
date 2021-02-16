@@ -1,5 +1,8 @@
 <?php
 
+/** Consultas reutilizables */
+require get_template_directory() . '/inc/queries.php';
+
 //Cuando el tema es activado
 function ignawebtheme_setup()
 {
