@@ -12,6 +12,8 @@
 
 <body>
 
+    <?php get_header(); ?>
+
     <?php
     $args = array(
         'theme_location' => 'menu-principal',
@@ -24,7 +26,7 @@
     <div class="gradientContainer">
         <h1 class="indexTitle">Instalaciones Ignaser</h1>
         <h4 class="indexSubTitle">Cambio integral de espacios profesionales</h4>
-        <div class="arrow"></div>
+        <a href="#targetIndexButton"><div class="arrow"></div></a>
     </div>
     <div id="container">    
         <div class="photobanner">
@@ -37,7 +39,7 @@
         </div>
     </div>
 
-    <div class="topProducts">
+    <div class="topProducts" id="targetIndexButton">
         <div class="sectionTitleContainer">
             <h1 class="sectionTitle">Top Productos</h1>
         </div>
@@ -108,32 +110,34 @@
         </ul>
     </div>
 
-    <header class="ignaserCifras">
-        <h1 class="sectionTitleWhite">Ignaser en cifras</h1>
-        <div class="row">
-            <div class="column">
-                <?php
-                    $cifra1 = get_field('cifra_1');
-                ?>
-                <p><?php echo esc_html($cifra1['descripcion_cifra']);?></p>
-                <h2><?php echo esc_html($cifra1['valor_cifra']);?></h2>
+    <div class="ignaserCifrasContainer">
+        <header class="ignaserCifras">
+            <h1 class="sectionTitleWhite">Ignaser en cifras</h1>
+            <div class="row">
+                <div class="column">
+                    <?php
+                        $cifra1 = get_field('cifra_1');
+                    ?>
+                    <p><?php echo esc_html($cifra1['descripcion_cifra']);?></p>
+                    <h2><?php echo esc_html($cifra1['valor_cifra']);?></h2>
+                </div>
+                <div class="column">
+                    <?php
+                        $cifra2 = get_field('cifra_2');
+                    ?>
+                    <p><?php echo esc_html($cifra2['descripcion_cifra']);?></p>
+                    <h2><?php echo esc_html($cifra2['valor_cifra']);?></h2>
+                </div>
+                <div class="column">
+                    <?php
+                        $cifra3 = get_field('cifra_3');
+                    ?>
+                    <p><?php echo esc_html($cifra3['descripcion_cifra']);?></p>
+                    <h2><?php echo esc_html($cifra3['valor_cifra']);?></h2>
+                </div>
             </div>
-            <div class="column">
-                <?php
-                    $cifra2 = get_field('cifra_2');
-                ?>
-                <p><?php echo esc_html($cifra2['descripcion_cifra']);?></p>
-                <h2><?php echo esc_html($cifra2['valor_cifra']);?></h2>
-            </div>
-            <div class="column">
-                <?php
-                    $cifra3 = get_field('cifra_3');
-                ?>
-                <p><?php echo esc_html($cifra3['descripcion_cifra']);?></p>
-                <h2><?php echo esc_html($cifra3['valor_cifra']);?></h2>
-            </div>
-        </div>
-    </header>
+        </header>
+    </div>
 
     <div class="clientes">
         <h1 class="serviciosTitle">Nuestros clientes</h1>
@@ -215,14 +219,16 @@
                 </li>
             </ul>
             
-            <ul class="menu">
-                <li>
-                    <a href="#slide1">1</a>
-                </li>
-                <li>
-                    <a href="#slide2">2</a>
-                </li>
-            </ul>
+            <div class="menuSliderContainer">
+                <ul class="menu">
+                    <li>
+                        <a href="#slide1">1</a>
+                    </li>
+                    <li>
+                        <a href="#slide2">2</a>
+                    </li>
+                </ul>
+            </div>
             
         </div>
     </div>

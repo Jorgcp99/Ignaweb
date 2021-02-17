@@ -38,6 +38,7 @@ body {
   left: 0;
   right: 0;
   height: 100vh;
+  max-height: 1280px;
   width: 100%;
   background: rgba(0, 0, 0, 0.8);
   text-align: center;
@@ -77,6 +78,7 @@ body {
 
 #container {
   height: 100vh;
+  max-height: 1280px;
   overflow: hidden;
 }
 
@@ -170,7 +172,7 @@ img {
   color: white;
   font-family: 'PT Serif', serif;
   font-weight: 500;
-  font-size: 40px;
+  font-size: 2rem;
   padding-top: 90px;
   padding-bottom: 50px;
 }
@@ -178,6 +180,7 @@ img {
 .contenedor-productos {
   display: flex;
   flex-wrap: wrap;
+  padding-left: 0;
 }
 
 .contenedor-productos .producto {
@@ -189,6 +192,7 @@ img {
   text-align: center;
   background-color: #F7F7F7;
   margin-bottom: 10%;
+  padding-left: 0;
 }
 
 
@@ -233,19 +237,19 @@ img {
   position: absolute;
   margin: auto;
   color: #000;
-  font-size: 2rem;
+  font-size: 3.5rem;
   font-weight: 900;
   z-index: 100;
   top: 53%;
 }
 
 .producto p,
-a {
+.producto a {
   padding-left: 5%;
   padding-right: 5%;
   color: #000;
   position: absolute;
-  font-size: 1.3rem;
+  font-size: 2.0rem;
   font-weight: 500;
   z-index: 100;
 }
@@ -323,13 +327,15 @@ a {
 
 @media (min-width: 768px) {
   .linkProduct {
-    padding-top: 65px;
+    padding-top: 35px;
+    padding-bottom: 60px;
   }
 }
 
 .linkReferences {
   text-decoration: none;
   color: #2a69a8;
+  font-size: 2rem;
 }
 
 /** Servicios **/
@@ -418,7 +424,10 @@ html {
   box-sizing: border-box;
   font-size: 62.5%; /* Now 10px = 1rem! */
   margin: 0 !important;
+  margin-top: 0 !important;
   padding: 0 !important;
+  height: 100%;
+  overflow: hidden;
 }
 
 body {
@@ -455,6 +464,12 @@ p {
   background-color: var(--colorAppBar);
   padding: 0.5rem 2rem;
   display: none;
+  z-index: 4000;
+  content: '';
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 0;
 }
 
 div.logo {
@@ -776,7 +791,7 @@ div.logo {
   }
 
   .contenedor-servicios .text-servicios .baseTextServicios {
-    font-size: 1.3rem;
+    font-size: 2rem;
     font-weight: 500;
     padding-left: 5%;
   }
@@ -806,9 +821,8 @@ div.logo {
 }
 
 .contenedor-servicios .text-servicios .text-servicios-button {
-  font-size: 1.3rem;
+  font-size: 2rem;
   font-weight: 500;
-
 }
 
 @media (min-width: 768px) {
@@ -860,7 +874,7 @@ div.logo {
   }
 }
 
-header {
+.ignaserCifrasContainer header {
   box-sizing: border-box;
   min-height: 600px;
   padding: 30vw 0 5vw;
@@ -870,8 +884,8 @@ header {
   z-index: -20;
 }
 
-header h1 {
-  font-size: 2.5rem;
+.ignaserCifrasContainer header h1 {
+  font-size: 4rem;
   font-weight: 500;
   z-index: 100;
   margin-top: -50px;
@@ -880,32 +894,33 @@ header h1 {
 }
 
 @media (min-width: 768px) {
-  header h1 {
+  .ignaserCifrasContainer header h1 {
     color: white;
     margin-top: -30%;
+    padding-top: 100px;
   }
 }
 
-header p{
-  font-size: 1.5rem;
+.ignaserCifrasContainer header p{
+  font-size: 2.5rem;
   font-weight: 500;
   z-index: 100;
   color: white;
 }
 
-header h2{
-  font-size: 3.3rem;
+.ignaserCifrasContainer header h2{
+  font-size: 4rem;
   font-weight:700;
   z-index: 100;
   color: white;
 }
 
-header,
-header::before {
+.ignaserCifrasContainer header,
+.ignaserCifrasContainer header::before {
   background: 50% 50% / cover;
 }
 
-header::before {
+.ignaserCifrasContainer header::before {
   background-color: rgba(0, 0, 0, 0.7);
   content: "";
   position: absolute;
@@ -924,17 +939,12 @@ header::before {
   min-height: 100vh;
 }
 
-header * {
+.ignaserCifrasContainer header * {
   font-weight: normal;
   letter-spacing: 0.2em;
   text-align: center;
   margin: 0;
   padding: 1em 0;
-}
-
-html {
-  height: 100%;
-  overflow: hidden;
 }
 
 .column {
@@ -946,8 +956,8 @@ html {
 @media (min-width: 768px) {
   .column {
     float: left;
-    width: 50%;
-    flex: 50%;
+    width: 33.3%;
+    flex: 33.3%;
   }
 }
 
@@ -984,27 +994,27 @@ html {
   }
 }
 
-ul, li {
+.clientes ul, .clientes li {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-ul.slider{
+.clientes ul.slider{
   position: relative;
   width: 100%;
   height: 500px;
 }
 
 @media (min-width: 768px) {
-  ul.slider{
+  .clientes ul.slider{
     position: relative;
     width: 100%;
     height: 250px;
     }
 }
 
-ul.slider li {
+.clientes ul.slider li {
   position: absolute;
   left: 0px;
   top: 0px;
@@ -1015,21 +1025,21 @@ ul.slider li {
   background-color: #F7F7F7;
 }
 
-ul.slider li img{
+.clientes ul.slider li img{
 width: 100%;
 height: 180px;
 object-fit: cover;
 }
 
-ul.slider li:first-child {
+.clientes ul.slider li:first-child {
   opacity: 1; /*Mostramos el primer <li>*/
 }
 
-ul.slider li:target {
+.clientes ul.slider li:target {
   opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
 }
 
-.menu{
+.clientes .menu{
   text-align: center;
   margin: 10px;
   width: 100%;
@@ -1038,7 +1048,7 @@ ul.slider li:target {
 }
 
 @media (min-width: 768px) {
-  .menu{
+  .clientes .menu{
     text-align: center;
     margin: 20px;
     width: 100%;
@@ -1047,13 +1057,13 @@ ul.slider li:target {
   }
 }
 
-.menu li{
+.clientes .menu li{
   display: inline-block;
   text-align: center;
   padding-right: 60px;
 }
 
-.menu li a{
+.clientes .menu li a{
   display: inline-block;
   color: white;
   text-decoration: none;
@@ -1065,16 +1075,18 @@ ul.slider li:target {
   border-radius: 100%;
 }
 
-.column-clientes{
+.clientes .column-clientes{
   float: left;
   width: 50%;
-  flex: 50%;
+
 }
 
 @media (min-width: 768px) {
   .column-clientes{
     padding-left: 2%;
     padding-right: 2%;
+    width: 25%;
+    flex: 25%;
   }
 }
 
