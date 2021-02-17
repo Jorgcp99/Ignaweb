@@ -4,7 +4,7 @@
 while (have_posts()) : the_post();
 
 ?>
-    <h1 class="pageTitle"><?php the_title() ?></h1>
+    <div class="title"><h1 class="pageTitle"><?php the_title() ?></h1></div>
     <div class="pageContent">
     <p><?php the_content() ?></p>
     </div>
