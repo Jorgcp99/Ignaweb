@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [07-Feb-2021 16:39:08 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/alfredo/LocalSites/ignaweb/app/public/wp-admin/includes/update.php on line 143
 [07-Feb-2021 16:39:08 UTC] PHP Stack trace:
 [07-Feb-2021 16:39:08 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/wp-cron.php:0
@@ -584,3 +585,339 @@ Stack trace:
 [12-Feb-2021 14:06:58 UTC] PHP  34. wpdb->_do_query() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/wp-db.php:1945
 [12-Feb-2021 14:06:58 UTC] PHP  35. mysqli_query() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/wp-db.php:2056
 [12-Feb-2021 14:06:58 UTC] PHP  35. mysqli_query() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/wp-db.php:2056
+=======
+[06-Feb-2021 09:51:10 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/functions.php on line 18
+[06-Feb-2021 09:53:11 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/functions.php on line 18
+[14-Feb-2021 17:14:03 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'gymfitness_widgets' not found or invalid function name in /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/class-wp-hook.php on line 287
+[14-Feb-2021 17:14:03 UTC] PHP Stack trace:
+[14-Feb-2021 17:14:03 UTC] PHP   1. {main}() /Users/jorge/Local Sites/ignaweb/app/public/wp-admin/admin-ajax.php:0
+[14-Feb-2021 17:14:03 UTC] PHP   2. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-admin/admin-ajax.php:22
+[14-Feb-2021 17:14:03 UTC] PHP   3. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-load.php:37
+[14-Feb-2021 17:14:03 UTC] PHP   4. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-config.php:77
+[14-Feb-2021 17:14:03 UTC] PHP   5. do_action() /Users/jorge/Local Sites/ignaweb/app/public/wp-settings.php:557
+[14-Feb-2021 17:14:03 UTC] PHP   6. WP_Hook->do_action() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/plugin.php:484
+[14-Feb-2021 17:14:03 UTC] PHP   7. WP_Hook->apply_filters() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[14-Feb-2021 17:14:03 UTC] PHP   8. wp_widgets_init() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[14-Feb-2021 17:14:03 UTC] PHP   9. do_action() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/widgets.php:1795
+[14-Feb-2021 17:14:03 UTC] PHP  10. WP_Hook->do_action() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/plugin.php:484
+[14-Feb-2021 17:14:03 UTC] PHP  11. WP_Hook->apply_filters() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[14-Feb-2021 18:09:09 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'ignaser_valores_post_type' not found or invalid function name in /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/class-wp-hook.php on line 287
+[14-Feb-2021 18:09:09 UTC] PHP Stack trace:
+[14-Feb-2021 18:09:09 UTC] PHP   1. {main}() /Users/jorge/Local Sites/ignaweb/app/public/wp-admin/admin-ajax.php:0
+[14-Feb-2021 18:09:09 UTC] PHP   2. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-admin/admin-ajax.php:22
+[14-Feb-2021 18:09:09 UTC] PHP   3. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-load.php:37
+[14-Feb-2021 18:09:09 UTC] PHP   4. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-config.php:77
+[14-Feb-2021 18:09:09 UTC] PHP   5. do_action() /Users/jorge/Local Sites/ignaweb/app/public/wp-settings.php:557
+[14-Feb-2021 18:09:09 UTC] PHP   6. WP_Hook->do_action() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/plugin.php:484
+[14-Feb-2021 18:09:09 UTC] PHP   7. WP_Hook->apply_filters() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[14-Feb-2021 18:11:13 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'ignaser_valores_post_type' not found or invalid function name in /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/class-wp-hook.php on line 287
+[14-Feb-2021 18:11:13 UTC] PHP Stack trace:
+[14-Feb-2021 18:11:13 UTC] PHP   1. {main}() /Users/jorge/Local Sites/ignaweb/app/public/wp-admin/admin-ajax.php:0
+[14-Feb-2021 18:11:13 UTC] PHP   2. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-admin/admin-ajax.php:22
+[14-Feb-2021 18:11:13 UTC] PHP   3. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-load.php:37
+[14-Feb-2021 18:11:13 UTC] PHP   4. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-config.php:77
+[14-Feb-2021 18:11:13 UTC] PHP   5. do_action() /Users/jorge/Local Sites/ignaweb/app/public/wp-settings.php:557
+[14-Feb-2021 18:11:13 UTC] PHP   6. WP_Hook->do_action() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/plugin.php:484
+[14-Feb-2021 18:11:13 UTC] PHP   7. WP_Hook->apply_filters() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[14-Feb-2021 18:13:13 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'ignaser_valores_post_type' not found or invalid function name in /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/class-wp-hook.php on line 287
+[14-Feb-2021 18:13:13 UTC] PHP Stack trace:
+[14-Feb-2021 18:13:13 UTC] PHP   1. {main}() /Users/jorge/Local Sites/ignaweb/app/public/wp-admin/admin-ajax.php:0
+[14-Feb-2021 18:13:13 UTC] PHP   2. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-admin/admin-ajax.php:22
+[14-Feb-2021 18:13:13 UTC] PHP   3. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-load.php:37
+[14-Feb-2021 18:13:13 UTC] PHP   4. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-config.php:77
+[14-Feb-2021 18:13:13 UTC] PHP   5. do_action() /Users/jorge/Local Sites/ignaweb/app/public/wp-settings.php:557
+[14-Feb-2021 18:13:13 UTC] PHP   6. WP_Hook->do_action() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/plugin.php:484
+[14-Feb-2021 18:13:13 UTC] PHP   7. WP_Hook->apply_filters() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[14-Feb-2021 18:13:51 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'ignaser_valores_post_type' not found or invalid function name in /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/class-wp-hook.php on line 287
+[14-Feb-2021 18:13:51 UTC] PHP Stack trace:
+[14-Feb-2021 18:13:51 UTC] PHP   1. {main}() /Users/jorge/Local Sites/ignaweb/app/public/index.php:0
+[14-Feb-2021 18:13:51 UTC] PHP   2. require() /Users/jorge/Local Sites/ignaweb/app/public/index.php:17
+[14-Feb-2021 18:13:51 UTC] PHP   3. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-blog-header.php:13
+[14-Feb-2021 18:13:51 UTC] PHP   4. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-load.php:37
+[14-Feb-2021 18:13:51 UTC] PHP   5. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-config.php:77
+[14-Feb-2021 18:13:51 UTC] PHP   6. do_action() /Users/jorge/Local Sites/ignaweb/app/public/wp-settings.php:557
+[14-Feb-2021 18:13:51 UTC] PHP   7. WP_Hook->do_action() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/plugin.php:484
+[14-Feb-2021 18:13:51 UTC] PHP   8. WP_Hook->apply_filters() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[14-Feb-2021 18:13:52 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'ignaser_valores_post_type' not found or invalid function name in /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/class-wp-hook.php on line 287
+[14-Feb-2021 18:13:52 UTC] PHP Stack trace:
+[14-Feb-2021 18:13:52 UTC] PHP   1. {main}() /Users/jorge/Local Sites/ignaweb/app/public/index.php:0
+[14-Feb-2021 18:13:52 UTC] PHP   2. require() /Users/jorge/Local Sites/ignaweb/app/public/index.php:17
+[14-Feb-2021 18:13:52 UTC] PHP   3. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-blog-header.php:13
+[14-Feb-2021 18:13:52 UTC] PHP   4. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-load.php:37
+[14-Feb-2021 18:13:52 UTC] PHP   5. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-config.php:77
+[14-Feb-2021 18:13:52 UTC] PHP   6. do_action() /Users/jorge/Local Sites/ignaweb/app/public/wp-settings.php:557
+[14-Feb-2021 18:13:52 UTC] PHP   7. WP_Hook->do_action() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/plugin.php:484
+[14-Feb-2021 18:13:52 UTC] PHP   8. WP_Hook->apply_filters() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[14-Feb-2021 18:15:07 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'ignaser_valores_post_type' not found or invalid function name in /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/class-wp-hook.php on line 287
+[14-Feb-2021 18:15:07 UTC] PHP Stack trace:
+[14-Feb-2021 18:15:07 UTC] PHP   1. {main}() /Users/jorge/Local Sites/ignaweb/app/public/index.php:0
+[14-Feb-2021 18:15:07 UTC] PHP   2. require() /Users/jorge/Local Sites/ignaweb/app/public/index.php:17
+[14-Feb-2021 18:15:07 UTC] PHP   3. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-blog-header.php:13
+[14-Feb-2021 18:15:07 UTC] PHP   4. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-load.php:37
+[14-Feb-2021 18:15:07 UTC] PHP   5. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-config.php:77
+[14-Feb-2021 18:15:07 UTC] PHP   6. do_action() /Users/jorge/Local Sites/ignaweb/app/public/wp-settings.php:557
+[14-Feb-2021 18:15:07 UTC] PHP   7. WP_Hook->do_action() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/plugin.php:484
+[14-Feb-2021 18:15:07 UTC] PHP   8. WP_Hook->apply_filters() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[14-Feb-2021 18:15:08 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'ignaser_valores_post_type' not found or invalid function name in /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/class-wp-hook.php on line 287
+[14-Feb-2021 18:15:08 UTC] PHP Stack trace:
+[14-Feb-2021 18:15:08 UTC] PHP   1. {main}() /Users/jorge/Local Sites/ignaweb/app/public/index.php:0
+[14-Feb-2021 18:15:08 UTC] PHP   2. require() /Users/jorge/Local Sites/ignaweb/app/public/index.php:17
+[14-Feb-2021 18:15:08 UTC] PHP   3. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-blog-header.php:13
+[14-Feb-2021 18:15:08 UTC] PHP   4. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-load.php:37
+[14-Feb-2021 18:15:08 UTC] PHP   5. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-config.php:77
+[14-Feb-2021 18:15:08 UTC] PHP   6. do_action() /Users/jorge/Local Sites/ignaweb/app/public/wp-settings.php:557
+[14-Feb-2021 18:15:08 UTC] PHP   7. WP_Hook->do_action() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/plugin.php:484
+[14-Feb-2021 18:15:08 UTC] PHP   8. WP_Hook->apply_filters() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[14-Feb-2021 18:15:17 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'ignaser_valores_post_type' not found or invalid function name in /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/class-wp-hook.php on line 287
+[14-Feb-2021 18:15:17 UTC] PHP Stack trace:
+[14-Feb-2021 18:15:17 UTC] PHP   1. {main}() /Users/jorge/Local Sites/ignaweb/app/public/wp-admin/admin-ajax.php:0
+[14-Feb-2021 18:15:17 UTC] PHP   2. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-admin/admin-ajax.php:22
+[14-Feb-2021 18:15:17 UTC] PHP   3. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-load.php:37
+[14-Feb-2021 18:15:17 UTC] PHP   4. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-config.php:77
+[14-Feb-2021 18:15:17 UTC] PHP   5. do_action() /Users/jorge/Local Sites/ignaweb/app/public/wp-settings.php:557
+[14-Feb-2021 18:15:17 UTC] PHP   6. WP_Hook->do_action() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/plugin.php:484
+[14-Feb-2021 18:15:17 UTC] PHP   7. WP_Hook->apply_filters() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[14-Feb-2021 18:16:55 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'ignaser_valores_post_type' not found or invalid function name in /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/class-wp-hook.php on line 287
+[14-Feb-2021 18:16:55 UTC] PHP Stack trace:
+[14-Feb-2021 18:16:55 UTC] PHP   1. {main}() /Users/jorge/Local Sites/ignaweb/app/public/index.php:0
+[14-Feb-2021 18:16:55 UTC] PHP   2. require() /Users/jorge/Local Sites/ignaweb/app/public/index.php:17
+[14-Feb-2021 18:16:55 UTC] PHP   3. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-blog-header.php:13
+[14-Feb-2021 18:16:55 UTC] PHP   4. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-load.php:37
+[14-Feb-2021 18:16:55 UTC] PHP   5. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-config.php:77
+[14-Feb-2021 18:16:55 UTC] PHP   6. do_action() /Users/jorge/Local Sites/ignaweb/app/public/wp-settings.php:557
+[14-Feb-2021 18:16:55 UTC] PHP   7. WP_Hook->do_action() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/plugin.php:484
+[14-Feb-2021 18:16:55 UTC] PHP   8. WP_Hook->apply_filters() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[14-Feb-2021 18:16:56 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'ignaser_valores_post_type' not found or invalid function name in /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/class-wp-hook.php on line 287
+[14-Feb-2021 18:16:56 UTC] PHP Stack trace:
+[14-Feb-2021 18:16:56 UTC] PHP   1. {main}() /Users/jorge/Local Sites/ignaweb/app/public/index.php:0
+[14-Feb-2021 18:16:56 UTC] PHP   2. require() /Users/jorge/Local Sites/ignaweb/app/public/index.php:17
+[14-Feb-2021 18:16:56 UTC] PHP   3. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-blog-header.php:13
+[14-Feb-2021 18:16:56 UTC] PHP   4. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-load.php:37
+[14-Feb-2021 18:16:56 UTC] PHP   5. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-config.php:77
+[14-Feb-2021 18:16:56 UTC] PHP   6. do_action() /Users/jorge/Local Sites/ignaweb/app/public/wp-settings.php:557
+[14-Feb-2021 18:16:56 UTC] PHP   7. WP_Hook->do_action() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/plugin.php:484
+[14-Feb-2021 18:16:56 UTC] PHP   8. WP_Hook->apply_filters() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[14-Feb-2021 18:16:56 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'ignaser_valores_post_type' not found or invalid function name in /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/class-wp-hook.php on line 287
+[14-Feb-2021 18:16:56 UTC] PHP Stack trace:
+[14-Feb-2021 18:16:56 UTC] PHP   1. {main}() /Users/jorge/Local Sites/ignaweb/app/public/index.php:0
+[14-Feb-2021 18:16:56 UTC] PHP   2. require() /Users/jorge/Local Sites/ignaweb/app/public/index.php:17
+[14-Feb-2021 18:16:56 UTC] PHP   3. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-blog-header.php:13
+[14-Feb-2021 18:16:56 UTC] PHP   4. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-load.php:37
+[14-Feb-2021 18:16:56 UTC] PHP   5. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-config.php:77
+[14-Feb-2021 18:16:56 UTC] PHP   6. do_action() /Users/jorge/Local Sites/ignaweb/app/public/wp-settings.php:557
+[14-Feb-2021 18:16:56 UTC] PHP   7. WP_Hook->do_action() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/plugin.php:484
+[14-Feb-2021 18:16:56 UTC] PHP   8. WP_Hook->apply_filters() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[14-Feb-2021 18:16:57 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'ignaser_valores_post_type' not found or invalid function name in /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/class-wp-hook.php on line 287
+[14-Feb-2021 18:16:57 UTC] PHP Stack trace:
+[14-Feb-2021 18:16:57 UTC] PHP   1. {main}() /Users/jorge/Local Sites/ignaweb/app/public/index.php:0
+[14-Feb-2021 18:16:57 UTC] PHP   2. require() /Users/jorge/Local Sites/ignaweb/app/public/index.php:17
+[14-Feb-2021 18:16:57 UTC] PHP   3. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-blog-header.php:13
+[14-Feb-2021 18:16:57 UTC] PHP   4. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-load.php:37
+[14-Feb-2021 18:16:57 UTC] PHP   5. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-config.php:77
+[14-Feb-2021 18:16:57 UTC] PHP   6. do_action() /Users/jorge/Local Sites/ignaweb/app/public/wp-settings.php:557
+[14-Feb-2021 18:16:57 UTC] PHP   7. WP_Hook->do_action() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/plugin.php:484
+[14-Feb-2021 18:16:57 UTC] PHP   8. WP_Hook->apply_filters() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[14-Feb-2021 18:17:08 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'ignaser_valores_post_type' not found or invalid function name in /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/class-wp-hook.php on line 287
+[14-Feb-2021 18:17:08 UTC] PHP Stack trace:
+[14-Feb-2021 18:17:08 UTC] PHP   1. {main}() /Users/jorge/Local Sites/ignaweb/app/public/index.php:0
+[14-Feb-2021 18:17:08 UTC] PHP   2. require() /Users/jorge/Local Sites/ignaweb/app/public/index.php:17
+[14-Feb-2021 18:17:08 UTC] PHP   3. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-blog-header.php:13
+[14-Feb-2021 18:17:08 UTC] PHP   4. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-load.php:37
+[14-Feb-2021 18:17:08 UTC] PHP   5. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-config.php:77
+[14-Feb-2021 18:17:08 UTC] PHP   6. do_action() /Users/jorge/Local Sites/ignaweb/app/public/wp-settings.php:557
+[14-Feb-2021 18:17:08 UTC] PHP   7. WP_Hook->do_action() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/plugin.php:484
+[14-Feb-2021 18:17:08 UTC] PHP   8. WP_Hook->apply_filters() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[14-Feb-2021 18:17:08 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'ignaser_valores_post_type' not found or invalid function name in /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/class-wp-hook.php on line 287
+[14-Feb-2021 18:17:08 UTC] PHP Stack trace:
+[14-Feb-2021 18:17:08 UTC] PHP   1. {main}() /Users/jorge/Local Sites/ignaweb/app/public/index.php:0
+[14-Feb-2021 18:17:08 UTC] PHP   2. require() /Users/jorge/Local Sites/ignaweb/app/public/index.php:17
+[14-Feb-2021 18:17:08 UTC] PHP   3. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-blog-header.php:13
+[14-Feb-2021 18:17:08 UTC] PHP   4. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-load.php:37
+[14-Feb-2021 18:17:08 UTC] PHP   5. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-config.php:77
+[14-Feb-2021 18:17:08 UTC] PHP   6. do_action() /Users/jorge/Local Sites/ignaweb/app/public/wp-settings.php:557
+[14-Feb-2021 18:17:08 UTC] PHP   7. WP_Hook->do_action() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/plugin.php:484
+[14-Feb-2021 18:17:08 UTC] PHP   8. WP_Hook->apply_filters() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[14-Feb-2021 18:17:23 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'ignaser_valores_post_type' not found or invalid function name in /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/class-wp-hook.php on line 287
+[14-Feb-2021 18:17:23 UTC] PHP Stack trace:
+[14-Feb-2021 18:17:23 UTC] PHP   1. {main}() /Users/jorge/Local Sites/ignaweb/app/public/wp-admin/admin-ajax.php:0
+[14-Feb-2021 18:17:23 UTC] PHP   2. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-admin/admin-ajax.php:22
+[14-Feb-2021 18:17:23 UTC] PHP   3. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-load.php:37
+[14-Feb-2021 18:17:23 UTC] PHP   4. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-config.php:77
+[14-Feb-2021 18:17:23 UTC] PHP   5. do_action() /Users/jorge/Local Sites/ignaweb/app/public/wp-settings.php:557
+[14-Feb-2021 18:17:23 UTC] PHP   6. WP_Hook->do_action() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/plugin.php:484
+[14-Feb-2021 18:17:23 UTC] PHP   7. WP_Hook->apply_filters() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[14-Feb-2021 18:20:43 UTC] PHP Recoverable fatal error:  Object of class WP_Query could not be converted to string in /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 13
+[14-Feb-2021 18:20:43 UTC] PHP Stack trace:
+[14-Feb-2021 18:20:43 UTC] PHP   1. {main}() /Users/jorge/Local Sites/ignaweb/app/public/index.php:0
+[14-Feb-2021 18:20:43 UTC] PHP   2. require() /Users/jorge/Local Sites/ignaweb/app/public/index.php:17
+[14-Feb-2021 18:20:43 UTC] PHP   3. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-blog-header.php:19
+[14-Feb-2021 18:20:43 UTC] PHP   4. include() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/template-loader.php:106
+[14-Feb-2021 18:20:43 UTC] PHP   5. ignaser_lista_valores() /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/page-nosotros.php:13
+[14-Feb-2021 18:24:17 UTC] PHP Recoverable fatal error:  Object of class WP_Query could not be converted to string in /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 13
+[14-Feb-2021 18:24:17 UTC] PHP Stack trace:
+[14-Feb-2021 18:24:17 UTC] PHP   1. {main}() /Users/jorge/Local Sites/ignaweb/app/public/index.php:0
+[14-Feb-2021 18:24:17 UTC] PHP   2. require() /Users/jorge/Local Sites/ignaweb/app/public/index.php:17
+[14-Feb-2021 18:24:17 UTC] PHP   3. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-blog-header.php:19
+[14-Feb-2021 18:24:17 UTC] PHP   4. include() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/template-loader.php:106
+[14-Feb-2021 18:24:17 UTC] PHP   5. ignaser_lista_valores() /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/page-nosotros.php:13
+[14-Feb-2021 18:24:18 UTC] PHP Recoverable fatal error:  Object of class WP_Query could not be converted to string in /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 13
+[14-Feb-2021 18:24:18 UTC] PHP Stack trace:
+[14-Feb-2021 18:24:18 UTC] PHP   1. {main}() /Users/jorge/Local Sites/ignaweb/app/public/index.php:0
+[14-Feb-2021 18:24:18 UTC] PHP   2. require() /Users/jorge/Local Sites/ignaweb/app/public/index.php:17
+[14-Feb-2021 18:24:18 UTC] PHP   3. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-blog-header.php:19
+[14-Feb-2021 18:24:18 UTC] PHP   4. include() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/template-loader.php:106
+[14-Feb-2021 18:24:18 UTC] PHP   5. ignaser_lista_valores() /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/page-nosotros.php:13
+[14-Feb-2021 18:24:19 UTC] PHP Recoverable fatal error:  Object of class WP_Query could not be converted to string in /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 13
+[14-Feb-2021 18:24:19 UTC] PHP Stack trace:
+[14-Feb-2021 18:24:19 UTC] PHP   1. {main}() /Users/jorge/Local Sites/ignaweb/app/public/index.php:0
+[14-Feb-2021 18:24:19 UTC] PHP   2. require() /Users/jorge/Local Sites/ignaweb/app/public/index.php:17
+[14-Feb-2021 18:24:19 UTC] PHP   3. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-blog-header.php:19
+[14-Feb-2021 18:24:19 UTC] PHP   4. include() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/template-loader.php:106
+[14-Feb-2021 18:24:19 UTC] PHP   5. ignaser_lista_valores() /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/page-nosotros.php:13
+[14-Feb-2021 18:24:19 UTC] PHP Recoverable fatal error:  Object of class WP_Query could not be converted to string in /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 13
+[14-Feb-2021 18:24:19 UTC] PHP Stack trace:
+[14-Feb-2021 18:24:19 UTC] PHP   1. {main}() /Users/jorge/Local Sites/ignaweb/app/public/index.php:0
+[14-Feb-2021 18:24:19 UTC] PHP   2. require() /Users/jorge/Local Sites/ignaweb/app/public/index.php:17
+[14-Feb-2021 18:24:19 UTC] PHP   3. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-blog-header.php:19
+[14-Feb-2021 18:24:19 UTC] PHP   4. include() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/template-loader.php:106
+[14-Feb-2021 18:24:19 UTC] PHP   5. ignaser_lista_valores() /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/page-nosotros.php:13
+[14-Feb-2021 18:24:19 UTC] PHP Recoverable fatal error:  Object of class WP_Query could not be converted to string in /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 13
+[14-Feb-2021 18:24:19 UTC] PHP Stack trace:
+[14-Feb-2021 18:24:19 UTC] PHP   1. {main}() /Users/jorge/Local Sites/ignaweb/app/public/index.php:0
+[14-Feb-2021 18:24:19 UTC] PHP   2. require() /Users/jorge/Local Sites/ignaweb/app/public/index.php:17
+[14-Feb-2021 18:24:19 UTC] PHP   3. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-blog-header.php:19
+[14-Feb-2021 18:24:19 UTC] PHP   4. include() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/template-loader.php:106
+[14-Feb-2021 18:24:19 UTC] PHP   5. ignaser_lista_valores() /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/page-nosotros.php:13
+[14-Feb-2021 18:24:19 UTC] PHP Recoverable fatal error:  Object of class WP_Query could not be converted to string in /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 13
+[14-Feb-2021 18:24:19 UTC] PHP Stack trace:
+[14-Feb-2021 18:24:19 UTC] PHP   1. {main}() /Users/jorge/Local Sites/ignaweb/app/public/index.php:0
+[14-Feb-2021 18:24:19 UTC] PHP   2. require() /Users/jorge/Local Sites/ignaweb/app/public/index.php:17
+[14-Feb-2021 18:24:19 UTC] PHP   3. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-blog-header.php:19
+[14-Feb-2021 18:24:19 UTC] PHP   4. include() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/template-loader.php:106
+[14-Feb-2021 18:24:19 UTC] PHP   5. ignaser_lista_valores() /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/page-nosotros.php:13
+[14-Feb-2021 18:24:58 UTC] PHP Recoverable fatal error:  Object of class WP_Query could not be converted to string in /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 14
+[14-Feb-2021 18:24:58 UTC] PHP Stack trace:
+[14-Feb-2021 18:24:58 UTC] PHP   1. {main}() /Users/jorge/Local Sites/ignaweb/app/public/index.php:0
+[14-Feb-2021 18:24:58 UTC] PHP   2. require() /Users/jorge/Local Sites/ignaweb/app/public/index.php:17
+[14-Feb-2021 18:24:58 UTC] PHP   3. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-blog-header.php:19
+[14-Feb-2021 18:24:58 UTC] PHP   4. include() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/template-loader.php:106
+[14-Feb-2021 18:24:58 UTC] PHP   5. ignaser_lista_valores() /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/page-nosotros.php:13
+[14-Feb-2021 19:13:44 UTC] PHP Recoverable fatal error:  Object of class WP_Query could not be converted to string in /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 13
+[14-Feb-2021 19:13:44 UTC] PHP Stack trace:
+[14-Feb-2021 19:13:44 UTC] PHP   1. {main}() /Users/jorge/Local Sites/ignaweb/app/public/index.php:0
+[14-Feb-2021 19:13:44 UTC] PHP   2. require() /Users/jorge/Local Sites/ignaweb/app/public/index.php:17
+[14-Feb-2021 19:13:44 UTC] PHP   3. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-blog-header.php:19
+[14-Feb-2021 19:13:44 UTC] PHP   4. include() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/template-loader.php:106
+[14-Feb-2021 19:13:44 UTC] PHP   5. ignaser_lista_valores() /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/page-nosotros.php:13
+[15-Feb-2021 08:43:16 UTC] PHP Recoverable fatal error:  Object of class WP_Query could not be converted to string in /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 13
+[15-Feb-2021 08:43:16 UTC] PHP Stack trace:
+[15-Feb-2021 08:43:16 UTC] PHP   1. {main}() /Users/jorge/Local Sites/ignaweb/app/public/index.php:0
+[15-Feb-2021 08:43:16 UTC] PHP   2. require() /Users/jorge/Local Sites/ignaweb/app/public/index.php:17
+[15-Feb-2021 08:43:16 UTC] PHP   3. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-blog-header.php:19
+[15-Feb-2021 08:43:16 UTC] PHP   4. include() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/template-loader.php:106
+[15-Feb-2021 08:43:16 UTC] PHP   5. ignaser_lista_valores() /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/page-nosotros.php:13
+[15-Feb-2021 08:43:51 UTC] PHP Recoverable fatal error:  Object of class WP_Query could not be converted to string in /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 13
+[15-Feb-2021 08:43:51 UTC] PHP Stack trace:
+[15-Feb-2021 08:43:51 UTC] PHP   1. {main}() /Users/jorge/Local Sites/ignaweb/app/public/index.php:0
+[15-Feb-2021 08:43:51 UTC] PHP   2. require() /Users/jorge/Local Sites/ignaweb/app/public/index.php:17
+[15-Feb-2021 08:43:51 UTC] PHP   3. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-blog-header.php:19
+[15-Feb-2021 08:43:51 UTC] PHP   4. include() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/template-loader.php:106
+[15-Feb-2021 08:43:51 UTC] PHP   5. ignaser_lista_valores() /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/page-nosotros.php:13
+[15-Feb-2021 08:43:53 UTC] PHP Recoverable fatal error:  Object of class WP_Query could not be converted to string in /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 13
+[15-Feb-2021 08:43:53 UTC] PHP Stack trace:
+[15-Feb-2021 08:43:53 UTC] PHP   1. {main}() /Users/jorge/Local Sites/ignaweb/app/public/index.php:0
+[15-Feb-2021 08:43:53 UTC] PHP   2. require() /Users/jorge/Local Sites/ignaweb/app/public/index.php:17
+[15-Feb-2021 08:43:53 UTC] PHP   3. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-blog-header.php:19
+[15-Feb-2021 08:43:53 UTC] PHP   4. include() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/template-loader.php:106
+[15-Feb-2021 08:43:53 UTC] PHP   5. ignaser_lista_valores() /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/page-nosotros.php:13
+[15-Feb-2021 08:43:53 UTC] PHP Recoverable fatal error:  Object of class WP_Query could not be converted to string in /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 13
+[15-Feb-2021 08:43:53 UTC] PHP Stack trace:
+[15-Feb-2021 08:43:53 UTC] PHP   1. {main}() /Users/jorge/Local Sites/ignaweb/app/public/index.php:0
+[15-Feb-2021 08:43:53 UTC] PHP   2. require() /Users/jorge/Local Sites/ignaweb/app/public/index.php:17
+[15-Feb-2021 08:43:53 UTC] PHP   3. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-blog-header.php:19
+[15-Feb-2021 08:43:53 UTC] PHP   4. include() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/template-loader.php:106
+[15-Feb-2021 08:43:53 UTC] PHP   5. ignaser_lista_valores() /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/page-nosotros.php:13
+[15-Feb-2021 08:43:55 UTC] PHP Recoverable fatal error:  Object of class WP_Query could not be converted to string in /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 13
+[15-Feb-2021 08:43:55 UTC] PHP Stack trace:
+[15-Feb-2021 08:43:55 UTC] PHP   1. {main}() /Users/jorge/Local Sites/ignaweb/app/public/index.php:0
+[15-Feb-2021 08:43:55 UTC] PHP   2. require() /Users/jorge/Local Sites/ignaweb/app/public/index.php:17
+[15-Feb-2021 08:43:55 UTC] PHP   3. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-blog-header.php:19
+[15-Feb-2021 08:43:55 UTC] PHP   4. include() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/template-loader.php:106
+[15-Feb-2021 08:43:55 UTC] PHP   5. ignaser_lista_valores() /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/page-nosotros.php:13
+[15-Feb-2021 08:43:56 UTC] PHP Recoverable fatal error:  Object of class WP_Query could not be converted to string in /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 13
+[15-Feb-2021 08:43:56 UTC] PHP Stack trace:
+[15-Feb-2021 08:43:56 UTC] PHP   1. {main}() /Users/jorge/Local Sites/ignaweb/app/public/index.php:0
+[15-Feb-2021 08:43:56 UTC] PHP   2. require() /Users/jorge/Local Sites/ignaweb/app/public/index.php:17
+[15-Feb-2021 08:43:56 UTC] PHP   3. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-blog-header.php:19
+[15-Feb-2021 08:43:56 UTC] PHP   4. include() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/template-loader.php:106
+[15-Feb-2021 08:43:56 UTC] PHP   5. ignaser_lista_valores() /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/page-nosotros.php:13
+[15-Feb-2021 08:43:56 UTC] PHP Recoverable fatal error:  Object of class WP_Query could not be converted to string in /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 13
+[15-Feb-2021 08:43:56 UTC] PHP Stack trace:
+[15-Feb-2021 08:43:56 UTC] PHP   1. {main}() /Users/jorge/Local Sites/ignaweb/app/public/index.php:0
+[15-Feb-2021 08:43:56 UTC] PHP   2. require() /Users/jorge/Local Sites/ignaweb/app/public/index.php:17
+[15-Feb-2021 08:43:56 UTC] PHP   3. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-blog-header.php:19
+[15-Feb-2021 08:43:56 UTC] PHP   4. include() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/template-loader.php:106
+[15-Feb-2021 08:43:56 UTC] PHP   5. ignaser_lista_valores() /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/page-nosotros.php:13
+[15-Feb-2021 08:43:57 UTC] PHP Recoverable fatal error:  Object of class WP_Query could not be converted to string in /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 13
+[15-Feb-2021 08:43:57 UTC] PHP Stack trace:
+[15-Feb-2021 08:43:57 UTC] PHP   1. {main}() /Users/jorge/Local Sites/ignaweb/app/public/index.php:0
+[15-Feb-2021 08:43:57 UTC] PHP   2. require() /Users/jorge/Local Sites/ignaweb/app/public/index.php:17
+[15-Feb-2021 08:43:57 UTC] PHP   3. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-blog-header.php:19
+[15-Feb-2021 08:43:57 UTC] PHP   4. include() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/template-loader.php:106
+[15-Feb-2021 08:43:57 UTC] PHP   5. ignaser_lista_valores() /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/page-nosotros.php:13
+[15-Feb-2021 08:43:57 UTC] PHP Recoverable fatal error:  Object of class WP_Query could not be converted to string in /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 13
+[15-Feb-2021 08:43:57 UTC] PHP Stack trace:
+[15-Feb-2021 08:43:57 UTC] PHP   1. {main}() /Users/jorge/Local Sites/ignaweb/app/public/index.php:0
+[15-Feb-2021 08:43:57 UTC] PHP   2. require() /Users/jorge/Local Sites/ignaweb/app/public/index.php:17
+[15-Feb-2021 08:43:57 UTC] PHP   3. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-blog-header.php:19
+[15-Feb-2021 08:43:57 UTC] PHP   4. include() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/template-loader.php:106
+[15-Feb-2021 08:43:57 UTC] PHP   5. ignaser_lista_valores() /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/page-nosotros.php:13
+[15-Feb-2021 08:43:59 UTC] PHP Recoverable fatal error:  Object of class WP_Query could not be converted to string in /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 13
+[15-Feb-2021 08:43:59 UTC] PHP Stack trace:
+[15-Feb-2021 08:43:59 UTC] PHP   1. {main}() /Users/jorge/Local Sites/ignaweb/app/public/index.php:0
+[15-Feb-2021 08:43:59 UTC] PHP   2. require() /Users/jorge/Local Sites/ignaweb/app/public/index.php:17
+[15-Feb-2021 08:43:59 UTC] PHP   3. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-blog-header.php:19
+[15-Feb-2021 08:43:59 UTC] PHP   4. include() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/template-loader.php:106
+[15-Feb-2021 08:43:59 UTC] PHP   5. ignaser_lista_valores() /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/page-nosotros.php:13
+[15-Feb-2021 08:43:59 UTC] PHP Recoverable fatal error:  Object of class WP_Query could not be converted to string in /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 13
+[15-Feb-2021 08:43:59 UTC] PHP Stack trace:
+[15-Feb-2021 08:43:59 UTC] PHP   1. {main}() /Users/jorge/Local Sites/ignaweb/app/public/index.php:0
+[15-Feb-2021 08:43:59 UTC] PHP   2. require() /Users/jorge/Local Sites/ignaweb/app/public/index.php:17
+[15-Feb-2021 08:43:59 UTC] PHP   3. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-blog-header.php:19
+[15-Feb-2021 08:43:59 UTC] PHP   4. include() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/template-loader.php:106
+[15-Feb-2021 08:43:59 UTC] PHP   5. ignaser_lista_valores() /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/page-nosotros.php:13
+[15-Feb-2021 08:43:59 UTC] PHP Recoverable fatal error:  Object of class WP_Query could not be converted to string in /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 13
+[15-Feb-2021 08:43:59 UTC] PHP Stack trace:
+[15-Feb-2021 08:43:59 UTC] PHP   1. {main}() /Users/jorge/Local Sites/ignaweb/app/public/index.php:0
+[15-Feb-2021 08:43:59 UTC] PHP   2. require() /Users/jorge/Local Sites/ignaweb/app/public/index.php:17
+[15-Feb-2021 08:43:59 UTC] PHP   3. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-blog-header.php:19
+[15-Feb-2021 08:43:59 UTC] PHP   4. include() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/template-loader.php:106
+[15-Feb-2021 08:43:59 UTC] PHP   5. ignaser_lista_valores() /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/page-nosotros.php:13
+[15-Feb-2021 08:43:59 UTC] PHP Recoverable fatal error:  Object of class WP_Query could not be converted to string in /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 13
+[15-Feb-2021 08:43:59 UTC] PHP Stack trace:
+[15-Feb-2021 08:43:59 UTC] PHP   1. {main}() /Users/jorge/Local Sites/ignaweb/app/public/index.php:0
+[15-Feb-2021 08:43:59 UTC] PHP   2. require() /Users/jorge/Local Sites/ignaweb/app/public/index.php:17
+[15-Feb-2021 08:43:59 UTC] PHP   3. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-blog-header.php:19
+[15-Feb-2021 08:43:59 UTC] PHP   4. include() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/template-loader.php:106
+[15-Feb-2021 08:43:59 UTC] PHP   5. ignaser_lista_valores() /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/page-nosotros.php:13
+[15-Feb-2021 08:44:00 UTC] PHP Recoverable fatal error:  Object of class WP_Query could not be converted to string in /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 13
+[15-Feb-2021 08:44:00 UTC] PHP Stack trace:
+[15-Feb-2021 08:44:00 UTC] PHP   1. {main}() /Users/jorge/Local Sites/ignaweb/app/public/index.php:0
+[15-Feb-2021 08:44:00 UTC] PHP   2. require() /Users/jorge/Local Sites/ignaweb/app/public/index.php:17
+[15-Feb-2021 08:44:00 UTC] PHP   3. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-blog-header.php:19
+[15-Feb-2021 08:44:00 UTC] PHP   4. include() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/template-loader.php:106
+[15-Feb-2021 08:44:00 UTC] PHP   5. ignaser_lista_valores() /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/page-nosotros.php:13
+[15-Feb-2021 08:44:00 UTC] PHP Recoverable fatal error:  Object of class WP_Query could not be converted to string in /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 13
+[15-Feb-2021 08:44:00 UTC] PHP Stack trace:
+[15-Feb-2021 08:44:00 UTC] PHP   1. {main}() /Users/jorge/Local Sites/ignaweb/app/public/index.php:0
+[15-Feb-2021 08:44:00 UTC] PHP   2. require() /Users/jorge/Local Sites/ignaweb/app/public/index.php:17
+[15-Feb-2021 08:44:00 UTC] PHP   3. require_once() /Users/jorge/Local Sites/ignaweb/app/public/wp-blog-header.php:19
+[15-Feb-2021 08:44:00 UTC] PHP   4. include() /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/template-loader.php:106
+[15-Feb-2021 08:44:00 UTC] PHP   5. ignaser_lista_valores() /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/page-nosotros.php:13
+[15-Feb-2021 08:57:09 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/jorge/Local Sites/ignaweb/app/public/wp-admin/includes/translation-install.php on line 68
+[15-Feb-2021 08:57:09 UTC] PHP Stack trace:
+[15-Feb-2021 08:57:09 UTC] PHP   1. {main}() /Users/jorge/Local Sites/ignaweb/app/public/wp-admin/options-general.php:0
+[15-Feb-2021 08:57:09 UTC] PHP   2. wp_get_available_translations() /Users/jorge/Local Sites/ignaweb/app/public/wp-admin/options-general.php:159
+[15-Feb-2021 08:57:09 UTC] PHP   3. translations_api() /Users/jorge/Local Sites/ignaweb/app/public/wp-admin/includes/translation-install.php:133
+[15-Feb-2021 08:57:09 UTC] PHP   4. trigger_error() /Users/jorge/Local Sites/ignaweb/app/public/wp-admin/includes/translation-install.php:68
+>>>>>>> 268e9324196e849a7d35524c25102d6dc05c4787
