@@ -767,6 +767,12 @@ div.logo {
   top: 0;
 }
 
+.contenedor-servicios .text-servicios .baseTextServicios {
+  font-size: 2rem;
+  font-weight: 500;
+  padding-left: 5%;
+}
+
 @media (min-width: 768px) {
 
   .contenedor-servicios .imageServicios:after {

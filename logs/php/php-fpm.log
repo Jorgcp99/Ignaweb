@@ -37,3 +37,8 @@
 >>>>>>> 268e9324196e849a7d35524c25102d6dc05c4787
 [17-Feb-2021 16:26:00] NOTICE: fpm is running, pid 55398
 [17-Feb-2021 16:26:00] NOTICE: ready to handle connections
+[17-Feb-2021 21:37:56] NOTICE: Terminating ...
+[17-Feb-2021 21:37:56] NOTICE: Terminating ...
+[17-Feb-2021 21:37:56] NOTICE: exiting, bye-bye!
+[18-Feb-2021 12:24:51] NOTICE: fpm is running, pid 1184
+[18-Feb-2021 12:24:51] NOTICE: ready to handle connections

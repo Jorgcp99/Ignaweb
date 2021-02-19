@@ -80,7 +80,7 @@
         </div>
 
         <div class="linkProduct">
-            <a class="linkReferences" href="https://example.com" >Ver todos ></a>
+            <a class="linkReferences" href="./productos-categorias.php" >Ver todos ></a>
         </div>
     </div>
 
@@ -232,6 +232,9 @@
             
         </div>
     </div>
+
+    <?php get_footer(); ?>
+
 </body>
 
 </html>
