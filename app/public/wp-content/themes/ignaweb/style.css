@@ -347,13 +347,72 @@ div.logo {
 
 /* Contacto */
 
-.wpcf7-form{
-  border: solid red 1px;
+.elto1 {
+  display: flex;
+  justify-content: center;
+}
+
+.contactMainDiv {
+  display: flex;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.018), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+.datosContactoMainDiv {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+.datosContacto {
+  
+  width: 93%;
+  display: flex;
+  justify-content: start;
+}
+
+.contactoLabel {
+  color: rgb(85, 85, 85);
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.textwidget {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+.textwidget p{
+  margin: 0;
+  font-size: 2rem;
+}
+
+.wpcf7-form {
   text-align: center;
 }
 
 .wpcf7-form label {
   font-weight: 700;
+  font-family: var(--fuenteTexto);
+}
+
+.wpcf7-form-control {
+  border: solid rgb(167, 167, 167) 1px;
+}
+
+.wpcf7-submit {
+  font-size: 2rem;
+  font-family: var(--fuenteTexto);
+  padding: 0.6rem 6rem;
+  color: var(--colorContraste);
+  background-color: transparent;
+  border: solid var(--colorContraste) 2px;
+}
+.wpcf7-submit:hover {
+  background-color: var(--colorContraste);
+  color: white;
+  transition: transform 0.6s;
 }
 
 @media (min-width: 1024px) {
