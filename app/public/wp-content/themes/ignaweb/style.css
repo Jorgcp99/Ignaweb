@@ -217,32 +217,66 @@ div.logo {
   margin-top: 4rem;
 }
 
-.copyright {
-  color: white;
+.footerTit {
+  margin-left: 1rem;
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-family: var(--fuenteTitulo);
 }
+
 .footerContent {
   display: flex;
   justify-content: space-around;
+}
+
+.copyright {
+  color: white;
+  text-align: center;
+  display: flex;
+  font-size: 2.1rem;
+  margin: 0;
+  justify-content: center;
   align-items: center;
 }
-.footerTit {
-  margin: 0.5rem 0;
-}
-.footerInfo {
+
+.footerDir {
   color: white;
-  margin: 0.5rem 0;
-}
-
-/* Galeria */
-
-.imagesGrid {
+  margin-bottom: 1rem;
   display: flex;
-  justify-content: start;
+  justify-content: center;
 }
-.imgContainer {
+
+.separator{
   text-align: center;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  max-width: 80%;
+}
+.separator2{
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 0;
+  max-width: 80%;
+}
+@media (min-width: 768px) {
+  .separator{
+    display: none;
+  }
+  .separator2{
+    display: none;
+  }
+}
+
+.footerCont {
+  color: white;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.footerContacto {
+  text-align: center;
+}
+.footerDireccion {
+  text-align: center;
 }
 
 /* Nosotros */
@@ -387,10 +421,12 @@ div.logo {
 .textwidget {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-left: 1rem;
 }
 .textwidget p {
   margin: 0;
+  font-family: var(--fuenteTexto);
   font-size: 2rem;
 }
 
@@ -415,7 +451,6 @@ div.logo {
 .wpcf7-form-control {
   border: solid rgb(167, 167, 167) 1px;
   margin-bottom: 2rem;
-  
 }
 
 .wpcf7-submit {
