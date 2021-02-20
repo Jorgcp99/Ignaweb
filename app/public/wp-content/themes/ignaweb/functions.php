@@ -61,5 +61,21 @@ function ignaser_widgets()
         'before_title' => '<h3 class="contactoLabel">',
         'after_title' => '</h3>'
     ));
+    register_sidebar(array(
+        'name' => 'Footer contacto',
+        'id' => 'footer_contacto',
+        'before_widget' => '<div class="footerContacto">',
+        'after_widget' => '</div>',
+        'before_title' => '<h3 class="footerTit">',
+        'after_title' => '</h3>'
+    ));
+    register_sidebar(array(
+        'name' => 'Footer dirección',
+        'id' => 'footer_direccion',
+        'before_widget' => '<div class="footerDireccion">',
+        'after_widget' => '</div>',
+        'before_title' => '<h3 class="footerTit">',
+        'after_title' => '</h3>'
+    ));
 }
 add_action('widgets_init', 'ignaser_widgets');
