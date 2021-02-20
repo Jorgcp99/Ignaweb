@@ -16,7 +16,6 @@ while (have_posts()) : the_post();
         <div class="datosContactoMainDiv row">
             <?php dynamic_sidebar('datos_contacto') ?>
         </div>
-
         <?php the_content() ?>
     </div>
     </div>

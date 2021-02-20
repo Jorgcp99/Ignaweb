@@ -357,8 +357,15 @@ div.logo {
   justify-content: center;
   max-width: 800px;
   margin: 0;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.018), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
+
+@media (min-width: 1024px) {
+  .contactMainDiv {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.018),
+      0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  }
+}
+
 .datosContactoMainDiv {
   display: flex;
   justify-content: center;
@@ -366,7 +373,6 @@ div.logo {
   margin-top: 3rem;
 }
 .datosContacto {
-  
   width: 93%;
   display: flex;
   justify-content: start;
@@ -383,13 +389,22 @@ div.logo {
   align-items: center;
   margin-left: 1rem;
 }
-.textwidget p{
+.textwidget p {
   margin: 0;
   font-size: 2rem;
 }
 
+.wpcf7 {
+  display: flex;
+  justify-content: center;
+}
+
 .wpcf7-form {
-  text-align: center;
+  text-align: start;
+  width: 93%;
+}
+
+.wpcf7-form p {
 }
 
 .wpcf7-form label {
@@ -399,6 +414,8 @@ div.logo {
 
 .wpcf7-form-control {
   border: solid rgb(167, 167, 167) 1px;
+  margin-bottom: 2rem;
+  
 }
 
 .wpcf7-submit {
