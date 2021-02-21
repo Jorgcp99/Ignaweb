@@ -1,3 +1,591 @@
+<<<<<<< HEAD
+[07-Feb-2021 16:39:08 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/alfredo/LocalSites/ignaweb/app/public/wp-admin/includes/update.php on line 143
+[07-Feb-2021 16:39:08 UTC] PHP Stack trace:
+[07-Feb-2021 16:39:08 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/wp-cron.php:0
+[07-Feb-2021 16:39:08 UTC] PHP   2. do_action_ref_array() /Users/alfredo/LocalSites/ignaweb/app/public/wp-cron.php:138
+[07-Feb-2021 16:39:08 UTC] PHP   3. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:551
+[07-Feb-2021 16:39:08 UTC] PHP   4. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[07-Feb-2021 16:39:08 UTC] PHP   5. WP_Site_Health->wp_cron_scheduled_check() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[07-Feb-2021 16:39:08 UTC] PHP   6. WP_Site_Health->perform_test() /Users/alfredo/LocalSites/ignaweb/app/public/wp-admin/includes/class-wp-site-health.php:2633
+[07-Feb-2021 16:39:08 UTC] PHP   7. WP_Site_Health->get_test_background_updates() /Users/alfredo/LocalSites/ignaweb/app/public/wp-admin/includes/class-wp-site-health.php:177
+[07-Feb-2021 16:39:08 UTC] PHP   8. WP_Site_Health_Auto_Updates->run_tests() /Users/alfredo/LocalSites/ignaweb/app/public/wp-admin/includes/class-wp-site-health.php:1704
+[07-Feb-2021 16:39:08 UTC] PHP   9. WP_Site_Health_Auto_Updates->test_all_files_writable() /Users/alfredo/LocalSites/ignaweb/app/public/wp-admin/includes/class-wp-site-health-auto-updates.php:37
+[07-Feb-2021 16:39:08 UTC] PHP  10. get_core_checksums() /Users/alfredo/LocalSites/ignaweb/app/public/wp-admin/includes/class-wp-site-health-auto-updates.php:332
+[07-Feb-2021 16:39:08 UTC] PHP  11. trigger_error() /Users/alfredo/LocalSites/ignaweb/app/public/wp-admin/includes/update.php:143
+[07-Feb-2021 16:39:09 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/update.php on line 173
+[07-Feb-2021 16:39:09 UTC] PHP Stack trace:
+[07-Feb-2021 16:39:09 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/wp-cron.php:0
+[07-Feb-2021 16:39:09 UTC] PHP   2. do_action_ref_array() /Users/alfredo/LocalSites/ignaweb/app/public/wp-cron.php:138
+[07-Feb-2021 16:39:09 UTC] PHP   3. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:551
+[07-Feb-2021 16:39:09 UTC] PHP   4. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[07-Feb-2021 16:39:09 UTC] PHP   5. wp_version_check() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[07-Feb-2021 16:39:09 UTC] PHP   6. trigger_error() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/update.php:173
+[07-Feb-2021 16:39:09 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/update.php on line 408
+[07-Feb-2021 16:39:09 UTC] PHP Stack trace:
+[07-Feb-2021 16:39:09 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/wp-cron.php:0
+[07-Feb-2021 16:39:09 UTC] PHP   2. do_action_ref_array() /Users/alfredo/LocalSites/ignaweb/app/public/wp-cron.php:138
+[07-Feb-2021 16:39:09 UTC] PHP   3. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:551
+[07-Feb-2021 16:39:09 UTC] PHP   4. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[07-Feb-2021 16:39:09 UTC] PHP   5. wp_update_plugins() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[07-Feb-2021 16:39:09 UTC] PHP   6. trigger_error() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/update.php:408
+[07-Feb-2021 16:39:09 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/update.php on line 612
+[07-Feb-2021 16:39:09 UTC] PHP Stack trace:
+[07-Feb-2021 16:39:09 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/wp-cron.php:0
+[07-Feb-2021 16:39:09 UTC] PHP   2. do_action_ref_array() /Users/alfredo/LocalSites/ignaweb/app/public/wp-cron.php:138
+[07-Feb-2021 16:39:09 UTC] PHP   3. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:551
+[07-Feb-2021 16:39:09 UTC] PHP   4. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[07-Feb-2021 16:39:09 UTC] PHP   5. wp_update_themes() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[07-Feb-2021 16:39:09 UTC] PHP   6. trigger_error() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/update.php:612
+[08-Feb-2021 14:41:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/front-page.php:45
+Stack trace:
+#0 /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/alfredo/...')
+#2 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
+#3 {main}
+  thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/front-page.php on line 45
+[09-Feb-2021 12:19:12 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/functions.php on line 18
+[09-Feb-2021 12:19:12 UTC] PHP Stack trace:
+[09-Feb-2021 12:19:12 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[09-Feb-2021 12:19:12 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[09-Feb-2021 12:19:12 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[09-Feb-2021 12:19:12 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[09-Feb-2021 12:19:12 UTC] PHP   5. wp_head() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/front-page.php:9
+[09-Feb-2021 12:19:12 UTC] PHP   6. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/general-template.php:3005
+[09-Feb-2021 12:19:12 UTC] PHP   7. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:12 UTC] PHP   8. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:12 UTC] PHP   9. wp_enqueue_scripts() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:12 UTC] PHP  10. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/script-loader.php:2004
+[09-Feb-2021 12:19:12 UTC] PHP  11. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:12 UTC] PHP  12. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:12 UTC] PHP  13. pickApp_scripts_styles() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:12 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/functions.php on line 18
+[09-Feb-2021 12:19:12 UTC] PHP Stack trace:
+[09-Feb-2021 12:19:12 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[09-Feb-2021 12:19:12 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[09-Feb-2021 12:19:12 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[09-Feb-2021 12:19:12 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[09-Feb-2021 12:19:12 UTC] PHP   5. wp_head() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/front-page.php:9
+[09-Feb-2021 12:19:12 UTC] PHP   6. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/general-template.php:3005
+[09-Feb-2021 12:19:12 UTC] PHP   7. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:12 UTC] PHP   8. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:12 UTC] PHP   9. wp_enqueue_scripts() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:12 UTC] PHP  10. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/script-loader.php:2004
+[09-Feb-2021 12:19:12 UTC] PHP  11. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:12 UTC] PHP  12. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:12 UTC] PHP  13. pickApp_scripts_styles() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:13 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/functions.php on line 18
+[09-Feb-2021 12:19:13 UTC] PHP Stack trace:
+[09-Feb-2021 12:19:13 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[09-Feb-2021 12:19:13 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[09-Feb-2021 12:19:13 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[09-Feb-2021 12:19:13 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[09-Feb-2021 12:19:13 UTC] PHP   5. wp_head() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/front-page.php:9
+[09-Feb-2021 12:19:13 UTC] PHP   6. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/general-template.php:3005
+[09-Feb-2021 12:19:13 UTC] PHP   7. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:13 UTC] PHP   8. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:13 UTC] PHP   9. wp_enqueue_scripts() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:13 UTC] PHP  10. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/script-loader.php:2004
+[09-Feb-2021 12:19:13 UTC] PHP  11. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:13 UTC] PHP  12. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:13 UTC] PHP  13. pickApp_scripts_styles() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:13 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/functions.php on line 18
+[09-Feb-2021 12:19:13 UTC] PHP Stack trace:
+[09-Feb-2021 12:19:13 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[09-Feb-2021 12:19:13 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[09-Feb-2021 12:19:13 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[09-Feb-2021 12:19:13 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[09-Feb-2021 12:19:13 UTC] PHP   5. wp_head() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/front-page.php:9
+[09-Feb-2021 12:19:13 UTC] PHP   6. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/general-template.php:3005
+[09-Feb-2021 12:19:13 UTC] PHP   7. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:13 UTC] PHP   8. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:13 UTC] PHP   9. wp_enqueue_scripts() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:13 UTC] PHP  10. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/script-loader.php:2004
+[09-Feb-2021 12:19:13 UTC] PHP  11. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:13 UTC] PHP  12. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:13 UTC] PHP  13. pickApp_scripts_styles() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:14 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/functions.php on line 18
+[09-Feb-2021 12:19:14 UTC] PHP Stack trace:
+[09-Feb-2021 12:19:14 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[09-Feb-2021 12:19:14 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[09-Feb-2021 12:19:14 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[09-Feb-2021 12:19:14 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[09-Feb-2021 12:19:14 UTC] PHP   5. wp_head() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/front-page.php:9
+[09-Feb-2021 12:19:14 UTC] PHP   6. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/general-template.php:3005
+[09-Feb-2021 12:19:14 UTC] PHP   7. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:14 UTC] PHP   8. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:14 UTC] PHP   9. wp_enqueue_scripts() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:14 UTC] PHP  10. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/script-loader.php:2004
+[09-Feb-2021 12:19:14 UTC] PHP  11. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:14 UTC] PHP  12. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:14 UTC] PHP  13. pickApp_scripts_styles() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:14 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/functions.php on line 18
+[09-Feb-2021 12:19:14 UTC] PHP Stack trace:
+[09-Feb-2021 12:19:14 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[09-Feb-2021 12:19:14 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[09-Feb-2021 12:19:14 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[09-Feb-2021 12:19:14 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[09-Feb-2021 12:19:14 UTC] PHP   5. wp_head() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/front-page.php:9
+[09-Feb-2021 12:19:14 UTC] PHP   6. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/general-template.php:3005
+[09-Feb-2021 12:19:14 UTC] PHP   7. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:14 UTC] PHP   8. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:14 UTC] PHP   9. wp_enqueue_scripts() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:14 UTC] PHP  10. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/script-loader.php:2004
+[09-Feb-2021 12:19:14 UTC] PHP  11. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:14 UTC] PHP  12. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:14 UTC] PHP  13. pickApp_scripts_styles() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:14 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/functions.php on line 18
+[09-Feb-2021 12:19:14 UTC] PHP Stack trace:
+[09-Feb-2021 12:19:14 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[09-Feb-2021 12:19:14 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[09-Feb-2021 12:19:14 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[09-Feb-2021 12:19:14 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[09-Feb-2021 12:19:14 UTC] PHP   5. wp_head() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/front-page.php:9
+[09-Feb-2021 12:19:14 UTC] PHP   6. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/general-template.php:3005
+[09-Feb-2021 12:19:14 UTC] PHP   7. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:14 UTC] PHP   8. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:14 UTC] PHP   9. wp_enqueue_scripts() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:14 UTC] PHP  10. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/script-loader.php:2004
+[09-Feb-2021 12:19:14 UTC] PHP  11. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:14 UTC] PHP  12. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:14 UTC] PHP  13. pickApp_scripts_styles() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:14 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/functions.php on line 18
+[09-Feb-2021 12:19:14 UTC] PHP Stack trace:
+[09-Feb-2021 12:19:14 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[09-Feb-2021 12:19:14 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[09-Feb-2021 12:19:14 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[09-Feb-2021 12:19:14 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[09-Feb-2021 12:19:14 UTC] PHP   5. wp_head() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/front-page.php:9
+[09-Feb-2021 12:19:14 UTC] PHP   6. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/general-template.php:3005
+[09-Feb-2021 12:19:14 UTC] PHP   7. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:14 UTC] PHP   8. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:14 UTC] PHP   9. wp_enqueue_scripts() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:14 UTC] PHP  10. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/script-loader.php:2004
+[09-Feb-2021 12:19:14 UTC] PHP  11. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:14 UTC] PHP  12. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:14 UTC] PHP  13. pickApp_scripts_styles() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:15 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/functions.php on line 18
+[09-Feb-2021 12:19:15 UTC] PHP Stack trace:
+[09-Feb-2021 12:19:15 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[09-Feb-2021 12:19:15 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[09-Feb-2021 12:19:15 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[09-Feb-2021 12:19:15 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[09-Feb-2021 12:19:15 UTC] PHP   5. wp_head() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/front-page.php:9
+[09-Feb-2021 12:19:15 UTC] PHP   6. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/general-template.php:3005
+[09-Feb-2021 12:19:15 UTC] PHP   7. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:15 UTC] PHP   8. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:15 UTC] PHP   9. wp_enqueue_scripts() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:15 UTC] PHP  10. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/script-loader.php:2004
+[09-Feb-2021 12:19:15 UTC] PHP  11. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:15 UTC] PHP  12. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:15 UTC] PHP  13. pickApp_scripts_styles() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:15 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/functions.php on line 18
+[09-Feb-2021 12:19:15 UTC] PHP Stack trace:
+[09-Feb-2021 12:19:15 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[09-Feb-2021 12:19:15 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[09-Feb-2021 12:19:15 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[09-Feb-2021 12:19:15 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[09-Feb-2021 12:19:15 UTC] PHP   5. wp_head() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/front-page.php:9
+[09-Feb-2021 12:19:15 UTC] PHP   6. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/general-template.php:3005
+[09-Feb-2021 12:19:15 UTC] PHP   7. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:15 UTC] PHP   8. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:15 UTC] PHP   9. wp_enqueue_scripts() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:15 UTC] PHP  10. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/script-loader.php:2004
+[09-Feb-2021 12:19:15 UTC] PHP  11. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:15 UTC] PHP  12. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:15 UTC] PHP  13. pickApp_scripts_styles() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:15 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/functions.php on line 18
+[09-Feb-2021 12:19:15 UTC] PHP Stack trace:
+[09-Feb-2021 12:19:15 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[09-Feb-2021 12:19:15 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[09-Feb-2021 12:19:15 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[09-Feb-2021 12:19:15 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[09-Feb-2021 12:19:15 UTC] PHP   5. wp_head() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/front-page.php:9
+[09-Feb-2021 12:19:15 UTC] PHP   6. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/general-template.php:3005
+[09-Feb-2021 12:19:15 UTC] PHP   7. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:15 UTC] PHP   8. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:15 UTC] PHP   9. wp_enqueue_scripts() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:15 UTC] PHP  10. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/script-loader.php:2004
+[09-Feb-2021 12:19:15 UTC] PHP  11. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:15 UTC] PHP  12. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:15 UTC] PHP  13. pickApp_scripts_styles() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:15 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/functions.php on line 18
+[09-Feb-2021 12:19:15 UTC] PHP Stack trace:
+[09-Feb-2021 12:19:15 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[09-Feb-2021 12:19:15 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[09-Feb-2021 12:19:15 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[09-Feb-2021 12:19:15 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[09-Feb-2021 12:19:15 UTC] PHP   5. wp_head() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/front-page.php:9
+[09-Feb-2021 12:19:15 UTC] PHP   6. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/general-template.php:3005
+[09-Feb-2021 12:19:15 UTC] PHP   7. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:15 UTC] PHP   8. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:15 UTC] PHP   9. wp_enqueue_scripts() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:15 UTC] PHP  10. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/script-loader.php:2004
+[09-Feb-2021 12:19:15 UTC] PHP  11. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:15 UTC] PHP  12. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:15 UTC] PHP  13. pickApp_scripts_styles() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:15 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/functions.php on line 18
+[09-Feb-2021 12:19:15 UTC] PHP Stack trace:
+[09-Feb-2021 12:19:15 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[09-Feb-2021 12:19:15 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[09-Feb-2021 12:19:15 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[09-Feb-2021 12:19:15 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[09-Feb-2021 12:19:15 UTC] PHP   5. wp_head() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/front-page.php:9
+[09-Feb-2021 12:19:15 UTC] PHP   6. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/general-template.php:3005
+[09-Feb-2021 12:19:15 UTC] PHP   7. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:15 UTC] PHP   8. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:15 UTC] PHP   9. wp_enqueue_scripts() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:15 UTC] PHP  10. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/script-loader.php:2004
+[09-Feb-2021 12:19:15 UTC] PHP  11. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:15 UTC] PHP  12. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:15 UTC] PHP  13. pickApp_scripts_styles() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:15 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/functions.php on line 18
+[09-Feb-2021 12:19:15 UTC] PHP Stack trace:
+[09-Feb-2021 12:19:15 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[09-Feb-2021 12:19:15 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[09-Feb-2021 12:19:15 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[09-Feb-2021 12:19:15 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[09-Feb-2021 12:19:15 UTC] PHP   5. wp_head() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/front-page.php:9
+[09-Feb-2021 12:19:15 UTC] PHP   6. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/general-template.php:3005
+[09-Feb-2021 12:19:15 UTC] PHP   7. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:15 UTC] PHP   8. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:15 UTC] PHP   9. wp_enqueue_scripts() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:15 UTC] PHP  10. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/script-loader.php:2004
+[09-Feb-2021 12:19:15 UTC] PHP  11. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:15 UTC] PHP  12. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:15 UTC] PHP  13. pickApp_scripts_styles() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:16 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/functions.php on line 18
+[09-Feb-2021 12:19:16 UTC] PHP Stack trace:
+[09-Feb-2021 12:19:16 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[09-Feb-2021 12:19:16 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[09-Feb-2021 12:19:16 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[09-Feb-2021 12:19:16 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[09-Feb-2021 12:19:16 UTC] PHP   5. wp_head() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/front-page.php:9
+[09-Feb-2021 12:19:16 UTC] PHP   6. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/general-template.php:3005
+[09-Feb-2021 12:19:16 UTC] PHP   7. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:16 UTC] PHP   8. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:16 UTC] PHP   9. wp_enqueue_scripts() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:16 UTC] PHP  10. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/script-loader.php:2004
+[09-Feb-2021 12:19:16 UTC] PHP  11. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:16 UTC] PHP  12. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:16 UTC] PHP  13. pickApp_scripts_styles() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:16 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/functions.php on line 18
+[09-Feb-2021 12:19:16 UTC] PHP Stack trace:
+[09-Feb-2021 12:19:16 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[09-Feb-2021 12:19:16 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[09-Feb-2021 12:19:16 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[09-Feb-2021 12:19:16 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[09-Feb-2021 12:19:16 UTC] PHP   5. wp_head() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/front-page.php:9
+[09-Feb-2021 12:19:16 UTC] PHP   6. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/general-template.php:3005
+[09-Feb-2021 12:19:16 UTC] PHP   7. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:16 UTC] PHP   8. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:16 UTC] PHP   9. wp_enqueue_scripts() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:16 UTC] PHP  10. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/script-loader.php:2004
+[09-Feb-2021 12:19:16 UTC] PHP  11. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:16 UTC] PHP  12. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:16 UTC] PHP  13. pickApp_scripts_styles() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:16 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/functions.php on line 18
+[09-Feb-2021 12:19:16 UTC] PHP Stack trace:
+[09-Feb-2021 12:19:16 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[09-Feb-2021 12:19:16 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[09-Feb-2021 12:19:16 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[09-Feb-2021 12:19:16 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[09-Feb-2021 12:19:16 UTC] PHP   5. wp_head() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/front-page.php:9
+[09-Feb-2021 12:19:16 UTC] PHP   6. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/general-template.php:3005
+[09-Feb-2021 12:19:16 UTC] PHP   7. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:16 UTC] PHP   8. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:16 UTC] PHP   9. wp_enqueue_scripts() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:16 UTC] PHP  10. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/script-loader.php:2004
+[09-Feb-2021 12:19:16 UTC] PHP  11. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:16 UTC] PHP  12. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:16 UTC] PHP  13. pickApp_scripts_styles() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:16 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/functions.php on line 18
+[09-Feb-2021 12:19:16 UTC] PHP Stack trace:
+[09-Feb-2021 12:19:16 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[09-Feb-2021 12:19:16 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[09-Feb-2021 12:19:16 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[09-Feb-2021 12:19:16 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[09-Feb-2021 12:19:16 UTC] PHP   5. wp_head() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/front-page.php:9
+[09-Feb-2021 12:19:16 UTC] PHP   6. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/general-template.php:3005
+[09-Feb-2021 12:19:16 UTC] PHP   7. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:16 UTC] PHP   8. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:16 UTC] PHP   9. wp_enqueue_scripts() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:16 UTC] PHP  10. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/script-loader.php:2004
+[09-Feb-2021 12:19:16 UTC] PHP  11. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:16 UTC] PHP  12. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:16 UTC] PHP  13. pickApp_scripts_styles() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:17 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/functions.php on line 18
+[09-Feb-2021 12:19:17 UTC] PHP Stack trace:
+[09-Feb-2021 12:19:17 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[09-Feb-2021 12:19:17 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[09-Feb-2021 12:19:17 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[09-Feb-2021 12:19:17 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[09-Feb-2021 12:19:17 UTC] PHP   5. wp_head() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/front-page.php:9
+[09-Feb-2021 12:19:17 UTC] PHP   6. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/general-template.php:3005
+[09-Feb-2021 12:19:17 UTC] PHP   7. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:17 UTC] PHP   8. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:17 UTC] PHP   9. wp_enqueue_scripts() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:17 UTC] PHP  10. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/script-loader.php:2004
+[09-Feb-2021 12:19:17 UTC] PHP  11. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:17 UTC] PHP  12. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:17 UTC] PHP  13. pickApp_scripts_styles() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:17 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/functions.php on line 18
+[09-Feb-2021 12:19:17 UTC] PHP Stack trace:
+[09-Feb-2021 12:19:17 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[09-Feb-2021 12:19:17 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[09-Feb-2021 12:19:17 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[09-Feb-2021 12:19:17 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[09-Feb-2021 12:19:17 UTC] PHP   5. wp_head() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/front-page.php:9
+[09-Feb-2021 12:19:17 UTC] PHP   6. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/general-template.php:3005
+[09-Feb-2021 12:19:17 UTC] PHP   7. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:17 UTC] PHP   8. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:17 UTC] PHP   9. wp_enqueue_scripts() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:17 UTC] PHP  10. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/script-loader.php:2004
+[09-Feb-2021 12:19:17 UTC] PHP  11. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:17 UTC] PHP  12. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:17 UTC] PHP  13. pickApp_scripts_styles() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:17 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/functions.php on line 18
+[09-Feb-2021 12:19:17 UTC] PHP Stack trace:
+[09-Feb-2021 12:19:17 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[09-Feb-2021 12:19:17 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[09-Feb-2021 12:19:17 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[09-Feb-2021 12:19:17 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[09-Feb-2021 12:19:17 UTC] PHP   5. wp_head() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/front-page.php:9
+[09-Feb-2021 12:19:17 UTC] PHP   6. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/general-template.php:3005
+[09-Feb-2021 12:19:17 UTC] PHP   7. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:17 UTC] PHP   8. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:17 UTC] PHP   9. wp_enqueue_scripts() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:17 UTC] PHP  10. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/script-loader.php:2004
+[09-Feb-2021 12:19:17 UTC] PHP  11. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:17 UTC] PHP  12. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:17 UTC] PHP  13. pickApp_scripts_styles() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:17 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/functions.php on line 18
+[09-Feb-2021 12:19:17 UTC] PHP Stack trace:
+[09-Feb-2021 12:19:17 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[09-Feb-2021 12:19:17 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[09-Feb-2021 12:19:17 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[09-Feb-2021 12:19:17 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[09-Feb-2021 12:19:17 UTC] PHP   5. wp_head() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/front-page.php:9
+[09-Feb-2021 12:19:17 UTC] PHP   6. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/general-template.php:3005
+[09-Feb-2021 12:19:17 UTC] PHP   7. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:17 UTC] PHP   8. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:17 UTC] PHP   9. wp_enqueue_scripts() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:17 UTC] PHP  10. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/script-loader.php:2004
+[09-Feb-2021 12:19:17 UTC] PHP  11. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:17 UTC] PHP  12. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:17 UTC] PHP  13. pickApp_scripts_styles() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:18 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/functions.php on line 18
+[09-Feb-2021 12:19:18 UTC] PHP Stack trace:
+[09-Feb-2021 12:19:18 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[09-Feb-2021 12:19:18 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[09-Feb-2021 12:19:18 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[09-Feb-2021 12:19:18 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[09-Feb-2021 12:19:18 UTC] PHP   5. wp_head() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/front-page.php:9
+[09-Feb-2021 12:19:18 UTC] PHP   6. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/general-template.php:3005
+[09-Feb-2021 12:19:18 UTC] PHP   7. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:18 UTC] PHP   8. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:18 UTC] PHP   9. wp_enqueue_scripts() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:18 UTC] PHP  10. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/script-loader.php:2004
+[09-Feb-2021 12:19:18 UTC] PHP  11. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:18 UTC] PHP  12. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:18 UTC] PHP  13. pickApp_scripts_styles() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:18 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/functions.php on line 18
+[09-Feb-2021 12:19:18 UTC] PHP Stack trace:
+[09-Feb-2021 12:19:18 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[09-Feb-2021 12:19:18 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[09-Feb-2021 12:19:18 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[09-Feb-2021 12:19:18 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[09-Feb-2021 12:19:18 UTC] PHP   5. wp_head() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/front-page.php:9
+[09-Feb-2021 12:19:18 UTC] PHP   6. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/general-template.php:3005
+[09-Feb-2021 12:19:18 UTC] PHP   7. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:18 UTC] PHP   8. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:18 UTC] PHP   9. wp_enqueue_scripts() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:18 UTC] PHP  10. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/script-loader.php:2004
+[09-Feb-2021 12:19:18 UTC] PHP  11. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:18 UTC] PHP  12. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:18 UTC] PHP  13. pickApp_scripts_styles() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:19 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/functions.php on line 18
+[09-Feb-2021 12:19:19 UTC] PHP Stack trace:
+[09-Feb-2021 12:19:19 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[09-Feb-2021 12:19:19 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[09-Feb-2021 12:19:19 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[09-Feb-2021 12:19:19 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[09-Feb-2021 12:19:19 UTC] PHP   5. wp_head() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/front-page.php:9
+[09-Feb-2021 12:19:19 UTC] PHP   6. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/general-template.php:3005
+[09-Feb-2021 12:19:19 UTC] PHP   7. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:19 UTC] PHP   8. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:19 UTC] PHP   9. wp_enqueue_scripts() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:19 UTC] PHP  10. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/script-loader.php:2004
+[09-Feb-2021 12:19:19 UTC] PHP  11. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:19 UTC] PHP  12. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:19 UTC] PHP  13. pickApp_scripts_styles() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:19 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/functions.php on line 18
+[09-Feb-2021 12:19:19 UTC] PHP Stack trace:
+[09-Feb-2021 12:19:19 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[09-Feb-2021 12:19:19 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[09-Feb-2021 12:19:19 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[09-Feb-2021 12:19:19 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[09-Feb-2021 12:19:19 UTC] PHP   5. wp_head() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/front-page.php:9
+[09-Feb-2021 12:19:19 UTC] PHP   6. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/general-template.php:3005
+[09-Feb-2021 12:19:19 UTC] PHP   7. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:19 UTC] PHP   8. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:19 UTC] PHP   9. wp_enqueue_scripts() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:19 UTC] PHP  10. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/script-loader.php:2004
+[09-Feb-2021 12:19:19 UTC] PHP  11. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:19 UTC] PHP  12. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:19 UTC] PHP  13. pickApp_scripts_styles() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:21 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/functions.php on line 18
+[09-Feb-2021 12:19:21 UTC] PHP Stack trace:
+[09-Feb-2021 12:19:21 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[09-Feb-2021 12:19:21 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[09-Feb-2021 12:19:21 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[09-Feb-2021 12:19:21 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[09-Feb-2021 12:19:21 UTC] PHP   5. wp_head() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/front-page.php:9
+[09-Feb-2021 12:19:21 UTC] PHP   6. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/general-template.php:3005
+[09-Feb-2021 12:19:21 UTC] PHP   7. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:21 UTC] PHP   8. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:21 UTC] PHP   9. wp_enqueue_scripts() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:21 UTC] PHP  10. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/script-loader.php:2004
+[09-Feb-2021 12:19:21 UTC] PHP  11. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:21 UTC] PHP  12. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:21 UTC] PHP  13. pickApp_scripts_styles() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:21 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/functions.php on line 18
+[09-Feb-2021 12:19:21 UTC] PHP Stack trace:
+[09-Feb-2021 12:19:21 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[09-Feb-2021 12:19:21 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[09-Feb-2021 12:19:21 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[09-Feb-2021 12:19:21 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[09-Feb-2021 12:19:21 UTC] PHP   5. wp_head() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/front-page.php:9
+[09-Feb-2021 12:19:21 UTC] PHP   6. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/general-template.php:3005
+[09-Feb-2021 12:19:21 UTC] PHP   7. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:21 UTC] PHP   8. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:21 UTC] PHP   9. wp_enqueue_scripts() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:21 UTC] PHP  10. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/script-loader.php:2004
+[09-Feb-2021 12:19:21 UTC] PHP  11. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:21 UTC] PHP  12. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:21 UTC] PHP  13. pickApp_scripts_styles() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:36 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/functions.php on line 18
+[09-Feb-2021 12:19:36 UTC] PHP Stack trace:
+[09-Feb-2021 12:19:36 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[09-Feb-2021 12:19:36 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[09-Feb-2021 12:19:36 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[09-Feb-2021 12:19:36 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[09-Feb-2021 12:19:36 UTC] PHP   5. wp_head() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/front-page.php:9
+[09-Feb-2021 12:19:36 UTC] PHP   6. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/general-template.php:3005
+[09-Feb-2021 12:19:36 UTC] PHP   7. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:36 UTC] PHP   8. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:36 UTC] PHP   9. wp_enqueue_scripts() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:36 UTC] PHP  10. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/script-loader.php:2004
+[09-Feb-2021 12:19:36 UTC] PHP  11. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:36 UTC] PHP  12. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:36 UTC] PHP  13. pickApp_scripts_styles() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:36 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/functions.php on line 18
+[09-Feb-2021 12:19:36 UTC] PHP Stack trace:
+[09-Feb-2021 12:19:36 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[09-Feb-2021 12:19:36 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[09-Feb-2021 12:19:36 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[09-Feb-2021 12:19:36 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[09-Feb-2021 12:19:36 UTC] PHP   5. wp_head() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/front-page.php:9
+[09-Feb-2021 12:19:36 UTC] PHP   6. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/general-template.php:3005
+[09-Feb-2021 12:19:36 UTC] PHP   7. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:36 UTC] PHP   8. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:36 UTC] PHP   9. wp_enqueue_scripts() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[09-Feb-2021 12:19:36 UTC] PHP  10. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/script-loader.php:2004
+[09-Feb-2021 12:19:36 UTC] PHP  11. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[09-Feb-2021 12:19:36 UTC] PHP  12. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[09-Feb-2021 12:19:36 UTC] PHP  13. pickApp_scripts_styles() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[12-Feb-2021 14:06:58 UTC] PHP Warning:  Error while sending QUERY packet. PID=27683 in /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/wp-db.php on line 2056
+[12-Feb-2021 14:06:58 UTC] PHP Stack trace:
+[12-Feb-2021 14:06:58 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[12-Feb-2021 14:06:58 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[12-Feb-2021 14:06:58 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[12-Feb-2021 14:06:58 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[12-Feb-2021 14:06:58 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[12-Feb-2021 14:06:58 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[12-Feb-2021 14:06:58 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[12-Feb-2021 14:06:58 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[12-Feb-2021 14:06:58 UTC] PHP   9. wp_cookie_constants() /Users/alfredo/LocalSites/ignaweb/app/public/wp-settings.php:362
+[12-Feb-2021 14:06:58 UTC] PHP  10. get_option() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/default-constants.php:284
+[12-Feb-2021 14:06:58 UTC] PHP  11. wpdb->get_row() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/option.php:146
+[12-Feb-2021 14:06:58 UTC] PHP  12. wpdb->query() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/wp-db.php:2616
+[12-Feb-2021 14:06:58 UTC] PHP  13. wpdb->_do_query() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/wp-db.php:1945
+[12-Feb-2021 14:06:58 UTC] PHP  14. mysqli_query() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/wp-db.php:2056
+[12-Feb-2021 14:06:58 UTC] WordPress database error Server shutdown in progress for query SELECT option_value FROM wp_options WHERE option_name = 'WPLANG' LIMIT 1 made by include('phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php'), include('phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php'), WP_CLI\bootstrap, WP_CLI\Bootstrap\LaunchRunner->process, WP_CLI\Runner->start, WP_CLI\Runner->load_wordpress, require('wp-settings.php'), load_default_textdomain, determine_locale, get_locale, get_option
+[12-Feb-2021 14:06:58 UTC] WordPress database error Server shutdown in progress for query SELECT option_value FROM wp_options WHERE option_name = 'WPLANG' LIMIT 1 made by include('phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php'), include('phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php'), WP_CLI\bootstrap, WP_CLI\Bootstrap\LaunchRunner->process, WP_CLI\Runner->start, WP_CLI\Runner->load_wordpress, require('wp-settings.php'), load_default_textdomain, determine_locale, get_locale, get_option
+[12-Feb-2021 14:06:58 UTC] PHP Warning:  Error while sending QUERY packet. PID=27676 in /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/wp-db.php on line 2056
+[12-Feb-2021 14:06:58 UTC] PHP Stack trace:
+[12-Feb-2021 14:06:58 UTC] PHP Warning:  Error while sending QUERY packet. PID=27679 in /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/wp-db.php on line 2056
+[12-Feb-2021 14:06:58 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[12-Feb-2021 14:06:58 UTC] PHP Stack trace:
+[12-Feb-2021 14:06:58 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[12-Feb-2021 14:06:58 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[12-Feb-2021 14:06:58 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[12-Feb-2021 14:06:58 UTC] PHP   1. {main}() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[12-Feb-2021 14:06:58 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[12-Feb-2021 14:06:58 UTC] PHP   2. include() /Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[12-Feb-2021 14:06:58 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[12-Feb-2021 14:06:58 UTC] PHP   3. include() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[12-Feb-2021 14:06:58 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[12-Feb-2021 14:06:58 UTC] PHP   4. WP_CLI\bootstrap() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[12-Feb-2021 14:06:58 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[12-Feb-2021 14:06:58 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[12-Feb-2021 14:06:58 UTC] PHP   9. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-settings.php:557
+[12-Feb-2021 14:06:58 UTC] PHP   6. WP_CLI\Runner->start() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[12-Feb-2021 14:06:58 UTC] PHP  10. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[12-Feb-2021 14:06:58 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[12-Feb-2021 14:06:58 UTC] PHP  11. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[12-Feb-2021 14:06:58 UTC] PHP   8. require() phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[12-Feb-2021 14:06:58 UTC] PHP  12. wp_widgets_init() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[12-Feb-2021 14:06:58 UTC] PHP   9. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-settings.php:557
+[12-Feb-2021 14:06:58 UTC] PHP  13. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/widgets.php:1795
+[12-Feb-2021 14:06:58 UTC] PHP  10. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[12-Feb-2021 14:06:58 UTC] PHP  14. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[12-Feb-2021 14:06:58 UTC] PHP  11. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[12-Feb-2021 14:06:58 UTC] PHP  15. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[12-Feb-2021 14:06:58 UTC] PHP  12. wp_widgets_init() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[12-Feb-2021 14:06:58 UTC] PHP  16. WP_Widget_Factory->_register_widgets() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[12-Feb-2021 14:06:58 UTC] PHP  13. do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/widgets.php:1795
+[12-Feb-2021 14:06:58 UTC] PHP  14. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:484
+[12-Feb-2021 14:06:58 UTC] PHP  17. WP_Widget_Text->_register() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-widget-factory.php:102
+[12-Feb-2021 14:06:58 UTC] PHP  15. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[12-Feb-2021 14:06:58 UTC] PHP  16. WP_Widget_Factory->_register_widgets() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[12-Feb-2021 14:06:58 UTC] PHP  18. WP_Widget_Text->_register_one() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-widget.php:252
+[12-Feb-2021 14:06:58 UTC] PHP  17. WP_Widget_Text->_register() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-widget-factory.php:102
+[12-Feb-2021 14:06:58 UTC] PHP  18. WP_Widget_Text->_register_one() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-widget.php:252
+[12-Feb-2021 14:06:58 UTC] PHP  19. wp_add_inline_script() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/widgets/class-wp-widget-text.php:58
+[12-Feb-2021 14:06:58 UTC] PHP  19. wp_add_inline_script() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/widgets/class-wp-widget-text.php:58
+[12-Feb-2021 14:06:58 UTC] PHP  20. wp_scripts() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/functions.wp-scripts.php:147
+[12-Feb-2021 14:06:58 UTC] PHP  21. WP_Scripts->__construct() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/functions.wp-scripts.php:24
+[12-Feb-2021 14:06:58 UTC] PHP  20. wp_scripts() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/functions.wp-scripts.php:147
+[12-Feb-2021 14:06:58 UTC] PHP  22. WP_Scripts->init() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class.wp-scripts.php:142
+[12-Feb-2021 14:06:58 UTC] PHP  23. do_action_ref_array() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class.wp-scripts.php:167
+[12-Feb-2021 14:06:58 UTC] PHP  21. WP_Scripts->__construct() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/functions.wp-scripts.php:24
+[12-Feb-2021 14:06:58 UTC] PHP  24. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:551
+[12-Feb-2021 14:06:58 UTC] PHP  25. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[12-Feb-2021 14:06:58 UTC] PHP  22. WP_Scripts->init() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class.wp-scripts.php:142
+[12-Feb-2021 14:06:58 UTC] PHP  26. wp_default_packages() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[12-Feb-2021 14:06:58 UTC] PHP  23. do_action_ref_array() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class.wp-scripts.php:167
+[12-Feb-2021 14:06:58 UTC] PHP  24. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:551
+[12-Feb-2021 14:06:58 UTC] PHP  27. wp_register_tinymce_scripts() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/script-loader.php:537
+[12-Feb-2021 14:06:58 UTC] PHP  25. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[12-Feb-2021 14:06:58 UTC] PHP  26. wp_default_packages() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[12-Feb-2021 14:06:58 UTC] PHP  28. script_concat_settings() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/script-loader.php:50
+[12-Feb-2021 14:06:58 UTC] PHP  29. get_site_option() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/script-loader.php:2146
+[12-Feb-2021 14:06:58 UTC] PHP  27. wp_register_tinymce_scripts() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/script-loader.php:537
+[12-Feb-2021 14:06:58 UTC] PHP  28. script_concat_settings() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/script-loader.php:50
+[12-Feb-2021 14:06:58 UTC] PHP  30. get_network_option() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/option.php:1246
+[12-Feb-2021 14:06:58 UTC] PHP  29. get_site_option() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/script-loader.php:2146
+[12-Feb-2021 14:06:58 UTC] PHP  31. get_option() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/option.php:1381
+[12-Feb-2021 14:06:58 UTC] PHP  30. get_network_option() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/option.php:1246
+[12-Feb-2021 14:06:58 UTC] PHP  32. wpdb->get_row() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/option.php:125
+[12-Feb-2021 14:06:58 UTC] PHP  31. get_option() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/option.php:1381
+[12-Feb-2021 14:06:58 UTC] PHP  32. wpdb->get_row() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/option.php:125
+[12-Feb-2021 14:06:58 UTC] PHP  33. wpdb->query() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/wp-db.php:2616
+[12-Feb-2021 14:06:58 UTC] PHP  33. wpdb->query() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/wp-db.php:2616
+[12-Feb-2021 14:06:58 UTC] PHP  34. wpdb->_do_query() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/wp-db.php:1945
+[12-Feb-2021 14:06:58 UTC] PHP  34. wpdb->_do_query() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/wp-db.php:1945
+[12-Feb-2021 14:06:58 UTC] PHP  35. mysqli_query() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/wp-db.php:2056
+[12-Feb-2021 14:06:58 UTC] PHP  35. mysqli_query() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/wp-db.php:2056
+=======
 [06-Feb-2021 09:51:10 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/functions.php on line 18
 [06-Feb-2021 09:53:11 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/functions.php on line 18
 [14-Feb-2021 17:14:03 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'gymfitness_widgets' not found or invalid function name in /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/class-wp-hook.php on line 287
@@ -332,3 +920,4 @@
 [15-Feb-2021 08:57:09 UTC] PHP   2. wp_get_available_translations() /Users/jorge/Local Sites/ignaweb/app/public/wp-admin/options-general.php:159
 [15-Feb-2021 08:57:09 UTC] PHP   3. translations_api() /Users/jorge/Local Sites/ignaweb/app/public/wp-admin/includes/translation-install.php:133
 [15-Feb-2021 08:57:09 UTC] PHP   4. trigger_error() /Users/jorge/Local Sites/ignaweb/app/public/wp-admin/includes/translation-install.php:68
+>>>>>>> 268e9324196e849a7d35524c25102d6dc05c4787
