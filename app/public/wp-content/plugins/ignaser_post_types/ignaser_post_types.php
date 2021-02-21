@@ -63,7 +63,7 @@ function ignaser_productos_post_type() {
 	register_post_type( 'ignaweb_productos', $args );
 
 }
-add_action( 'init', 'ignaser_productos_post_type', 0 );
+add_action( 'init', 'ignaser_productos_post_type', 1 );
 
 function create_product_taxonomies() {
   
