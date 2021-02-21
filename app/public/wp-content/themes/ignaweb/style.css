@@ -439,9 +439,9 @@ body {
   overflow-x: hidden;
 }
 div {
-  margin:0;
-  padding:0;
-  }
+  margin: 0;
+  padding: 0;
+}
 
 h1,
 h2,
@@ -455,7 +455,7 @@ p {
   font-family: var(--fuenteTexto);
 }
 
-.title{
+.title {
   margin-top: 2rem;
   padding: 0;
 }
@@ -619,51 +619,85 @@ div.logo {
   margin-top: 4rem;
 }
 
-.copyright {
-  color: white;
+.footerTit {
+  margin-left: 1rem;
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-family: var(--fuenteTitulo);
 }
+
 .footerContent {
   display: flex;
   justify-content: space-around;
+}
+
+.copyright {
+  color: white;
+  text-align: center;
+  display: flex;
+  font-size: 2.1rem;
+  margin: 0;
+  justify-content: center;
   align-items: center;
 }
-.footerTit {
-  margin: 0.5rem 0;
-}
-.footerInfo {
+
+.footerDir {
   color: white;
-  margin: 0.5rem 0;
-}
-
-/* Galeria */
-
-.imagesGrid {
+  margin-bottom: 1rem;
   display: flex;
-  justify-content: start;
+  justify-content: center;
 }
-.imgContainer {
+
+.separator{
   text-align: center;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  max-width: 80%;
+}
+.separator2{
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 0;
+  max-width: 80%;
+}
+@media (min-width: 768px) {
+  .separator{
+    display: none;
+  }
+  .separator2{
+    display: none;
+  }
+}
+
+.footerCont {
+  color: white;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.footerContacto {
+  text-align: center;
+}
+.footerDireccion {
+  text-align: center;
 }
 
 /* Nosotros */
 
-.titleDiv{
+.titleDiv {
   position: absolute;
 }
-.nosotrosTitle{
+.nosotrosTitle {
   color: white;
   margin-top: 3rem;
 }
 
 @media (min-width: 1024px) {
-  .nosotrosTitle{
+  .nosotrosTitle {
     margin-top: 2rem;
   }
 }
 
-.nosotrosDiv{
+.nosotrosDiv {
   display: flex;
   justify-content: center;
 }
@@ -675,23 +709,23 @@ div.logo {
   padding: 0;
   height: 400px;
 }
-.mobileTop{
+.mobileTop {
   padding: 0 4rem;
   margin-top: 2rem;
 }
-.mobTit{
+.mobTit {
   text-align: center;
   color: black;
 }
 @media (min-width: 768px) {
-  .nosotrosSuperior{
+  .nosotrosSuperior {
     display: block;
   }
-  .mobileTop{
+  .mobileTop {
     display: none;
   }
 }
-.imageDark{
+.imageDark {
   background-color: rgba(0, 0, 0, 0.411);
   display: flex;
   justify-content: center;
@@ -711,40 +745,128 @@ div.logo {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.018), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
 @media (min-width: 1024px) {
-  .nosotrosContentDiv{
+  .nosotrosContentDiv {
     margin-top: 350px;
   }
 }
-.valoresTitle{
+.valoresTitle {
   margin-top: 5rem;
   color: black;
   text-align: center;
 }
 
 @media (min-width: 768px) {
-  .valoresTitle{
+  .valoresTitle {
     margin-top: 14rem;
   }
 }
 
 @media (min-width: 1024px) {
-  .valoresTitle{
+  .valoresTitle {
     margin-top: 11rem;
   }
 }
 
-.valoresDiv{
+.valoresDiv {
   display: flex;
   justify-content: space-evenly;
   margin-top: 2rem;
 }
 
-.valorContent{
+.valorContent {
   padding: 1rem 4rem;
 }
-.valorContent div{
+.valorContent div {
   text-align: center;
   margin-bottom: 2rem;
+}
+
+/* Contacto */
+
+.elto1 {
+  display: flex;
+  justify-content: center;
+}
+
+.contactMainDiv {
+  display: flex;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0;
+}
+
+@media (min-width: 1024px) {
+  .contactMainDiv {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.018),
+      0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  }
+}
+
+.datosContactoMainDiv {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+.datosContacto {
+  width: 93%;
+  display: flex;
+  justify-content: start;
+}
+
+.contactoLabel {
+  color: rgb(85, 85, 85);
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+.textwidget {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1rem;
+}
+.textwidget p {
+  margin: 0;
+  font-family: var(--fuenteTexto);
+  font-size: 2rem;
+}
+
+.wpcf7 {
+  display: flex;
+  justify-content: center;
+}
+
+.wpcf7-form {
+  text-align: start;
+  width: 93%;
+}
+
+.wpcf7-form p {
+}
+
+.wpcf7-form label {
+  font-weight: 700;
+  font-family: var(--fuenteTexto);
+}
+
+.wpcf7-form-control {
+  border: solid rgb(167, 167, 167) 1px;
+  margin-bottom: 2rem;
+}
+
+.wpcf7-submit {
+  font-size: 2rem;
+  font-family: var(--fuenteTexto);
+  padding: 0.6rem 6rem;
+  color: var(--colorContraste);
+  background-color: transparent;
+  border: solid var(--colorContraste) 2px;
+}
+.wpcf7-submit:hover {
+  background-color: var(--colorContraste);
+  color: white;
+  transition: transform 0.6s;
 }
 
 @media (min-width: 1024px) {

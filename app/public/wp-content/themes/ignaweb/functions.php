@@ -54,21 +54,30 @@ function pickApp_scripts_styles()
 add_action('wp_enqueue_scripts', 'pickApp_scripts_styles');
 
 
-function ignaser_widgets(){
+function ignaser_widgets()
+{
     register_sidebar(array(
-        'name' => 'Nuestros valores',
-        'id' => 'nuestros_valores',
-        'before_widget' => '<div class="widget">',
+        'name' => 'Datos Contacto',
+        'id' => 'datos_contacto',
+        'before_widget' => '<div class="datosContacto">',
         'after_widget' => '</div>',
-        'before_title' => '<h3 class="text-center texto-primario">',
+        'before_title' => '<h3 class="contactoLabel">',
         'after_title' => '</h3>'
     ));
     register_sidebar(array(
-        'name' => 'SideBar2',
-        'id' => 'sidebar_2',
-        'before_widget' => '<div class="widget">',
+        'name' => 'Footer contacto',
+        'id' => 'footer_contacto',
+        'before_widget' => '<div class="footerContacto">',
         'after_widget' => '</div>',
-        'before_title' => '<h3 class="text-center texto-primario">',
+        'before_title' => '<h3 class="footerTit">',
+        'after_title' => '</h3>'
+    ));
+    register_sidebar(array(
+        'name' => 'Footer dirección',
+        'id' => 'footer_direccion',
+        'before_widget' => '<div class="footerDireccion">',
+        'after_widget' => '</div>',
+        'before_title' => '<h3 class="footerTit">',
         'after_title' => '</h3>'
     ));
 }
