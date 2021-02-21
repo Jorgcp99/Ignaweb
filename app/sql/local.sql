@@ -262,6 +262,9 @@ CREATE TABLE `wp_options` (
   UNIQUE KEY `option_name` (`option_name`),
   KEY `autoload` (`autoload`)
 <<<<<<< HEAD
+) ENGINE=InnoDB AUTO_INCREMENT=719 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 ) ENGINE=InnoDB AUTO_INCREMENT=224 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 =======
@@ -273,6 +276,7 @@ CREATE TABLE `wp_options` (
 ) ENGINE=InnoDB AUTO_INCREMENT=607 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 >>>>>>> 36e0a78c6bd577816991e618fe24ddfbd46a27fe
 >>>>>>> c7570b01d67e20427c1cb5f437b5c7b5d2cd404b
+>>>>>>> d9d4cb3a396d18fc6a8ef2edcd40f8c0a1f0a7b5
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -282,13 +286,18 @@ CREATE TABLE `wp_options` (
 LOCK TABLES `wp_options` WRITE;
 /*!40000 ALTER TABLE `wp_options` DISABLE KEYS */;
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 >>>>>>> c7570b01d67e20427c1cb5f437b5c7b5d2cd404b
+>>>>>>> d9d4cb3a396d18fc6a8ef2edcd40f8c0a1f0a7b5
 INSERT INTO `wp_options` VALUES (1,'siteurl','http://localhost:10018','yes');
 INSERT INTO `wp_options` VALUES (2,'home','http://localhost:10018','yes');
 INSERT INTO `wp_options` VALUES (3,'blogname','Ignaweb','yes');
 INSERT INTO `wp_options` VALUES (4,'blogdescription','Just another WordPress site','yes');
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 =======
 INSERT INTO `wp_options` VALUES (1,'siteurl','http://ignaweb.local','yes');
@@ -298,6 +307,7 @@ INSERT INTO `wp_options` VALUES (4,'blogdescription','Reforma integral de espaci
 >>>>>>> 25f9fc186748069559f31f7be4ac379d8bb6a0ab
 =======
 >>>>>>> c7570b01d67e20427c1cb5f437b5c7b5d2cd404b
+>>>>>>> d9d4cb3a396d18fc6a8ef2edcd40f8c0a1f0a7b5
 INSERT INTO `wp_options` VALUES (5,'users_can_register','0','yes');
 INSERT INTO `wp_options` VALUES (6,'admin_email','dev-email@flywheel.local','yes');
 INSERT INTO `wp_options` VALUES (7,'start_of_week','1','yes');
@@ -323,6 +333,13 @@ INSERT INTO `wp_options` VALUES (26,'comment_moderation','0','yes');
 INSERT INTO `wp_options` VALUES (27,'moderation_notify','1','yes');
 INSERT INTO `wp_options` VALUES (28,'permalink_structure','/%postname%/','yes');
 <<<<<<< HEAD
+INSERT INTO `wp_options` VALUES (29,'rewrite_rules','a:122:{s:20:\"ignaweb_productos/?$\";s:37:\"index.php?post_type=ignaweb_productos\";s:50:\"ignaweb_productos/feed/(feed|rdf|rss|rss2|atom)/?$\";s:54:\"index.php?post_type=ignaweb_productos&feed=$matches[1]\";s:45:\"ignaweb_productos/(feed|rdf|rss|rss2|atom)/?$\";s:54:\"index.php?post_type=ignaweb_productos&feed=$matches[1]\";s:37:\"ignaweb_productos/page/([0-9]{1,})/?$\";s:55:\"index.php?post_type=ignaweb_productos&paged=$matches[1]\";s:11:\"^wp-json/?$\";s:22:\"index.php?rest_route=/\";s:14:\"^wp-json/(.*)?\";s:33:\"index.php?rest_route=/$matches[1]\";s:21:\"^index.php/wp-json/?$\";s:22:\"index.php?rest_route=/\";s:24:\"^index.php/wp-json/(.*)?\";s:33:\"index.php?rest_route=/$matches[1]\";s:17:\"^wp-sitemap\\.xml$\";s:23:\"index.php?sitemap=index\";s:17:\"^wp-sitemap\\.xsl$\";s:36:\"index.php?sitemap-stylesheet=sitemap\";s:23:\"^wp-sitemap-index\\.xsl$\";s:34:\"index.php?sitemap-stylesheet=index\";s:48:\"^wp-sitemap-([a-z]+?)-([a-z\\d_-]+?)-(\\d+?)\\.xml$\";s:75:\"index.php?sitemap=$matches[1]&sitemap-subtype=$matches[2]&paged=$matches[3]\";s:34:\"^wp-sitemap-([a-z]+?)-(\\d+?)\\.xml$\";s:47:\"index.php?sitemap=$matches[1]&paged=$matches[2]\";s:47:\"category/(.+?)/feed/(feed|rdf|rss|rss2|atom)/?$\";s:52:\"index.php?category_name=$matches[1]&feed=$matches[2]\";s:42:\"category/(.+?)/(feed|rdf|rss|rss2|atom)/?$\";s:52:\"index.php?category_name=$matches[1]&feed=$matches[2]\";s:23:\"category/(.+?)/embed/?$\";s:46:\"index.php?category_name=$matches[1]&embed=true\";s:35:\"category/(.+?)/page/?([0-9]{1,})/?$\";s:53:\"index.php?category_name=$matches[1]&paged=$matches[2]\";s:17:\"category/(.+?)/?$\";s:35:\"index.php?category_name=$matches[1]\";s:44:\"tag/([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$\";s:42:\"index.php?tag=$matches[1]&feed=$matches[2]\";s:39:\"tag/([^/]+)/(feed|rdf|rss|rss2|atom)/?$\";s:42:\"index.php?tag=$matches[1]&feed=$matches[2]\";s:20:\"tag/([^/]+)/embed/?$\";s:36:\"index.php?tag=$matches[1]&embed=true\";s:32:\"tag/([^/]+)/page/?([0-9]{1,})/?$\";s:43:\"index.php?tag=$matches[1]&paged=$matches[2]\";s:14:\"tag/([^/]+)/?$\";s:25:\"index.php?tag=$matches[1]\";s:45:\"type/([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$\";s:50:\"index.php?post_format=$matches[1]&feed=$matches[2]\";s:40:\"type/([^/]+)/(feed|rdf|rss|rss2|atom)/?$\";s:50:\"index.php?post_format=$matches[1]&feed=$matches[2]\";s:21:\"type/([^/]+)/embed/?$\";s:44:\"index.php?post_format=$matches[1]&embed=true\";s:33:\"type/([^/]+)/page/?([0-9]{1,})/?$\";s:51:\"index.php?post_format=$matches[1]&paged=$matches[2]\";s:15:\"type/([^/]+)/?$\";s:33:\"index.php?post_format=$matches[1]\";s:45:\"ignaweb_productos/[^/]+/attachment/([^/]+)/?$\";s:32:\"index.php?attachment=$matches[1]\";s:55:\"ignaweb_productos/[^/]+/attachment/([^/]+)/trackback/?$\";s:37:\"index.php?attachment=$matches[1]&tb=1\";s:75:\"ignaweb_productos/[^/]+/attachment/([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$\";s:49:\"index.php?attachment=$matches[1]&feed=$matches[2]\";s:70:\"ignaweb_productos/[^/]+/attachment/([^/]+)/(feed|rdf|rss|rss2|atom)/?$\";s:49:\"index.php?attachment=$matches[1]&feed=$matches[2]\";s:70:\"ignaweb_productos/[^/]+/attachment/([^/]+)/comment-page-([0-9]{1,})/?$\";s:50:\"index.php?attachment=$matches[1]&cpage=$matches[2]\";s:51:\"ignaweb_productos/[^/]+/attachment/([^/]+)/embed/?$\";s:43:\"index.php?attachment=$matches[1]&embed=true\";s:34:\"ignaweb_productos/([^/]+)/embed/?$\";s:50:\"index.php?ignaweb_productos=$matches[1]&embed=true\";s:38:\"ignaweb_productos/([^/]+)/trackback/?$\";s:44:\"index.php?ignaweb_productos=$matches[1]&tb=1\";s:58:\"ignaweb_productos/([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$\";s:56:\"index.php?ignaweb_productos=$matches[1]&feed=$matches[2]\";s:53:\"ignaweb_productos/([^/]+)/(feed|rdf|rss|rss2|atom)/?$\";s:56:\"index.php?ignaweb_productos=$matches[1]&feed=$matches[2]\";s:46:\"ignaweb_productos/([^/]+)/page/?([0-9]{1,})/?$\";s:57:\"index.php?ignaweb_productos=$matches[1]&paged=$matches[2]\";s:53:\"ignaweb_productos/([^/]+)/comment-page-([0-9]{1,})/?$\";s:57:\"index.php?ignaweb_productos=$matches[1]&cpage=$matches[2]\";s:42:\"ignaweb_productos/([^/]+)(?:/([0-9]+))?/?$\";s:56:\"index.php?ignaweb_productos=$matches[1]&page=$matches[2]\";s:34:\"ignaweb_productos/[^/]+/([^/]+)/?$\";s:32:\"index.php?attachment=$matches[1]\";s:44:\"ignaweb_productos/[^/]+/([^/]+)/trackback/?$\";s:37:\"index.php?attachment=$matches[1]&tb=1\";s:64:\"ignaweb_productos/[^/]+/([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$\";s:49:\"index.php?attachment=$matches[1]&feed=$matches[2]\";s:59:\"ignaweb_productos/[^/]+/([^/]+)/(feed|rdf|rss|rss2|atom)/?$\";s:49:\"index.php?attachment=$matches[1]&feed=$matches[2]\";s:59:\"ignaweb_productos/[^/]+/([^/]+)/comment-page-([0-9]{1,})/?$\";s:50:\"index.php?attachment=$matches[1]&cpage=$matches[2]\";s:40:\"ignaweb_productos/[^/]+/([^/]+)/embed/?$\";s:43:\"index.php?attachment=$matches[1]&embed=true\";s:51:\"Categoría/([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$\";s:45:\"index.php?genero=$matches[1]&feed=$matches[2]\";s:46:\"Categoría/([^/]+)/(feed|rdf|rss|rss2|atom)/?$\";s:45:\"index.php?genero=$matches[1]&feed=$matches[2]\";s:27:\"Categoría/([^/]+)/embed/?$\";s:39:\"index.php?genero=$matches[1]&embed=true\";s:39:\"Categoría/([^/]+)/page/?([0-9]{1,})/?$\";s:46:\"index.php?genero=$matches[1]&paged=$matches[2]\";s:21:\"Categoría/([^/]+)/?$\";s:28:\"index.php?genero=$matches[1]\";s:12:\"robots\\.txt$\";s:18:\"index.php?robots=1\";s:13:\"favicon\\.ico$\";s:19:\"index.php?favicon=1\";s:48:\".*wp-(atom|rdf|rss|rss2|feed|commentsrss2)\\.php$\";s:18:\"index.php?feed=old\";s:20:\".*wp-app\\.php(/.*)?$\";s:19:\"index.php?error=403\";s:18:\".*wp-register.php$\";s:23:\"index.php?register=true\";s:32:\"feed/(feed|rdf|rss|rss2|atom)/?$\";s:27:\"index.php?&feed=$matches[1]\";s:27:\"(feed|rdf|rss|rss2|atom)/?$\";s:27:\"index.php?&feed=$matches[1]\";s:8:\"embed/?$\";s:21:\"index.php?&embed=true\";s:20:\"page/?([0-9]{1,})/?$\";s:28:\"index.php?&paged=$matches[1]\";s:27:\"comment-page-([0-9]{1,})/?$\";s:39:\"index.php?&page_id=18&cpage=$matches[1]\";s:41:\"comments/feed/(feed|rdf|rss|rss2|atom)/?$\";s:42:\"index.php?&feed=$matches[1]&withcomments=1\";s:36:\"comments/(feed|rdf|rss|rss2|atom)/?$\";s:42:\"index.php?&feed=$matches[1]&withcomments=1\";s:17:\"comments/embed/?$\";s:21:\"index.php?&embed=true\";s:44:\"search/(.+)/feed/(feed|rdf|rss|rss2|atom)/?$\";s:40:\"index.php?s=$matches[1]&feed=$matches[2]\";s:39:\"search/(.+)/(feed|rdf|rss|rss2|atom)/?$\";s:40:\"index.php?s=$matches[1]&feed=$matches[2]\";s:20:\"search/(.+)/embed/?$\";s:34:\"index.php?s=$matches[1]&embed=true\";s:32:\"search/(.+)/page/?([0-9]{1,})/?$\";s:41:\"index.php?s=$matches[1]&paged=$matches[2]\";s:14:\"search/(.+)/?$\";s:23:\"index.php?s=$matches[1]\";s:47:\"author/([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$\";s:50:\"index.php?author_name=$matches[1]&feed=$matches[2]\";s:42:\"author/([^/]+)/(feed|rdf|rss|rss2|atom)/?$\";s:50:\"index.php?author_name=$matches[1]&feed=$matches[2]\";s:23:\"author/([^/]+)/embed/?$\";s:44:\"index.php?author_name=$matches[1]&embed=true\";s:35:\"author/([^/]+)/page/?([0-9]{1,})/?$\";s:51:\"index.php?author_name=$matches[1]&paged=$matches[2]\";s:17:\"author/([^/]+)/?$\";s:33:\"index.php?author_name=$matches[1]\";s:69:\"([0-9]{4})/([0-9]{1,2})/([0-9]{1,2})/feed/(feed|rdf|rss|rss2|atom)/?$\";s:80:\"index.php?year=$matches[1]&monthnum=$matches[2]&day=$matches[3]&feed=$matches[4]\";s:64:\"([0-9]{4})/([0-9]{1,2})/([0-9]{1,2})/(feed|rdf|rss|rss2|atom)/?$\";s:80:\"index.php?year=$matches[1]&monthnum=$matches[2]&day=$matches[3]&feed=$matches[4]\";s:45:\"([0-9]{4})/([0-9]{1,2})/([0-9]{1,2})/embed/?$\";s:74:\"index.php?year=$matches[1]&monthnum=$matches[2]&day=$matches[3]&embed=true\";s:57:\"([0-9]{4})/([0-9]{1,2})/([0-9]{1,2})/page/?([0-9]{1,})/?$\";s:81:\"index.php?year=$matches[1]&monthnum=$matches[2]&day=$matches[3]&paged=$matches[4]\";s:39:\"([0-9]{4})/([0-9]{1,2})/([0-9]{1,2})/?$\";s:63:\"index.php?year=$matches[1]&monthnum=$matches[2]&day=$matches[3]\";s:56:\"([0-9]{4})/([0-9]{1,2})/feed/(feed|rdf|rss|rss2|atom)/?$\";s:64:\"index.php?year=$matches[1]&monthnum=$matches[2]&feed=$matches[3]\";s:51:\"([0-9]{4})/([0-9]{1,2})/(feed|rdf|rss|rss2|atom)/?$\";s:64:\"index.php?year=$matches[1]&monthnum=$matches[2]&feed=$matches[3]\";s:32:\"([0-9]{4})/([0-9]{1,2})/embed/?$\";s:58:\"index.php?year=$matches[1]&monthnum=$matches[2]&embed=true\";s:44:\"([0-9]{4})/([0-9]{1,2})/page/?([0-9]{1,})/?$\";s:65:\"index.php?year=$matches[1]&monthnum=$matches[2]&paged=$matches[3]\";s:26:\"([0-9]{4})/([0-9]{1,2})/?$\";s:47:\"index.php?year=$matches[1]&monthnum=$matches[2]\";s:43:\"([0-9]{4})/feed/(feed|rdf|rss|rss2|atom)/?$\";s:43:\"index.php?year=$matches[1]&feed=$matches[2]\";s:38:\"([0-9]{4})/(feed|rdf|rss|rss2|atom)/?$\";s:43:\"index.php?year=$matches[1]&feed=$matches[2]\";s:19:\"([0-9]{4})/embed/?$\";s:37:\"index.php?year=$matches[1]&embed=true\";s:31:\"([0-9]{4})/page/?([0-9]{1,})/?$\";s:44:\"index.php?year=$matches[1]&paged=$matches[2]\";s:13:\"([0-9]{4})/?$\";s:26:\"index.php?year=$matches[1]\";s:27:\".?.+?/attachment/([^/]+)/?$\";s:32:\"index.php?attachment=$matches[1]\";s:37:\".?.+?/attachment/([^/]+)/trackback/?$\";s:37:\"index.php?attachment=$matches[1]&tb=1\";s:57:\".?.+?/attachment/([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$\";s:49:\"index.php?attachment=$matches[1]&feed=$matches[2]\";s:52:\".?.+?/attachment/([^/]+)/(feed|rdf|rss|rss2|atom)/?$\";s:49:\"index.php?attachment=$matches[1]&feed=$matches[2]\";s:52:\".?.+?/attachment/([^/]+)/comment-page-([0-9]{1,})/?$\";s:50:\"index.php?attachment=$matches[1]&cpage=$matches[2]\";s:33:\".?.+?/attachment/([^/]+)/embed/?$\";s:43:\"index.php?attachment=$matches[1]&embed=true\";s:16:\"(.?.+?)/embed/?$\";s:41:\"index.php?pagename=$matches[1]&embed=true\";s:20:\"(.?.+?)/trackback/?$\";s:35:\"index.php?pagename=$matches[1]&tb=1\";s:40:\"(.?.+?)/feed/(feed|rdf|rss|rss2|atom)/?$\";s:47:\"index.php?pagename=$matches[1]&feed=$matches[2]\";s:35:\"(.?.+?)/(feed|rdf|rss|rss2|atom)/?$\";s:47:\"index.php?pagename=$matches[1]&feed=$matches[2]\";s:28:\"(.?.+?)/page/?([0-9]{1,})/?$\";s:48:\"index.php?pagename=$matches[1]&paged=$matches[2]\";s:35:\"(.?.+?)/comment-page-([0-9]{1,})/?$\";s:48:\"index.php?pagename=$matches[1]&cpage=$matches[2]\";s:24:\"(.?.+?)(?:/([0-9]+))?/?$\";s:47:\"index.php?pagename=$matches[1]&page=$matches[2]\";s:27:\"[^/]+/attachment/([^/]+)/?$\";s:32:\"index.php?attachment=$matches[1]\";s:37:\"[^/]+/attachment/([^/]+)/trackback/?$\";s:37:\"index.php?attachment=$matches[1]&tb=1\";s:57:\"[^/]+/attachment/([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$\";s:49:\"index.php?attachment=$matches[1]&feed=$matches[2]\";s:52:\"[^/]+/attachment/([^/]+)/(feed|rdf|rss|rss2|atom)/?$\";s:49:\"index.php?attachment=$matches[1]&feed=$matches[2]\";s:52:\"[^/]+/attachment/([^/]+)/comment-page-([0-9]{1,})/?$\";s:50:\"index.php?attachment=$matches[1]&cpage=$matches[2]\";s:33:\"[^/]+/attachment/([^/]+)/embed/?$\";s:43:\"index.php?attachment=$matches[1]&embed=true\";s:16:\"([^/]+)/embed/?$\";s:37:\"index.php?name=$matches[1]&embed=true\";s:20:\"([^/]+)/trackback/?$\";s:31:\"index.php?name=$matches[1]&tb=1\";s:40:\"([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$\";s:43:\"index.php?name=$matches[1]&feed=$matches[2]\";s:35:\"([^/]+)/(feed|rdf|rss|rss2|atom)/?$\";s:43:\"index.php?name=$matches[1]&feed=$matches[2]\";s:28:\"([^/]+)/page/?([0-9]{1,})/?$\";s:44:\"index.php?name=$matches[1]&paged=$matches[2]\";s:35:\"([^/]+)/comment-page-([0-9]{1,})/?$\";s:44:\"index.php?name=$matches[1]&cpage=$matches[2]\";s:24:\"([^/]+)(?:/([0-9]+))?/?$\";s:43:\"index.php?name=$matches[1]&page=$matches[2]\";s:16:\"[^/]+/([^/]+)/?$\";s:32:\"index.php?attachment=$matches[1]\";s:26:\"[^/]+/([^/]+)/trackback/?$\";s:37:\"index.php?attachment=$matches[1]&tb=1\";s:46:\"[^/]+/([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$\";s:49:\"index.php?attachment=$matches[1]&feed=$matches[2]\";s:41:\"[^/]+/([^/]+)/(feed|rdf|rss|rss2|atom)/?$\";s:49:\"index.php?attachment=$matches[1]&feed=$matches[2]\";s:41:\"[^/]+/([^/]+)/comment-page-([0-9]{1,})/?$\";s:50:\"index.php?attachment=$matches[1]&cpage=$matches[2]\";s:22:\"[^/]+/([^/]+)/embed/?$\";s:43:\"index.php?attachment=$matches[1]&embed=true\";}','yes');
+INSERT INTO `wp_options` VALUES (30,'hack_file','0','yes');
+INSERT INTO `wp_options` VALUES (31,'blog_charset','UTF-8','yes');
+INSERT INTO `wp_options` VALUES (32,'moderation_keys','','no');
+INSERT INTO `wp_options` VALUES (33,'active_plugins','a:7:{i:0;s:30:\"advanced-custom-fields/acf.php\";i:2;s:39:\"disable-gutenberg/disable-gutenberg.php\";i:3;s:41:\"ignaser_post_types/ignaser_post_types.php\";i:4;s:23:\"mobile-menu/mobmenu.php\";i:5;s:29:\"mystickymenu/mystickymenu.php\";i:6;s:47:\"regenerate-thumbnails/regenerate-thumbnails.php\";i:7;s:31:\"wp-google-maps/wpGoogleMaps.php\";}','yes');
+=======
+<<<<<<< HEAD
 INSERT INTO `wp_options` VALUES (29,'rewrite_rules','a:94:{s:11:\"^wp-json/?$\";s:22:\"index.php?rest_route=/\";s:14:\"^wp-json/(.*)?\";s:33:\"index.php?rest_route=/$matches[1]\";s:21:\"^index.php/wp-json/?$\";s:22:\"index.php?rest_route=/\";s:24:\"^index.php/wp-json/(.*)?\";s:33:\"index.php?rest_route=/$matches[1]\";s:17:\"^wp-sitemap\\.xml$\";s:23:\"index.php?sitemap=index\";s:17:\"^wp-sitemap\\.xsl$\";s:36:\"index.php?sitemap-stylesheet=sitemap\";s:23:\"^wp-sitemap-index\\.xsl$\";s:34:\"index.php?sitemap-stylesheet=index\";s:48:\"^wp-sitemap-([a-z]+?)-([a-z\\d_-]+?)-(\\d+?)\\.xml$\";s:75:\"index.php?sitemap=$matches[1]&sitemap-subtype=$matches[2]&paged=$matches[3]\";s:34:\"^wp-sitemap-([a-z]+?)-(\\d+?)\\.xml$\";s:47:\"index.php?sitemap=$matches[1]&paged=$matches[2]\";s:47:\"category/(.+?)/feed/(feed|rdf|rss|rss2|atom)/?$\";s:52:\"index.php?category_name=$matches[1]&feed=$matches[2]\";s:42:\"category/(.+?)/(feed|rdf|rss|rss2|atom)/?$\";s:52:\"index.php?category_name=$matches[1]&feed=$matches[2]\";s:23:\"category/(.+?)/embed/?$\";s:46:\"index.php?category_name=$matches[1]&embed=true\";s:35:\"category/(.+?)/page/?([0-9]{1,})/?$\";s:53:\"index.php?category_name=$matches[1]&paged=$matches[2]\";s:17:\"category/(.+?)/?$\";s:35:\"index.php?category_name=$matches[1]\";s:44:\"tag/([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$\";s:42:\"index.php?tag=$matches[1]&feed=$matches[2]\";s:39:\"tag/([^/]+)/(feed|rdf|rss|rss2|atom)/?$\";s:42:\"index.php?tag=$matches[1]&feed=$matches[2]\";s:20:\"tag/([^/]+)/embed/?$\";s:36:\"index.php?tag=$matches[1]&embed=true\";s:32:\"tag/([^/]+)/page/?([0-9]{1,})/?$\";s:43:\"index.php?tag=$matches[1]&paged=$matches[2]\";s:14:\"tag/([^/]+)/?$\";s:25:\"index.php?tag=$matches[1]\";s:45:\"type/([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$\";s:50:\"index.php?post_format=$matches[1]&feed=$matches[2]\";s:40:\"type/([^/]+)/(feed|rdf|rss|rss2|atom)/?$\";s:50:\"index.php?post_format=$matches[1]&feed=$matches[2]\";s:21:\"type/([^/]+)/embed/?$\";s:44:\"index.php?post_format=$matches[1]&embed=true\";s:33:\"type/([^/]+)/page/?([0-9]{1,})/?$\";s:51:\"index.php?post_format=$matches[1]&paged=$matches[2]\";s:15:\"type/([^/]+)/?$\";s:33:\"index.php?post_format=$matches[1]\";s:12:\"robots\\.txt$\";s:18:\"index.php?robots=1\";s:13:\"favicon\\.ico$\";s:19:\"index.php?favicon=1\";s:48:\".*wp-(atom|rdf|rss|rss2|feed|commentsrss2)\\.php$\";s:18:\"index.php?feed=old\";s:20:\".*wp-app\\.php(/.*)?$\";s:19:\"index.php?error=403\";s:18:\".*wp-register.php$\";s:23:\"index.php?register=true\";s:32:\"feed/(feed|rdf|rss|rss2|atom)/?$\";s:27:\"index.php?&feed=$matches[1]\";s:27:\"(feed|rdf|rss|rss2|atom)/?$\";s:27:\"index.php?&feed=$matches[1]\";s:8:\"embed/?$\";s:21:\"index.php?&embed=true\";s:20:\"page/?([0-9]{1,})/?$\";s:28:\"index.php?&paged=$matches[1]\";s:27:\"comment-page-([0-9]{1,})/?$\";s:39:\"index.php?&page_id=18&cpage=$matches[1]\";s:41:\"comments/feed/(feed|rdf|rss|rss2|atom)/?$\";s:42:\"index.php?&feed=$matches[1]&withcomments=1\";s:36:\"comments/(feed|rdf|rss|rss2|atom)/?$\";s:42:\"index.php?&feed=$matches[1]&withcomments=1\";s:17:\"comments/embed/?$\";s:21:\"index.php?&embed=true\";s:44:\"search/(.+)/feed/(feed|rdf|rss|rss2|atom)/?$\";s:40:\"index.php?s=$matches[1]&feed=$matches[2]\";s:39:\"search/(.+)/(feed|rdf|rss|rss2|atom)/?$\";s:40:\"index.php?s=$matches[1]&feed=$matches[2]\";s:20:\"search/(.+)/embed/?$\";s:34:\"index.php?s=$matches[1]&embed=true\";s:32:\"search/(.+)/page/?([0-9]{1,})/?$\";s:41:\"index.php?s=$matches[1]&paged=$matches[2]\";s:14:\"search/(.+)/?$\";s:23:\"index.php?s=$matches[1]\";s:47:\"author/([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$\";s:50:\"index.php?author_name=$matches[1]&feed=$matches[2]\";s:42:\"author/([^/]+)/(feed|rdf|rss|rss2|atom)/?$\";s:50:\"index.php?author_name=$matches[1]&feed=$matches[2]\";s:23:\"author/([^/]+)/embed/?$\";s:44:\"index.php?author_name=$matches[1]&embed=true\";s:35:\"author/([^/]+)/page/?([0-9]{1,})/?$\";s:51:\"index.php?author_name=$matches[1]&paged=$matches[2]\";s:17:\"author/([^/]+)/?$\";s:33:\"index.php?author_name=$matches[1]\";s:69:\"([0-9]{4})/([0-9]{1,2})/([0-9]{1,2})/feed/(feed|rdf|rss|rss2|atom)/?$\";s:80:\"index.php?year=$matches[1]&monthnum=$matches[2]&day=$matches[3]&feed=$matches[4]\";s:64:\"([0-9]{4})/([0-9]{1,2})/([0-9]{1,2})/(feed|rdf|rss|rss2|atom)/?$\";s:80:\"index.php?year=$matches[1]&monthnum=$matches[2]&day=$matches[3]&feed=$matches[4]\";s:45:\"([0-9]{4})/([0-9]{1,2})/([0-9]{1,2})/embed/?$\";s:74:\"index.php?year=$matches[1]&monthnum=$matches[2]&day=$matches[3]&embed=true\";s:57:\"([0-9]{4})/([0-9]{1,2})/([0-9]{1,2})/page/?([0-9]{1,})/?$\";s:81:\"index.php?year=$matches[1]&monthnum=$matches[2]&day=$matches[3]&paged=$matches[4]\";s:39:\"([0-9]{4})/([0-9]{1,2})/([0-9]{1,2})/?$\";s:63:\"index.php?year=$matches[1]&monthnum=$matches[2]&day=$matches[3]\";s:56:\"([0-9]{4})/([0-9]{1,2})/feed/(feed|rdf|rss|rss2|atom)/?$\";s:64:\"index.php?year=$matches[1]&monthnum=$matches[2]&feed=$matches[3]\";s:51:\"([0-9]{4})/([0-9]{1,2})/(feed|rdf|rss|rss2|atom)/?$\";s:64:\"index.php?year=$matches[1]&monthnum=$matches[2]&feed=$matches[3]\";s:32:\"([0-9]{4})/([0-9]{1,2})/embed/?$\";s:58:\"index.php?year=$matches[1]&monthnum=$matches[2]&embed=true\";s:44:\"([0-9]{4})/([0-9]{1,2})/page/?([0-9]{1,})/?$\";s:65:\"index.php?year=$matches[1]&monthnum=$matches[2]&paged=$matches[3]\";s:26:\"([0-9]{4})/([0-9]{1,2})/?$\";s:47:\"index.php?year=$matches[1]&monthnum=$matches[2]\";s:43:\"([0-9]{4})/feed/(feed|rdf|rss|rss2|atom)/?$\";s:43:\"index.php?year=$matches[1]&feed=$matches[2]\";s:38:\"([0-9]{4})/(feed|rdf|rss|rss2|atom)/?$\";s:43:\"index.php?year=$matches[1]&feed=$matches[2]\";s:19:\"([0-9]{4})/embed/?$\";s:37:\"index.php?year=$matches[1]&embed=true\";s:31:\"([0-9]{4})/page/?([0-9]{1,})/?$\";s:44:\"index.php?year=$matches[1]&paged=$matches[2]\";s:13:\"([0-9]{4})/?$\";s:26:\"index.php?year=$matches[1]\";s:27:\".?.+?/attachment/([^/]+)/?$\";s:32:\"index.php?attachment=$matches[1]\";s:37:\".?.+?/attachment/([^/]+)/trackback/?$\";s:37:\"index.php?attachment=$matches[1]&tb=1\";s:57:\".?.+?/attachment/([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$\";s:49:\"index.php?attachment=$matches[1]&feed=$matches[2]\";s:52:\".?.+?/attachment/([^/]+)/(feed|rdf|rss|rss2|atom)/?$\";s:49:\"index.php?attachment=$matches[1]&feed=$matches[2]\";s:52:\".?.+?/attachment/([^/]+)/comment-page-([0-9]{1,})/?$\";s:50:\"index.php?attachment=$matches[1]&cpage=$matches[2]\";s:33:\".?.+?/attachment/([^/]+)/embed/?$\";s:43:\"index.php?attachment=$matches[1]&embed=true\";s:16:\"(.?.+?)/embed/?$\";s:41:\"index.php?pagename=$matches[1]&embed=true\";s:20:\"(.?.+?)/trackback/?$\";s:35:\"index.php?pagename=$matches[1]&tb=1\";s:40:\"(.?.+?)/feed/(feed|rdf|rss|rss2|atom)/?$\";s:47:\"index.php?pagename=$matches[1]&feed=$matches[2]\";s:35:\"(.?.+?)/(feed|rdf|rss|rss2|atom)/?$\";s:47:\"index.php?pagename=$matches[1]&feed=$matches[2]\";s:28:\"(.?.+?)/page/?([0-9]{1,})/?$\";s:48:\"index.php?pagename=$matches[1]&paged=$matches[2]\";s:35:\"(.?.+?)/comment-page-([0-9]{1,})/?$\";s:48:\"index.php?pagename=$matches[1]&cpage=$matches[2]\";s:24:\"(.?.+?)(?:/([0-9]+))?/?$\";s:47:\"index.php?pagename=$matches[1]&page=$matches[2]\";s:27:\"[^/]+/attachment/([^/]+)/?$\";s:32:\"index.php?attachment=$matches[1]\";s:37:\"[^/]+/attachment/([^/]+)/trackback/?$\";s:37:\"index.php?attachment=$matches[1]&tb=1\";s:57:\"[^/]+/attachment/([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$\";s:49:\"index.php?attachment=$matches[1]&feed=$matches[2]\";s:52:\"[^/]+/attachment/([^/]+)/(feed|rdf|rss|rss2|atom)/?$\";s:49:\"index.php?attachment=$matches[1]&feed=$matches[2]\";s:52:\"[^/]+/attachment/([^/]+)/comment-page-([0-9]{1,})/?$\";s:50:\"index.php?attachment=$matches[1]&cpage=$matches[2]\";s:33:\"[^/]+/attachment/([^/]+)/embed/?$\";s:43:\"index.php?attachment=$matches[1]&embed=true\";s:16:\"([^/]+)/embed/?$\";s:37:\"index.php?name=$matches[1]&embed=true\";s:20:\"([^/]+)/trackback/?$\";s:31:\"index.php?name=$matches[1]&tb=1\";s:40:\"([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$\";s:43:\"index.php?name=$matches[1]&feed=$matches[2]\";s:35:\"([^/]+)/(feed|rdf|rss|rss2|atom)/?$\";s:43:\"index.php?name=$matches[1]&feed=$matches[2]\";s:28:\"([^/]+)/page/?([0-9]{1,})/?$\";s:44:\"index.php?name=$matches[1]&paged=$matches[2]\";s:35:\"([^/]+)/comment-page-([0-9]{1,})/?$\";s:44:\"index.php?name=$matches[1]&cpage=$matches[2]\";s:24:\"([^/]+)(?:/([0-9]+))?/?$\";s:43:\"index.php?name=$matches[1]&page=$matches[2]\";s:16:\"[^/]+/([^/]+)/?$\";s:32:\"index.php?attachment=$matches[1]\";s:26:\"[^/]+/([^/]+)/trackback/?$\";s:37:\"index.php?attachment=$matches[1]&tb=1\";s:46:\"[^/]+/([^/]+)/feed/(feed|rdf|rss|rss2|atom)/?$\";s:49:\"index.php?attachment=$matches[1]&feed=$matches[2]\";s:41:\"[^/]+/([^/]+)/(feed|rdf|rss|rss2|atom)/?$\";s:49:\"index.php?attachment=$matches[1]&feed=$matches[2]\";s:41:\"[^/]+/([^/]+)/comment-page-([0-9]{1,})/?$\";s:50:\"index.php?attachment=$matches[1]&cpage=$matches[2]\";s:22:\"[^/]+/([^/]+)/embed/?$\";s:43:\"index.php?attachment=$matches[1]&embed=true\";}','yes');
 INSERT INTO `wp_options` VALUES (30,'hack_file','0','yes');
 INSERT INTO `wp_options` VALUES (31,'blog_charset','UTF-8','yes');
@@ -347,6 +364,7 @@ INSERT INTO `wp_options` VALUES (32,'moderation_keys','','no');
 INSERT INTO `wp_options` VALUES (33,'active_plugins','a:6:{i:0;s:36:\"contact-form-7/wp-contact-form-7.php\";i:1;s:39:\"disable-gutenberg/disable-gutenberg.php\";i:2;s:41:\"ignaser_post_types/ignaser_post_types.php\";i:3;s:23:\"mobile-menu/mobmenu.php\";i:4;s:29:\"mystickymenu/mystickymenu.php\";i:5;s:47:\"regenerate-thumbnails/regenerate-thumbnails.php\";}','yes');
 >>>>>>> 36e0a78c6bd577816991e618fe24ddfbd46a27fe
 >>>>>>> c7570b01d67e20427c1cb5f437b5c7b5d2cd404b
+>>>>>>> d9d4cb3a396d18fc6a8ef2edcd40f8c0a1f0a7b5
 INSERT INTO `wp_options` VALUES (34,'category_base','','yes');
 INSERT INTO `wp_options` VALUES (35,'ping_sites','http://rpc.pingomatic.com/','yes');
 INSERT INTO `wp_options` VALUES (36,'comment_max_links','2','yes');
@@ -422,6 +440,9 @@ INSERT INTO `wp_options` VALUES (105,'widget_meta','a:2:{i:2;a:1:{s:5:\"title\";
 <<<<<<< HEAD
 INSERT INTO `wp_options` VALUES (106,'sidebars_widgets','a:2:{s:19:\"wp_inactive_widgets\";a:6:{i:0;s:8:\"search-2\";i:1;s:14:\"recent-posts-2\";i:2;s:17:\"recent-comments-2\";i:3;s:10:\"archives-2\";i:4;s:12:\"categories-2\";i:5;s:6:\"meta-2\";}s:13:\"array_version\";i:3;}','yes');
 <<<<<<< HEAD
+INSERT INTO `wp_options` VALUES (107,'cron','a:10:{i:1613751032;a:1:{s:34:\"wp_privacy_delete_old_export_files\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"hourly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:3600;}}}i:1613751951;a:1:{s:33:\"wc_admin_process_orders_milestone\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"hourly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:3600;}}}i:1613751992;a:1:{s:29:\"wc_admin_unsnooze_admin_notes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"hourly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:3600;}}}i:1613769032;a:3:{s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1613812232;a:1:{s:32:\"recovery_mode_clean_expired_keys\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1613812293;a:2:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}s:25:\"delete_expired_transients\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1613812294;a:1:{s:30:\"wp_scheduled_auto_draft_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1613813151;a:1:{s:14:\"wc_admin_daily\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1613898632;a:1:{s:30:\"wp_site_health_scheduled_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"weekly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:604800;}}}s:7:\"version\";i:2;}','yes');
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 INSERT INTO `wp_options` VALUES (107,'cron','a:7:{i:1612797032;a:1:{s:34:\"wp_privacy_delete_old_export_files\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"hourly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:3600;}}}i:1612818632;a:3:{s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1612861832;a:1:{s:32:\"recovery_mode_clean_expired_keys\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1612861893;a:2:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}s:25:\"delete_expired_transients\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1612861894;a:1:{s:30:\"wp_scheduled_auto_draft_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1613293832;a:1:{s:30:\"wp_site_health_scheduled_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"weekly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:604800;}}}s:7:\"version\";i:2;}','yes');
 =======
@@ -434,6 +455,7 @@ INSERT INTO `wp_options` VALUES (106,'sidebars_widgets','a:9:{s:19:\"wp_inactive
 INSERT INTO `wp_options` VALUES (107,'cron','a:7:{i:1613577086;a:1:{s:34:\"wp_privacy_delete_old_export_files\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"hourly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:3600;}}}i:1613595086;a:3:{s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1613638285;a:1:{s:32:\"recovery_mode_clean_expired_keys\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1613638434;a:2:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}s:25:\"delete_expired_transients\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1613638435;a:1:{s:30:\"wp_scheduled_auto_draft_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1613897485;a:1:{s:30:\"wp_site_health_scheduled_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:6:\"weekly\";s:4:\"args\";a:0:{}s:8:\"interval\";i:604800;}}}s:7:\"version\";i:2;}','yes');
 >>>>>>> 36e0a78c6bd577816991e618fe24ddfbd46a27fe
 >>>>>>> c7570b01d67e20427c1cb5f437b5c7b5d2cd404b
+>>>>>>> d9d4cb3a396d18fc6a8ef2edcd40f8c0a1f0a7b5
 INSERT INTO `wp_options` VALUES (108,'widget_pages','a:1:{s:12:\"_multiwidget\";i:1;}','yes');
 INSERT INTO `wp_options` VALUES (109,'widget_calendar','a:1:{s:12:\"_multiwidget\";i:1;}','yes');
 INSERT INTO `wp_options` VALUES (110,'widget_media_audio','a:1:{s:12:\"_multiwidget\";i:1;}','yes');
@@ -447,6 +469,10 @@ INSERT INTO `wp_options` VALUES (117,'widget_nav_menu','a:1:{s:12:\"_multiwidget
 INSERT INTO `wp_options` VALUES (118,'widget_custom_html','a:1:{s:12:\"_multiwidget\";i:1;}','yes');
 INSERT INTO `wp_options` VALUES (120,'recovery_keys','a:0:{}','yes');
 <<<<<<< HEAD
+INSERT INTO `wp_options` VALUES (121,'_site_transient_update_core','O:8:\"stdClass\":4:{s:7:\"updates\";a:1:{i:0;O:8:\"stdClass\":10:{s:8:\"response\";s:6:\"latest\";s:8:\"download\";s:59:\"https://downloads.wordpress.org/release/wordpress-5.6.1.zip\";s:6:\"locale\";s:5:\"en_US\";s:8:\"packages\";O:8:\"stdClass\":5:{s:4:\"full\";s:59:\"https://downloads.wordpress.org/release/wordpress-5.6.1.zip\";s:10:\"no_content\";s:70:\"https://downloads.wordpress.org/release/wordpress-5.6.1-no-content.zip\";s:11:\"new_bundled\";s:71:\"https://downloads.wordpress.org/release/wordpress-5.6.1-new-bundled.zip\";s:7:\"partial\";s:0:\"\";s:8:\"rollback\";s:0:\"\";}s:7:\"current\";s:5:\"5.6.1\";s:7:\"version\";s:5:\"5.6.1\";s:11:\"php_version\";s:6:\"5.6.20\";s:13:\"mysql_version\";s:3:\"5.0\";s:11:\"new_bundled\";s:3:\"5.6\";s:15:\"partial_version\";s:0:\"\";}}s:12:\"last_checked\";i:1613750759;s:15:\"version_checked\";s:5:\"5.6.1\";s:12:\"translations\";a:0:{}}','no');
+INSERT INTO `wp_options` VALUES (126,'_site_transient_update_themes','O:8:\"stdClass\":5:{s:12:\"last_checked\";i:1613750761;s:7:\"checked\";a:1:{s:7:\"ignaweb\";s:3:\"1.0\";}s:8:\"response\";a:0:{}s:9:\"no_update\";a:0:{}s:12:\"translations\";a:0:{}}','no');
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 INSERT INTO `wp_options` VALUES (121,'_site_transient_update_core','O:8:\"stdClass\":4:{s:7:\"updates\";a:1:{i:0;O:8:\"stdClass\":10:{s:8:\"response\";s:6:\"latest\";s:8:\"download\";s:59:\"https://downloads.wordpress.org/release/wordpress-5.6.1.zip\";s:6:\"locale\";s:5:\"en_US\";s:8:\"packages\";O:8:\"stdClass\":5:{s:4:\"full\";s:59:\"https://downloads.wordpress.org/release/wordpress-5.6.1.zip\";s:10:\"no_content\";s:70:\"https://downloads.wordpress.org/release/wordpress-5.6.1-no-content.zip\";s:11:\"new_bundled\";s:71:\"https://downloads.wordpress.org/release/wordpress-5.6.1-new-bundled.zip\";s:7:\"partial\";s:0:\"\";s:8:\"rollback\";s:0:\"\";}s:7:\"current\";s:5:\"5.6.1\";s:7:\"version\";s:5:\"5.6.1\";s:11:\"php_version\";s:6:\"5.6.20\";s:13:\"mysql_version\";s:3:\"5.0\";s:11:\"new_bundled\";s:3:\"5.6\";s:15:\"partial_version\";s:0:\"\";}}s:12:\"last_checked\";i:1612775824;s:15:\"version_checked\";s:5:\"5.6.1\";s:12:\"translations\";a:0:{}}','no');
 INSERT INTO `wp_options` VALUES (126,'_site_transient_update_themes','O:8:\"stdClass\":5:{s:12:\"last_checked\";i:1612775825;s:7:\"checked\";a:1:{s:7:\"ignaweb\";s:3:\"1.0\";}s:8:\"response\";a:0:{}s:9:\"no_update\";a:0:{}s:12:\"translations\";a:0:{}}','no');
@@ -458,12 +484,15 @@ INSERT INTO `wp_options` VALUES (130,'_site_transient_php_check_472f71d2a071d463
 INSERT INTO `wp_options` VALUES (121,'_site_transient_update_core','O:8:\"stdClass\":4:{s:7:\"updates\";a:1:{i:0;O:8:\"stdClass\":10:{s:8:\"response\";s:6:\"latest\";s:8:\"download\";s:59:\"https://downloads.wordpress.org/release/wordpress-5.6.1.zip\";s:6:\"locale\";s:5:\"en_US\";s:8:\"packages\";O:8:\"stdClass\":5:{s:4:\"full\";s:59:\"https://downloads.wordpress.org/release/wordpress-5.6.1.zip\";s:10:\"no_content\";s:70:\"https://downloads.wordpress.org/release/wordpress-5.6.1-no-content.zip\";s:11:\"new_bundled\";s:71:\"https://downloads.wordpress.org/release/wordpress-5.6.1-new-bundled.zip\";s:7:\"partial\";s:0:\"\";s:8:\"rollback\";s:0:\"\";}s:7:\"current\";s:5:\"5.6.1\";s:7:\"version\";s:5:\"5.6.1\";s:11:\"php_version\";s:6:\"5.6.20\";s:13:\"mysql_version\";s:3:\"5.0\";s:11:\"new_bundled\";s:3:\"5.6\";s:15:\"partial_version\";s:0:\"\";}}s:12:\"last_checked\";i:1613585086;s:15:\"version_checked\";s:5:\"5.6.1\";s:12:\"translations\";a:0:{}}','no');
 INSERT INTO `wp_options` VALUES (126,'_site_transient_update_themes','O:8:\"stdClass\":5:{s:12:\"last_checked\";i:1613585096;s:7:\"checked\";a:1:{s:7:\"ignaweb\";s:3:\"1.0\";}s:8:\"response\";a:0:{}s:9:\"no_update\";a:0:{}s:12:\"translations\";a:0:{}}','no');
 >>>>>>> c7570b01d67e20427c1cb5f437b5c7b5d2cd404b
+>>>>>>> d9d4cb3a396d18fc6a8ef2edcd40f8c0a1f0a7b5
 INSERT INTO `wp_options` VALUES (132,'can_compress_scripts','0','no');
 INSERT INTO `wp_options` VALUES (147,'finished_updating_comment_type','1','yes');
 INSERT INTO `wp_options` VALUES (148,'theme_mods_twentytwentyone','a:1:{s:16:\"sidebars_widgets\";a:2:{s:4:\"time\";i:1612602944;s:4:\"data\";a:3:{s:19:\"wp_inactive_widgets\";a:0:{}s:9:\"sidebar-1\";a:3:{i:0;s:8:\"search-2\";i:1;s:14:\"recent-posts-2\";i:2;s:17:\"recent-comments-2\";}s:9:\"sidebar-2\";a:3:{i:0;s:10:\"archives-2\";i:1;s:12:\"categories-2\";i:2;s:6:\"meta-2\";}}}}','yes');
 INSERT INTO `wp_options` VALUES (149,'current_theme','','yes');
 INSERT INTO `wp_options` VALUES (150,'theme_mods_ignaweb','a:3:{i:0;b:0;s:18:\"nav_menu_locations\";a:0:{}s:18:\"custom_css_post_id\";i:-1;}','yes');
 INSERT INTO `wp_options` VALUES (151,'theme_switched','','yes');
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 INSERT INTO `wp_options` VALUES (152,'recently_activated','a:1:{s:81:\"image-horizontal-reel-scroll-slideshow/image-horizontal-reel-scroll-slideshow.php\";i:1612717776;}','yes');
 INSERT INTO `wp_options` VALUES (184,'_transient_health-check-site-status-result','{\"good\":12,\"recommended\":6,\"critical\":1}','yes');
@@ -479,6 +508,7 @@ INSERT INTO `wp_options` VALUES (128,'_site_transient_browser_2607c2eebd0c96746b
 INSERT INTO `wp_options` VALUES (129,'_site_transient_timeout_php_check_472f71d2a071d463a95f84346288dc89','1613206435','no');
 INSERT INTO `wp_options` VALUES (130,'_site_transient_php_check_472f71d2a071d463a95f84346288dc89','a:5:{s:19:\"recommended_version\";s:3:\"7.4\";s:15:\"minimum_version\";s:6:\"5.6.20\";s:12:\"is_supported\";b:1;s:9:\"is_secure\";b:1;s:13:\"is_acceptable\";b:1;}','no');
 =======
+>>>>>>> d9d4cb3a396d18fc6a8ef2edcd40f8c0a1f0a7b5
 INSERT INTO `wp_options` VALUES (152,'recently_activated','a:1:{s:27:\"woocommerce/woocommerce.php\";i:1613382375;}','yes');
 INSERT INTO `wp_options` VALUES (184,'_transient_health-check-site-status-result','{\"good\":\"12\",\"recommended\":\"6\",\"critical\":\"1\"}','yes');
 INSERT INTO `wp_options` VALUES (194,'acf_version','5.9.5','yes');
@@ -669,8 +699,11 @@ INSERT INTO `wp_options` VALUES (585,'_transient_wc_report_orders_stats_3e2634cf
 INSERT INTO `wp_options` VALUES (586,'woocommerce_task_list_welcome_modal_dismissed','yes','yes');
 INSERT INTO `wp_options` VALUES (587,'_transient_timeout_wc_report_customers_stats_5ff75cebf84d86c9115c2c6a07ac292c','1613985991','no');
 INSERT INTO `wp_options` VALUES (588,'_transient_wc_report_customers_stats_5ff75cebf84d86c9115c2c6a07ac292c','a:2:{s:7:\"version\";s:10:\"1613381152\";s:5:\"value\";O:8:\"stdClass\":4:{s:15:\"customers_count\";i:0;s:16:\"avg_orders_count\";d:0;s:15:\"avg_total_spend\";d:0;s:19:\"avg_avg_order_value\";d:0;}}','no');
+<<<<<<< HEAD
+=======
 INSERT INTO `wp_options` VALUES (591,'_transient_timeout_wc_marketing_recommended_plugins','1613640395','no');
 INSERT INTO `wp_options` VALUES (592,'_transient_wc_marketing_recommended_plugins','a:12:{i:0;a:7:{s:5:\"title\";s:11:\"AutomateWoo\";s:11:\"description\";s:86:\"Convert and retain customers with automated marketing that does the hard work for you.\";s:3:\"url\";s:110:\"https://woocommerce.com/products/automatewoo/?utm_source=marketingtab&utm_medium=product&utm_campaign=wcaddons\";s:4:\"icon\";s:101:\"https://woocommerce.com/wp-content/plugins/wccom-plugins/marketing-tab-rest-api/icons/automatewoo.svg\";s:7:\"product\";s:11:\"automatewoo\";s:6:\"plugin\";s:27:\"automatewoo/automatewoo.php\";s:10:\"categories\";a:1:{i:0;s:9:\"marketing\";}}i:1;a:7:{s:5:\"title\";s:25:\"Mailchimp for WooCommerce\";s:11:\"description\";s:73:\"Send targeted campaigns, recover abandoned carts and more with Mailchimp.\";s:3:\"url\";s:124:\"https://woocommerce.com/products/mailchimp-for-woocommerce/?utm_source=marketingtab&utm_medium=product&utm_campaign=wcaddons\";s:4:\"icon\";s:99:\"https://woocommerce.com/wp-content/plugins/wccom-plugins/marketing-tab-rest-api/icons/mailchimp.svg\";s:7:\"product\";s:25:\"mailchimp-for-woocommerce\";s:6:\"plugin\";s:51:\"mailchimp-for-woocommerce/mailchimp-woocommerce.php\";s:10:\"categories\";a:1:{i:0;s:9:\"marketing\";}}i:2;a:7:{s:5:\"title\";s:24:\"Facebook for WooCommerce\";s:11:\"description\";s:79:\"Grow your business by targeting the right people & driving sales with Facebook.\";s:3:\"url\";s:107:\"https://woocommerce.com/products/facebook/?utm_source=marketingtab&utm_medium=product&utm_campaign=wcaddons\";s:4:\"icon\";s:98:\"https://woocommerce.com/wp-content/plugins/wccom-plugins/marketing-tab-rest-api/icons/facebook.svg\";s:7:\"product\";s:8:\"facebook\";s:6:\"plugin\";s:53:\"facebook-for-woocommerce/facebook-for-woocommerce.php\";s:10:\"categories\";a:1:{i:0;s:9:\"marketing\";}}i:3;a:7:{s:5:\"title\";s:32:\"Google Ads & Marketing by Kliken\";s:11:\"description\";s:121:\"Get in front of shoppers and drive traffic so you can grow your business with Smart Shopping Campaigns and free listings.\";s:3:\"url\";s:109:\"https://woocommerce.com/products/google-ads/?utm_source=marketingtab&utm_medium=product&utm_campaign=wcaddons\";s:4:\"icon\";s:100:\"https://woocommerce.com/wp-content/plugins/wccom-plugins/marketing-tab-rest-api/icons/google-ads.svg\";s:7:\"product\";s:10:\"google-ads\";s:6:\"plugin\";s:59:\"kliken-marketing-for-google/kliken-marketing-for-google.php\";s:10:\"categories\";a:1:{i:0;s:9:\"marketing\";}}i:4;a:7:{s:5:\"title\";s:23:\"HubSpot for WooCommerce\";s:11:\"description\";s:76:\"Grow traffic, convert leads, close deals, and turn customers into promoters.\";s:3:\"url\";s:122:\"https://woocommerce.com/products/hubspot-for-woocommerce/?utm_source=marketingtab&utm_medium=product&utm_campaign=wcaddons\";s:4:\"icon\";s:97:\"https://woocommerce.com/wp-content/plugins/wccom-plugins/marketing-tab-rest-api/icons/hubspot.svg\";s:7:\"product\";s:23:\"hubspot-for-woocommerce\";s:6:\"plugin\";s:51:\"hubspot-for-woocommerce/hubspot-for-woocommerce.php\";s:10:\"categories\";a:1:{i:0;s:9:\"marketing\";}}i:5;a:7:{s:5:\"title\";s:41:\"Amazon & eBay Integration for WooCommerce\";s:11:\"description\";s:75:\"List your entire WooCommerce product catalog on Amazon and eBay in minutes.\";s:3:\"url\";s:122:\"https://woocommerce.com/products/amazon-ebay-integration/?utm_source=marketingtab&utm_medium=product&utm_campaign=wcaddons\";s:4:\"icon\";s:101:\"https://woocommerce.com/wp-content/plugins/wccom-plugins/marketing-tab-rest-api/icons/amazon-ebay.svg\";s:7:\"product\";s:23:\"amazon-ebay-integration\";s:6:\"plugin\";s:75:\"woocommerce-amazon-ebay-integration/woocommerce-amazon-ebay-integration.php\";s:10:\"categories\";a:1:{i:0;s:9:\"marketing\";}}i:6;a:7:{s:5:\"title\";s:20:\"Personalized Coupons\";s:11:\"description\";s:86:\"Generate dynamic personalized coupons for your customers that increase purchase rates.\";s:3:\"url\";s:110:\"https://woocommerce.com/products/automatewoo/?utm_source=marketingtab&utm_medium=product&utm_campaign=wcaddons\";s:4:\"icon\";s:122:\"https://woocommerce.com/wp-content/plugins/wccom-plugins/marketing-tab-rest-api/icons/automatewoo-personalized-coupons.svg\";s:7:\"product\";s:11:\"automatewoo\";s:6:\"plugin\";s:27:\"automatewoo/automatewoo.php\";s:10:\"categories\";a:1:{i:0;s:7:\"coupons\";}}i:7;a:7:{s:5:\"title\";s:13:\"Smart Coupons\";s:11:\"description\";s:100:\"Powerful, \"all in one\" solution for gift certificates, store credits, discount coupons and vouchers.\";s:3:\"url\";s:112:\"https://woocommerce.com/products/smart-coupons/?utm_source=marketingtab&utm_medium=product&utm_campaign=wcaddons\";s:4:\"icon\";s:115:\"https://woocommerce.com/wp-content/plugins/wccom-plugins/marketing-tab-rest-api/icons/woocommerce-smart-coupons.svg\";s:7:\"product\";s:25:\"woocommerce-smart-coupons\";s:6:\"plugin\";s:55:\"woocommerce-smart-coupons/woocommerce-smart-coupons.php\";s:10:\"categories\";a:1:{i:0;s:7:\"coupons\";}}i:8;a:7:{s:5:\"title\";s:11:\"URL Coupons\";s:11:\"description\";s:108:\"Create a unique URL that applies a discount and optionally adds one or more products to the customer\'s cart.\";s:3:\"url\";s:110:\"https://woocommerce.com/products/url-coupons/?utm_source=marketingtab&utm_medium=product&utm_campaign=wcaddons\";s:4:\"icon\";s:113:\"https://woocommerce.com/wp-content/plugins/wccom-plugins/marketing-tab-rest-api/icons/woocommerce-url-coupons.svg\";s:7:\"product\";s:23:\"woocommerce-url-coupons\";s:6:\"plugin\";s:51:\"woocommerce-url-coupons/woocommerce-url-coupons.php\";s:10:\"categories\";a:1:{i:0;s:7:\"coupons\";}}i:9;a:7:{s:5:\"title\";s:24:\"WooCommerce Store Credit\";s:11:\"description\";s:77:\"Create \"store credit\" coupons for customers which are redeemable at checkout.\";s:3:\"url\";s:111:\"https://woocommerce.com/products/store-credit/?utm_source=marketingtab&utm_medium=product&utm_campaign=wcaddons\";s:4:\"icon\";s:114:\"https://woocommerce.com/wp-content/plugins/wccom-plugins/marketing-tab-rest-api/icons/woocommerce-store-credit.svg\";s:7:\"product\";s:24:\"woocommerce-store-credit\";s:6:\"plugin\";s:53:\"woocommerce-store-credit/woocommerce-store-credit.php\";s:10:\"categories\";a:1:{i:0;s:7:\"coupons\";}}i:10;a:7:{s:5:\"title\";s:17:\"Free Gift Coupons\";s:11:\"description\";s:59:\"Give away a free item to any customer with the coupon code.\";s:3:\"url\";s:116:\"https://woocommerce.com/products/free-gift-coupons/?utm_source=marketingtab&utm_medium=product&utm_campaign=wcaddons\";s:4:\"icon\";s:119:\"https://woocommerce.com/wp-content/plugins/wccom-plugins/marketing-tab-rest-api/icons/woocommerce-free-gift-coupons.svg\";s:7:\"product\";s:29:\"woocommerce-free-gift-coupons\";s:6:\"plugin\";s:63:\"woocommerce-free-gift-coupons/woocommerce-free-gift-coupons.php\";s:10:\"categories\";a:1:{i:0;s:7:\"coupons\";}}i:11;a:7:{s:5:\"title\";s:13:\"Group Coupons\";s:11:\"description\";s:137:\"Coupons for groups. Provides the option to have coupons that are restricted to group members or roles. Works with the free Groups plugin.\";s:3:\"url\";s:112:\"https://woocommerce.com/products/group-coupons/?utm_source=marketingtab&utm_medium=product&utm_campaign=wcaddons\";s:4:\"icon\";s:115:\"https://woocommerce.com/wp-content/plugins/wccom-plugins/marketing-tab-rest-api/icons/woocommerce-group-coupons.svg\";s:7:\"product\";s:25:\"woocommerce-group-coupons\";s:6:\"plugin\";s:55:\"woocommerce-group-coupons/woocommerce-group-coupons.php\";s:10:\"categories\";a:1:{i:0;s:7:\"coupons\";}}}','no');
+>>>>>>> d9d4cb3a396d18fc6a8ef2edcd40f8c0a1f0a7b5
 INSERT INTO `wp_options` VALUES (594,'woocommerce_marketplace_suggestions','a:2:{s:11:\"suggestions\";a:26:{i:0;a:4:{s:4:\"slug\";s:28:\"product-edit-meta-tab-header\";s:7:\"context\";s:28:\"product-edit-meta-tab-header\";s:5:\"title\";s:22:\"Recommended extensions\";s:13:\"allow-dismiss\";b:0;}i:1;a:6:{s:4:\"slug\";s:39:\"product-edit-meta-tab-footer-browse-all\";s:7:\"context\";s:28:\"product-edit-meta-tab-footer\";s:9:\"link-text\";s:21:\"Browse all extensions\";s:3:\"url\";s:64:\"https://woocommerce.com/product-category/woocommerce-extensions/\";s:8:\"promoted\";s:31:\"category-woocommerce-extensions\";s:13:\"allow-dismiss\";b:0;}i:2;a:9:{s:4:\"slug\";s:46:\"product-edit-mailchimp-woocommerce-memberships\";s:7:\"product\";s:33:\"woocommerce-memberships-mailchimp\";s:14:\"show-if-active\";a:1:{i:0;s:23:\"woocommerce-memberships\";}s:7:\"context\";a:1:{i:0;s:26:\"product-edit-meta-tab-body\";}s:4:\"icon\";s:116:\"https://woocommerce.com/wp-content/plugins/wccom-plugins/marketplace-suggestions/icons/mailchimp-for-memberships.svg\";s:5:\"title\";s:25:\"Mailchimp for Memberships\";s:4:\"copy\";s:79:\"Completely automate your email lists by syncing membership changes to Mailchimp\";s:11:\"button-text\";s:10:\"Learn More\";s:3:\"url\";s:67:\"https://woocommerce.com/products/mailchimp-woocommerce-memberships/\";}i:3;a:9:{s:4:\"slug\";s:19:\"product-edit-addons\";s:7:\"product\";s:26:\"woocommerce-product-addons\";s:14:\"show-if-active\";a:2:{i:0;s:25:\"woocommerce-subscriptions\";i:1;s:20:\"woocommerce-bookings\";}s:7:\"context\";a:1:{i:0;s:26:\"product-edit-meta-tab-body\";}s:4:\"icon\";s:106:\"https://woocommerce.com/wp-content/plugins/wccom-plugins/marketplace-suggestions/icons/product-add-ons.svg\";s:5:\"title\";s:15:\"Product Add-Ons\";s:4:\"copy\";s:93:\"Offer add-ons like gift wrapping, special messages or other special options for your products\";s:11:\"button-text\";s:10:\"Learn More\";s:3:\"url\";s:49:\"https://woocommerce.com/products/product-add-ons/\";}i:4;a:9:{s:4:\"slug\";s:46:\"product-edit-woocommerce-subscriptions-gifting\";s:7:\"product\";s:33:\"woocommerce-subscriptions-gifting\";s:14:\"show-if-active\";a:1:{i:0;s:25:\"woocommerce-subscriptions\";}s:7:\"context\";a:1:{i:0;s:26:\"product-edit-meta-tab-body\";}s:4:\"icon\";s:116:\"https://woocommerce.com/wp-content/plugins/wccom-plugins/marketplace-suggestions/icons/gifting-for-subscriptions.svg\";s:5:\"title\";s:25:\"Gifting for Subscriptions\";s:4:\"copy\";s:70:\"Let customers buy subscriptions for others - they\'re the ultimate gift\";s:11:\"button-text\";s:10:\"Learn More\";s:3:\"url\";s:67:\"https://woocommerce.com/products/woocommerce-subscriptions-gifting/\";}i:5;a:9:{s:4:\"slug\";s:42:\"product-edit-teams-woocommerce-memberships\";s:7:\"product\";s:33:\"woocommerce-memberships-for-teams\";s:14:\"show-if-active\";a:1:{i:0;s:23:\"woocommerce-memberships\";}s:7:\"context\";a:1:{i:0;s:26:\"product-edit-meta-tab-body\";}s:4:\"icon\";s:112:\"https://woocommerce.com/wp-content/plugins/wccom-plugins/marketplace-suggestions/icons/teams-for-memberships.svg\";s:5:\"title\";s:21:\"Teams for Memberships\";s:4:\"copy\";s:123:\"Adds B2B functionality to WooCommerce Memberships, allowing sites to sell team, group, corporate, or family member accounts\";s:11:\"button-text\";s:10:\"Learn More\";s:3:\"url\";s:63:\"https://woocommerce.com/products/teams-woocommerce-memberships/\";}i:6;a:8:{s:4:\"slug\";s:29:\"product-edit-variation-images\";s:7:\"product\";s:39:\"woocommerce-additional-variation-images\";s:7:\"context\";a:1:{i:0;s:26:\"product-edit-meta-tab-body\";}s:4:\"icon\";s:118:\"https://woocommerce.com/wp-content/plugins/wccom-plugins/marketplace-suggestions/icons/additional-variation-images.svg\";s:5:\"title\";s:27:\"Additional Variation Images\";s:4:\"copy\";s:72:\"Showcase your products in the best light with a image for each variation\";s:11:\"button-text\";s:10:\"Learn More\";s:3:\"url\";s:73:\"https://woocommerce.com/products/woocommerce-additional-variation-images/\";}i:7;a:9:{s:4:\"slug\";s:47:\"product-edit-woocommerce-subscription-downloads\";s:7:\"product\";s:34:\"woocommerce-subscription-downloads\";s:14:\"show-if-active\";a:1:{i:0;s:25:\"woocommerce-subscriptions\";}s:7:\"context\";a:1:{i:0;s:26:\"product-edit-meta-tab-body\";}s:4:\"icon\";s:113:\"https://woocommerce.com/wp-content/plugins/wccom-plugins/marketplace-suggestions/icons/subscription-downloads.svg\";s:5:\"title\";s:22:\"Subscription Downloads\";s:4:\"copy\";s:57:\"Give customers special downloads with their subscriptions\";s:11:\"button-text\";s:10:\"Learn More\";s:3:\"url\";s:68:\"https://woocommerce.com/products/woocommerce-subscription-downloads/\";}i:8;a:8:{s:4:\"slug\";s:31:\"product-edit-min-max-quantities\";s:7:\"product\";s:30:\"woocommerce-min-max-quantities\";s:7:\"context\";a:1:{i:0;s:26:\"product-edit-meta-tab-body\";}s:4:\"icon\";s:109:\"https://woocommerce.com/wp-content/plugins/wccom-plugins/marketplace-suggestions/icons/min-max-quantities.svg\";s:5:\"title\";s:18:\"Min/Max Quantities\";s:4:\"copy\";s:81:\"Specify minimum and maximum allowed product quantities for orders to be completed\";s:11:\"button-text\";s:10:\"Learn More\";s:3:\"url\";s:52:\"https://woocommerce.com/products/min-max-quantities/\";}i:9;a:8:{s:4:\"slug\";s:28:\"product-edit-name-your-price\";s:7:\"product\";s:27:\"woocommerce-name-your-price\";s:7:\"context\";a:1:{i:0;s:26:\"product-edit-meta-tab-body\";}s:4:\"icon\";s:106:\"https://woocommerce.com/wp-content/plugins/wccom-plugins/marketplace-suggestions/icons/name-your-price.svg\";s:5:\"title\";s:15:\"Name Your Price\";s:4:\"copy\";s:70:\"Let customers pay what they want - useful for donations, tips and more\";s:11:\"button-text\";s:10:\"Learn More\";s:3:\"url\";s:49:\"https://woocommerce.com/products/name-your-price/\";}i:10;a:8:{s:4:\"slug\";s:42:\"product-edit-woocommerce-one-page-checkout\";s:7:\"product\";s:29:\"woocommerce-one-page-checkout\";s:7:\"context\";a:1:{i:0;s:26:\"product-edit-meta-tab-body\";}s:4:\"icon\";s:108:\"https://woocommerce.com/wp-content/plugins/wccom-plugins/marketplace-suggestions/icons/one-page-checkout.svg\";s:5:\"title\";s:17:\"One Page Checkout\";s:4:\"copy\";s:92:\"Don\'t make customers click around - let them choose products, checkout & pay all on one page\";s:11:\"button-text\";s:10:\"Learn More\";s:3:\"url\";s:63:\"https://woocommerce.com/products/woocommerce-one-page-checkout/\";}i:11;a:4:{s:4:\"slug\";s:19:\"orders-empty-header\";s:7:\"context\";s:24:\"orders-list-empty-header\";s:5:\"title\";s:20:\"Tools for your store\";s:13:\"allow-dismiss\";b:0;}i:12;a:6:{s:4:\"slug\";s:30:\"orders-empty-footer-browse-all\";s:7:\"context\";s:24:\"orders-list-empty-footer\";s:9:\"link-text\";s:21:\"Browse all extensions\";s:3:\"url\";s:64:\"https://woocommerce.com/product-category/woocommerce-extensions/\";s:8:\"promoted\";s:31:\"category-woocommerce-extensions\";s:13:\"allow-dismiss\";b:0;}i:13;a:8:{s:4:\"slug\";s:19:\"orders-empty-zapier\";s:7:\"context\";s:22:\"orders-list-empty-body\";s:7:\"product\";s:18:\"woocommerce-zapier\";s:4:\"icon\";s:97:\"https://woocommerce.com/wp-content/plugins/wccom-plugins/marketplace-suggestions/icons/zapier.svg\";s:5:\"title\";s:6:\"Zapier\";s:4:\"copy\";s:88:\"Save time and increase productivity by connecting your store to more than 1000+ services\";s:11:\"button-text\";s:10:\"Learn More\";s:3:\"url\";s:52:\"https://woocommerce.com/products/woocommerce-zapier/\";}i:14;a:8:{s:4:\"slug\";s:30:\"orders-empty-shipment-tracking\";s:7:\"context\";s:22:\"orders-list-empty-body\";s:7:\"product\";s:29:\"woocommerce-shipment-tracking\";s:4:\"icon\";s:108:\"https://woocommerce.com/wp-content/plugins/wccom-plugins/marketplace-suggestions/icons/shipment-tracking.svg\";s:5:\"title\";s:17:\"Shipment Tracking\";s:4:\"copy\";s:86:\"Let customers know when their orders will arrive by adding shipment tracking to emails\";s:11:\"button-text\";s:10:\"Learn More\";s:3:\"url\";s:51:\"https://woocommerce.com/products/shipment-tracking/\";}i:15;a:8:{s:4:\"slug\";s:32:\"orders-empty-table-rate-shipping\";s:7:\"context\";s:22:\"orders-list-empty-body\";s:7:\"product\";s:31:\"woocommerce-table-rate-shipping\";s:4:\"icon\";s:110:\"https://woocommerce.com/wp-content/plugins/wccom-plugins/marketplace-suggestions/icons/table-rate-shipping.svg\";s:5:\"title\";s:19:\"Table Rate Shipping\";s:4:\"copy\";s:122:\"Advanced, flexible shipping. Define multiple shipping rates based on location, price, weight, shipping class or item count\";s:11:\"button-text\";s:10:\"Learn More\";s:3:\"url\";s:53:\"https://woocommerce.com/products/table-rate-shipping/\";}i:16;a:8:{s:4:\"slug\";s:40:\"orders-empty-shipping-carrier-extensions\";s:7:\"context\";s:22:\"orders-list-empty-body\";s:4:\"icon\";s:118:\"https://woocommerce.com/wp-content/plugins/wccom-plugins/marketplace-suggestions/icons/shipping-carrier-extensions.svg\";s:5:\"title\";s:27:\"Shipping Carrier Extensions\";s:4:\"copy\";s:116:\"Show live rates from FedEx, UPS, USPS and more directly on your store - never under or overcharge for shipping again\";s:11:\"button-text\";s:13:\"Find Carriers\";s:8:\"promoted\";s:26:\"category-shipping-carriers\";s:3:\"url\";s:99:\"https://woocommerce.com/product-category/woocommerce-extensions/shipping-methods/shipping-carriers/\";}i:17;a:8:{s:4:\"slug\";s:32:\"orders-empty-google-product-feed\";s:7:\"context\";s:22:\"orders-list-empty-body\";s:7:\"product\";s:25:\"woocommerce-product-feeds\";s:4:\"icon\";s:110:\"https://woocommerce.com/wp-content/plugins/wccom-plugins/marketplace-suggestions/icons/google-product-feed.svg\";s:5:\"title\";s:19:\"Google Product Feed\";s:4:\"copy\";s:76:\"Increase sales by letting customers find you when they\'re shopping on Google\";s:11:\"button-text\";s:10:\"Learn More\";s:3:\"url\";s:53:\"https://woocommerce.com/products/google-product-feed/\";}i:18;a:4:{s:4:\"slug\";s:35:\"products-empty-header-product-types\";s:7:\"context\";s:26:\"products-list-empty-header\";s:5:\"title\";s:23:\"Other types of products\";s:13:\"allow-dismiss\";b:0;}i:19;a:6:{s:4:\"slug\";s:32:\"products-empty-footer-browse-all\";s:7:\"context\";s:26:\"products-list-empty-footer\";s:9:\"link-text\";s:21:\"Browse all extensions\";s:3:\"url\";s:64:\"https://woocommerce.com/product-category/woocommerce-extensions/\";s:8:\"promoted\";s:31:\"category-woocommerce-extensions\";s:13:\"allow-dismiss\";b:0;}i:20;a:8:{s:4:\"slug\";s:30:\"products-empty-product-vendors\";s:7:\"context\";s:24:\"products-list-empty-body\";s:7:\"product\";s:27:\"woocommerce-product-vendors\";s:4:\"icon\";s:106:\"https://woocommerce.com/wp-content/plugins/wccom-plugins/marketplace-suggestions/icons/product-vendors.svg\";s:5:\"title\";s:15:\"Product Vendors\";s:4:\"copy\";s:47:\"Turn your store into a multi-vendor marketplace\";s:11:\"button-text\";s:10:\"Learn More\";s:3:\"url\";s:49:\"https://woocommerce.com/products/product-vendors/\";}i:21;a:8:{s:4:\"slug\";s:26:\"products-empty-memberships\";s:7:\"context\";s:24:\"products-list-empty-body\";s:7:\"product\";s:23:\"woocommerce-memberships\";s:4:\"icon\";s:102:\"https://woocommerce.com/wp-content/plugins/wccom-plugins/marketplace-suggestions/icons/memberships.svg\";s:5:\"title\";s:11:\"Memberships\";s:4:\"copy\";s:76:\"Give members access to restricted content or products, for a fee or for free\";s:11:\"button-text\";s:10:\"Learn More\";s:3:\"url\";s:57:\"https://woocommerce.com/products/woocommerce-memberships/\";}i:22;a:9:{s:4:\"slug\";s:35:\"products-empty-woocommerce-deposits\";s:7:\"context\";s:24:\"products-list-empty-body\";s:7:\"product\";s:20:\"woocommerce-deposits\";s:14:\"show-if-active\";a:1:{i:0;s:20:\"woocommerce-bookings\";}s:4:\"icon\";s:99:\"https://woocommerce.com/wp-content/plugins/wccom-plugins/marketplace-suggestions/icons/deposits.svg\";s:5:\"title\";s:8:\"Deposits\";s:4:\"copy\";s:75:\"Make it easier for customers to pay by offering a deposit or a payment plan\";s:11:\"button-text\";s:10:\"Learn More\";s:3:\"url\";s:54:\"https://woocommerce.com/products/woocommerce-deposits/\";}i:23;a:8:{s:4:\"slug\";s:40:\"products-empty-woocommerce-subscriptions\";s:7:\"context\";s:24:\"products-list-empty-body\";s:7:\"product\";s:25:\"woocommerce-subscriptions\";s:4:\"icon\";s:104:\"https://woocommerce.com/wp-content/plugins/wccom-plugins/marketplace-suggestions/icons/subscriptions.svg\";s:5:\"title\";s:13:\"Subscriptions\";s:4:\"copy\";s:97:\"Let customers subscribe to your products or services and pay on a weekly, monthly or annual basis\";s:11:\"button-text\";s:10:\"Learn More\";s:3:\"url\";s:59:\"https://woocommerce.com/products/woocommerce-subscriptions/\";}i:24;a:8:{s:4:\"slug\";s:35:\"products-empty-woocommerce-bookings\";s:7:\"context\";s:24:\"products-list-empty-body\";s:7:\"product\";s:20:\"woocommerce-bookings\";s:4:\"icon\";s:99:\"https://woocommerce.com/wp-content/plugins/wccom-plugins/marketplace-suggestions/icons/bookings.svg\";s:5:\"title\";s:8:\"Bookings\";s:4:\"copy\";s:99:\"Allow customers to book appointments, make reservations or rent equipment without leaving your site\";s:11:\"button-text\";s:10:\"Learn More\";s:3:\"url\";s:54:\"https://woocommerce.com/products/woocommerce-bookings/\";}i:25;a:8:{s:4:\"slug\";s:30:\"products-empty-product-bundles\";s:7:\"context\";s:24:\"products-list-empty-body\";s:7:\"product\";s:27:\"woocommerce-product-bundles\";s:4:\"icon\";s:106:\"https://woocommerce.com/wp-content/plugins/wccom-plugins/marketplace-suggestions/icons/product-bundles.svg\";s:5:\"title\";s:15:\"Product Bundles\";s:4:\"copy\";s:49:\"Offer customizable bundles and assembled products\";s:11:\"button-text\";s:10:\"Learn More\";s:3:\"url\";s:49:\"https://woocommerce.com/products/product-bundles/\";}}s:7:\"updated\";i:1613381212;}','no');
 INSERT INTO `wp_options` VALUES (601,'product_cat_children','a:1:{i:17;a:1:{i:0;i:19;}}','yes');
 INSERT INTO `wp_options` VALUES (611,'genero_children','a:0:{}','yes');
@@ -681,6 +714,13 @@ INSERT INTO `wp_options` VALUES (632,'z_taxonomy_image26','http://localhost:1001
 INSERT INTO `wp_options` VALUES (635,'recovery_mode_email_last_sent','1613388267','yes');
 INSERT INTO `wp_options` VALUES (654,'z_taxonomy_image28','http://localhost:10018/wp-content/uploads/2021/02/airelimpio.jpg','no');
 INSERT INTO `wp_options` VALUES (671,'category_product_children','a:0:{}','yes');
+<<<<<<< HEAD
+INSERT INTO `wp_options` VALUES (696,'_site_transient_timeout_browser_cb588899e8e3167c468dcbfa977b5969','1614189854','no');
+INSERT INTO `wp_options` VALUES (697,'_site_transient_browser_cb588899e8e3167c468dcbfa977b5969','a:10:{s:4:\"name\";s:6:\"Chrome\";s:7:\"version\";s:13:\"88.0.4324.150\";s:8:\"platform\";s:9:\"Macintosh\";s:10:\"update_url\";s:29:\"https://www.google.com/chrome\";s:7:\"img_src\";s:43:\"http://s.w.org/images/browsers/chrome.png?1\";s:11:\"img_src_ssl\";s:44:\"https://s.w.org/images/browsers/chrome.png?1\";s:15:\"current_version\";s:2:\"18\";s:7:\"upgrade\";b:0;s:8:\"insecure\";b:0;s:6:\"mobile\";b:0;}','no');
+INSERT INTO `wp_options` VALUES (716,'_site_transient_timeout_theme_roots','1613752560','no');
+INSERT INTO `wp_options` VALUES (717,'_site_transient_theme_roots','a:1:{s:7:\"ignaweb\";s:7:\"/themes\";}','no');
+INSERT INTO `wp_options` VALUES (718,'_site_transient_update_plugins','O:8:\"stdClass\":5:{s:12:\"last_checked\";i:1613750761;s:7:\"checked\";a:8:{s:30:\"advanced-custom-fields/acf.php\";s:5:\"5.9.5\";s:39:\"categories-images/categories-images.php\";s:5:\"3.0.1\";s:39:\"disable-gutenberg/disable-gutenberg.php\";s:3:\"2.4\";s:41:\"ignaser_post_types/ignaser_post_types.php\";s:5:\"1.0.0\";s:23:\"mobile-menu/mobmenu.php\";s:9:\"2.8.1.8.1\";s:29:\"mystickymenu/mystickymenu.php\";s:5:\"2.4.9\";s:47:\"regenerate-thumbnails/regenerate-thumbnails.php\";s:5:\"3.1.4\";s:31:\"wp-google-maps/wpGoogleMaps.php\";s:5:\"8.1.9\";}s:8:\"response\";a:1:{s:31:\"wp-google-maps/wpGoogleMaps.php\";O:8:\"stdClass\":12:{s:2:\"id\";s:28:\"w.org/plugins/wp-google-maps\";s:4:\"slug\";s:14:\"wp-google-maps\";s:6:\"plugin\";s:31:\"wp-google-maps/wpGoogleMaps.php\";s:11:\"new_version\";s:6:\"8.1.10\";s:3:\"url\";s:45:\"https://wordpress.org/plugins/wp-google-maps/\";s:7:\"package\";s:57:\"https://downloads.wordpress.org/plugin/wp-google-maps.zip\";s:5:\"icons\";a:2:{s:2:\"2x\";s:67:\"https://ps.w.org/wp-google-maps/assets/icon-256x256.gif?rev=2426404\";s:2:\"1x\";s:67:\"https://ps.w.org/wp-google-maps/assets/icon-128x128.gif?rev=2394385\";}s:7:\"banners\";a:2:{s:2:\"2x\";s:70:\"https://ps.w.org/wp-google-maps/assets/banner-1544x500.png?rev=2230737\";s:2:\"1x\";s:69:\"https://ps.w.org/wp-google-maps/assets/banner-772x250.png?rev=2230737\";}s:11:\"banners_rtl\";a:0:{}s:6:\"tested\";s:5:\"5.6.1\";s:12:\"requires_php\";s:3:\"5.3\";s:13:\"compatibility\";O:8:\"stdClass\":0:{}}}s:12:\"translations\";a:0:{}s:9:\"no_update\";a:6:{s:30:\"advanced-custom-fields/acf.php\";O:8:\"stdClass\":9:{s:2:\"id\";s:36:\"w.org/plugins/advanced-custom-fields\";s:4:\"slug\";s:22:\"advanced-custom-fields\";s:6:\"plugin\";s:30:\"advanced-custom-fields/acf.php\";s:11:\"new_version\";s:5:\"5.9.5\";s:3:\"url\";s:53:\"https://wordpress.org/plugins/advanced-custom-fields/\";s:7:\"package\";s:71:\"https://downloads.wordpress.org/plugin/advanced-custom-fields.5.9.5.zip\";s:5:\"icons\";a:2:{s:2:\"2x\";s:75:\"https://ps.w.org/advanced-custom-fields/assets/icon-256x256.png?rev=1082746\";s:2:\"1x\";s:75:\"https://ps.w.org/advanced-custom-fields/assets/icon-128x128.png?rev=1082746\";}s:7:\"banners\";a:2:{s:2:\"2x\";s:78:\"https://ps.w.org/advanced-custom-fields/assets/banner-1544x500.jpg?rev=1729099\";s:2:\"1x\";s:77:\"https://ps.w.org/advanced-custom-fields/assets/banner-772x250.jpg?rev=1729102\";}s:11:\"banners_rtl\";a:0:{}}s:39:\"categories-images/categories-images.php\";O:8:\"stdClass\":9:{s:2:\"id\";s:31:\"w.org/plugins/categories-images\";s:4:\"slug\";s:17:\"categories-images\";s:6:\"plugin\";s:39:\"categories-images/categories-images.php\";s:11:\"new_version\";s:5:\"3.0.1\";s:3:\"url\";s:48:\"https://wordpress.org/plugins/categories-images/\";s:7:\"package\";s:66:\"https://downloads.wordpress.org/plugin/categories-images.3.0.1.zip\";s:5:\"icons\";a:1:{s:2:\"1x\";s:70:\"https://ps.w.org/categories-images/assets/icon-128x128.png?rev=2256871\";}s:7:\"banners\";a:1:{s:2:\"1x\";s:72:\"https://ps.w.org/categories-images/assets/banner-772x250.png?rev=1803373\";}s:11:\"banners_rtl\";a:0:{}}s:39:\"disable-gutenberg/disable-gutenberg.php\";O:8:\"stdClass\":9:{s:2:\"id\";s:31:\"w.org/plugins/disable-gutenberg\";s:4:\"slug\";s:17:\"disable-gutenberg\";s:6:\"plugin\";s:39:\"disable-gutenberg/disable-gutenberg.php\";s:11:\"new_version\";s:3:\"2.4\";s:3:\"url\";s:48:\"https://wordpress.org/plugins/disable-gutenberg/\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/plugin/disable-gutenberg.2.4.zip\";s:5:\"icons\";a:2:{s:2:\"2x\";s:70:\"https://ps.w.org/disable-gutenberg/assets/icon-256x256.png?rev=1925990\";s:2:\"1x\";s:70:\"https://ps.w.org/disable-gutenberg/assets/icon-128x128.png?rev=1925990\";}s:7:\"banners\";a:0:{}s:11:\"banners_rtl\";a:0:{}}s:23:\"mobile-menu/mobmenu.php\";O:8:\"stdClass\":9:{s:2:\"id\";s:25:\"w.org/plugins/mobile-menu\";s:4:\"slug\";s:11:\"mobile-menu\";s:6:\"plugin\";s:23:\"mobile-menu/mobmenu.php\";s:11:\"new_version\";s:9:\"2.8.1.8.1\";s:3:\"url\";s:42:\"https://wordpress.org/plugins/mobile-menu/\";s:7:\"package\";s:64:\"https://downloads.wordpress.org/plugin/mobile-menu.2.8.1.8.1.zip\";s:5:\"icons\";a:1:{s:2:\"1x\";s:64:\"https://ps.w.org/mobile-menu/assets/icon-128x128.png?rev=1890426\";}s:7:\"banners\";a:1:{s:2:\"1x\";s:66:\"https://ps.w.org/mobile-menu/assets/banner-772x250.jpg?rev=1976792\";}s:11:\"banners_rtl\";a:0:{}}s:29:\"mystickymenu/mystickymenu.php\";O:8:\"stdClass\":9:{s:2:\"id\";s:26:\"w.org/plugins/mystickymenu\";s:4:\"slug\";s:12:\"mystickymenu\";s:6:\"plugin\";s:29:\"mystickymenu/mystickymenu.php\";s:11:\"new_version\";s:5:\"2.4.9\";s:3:\"url\";s:43:\"https://wordpress.org/plugins/mystickymenu/\";s:7:\"package\";s:61:\"https://downloads.wordpress.org/plugin/mystickymenu.2.4.9.zip\";s:5:\"icons\";a:2:{s:2:\"2x\";s:65:\"https://ps.w.org/mystickymenu/assets/icon-256x256.png?rev=2136316\";s:2:\"1x\";s:65:\"https://ps.w.org/mystickymenu/assets/icon-256x256.png?rev=2136316\";}s:7:\"banners\";a:1:{s:2:\"1x\";s:67:\"https://ps.w.org/mystickymenu/assets/banner-772x250.jpg?rev=2136316\";}s:11:\"banners_rtl\";a:0:{}}s:47:\"regenerate-thumbnails/regenerate-thumbnails.php\";O:8:\"stdClass\":9:{s:2:\"id\";s:35:\"w.org/plugins/regenerate-thumbnails\";s:4:\"slug\";s:21:\"regenerate-thumbnails\";s:6:\"plugin\";s:47:\"regenerate-thumbnails/regenerate-thumbnails.php\";s:11:\"new_version\";s:5:\"3.1.4\";s:3:\"url\";s:52:\"https://wordpress.org/plugins/regenerate-thumbnails/\";s:7:\"package\";s:70:\"https://downloads.wordpress.org/plugin/regenerate-thumbnails.3.1.4.zip\";s:5:\"icons\";a:1:{s:2:\"1x\";s:74:\"https://ps.w.org/regenerate-thumbnails/assets/icon-128x128.png?rev=1753390\";}s:7:\"banners\";a:2:{s:2:\"2x\";s:77:\"https://ps.w.org/regenerate-thumbnails/assets/banner-1544x500.jpg?rev=1753390\";s:2:\"1x\";s:76:\"https://ps.w.org/regenerate-thumbnails/assets/banner-772x250.jpg?rev=1753390\";}s:11:\"banners_rtl\";a:0:{}}}}','no');
+=======
 INSERT INTO `wp_options` VALUES (679,'_site_transient_timeout_community-events-1aecf33ab8525ff212ebdffbb438372e','1613618918','no');
 INSERT INTO `wp_options` VALUES (680,'_site_transient_community-events-1aecf33ab8525ff212ebdffbb438372e','a:4:{s:9:\"sandboxed\";b:0;s:5:\"error\";N;s:8:\"location\";a:1:{s:2:\"ip\";s:9:\"127.0.0.0\";}s:6:\"events\";a:4:{i:0;a:10:{s:4:\"type\";s:6:\"meetup\";s:5:\"title\";s:55:\"Watch Party + Discussion group: Intro to Block Patterns\";s:3:\"url\";s:68:\"https://www.meetup.com/learn-wordpress-discussions/events/276244371/\";s:6:\"meetup\";s:27:\"Learn WordPress Discussions\";s:10:\"meetup_url\";s:51:\"https://www.meetup.com/learn-wordpress-discussions/\";s:4:\"date\";s:19:\"2021-02-18 20:00:00\";s:8:\"end_date\";s:19:\"2021-02-18 21:00:00\";s:20:\"start_unix_timestamp\";i:1613707200;s:18:\"end_unix_timestamp\";i:1613710800;s:8:\"location\";a:4:{s:8:\"location\";s:6:\"Online\";s:7:\"country\";s:2:\"US\";s:8:\"latitude\";d:37.779998779297003;s:9:\"longitude\";d:-122.41999816895;}}i:1;a:10:{s:4:\"type\";s:8:\"wordcamp\";s:5:\"title\";s:15:\"WordCamp Prague\";s:3:\"url\";s:33:\"https://prague.wordcamp.org/2021/\";s:6:\"meetup\";N;s:10:\"meetup_url\";N;s:4:\"date\";s:19:\"2021-02-27 10:00:00\";s:8:\"end_date\";s:19:\"2021-02-27 10:00:00\";s:20:\"start_unix_timestamp\";i:1614416400;s:18:\"end_unix_timestamp\";i:1614416400;s:8:\"location\";a:4:{s:8:\"location\";s:6:\"Online\";s:7:\"country\";s:2:\"CZ\";s:8:\"latitude\";d:50.075538100000003;s:9:\"longitude\";d:14.4378005;}}i:2;a:10:{s:4:\"type\";s:6:\"meetup\";s:5:\"title\";s:49:\" 💙 Tu Página Web Debe Ser WPO. ¡OPTIMÍZALA!\";s:3:\"url\";s:57:\"https://www.meetup.com/Wordpress-Grinon/events/276369088/\";s:6:\"meetup\";s:17:\"WordPress Griñon\";s:10:\"meetup_url\";s:40:\"https://www.meetup.com/Wordpress-Grinon/\";s:4:\"date\";s:19:\"2021-02-18 19:00:00\";s:8:\"end_date\";s:19:\"2021-02-18 21:00:00\";s:20:\"start_unix_timestamp\";i:1613671200;s:18:\"end_unix_timestamp\";i:1613678400;s:8:\"location\";a:4:{s:8:\"location\";s:6:\"Online\";s:7:\"country\";s:2:\"ES\";s:8:\"latitude\";d:40.209999084472997;s:9:\"longitude\";d:-3.8599998950957999;}}i:3;a:10:{s:4:\"type\";s:6:\"meetup\";s:5:\"title\";s:44:\"Charla abierta: Mantenimiento para WordPress\";s:3:\"url\";s:70:\"https://www.meetup.com/Torrelodones-WordPress-Meetup/events/276109802/\";s:6:\"meetup\";s:29:\"Torrelodones WordPress Meetup\";s:10:\"meetup_url\";s:53:\"https://www.meetup.com/Torrelodones-WordPress-Meetup/\";s:4:\"date\";s:19:\"2021-02-24 18:00:00\";s:8:\"end_date\";s:19:\"2021-02-24 20:00:00\";s:20:\"start_unix_timestamp\";i:1614186000;s:18:\"end_unix_timestamp\";i:1614193200;s:8:\"location\";a:4:{s:8:\"location\";s:6:\"Online\";s:7:\"country\";s:2:\"ES\";s:8:\"latitude\";d:40.590000152587997;s:9:\"longitude\";d:-3.9400000572204998;}}}}','no');
 INSERT INTO `wp_options` VALUES (681,'_transient_timeout_feed_9bbd59226dc36b9b26cd43f15694c5c3','1613618918','no');
@@ -821,6 +861,7 @@ INSERT INTO `wp_options` VALUES (605,'_transient_timeout_dash_v2_88ae138922fe956
 INSERT INTO `wp_options` VALUES (606,'_transient_dash_v2_88ae138922fe95674369b1cb3d215a2b','<div class=\"rss-widget\"><ul><li><a class=\'rsswidget\' href=\'https://wordpress.org/news/2021/02/wordpress-5-7-beta-3/\'>WordPress 5.7 Beta 3</a></li><li><a class=\'rsswidget\' href=\'https://wordpress.org/news/2021/02/people-of-wordpress-pooja-derashri/\'>People of WordPress: Pooja Derashri</a></li></ul></div><div class=\"rss-widget\"><ul><li><a class=\'rsswidget\' href=\'https://wptavern.com/phoenix-a-block-based-wordpress-theme-with-a-sidebar?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=phoenix-a-block-based-wordpress-theme-with-a-sidebar\'>WPTavern: Phoenix, a Block-Based WordPress Theme With a Sidebar</a></li><li><a class=\'rsswidget\' href=\'https://wptavern.com/easy-digital-downloads-3-0-now-in-public-beta?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=easy-digital-downloads-3-0-now-in-public-beta\'>WPTavern: Easy Digital Downloads 3.0 Now in Public Beta</a></li><li><a class=\'rsswidget\' href=\'https://wordpress.org/news/2021/02/wordpress-5-7-beta-3/\'>WordPress.org blog: WordPress 5.7 Beta 3</a></li></ul></div>','no');
 >>>>>>> 36e0a78c6bd577816991e618fe24ddfbd46a27fe
 >>>>>>> c7570b01d67e20427c1cb5f437b5c7b5d2cd404b
+>>>>>>> d9d4cb3a396d18fc6a8ef2edcd40f8c0a1f0a7b5
 /*!40000 ALTER TABLE `wp_options` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -840,6 +881,9 @@ CREATE TABLE `wp_postmeta` (
   KEY `post_id` (`post_id`),
   KEY `meta_key` (`meta_key`(191))
 <<<<<<< HEAD
+) ENGINE=InnoDB AUTO_INCREMENT=968 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 ) ENGINE=InnoDB AUTO_INCREMENT=321 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 =======
@@ -851,6 +895,7 @@ CREATE TABLE `wp_postmeta` (
 ) ENGINE=InnoDB AUTO_INCREMENT=1621 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 >>>>>>> 36e0a78c6bd577816991e618fe24ddfbd46a27fe
 >>>>>>> c7570b01d67e20427c1cb5f437b5c7b5d2cd404b
+>>>>>>> d9d4cb3a396d18fc6a8ef2edcd40f8c0a1f0a7b5
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -861,9 +906,13 @@ LOCK TABLES `wp_postmeta` WRITE;
 /*!40000 ALTER TABLE `wp_postmeta` DISABLE KEYS */;
 INSERT INTO `wp_postmeta` VALUES (1,2,'_wp_page_template','default');
 INSERT INTO `wp_postmeta` VALUES (2,3,'_wp_page_template','default');
-<<<<<<< HEAD
 INSERT INTO `wp_postmeta` VALUES (3,2,'_edit_lock','1612607570:1');
 INSERT INTO `wp_postmeta` VALUES (4,3,'_edit_lock','1612607573:1');
+<<<<<<< HEAD
+INSERT INTO `wp_postmeta` VALUES (6,6,'_edit_last','1');
+INSERT INTO `wp_postmeta` VALUES (7,6,'_edit_lock','1613299573:1');
+INSERT INTO `wp_postmeta` VALUES (9,18,'_edit_lock','1613304347:1');
+=======
 <<<<<<< HEAD
 INSERT INTO `wp_postmeta` VALUES (5,5,'_edit_lock','1612607576:1');
 INSERT INTO `wp_postmeta` VALUES (6,6,'_edit_last','1');
@@ -875,6 +924,7 @@ INSERT INTO `wp_postmeta` VALUES (6,6,'_edit_last','1');
 INSERT INTO `wp_postmeta` VALUES (7,6,'_edit_lock','1613299573:1');
 INSERT INTO `wp_postmeta` VALUES (9,18,'_edit_lock','1613304347:1');
 >>>>>>> c7570b01d67e20427c1cb5f437b5c7b5d2cd404b
+>>>>>>> d9d4cb3a396d18fc6a8ef2edcd40f8c0a1f0a7b5
 INSERT INTO `wp_postmeta` VALUES (10,24,'_wp_attached_file','2021/02/01.jpg');
 INSERT INTO `wp_postmeta` VALUES (11,24,'_wp_attachment_metadata','a:5:{s:5:\"width\";i:1920;s:6:\"height\";i:1280;s:4:\"file\";s:14:\"2021/02/01.jpg\";s:5:\"sizes\";a:5:{s:6:\"medium\";a:4:{s:4:\"file\";s:14:\"01-300x200.jpg\";s:5:\"width\";i:300;s:6:\"height\";i:200;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:5:\"large\";a:4:{s:4:\"file\";s:15:\"01-1024x683.jpg\";s:5:\"width\";i:1024;s:6:\"height\";i:683;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:9:\"thumbnail\";a:4:{s:4:\"file\";s:14:\"01-150x150.jpg\";s:5:\"width\";i:150;s:6:\"height\";i:150;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:12:\"medium_large\";a:4:{s:4:\"file\";s:14:\"01-768x512.jpg\";s:5:\"width\";i:768;s:6:\"height\";i:512;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:9:\"1536x1536\";a:4:{s:4:\"file\";s:16:\"01-1536x1024.jpg\";s:5:\"width\";i:1536;s:6:\"height\";i:1024;s:9:\"mime-type\";s:10:\"image/jpeg\";}}s:10:\"image_meta\";a:12:{s:8:\"aperture\";s:1:\"0\";s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";s:1:\"0\";s:9:\"copyright\";s:32:\"(C)Alina Banta www.luzestudio.es\";s:12:\"focal_length\";s:1:\"0\";s:3:\"iso\";s:1:\"0\";s:13:\"shutter_speed\";s:1:\"0\";s:5:\"title\";s:0:\"\";s:11:\"orientation\";s:1:\"0\";s:8:\"keywords\";a:0:{}}}');
 INSERT INTO `wp_postmeta` VALUES (12,25,'_wp_attached_file','2021/02/02.jpg');
@@ -1188,8 +1238,11 @@ INSERT INTO `wp_postmeta` VALUES (319,74,'servicios','');
 INSERT INTO `wp_postmeta` VALUES (320,74,'_servicios','field_60205a51f9583');
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
 INSERT INTO `wp_postmeta` VALUES (3,5,'_edit_lock','1612605853:1');
 =======
+>>>>>>> d9d4cb3a396d18fc6a8ef2edcd40f8c0a1f0a7b5
 INSERT INTO `wp_postmeta` VALUES (324,77,'_edit_last','1');
 INSERT INTO `wp_postmeta` VALUES (325,77,'_wp_page_template','default');
 INSERT INTO `wp_postmeta` VALUES (326,77,'mobmenu_88a5303e404eeb93','');
@@ -1829,6 +1882,8 @@ INSERT INTO `wp_postmeta` VALUES (964,159,'_edit_lock','1613420385:1');
 INSERT INTO `wp_postmeta` VALUES (965,159,'_thumbnail_id','156');
 INSERT INTO `wp_postmeta` VALUES (966,160,'_wp_attached_file','2021/02/airelimpio.jpg');
 INSERT INTO `wp_postmeta` VALUES (967,160,'_wp_attachment_metadata','a:5:{s:5:\"width\";i:1733;s:6:\"height\";i:866;s:4:\"file\";s:22:\"2021/02/airelimpio.jpg\";s:5:\"sizes\";a:15:{s:6:\"medium\";a:4:{s:4:\"file\";s:22:\"airelimpio-300x150.jpg\";s:5:\"width\";i:300;s:6:\"height\";i:150;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:5:\"large\";a:4:{s:4:\"file\";s:23:\"airelimpio-1024x512.jpg\";s:5:\"width\";i:1024;s:6:\"height\";i:512;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:9:\"thumbnail\";a:4:{s:4:\"file\";s:22:\"airelimpio-150x150.jpg\";s:5:\"width\";i:150;s:6:\"height\";i:150;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:12:\"medium_large\";a:4:{s:4:\"file\";s:22:\"airelimpio-768x384.jpg\";s:5:\"width\";i:768;s:6:\"height\";i:384;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:9:\"1536x1536\";a:4:{s:4:\"file\";s:23:\"airelimpio-1536x768.jpg\";s:5:\"width\";i:1536;s:6:\"height\";i:768;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:6:\"square\";a:4:{s:4:\"file\";s:22:\"airelimpio-350x350.jpg\";s:5:\"width\";i:350;s:6:\"height\";i:350;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:7:\"gallery\";a:4:{s:4:\"file\";s:22:\"airelimpio-430x322.jpg\";s:5:\"width\";i:430;s:6:\"height\";i:322;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:13:\"galleryMobile\";a:4:{s:4:\"file\";s:22:\"airelimpio-355x265.jpg\";s:5:\"width\";i:355;s:6:\"height\";i:265;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:14:\"galleryMobile2\";a:4:{s:4:\"file\";s:22:\"airelimpio-300x225.jpg\";s:5:\"width\";i:300;s:6:\"height\";i:225;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:14:\"galleryMobile3\";a:4:{s:4:\"file\";s:22:\"airelimpio-320x240.jpg\";s:5:\"width\";i:320;s:6:\"height\";i:240;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:5:\"small\";a:4:{s:4:\"file\";s:22:\"airelimpio-100x100.jpg\";s:5:\"width\";i:100;s:6:\"height\";i:100;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:8:\"portrait\";a:4:{s:4:\"file\";s:22:\"airelimpio-350x724.jpg\";s:5:\"width\";i:350;s:6:\"height\";i:724;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:5:\"cajas\";a:4:{s:4:\"file\";s:22:\"airelimpio-400x375.jpg\";s:5:\"width\";i:400;s:6:\"height\";i:375;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:7:\"mediano\";a:4:{s:4:\"file\";s:22:\"airelimpio-700x400.jpg\";s:5:\"width\";i:700;s:6:\"height\";i:400;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:4:\"blog\";a:4:{s:4:\"file\";s:22:\"airelimpio-966x644.jpg\";s:5:\"width\";i:966;s:6:\"height\";i:644;s:9:\"mime-type\";s:10:\"image/jpeg\";}}s:10:\"image_meta\";a:12:{s:8:\"aperture\";s:1:\"0\";s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";s:1:\"0\";s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";s:1:\"0\";s:3:\"iso\";s:1:\"0\";s:13:\"shutter_speed\";s:1:\"0\";s:5:\"title\";s:0:\"\";s:11:\"orientation\";s:1:\"0\";s:8:\"keywords\";a:0:{}}}');
+<<<<<<< HEAD
+=======
 =======
 >>>>>>> c7570b01d67e20427c1cb5f437b5c7b5d2cd404b
 INSERT INTO `wp_postmeta` VALUES (4,6,'_menu_item_type','custom');
@@ -2446,6 +2501,7 @@ INSERT INTO `wp_postmeta` VALUES (1619,433,'_additional_settings','');
 INSERT INTO `wp_postmeta` VALUES (1620,433,'_locale','en_US');
 >>>>>>> 36e0a78c6bd577816991e618fe24ddfbd46a27fe
 >>>>>>> c7570b01d67e20427c1cb5f437b5c7b5d2cd404b
+>>>>>>> d9d4cb3a396d18fc6a8ef2edcd40f8c0a1f0a7b5
 /*!40000 ALTER TABLE `wp_postmeta` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -2486,6 +2542,9 @@ CREATE TABLE `wp_posts` (
   KEY `post_parent` (`post_parent`),
   KEY `post_author` (`post_author`)
 <<<<<<< HEAD
+) ENGINE=InnoDB AUTO_INCREMENT=161 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 ) ENGINE=InnoDB AUTO_INCREMENT=75 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 =======
@@ -2497,6 +2556,7 @@ CREATE TABLE `wp_posts` (
 ) ENGINE=InnoDB AUTO_INCREMENT=435 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 >>>>>>> 36e0a78c6bd577816991e618fe24ddfbd46a27fe
 >>>>>>> c7570b01d67e20427c1cb5f437b5c7b5d2cd404b
+>>>>>>> d9d4cb3a396d18fc6a8ef2edcd40f8c0a1f0a7b5
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -2505,10 +2565,12 @@ CREATE TABLE `wp_posts` (
 
 LOCK TABLES `wp_posts` WRITE;
 /*!40000 ALTER TABLE `wp_posts` DISABLE KEYS */;
-<<<<<<< HEAD
 INSERT INTO `wp_posts` VALUES (1,1,'2021-02-06 09:10:32','2021-02-06 09:10:32','<!-- wp:paragraph -->\n<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>\n<!-- /wp:paragraph -->','Hello world!','','publish','open','open','','hello-world','','','2021-02-06 09:10:32','2021-02-06 09:10:32','',0,'http://localhost:10018/?p=1',0,'post','',1);
 INSERT INTO `wp_posts` VALUES (2,1,'2021-02-06 09:10:32','2021-02-06 09:10:32','<!-- wp:paragraph -->\n<p>This is an example page. It\'s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:quote -->\n<blockquote class=\"wp-block-quote\"><p>Hi there! I\'m a bike messenger by day, aspiring actor by night, and this is my website. I live in Los Angeles, have a great dog named Jack, and I like pi&#241;a coladas. (And gettin\' caught in the rain.)</p></blockquote>\n<!-- /wp:quote -->\n\n<!-- wp:paragraph -->\n<p>...or something like this:</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:quote -->\n<blockquote class=\"wp-block-quote\"><p>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</p></blockquote>\n<!-- /wp:quote -->\n\n<!-- wp:paragraph -->\n<p>As a new WordPress user, you should go to <a href=\"http://localhost:10018/wp-admin/\">your dashboard</a> to delete this page and create new pages for your content. Have fun!</p>\n<!-- /wp:paragraph -->','Sample Page','','publish','closed','open','','sample-page','','','2021-02-06 09:10:32','2021-02-06 09:10:32','',0,'http://localhost:10018/?page_id=2',0,'page','',0);
 INSERT INTO `wp_posts` VALUES (3,1,'2021-02-06 09:10:32','2021-02-06 09:10:32','<!-- wp:heading --><h2>Who we are</h2><!-- /wp:heading --><!-- wp:paragraph --><p>Our website address is: http://localhost:10018.</p><!-- /wp:paragraph --><!-- wp:heading --><h2>What personal data we collect and why we collect it</h2><!-- /wp:heading --><!-- wp:heading {\"level\":3} --><h3>Comments</h3><!-- /wp:heading --><!-- wp:paragraph --><p>When visitors leave comments on the site we collect the data shown in the comments form, and also the visitor&#8217;s IP address and browser user agent string to help spam detection.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p>An anonymized string created from your email address (also called a hash) may be provided to the Gravatar service to see if you are using it. The Gravatar service privacy policy is available here: https://automattic.com/privacy/. After approval of your comment, your profile picture is visible to the public in the context of your comment.</p><!-- /wp:paragraph --><!-- wp:heading {\"level\":3} --><h3>Media</h3><!-- /wp:heading --><!-- wp:paragraph --><p>If you upload images to the website, you should avoid uploading images with embedded location data (EXIF GPS) included. Visitors to the website can download and extract any location data from images on the website.</p><!-- /wp:paragraph --><!-- wp:heading {\"level\":3} --><h3>Contact forms</h3><!-- /wp:heading --><!-- wp:heading {\"level\":3} --><h3>Cookies</h3><!-- /wp:heading --><!-- wp:paragraph --><p>If you leave a comment on our site you may opt-in to saving your name, email address and website in cookies. These are for your convenience so that you do not have to fill in your details again when you leave another comment. These cookies will last for one year.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p>If you visit our login page, we will set a temporary cookie to determine if your browser accepts cookies. This cookie contains no personal data and is discarded when you close your browser.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p>When you log in, we will also set up several cookies to save your login information and your screen display choices. Login cookies last for two days, and screen options cookies last for a year. If you select &quot;Remember Me&quot;, your login will persist for two weeks. If you log out of your account, the login cookies will be removed.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p>If you edit or publish an article, an additional cookie will be saved in your browser. This cookie includes no personal data and simply indicates the post ID of the article you just edited. It expires after 1 day.</p><!-- /wp:paragraph --><!-- wp:heading {\"level\":3} --><h3>Embedded content from other websites</h3><!-- /wp:heading --><!-- wp:paragraph --><p>Articles on this site may include embedded content (e.g. videos, images, articles, etc.). Embedded content from other websites behaves in the exact same way as if the visitor has visited the other website.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p>These websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracking your interaction with the embedded content if you have an account and are logged in to that website.</p><!-- /wp:paragraph --><!-- wp:heading {\"level\":3} --><h3>Analytics</h3><!-- /wp:heading --><!-- wp:heading --><h2>Who we share your data with</h2><!-- /wp:heading --><!-- wp:paragraph --><p>If you request a password reset, your IP address will be included in the reset email.</p><!-- /wp:paragraph --><!-- wp:heading --><h2>How long we retain your data</h2><!-- /wp:heading --><!-- wp:paragraph --><p>If you leave a comment, the comment and its metadata are retained indefinitely. This is so we can recognize and approve any follow-up comments automatically instead of holding them in a moderation queue.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p>For users that register on our website (if any), we also store the personal information they provide in their user profile. All users can see, edit, or delete their personal information at any time (except they cannot change their username). Website administrators can also see and edit that information.</p><!-- /wp:paragraph --><!-- wp:heading --><h2>What rights you have over your data</h2><!-- /wp:heading --><!-- wp:paragraph --><p>If you have an account on this site, or have left comments, you can request to receive an exported file of the personal data we hold about you, including any data you have provided to us. You can also request that we erase any personal data we hold about you. This does not include any data we are obliged to keep for administrative, legal, or security purposes.</p><!-- /wp:paragraph --><!-- wp:heading --><h2>Where we send your data</h2><!-- /wp:heading --><!-- wp:paragraph --><p>Visitor comments may be checked through an automated spam detection service.</p><!-- /wp:paragraph --><!-- wp:heading --><h2>Your contact information</h2><!-- /wp:heading --><!-- wp:heading --><h2>Additional information</h2><!-- /wp:heading --><!-- wp:heading {\"level\":3} --><h3>How we protect your data</h3><!-- /wp:heading --><!-- wp:heading {\"level\":3} --><h3>What data breach procedures we have in place</h3><!-- /wp:heading --><!-- wp:heading {\"level\":3} --><h3>What third parties we receive data from</h3><!-- /wp:heading --><!-- wp:heading {\"level\":3} --><h3>What automated decision making and/or profiling we do with user data</h3><!-- /wp:heading --><!-- wp:heading {\"level\":3} --><h3>Industry regulatory disclosure requirements</h3><!-- /wp:heading -->','Privacy Policy','','draft','closed','open','','privacy-policy','','','2021-02-06 09:10:32','2021-02-06 09:10:32','',0,'http://localhost:10018/?page_id=3',0,'page','',0);
+<<<<<<< HEAD
+INSERT INTO `wp_posts` VALUES (6,1,'2021-02-07 17:20:14','2021-02-07 17:20:14','a:7:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:4:\"page\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:2:\"18\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:7:\"default\";s:15:\"label_placement\";s:3:\"top\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";s:0:\"\";s:11:\"description\";s:0:\"\";}','Inicio','inicio','publish','closed','closed','','group_60201f220b956','','','2021-02-13 10:53:11','2021-02-13 10:53:11','',0,'http://localhost:10018/?post_type=acf-field-group&#038;p=6',0,'acf-field-group','',0);
+=======
 <<<<<<< HEAD
 INSERT INTO `wp_posts` VALUES (4,1,'2021-02-06 09:11:34','0000-00-00 00:00:00','','Auto Draft','','auto-draft','open','open','','','','','2021-02-06 09:11:34','0000-00-00 00:00:00','',0,'http://localhost:10018/?p=4',0,'post','',0);
 INSERT INTO `wp_posts` VALUES (5,1,'2021-02-06 10:35:20','0000-00-00 00:00:00','','Auto Draft','','auto-draft','closed','closed','','','','','2021-02-06 10:35:20','0000-00-00 00:00:00','',0,'http://localhost:10018/?page_id=5',0,'page','',0);
@@ -2516,6 +2578,7 @@ INSERT INTO `wp_posts` VALUES (6,1,'2021-02-07 17:20:14','2021-02-07 17:20:14','
 =======
 INSERT INTO `wp_posts` VALUES (6,1,'2021-02-07 17:20:14','2021-02-07 17:20:14','a:7:{s:8:\"location\";a:1:{i:0;a:1:{i:0;a:3:{s:5:\"param\";s:4:\"page\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:2:\"18\";}}}s:8:\"position\";s:6:\"normal\";s:5:\"style\";s:7:\"default\";s:15:\"label_placement\";s:3:\"top\";s:21:\"instruction_placement\";s:5:\"label\";s:14:\"hide_on_screen\";s:0:\"\";s:11:\"description\";s:0:\"\";}','Inicio','inicio','publish','closed','closed','','group_60201f220b956','','','2021-02-13 10:53:11','2021-02-13 10:53:11','',0,'http://localhost:10018/?post_type=acf-field-group&#038;p=6',0,'acf-field-group','',0);
 >>>>>>> c7570b01d67e20427c1cb5f437b5c7b5d2cd404b
+>>>>>>> d9d4cb3a396d18fc6a8ef2edcd40f8c0a1f0a7b5
 INSERT INTO `wp_posts` VALUES (7,1,'2021-02-07 17:20:14','2021-02-07 17:20:14','a:7:{s:4:\"type\";s:3:\"tab\";s:12:\"instructions\";s:52:\"añadir un producto con su descripción y una imagen\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:9:\"placement\";s:3:\"top\";s:8:\"endpoint\";i:0;}','Productos','productos','publish','closed','closed','','field_60201f3eec8c1','','','2021-02-07 17:20:14','2021-02-07 17:20:14','',6,'http://localhost:10018/?post_type=acf-field&p=7',0,'acf-field','',0);
 INSERT INTO `wp_posts` VALUES (8,1,'2021-02-07 17:20:14','2021-02-07 17:20:14','a:7:{s:4:\"type\";s:5:\"group\";s:12:\"instructions\";s:48:\"Añadir un producto con su descripción e imagen\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:6:\"layout\";s:5:\"block\";s:10:\"sub_fields\";a:0:{}}','producto 1','producto_1','publish','closed','closed','','field_60202052ec8c2','','','2021-02-07 17:20:14','2021-02-07 17:20:14','',6,'http://localhost:10018/?post_type=acf-field&p=8',1,'acf-field','',0);
 INSERT INTO `wp_posts` VALUES (9,1,'2021-02-07 17:20:14','2021-02-07 17:20:14','a:15:{s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"return_format\";s:0:\"\";s:12:\"preview_size\";s:6:\"medium\";s:7:\"library\";s:0:\"\";s:9:\"min_width\";s:0:\"\";s:10:\"min_height\";s:0:\"\";s:8:\"min_size\";s:0:\"\";s:9:\"max_width\";s:0:\"\";s:10:\"max_height\";s:0:\"\";s:8:\"max_size\";s:0:\"\";s:10:\"mime_types\";s:0:\"\";}','Imagen','product_imagen','publish','closed','closed','','field_60202097ec8c3','','','2021-02-07 17:20:14','2021-02-07 17:20:14','',8,'http://localhost:10018/?post_type=acf-field&p=9',0,'acf-field','',0);
@@ -2527,11 +2590,15 @@ INSERT INTO `wp_posts` VALUES (14,1,'2021-02-07 17:20:14','2021-02-07 17:20:14',
 INSERT INTO `wp_posts` VALUES (15,1,'2021-02-07 17:20:14','2021-02-07 17:20:14','a:15:{s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"return_format\";s:2:\"id\";s:12:\"preview_size\";s:6:\"medium\";s:7:\"library\";s:3:\"all\";s:9:\"min_width\";s:0:\"\";s:10:\"min_height\";s:0:\"\";s:8:\"min_size\";s:0:\"\";s:9:\"max_width\";s:0:\"\";s:10:\"max_height\";s:0:\"\";s:8:\"max_size\";s:0:\"\";s:10:\"mime_types\";s:0:\"\";}','Imagen','product_imagen','publish','closed','closed','','field_6020210eec8c9','','','2021-02-07 17:20:14','2021-02-07 17:20:14','',14,'http://localhost:10018/?post_type=acf-field&p=15',0,'acf-field','',0);
 INSERT INTO `wp_posts` VALUES (16,1,'2021-02-07 17:20:14','2021-02-07 17:20:14','a:10:{s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";i:0;s:17:\"conditional_logic\";i:0;s:7:\"wrapper\";a:3:{s:5:\"width\";s:0:\"\";s:5:\"class\";s:0:\"\";s:2:\"id\";s:0:\"\";}s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:9:\"maxlength\";s:0:\"\";}','Texto','product_texto','publish','closed','closed','','field_6020210eec8ca','','','2021-02-07 18:14:24','2021-02-07 18:14:24','',14,'http://localhost:10018/?post_type=acf-field&#038;p=16',1,'acf-field','',0);
 <<<<<<< HEAD
+INSERT INTO `wp_posts` VALUES (18,1,'2021-02-07 17:21:57','2021-02-07 17:21:57','','Inicio','','publish','closed','closed','','inicio','','','2021-02-13 11:53:15','2021-02-13 11:53:15','',0,'http://localhost:10018/?page_id=18',0,'page','',0);
+=======
+<<<<<<< HEAD
 INSERT INTO `wp_posts` VALUES (17,1,'2021-02-07 17:20:19','0000-00-00 00:00:00','','Auto Draft','','auto-draft','closed','closed','','','','','2021-02-07 17:20:19','0000-00-00 00:00:00','',0,'http://localhost:10018/?page_id=17',0,'page','',0);
 INSERT INTO `wp_posts` VALUES (18,1,'2021-02-07 17:21:57','2021-02-07 17:21:57','','Inicio','','publish','closed','closed','','inicio','','','2021-02-07 21:45:49','2021-02-07 21:45:49','',0,'http://localhost:10018/?page_id=18',0,'page','',0);
 =======
 INSERT INTO `wp_posts` VALUES (18,1,'2021-02-07 17:21:57','2021-02-07 17:21:57','','Inicio','','publish','closed','closed','','inicio','','','2021-02-13 11:53:15','2021-02-13 11:53:15','',0,'http://localhost:10018/?page_id=18',0,'page','',0);
 >>>>>>> c7570b01d67e20427c1cb5f437b5c7b5d2cd404b
+>>>>>>> d9d4cb3a396d18fc6a8ef2edcd40f8c0a1f0a7b5
 INSERT INTO `wp_posts` VALUES (19,1,'2021-02-07 17:21:57','2021-02-07 17:21:57','','Inicio','','inherit','closed','closed','','18-revision-v1','','','2021-02-07 17:21:57','2021-02-07 17:21:57','',18,'http://localhost:10018/18-revision-v1/',0,'revision','',0);
 INSERT INTO `wp_posts` VALUES (21,1,'2021-02-07 17:25:40','2021-02-07 17:25:40','<!-- wp:categories /-->','Inicio','','inherit','closed','closed','','18-revision-v1','','','2021-02-07 17:25:40','2021-02-07 17:25:40','',18,'http://localhost:10018/18-revision-v1/',0,'revision','',0);
 INSERT INTO `wp_posts` VALUES (22,1,'2021-02-07 17:26:16','2021-02-07 17:26:16','<!-- wp:preformatted -->\n<pre class=\"wp-block-preformatted\"></pre>\n<!-- /wp:preformatted -->','Inicio','','inherit','closed','closed','','18-revision-v1','','','2021-02-07 17:26:16','2021-02-07 17:26:16','',18,'http://localhost:10018/18-revision-v1/',0,'revision','',0);
@@ -2587,6 +2654,9 @@ INSERT INTO `wp_posts` VALUES (73,1,'2021-02-07 21:45:06','2021-02-07 21:45:06',
 INSERT INTO `wp_posts` VALUES (74,1,'2021-02-07 21:45:49','2021-02-07 21:45:49','','Inicio','','inherit','closed','closed','','18-revision-v1','','','2021-02-07 21:45:49','2021-02-07 21:45:49','',18,'http://localhost:10018/18-revision-v1/',0,'revision','',0);
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> d9d4cb3a396d18fc6a8ef2edcd40f8c0a1f0a7b5
 INSERT INTO `wp_posts` VALUES (77,1,'2021-02-08 14:34:25','2021-02-08 14:34:25','','Inicio','','trash','closed','closed','','inicio-2__trashed','','','2021-02-08 14:35:14','2021-02-08 14:35:14','',0,'http://localhost:10018/?page_id=77',0,'page','',0);
 INSERT INTO `wp_posts` VALUES (78,1,'2021-02-08 14:34:25','2021-02-08 14:34:25','','Inicio','','inherit','closed','closed','','77-revision-v1','','','2021-02-08 14:34:25','2021-02-08 14:34:25','',77,'http://localhost:10018/77-revision-v1/',0,'revision','',0);
 INSERT INTO `wp_posts` VALUES (79,1,'2021-02-08 14:34:42','2021-02-08 14:34:42','','Productos','','publish','closed','closed','','productos-categorias','','','2021-02-14 12:07:01','2021-02-14 12:07:01','',0,'http://localhost:10018/?page_id=79',0,'page','',0);
@@ -2670,6 +2740,8 @@ INSERT INTO `wp_posts` VALUES (157,1,'2021-02-15 12:17:46','2021-02-15 12:17:46'
 INSERT INTO `wp_posts` VALUES (158,1,'2021-02-15 12:57:10','0000-00-00 00:00:00','','Auto Draft','','auto-draft','closed','closed','','','','','2021-02-15 12:57:10','0000-00-00 00:00:00','',0,'http://localhost:10018/?post_type=ignaweb_productos&p=158',0,'ignaweb_productos','',0);
 INSERT INTO `wp_posts` VALUES (159,1,'2021-02-15 12:57:45','2021-02-15 12:57:45','','Mampara deluxe','','publish','closed','closed','','mampara-deluxe','','','2021-02-15 12:57:45','2021-02-15 12:57:45','',0,'http://localhost:10018/?post_type=ignaweb_productos&#038;p=159',0,'ignaweb_productos','',0);
 INSERT INTO `wp_posts` VALUES (160,1,'2021-02-15 20:07:29','2021-02-15 20:07:29','','airelimpio','','inherit','open','closed','','airelimpio','','','2021-02-15 20:07:29','2021-02-15 20:07:29','',0,'http://localhost:10018/wp-content/uploads/2021/02/airelimpio.jpg',0,'attachment','image/jpeg',0);
+<<<<<<< HEAD
+=======
 >>>>>>> c7570b01d67e20427c1cb5f437b5c7b5d2cd404b
 =======
 INSERT INTO `wp_posts` VALUES (1,1,'2021-02-06 08:51:25','2021-02-06 08:51:25','<!-- wp:paragraph -->\n<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>\n<!-- /wp:paragraph -->','Hello world!','','publish','open','open','','hello-world','','','2021-02-06 08:51:25','2021-02-06 08:51:25','',0,'http://ignaweb.local/?p=1',0,'post','',1);
@@ -2865,6 +2937,7 @@ INSERT INTO `wp_posts` VALUES (433,1,'2021-02-15 19:37:16','2021-02-15 19:37:16'
 INSERT INTO `wp_posts` VALUES (434,1,'2021-02-15 19:37:39','2021-02-15 19:37:39','[contact-form-7 id=\"433\" title=\"Formulario de contacto\"]','Contacto','','inherit','closed','closed','','27-revision-v1','','','2021-02-15 19:37:39','2021-02-15 19:37:39','',27,'http://ignaweb.local/27-revision-v1/',0,'revision','',0);
 >>>>>>> 36e0a78c6bd577816991e618fe24ddfbd46a27fe
 >>>>>>> c7570b01d67e20427c1cb5f437b5c7b5d2cd404b
+>>>>>>> d9d4cb3a396d18fc6a8ef2edcd40f8c0a1f0a7b5
 /*!40000 ALTER TABLE `wp_posts` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -2892,8 +2965,11 @@ LOCK TABLES `wp_term_relationships` WRITE;
 /*!40000 ALTER TABLE `wp_term_relationships` DISABLE KEYS */;
 INSERT INTO `wp_term_relationships` VALUES (1,1,0);
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
+>>>>>>> d9d4cb3a396d18fc6a8ef2edcd40f8c0a1f0a7b5
 INSERT INTO `wp_term_relationships` VALUES (87,2,0);
 INSERT INTO `wp_term_relationships` VALUES (88,2,0);
 INSERT INTO `wp_term_relationships` VALUES (89,2,0);
@@ -2901,6 +2977,8 @@ INSERT INTO `wp_term_relationships` VALUES (90,2,0);
 INSERT INTO `wp_term_relationships` VALUES (92,2,0);
 INSERT INTO `wp_term_relationships` VALUES (146,20,0);
 INSERT INTO `wp_term_relationships` VALUES (159,23,0);
+<<<<<<< HEAD
+=======
 >>>>>>> c7570b01d67e20427c1cb5f437b5c7b5d2cd404b
 =======
 INSERT INTO `wp_term_relationships` VALUES (17,2,0);
@@ -2915,6 +2993,7 @@ INSERT INTO `wp_term_relationships` VALUES (302,2,0);
 INSERT INTO `wp_term_relationships` VALUES (415,2,0);
 >>>>>>> 36e0a78c6bd577816991e618fe24ddfbd46a27fe
 >>>>>>> c7570b01d67e20427c1cb5f437b5c7b5d2cd404b
+>>>>>>> d9d4cb3a396d18fc6a8ef2edcd40f8c0a1f0a7b5
 /*!40000 ALTER TABLE `wp_term_relationships` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -2936,10 +3015,14 @@ CREATE TABLE `wp_term_taxonomy` (
   UNIQUE KEY `term_id_taxonomy` (`term_id`,`taxonomy`),
   KEY `taxonomy` (`taxonomy`)
 <<<<<<< HEAD
+) ENGINE=InnoDB AUTO_INCREMENT=30 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+=======
+<<<<<<< HEAD
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 =======
 ) ENGINE=InnoDB AUTO_INCREMENT=30 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 >>>>>>> c7570b01d67e20427c1cb5f437b5c7b5d2cd404b
+>>>>>>> d9d4cb3a396d18fc6a8ef2edcd40f8c0a1f0a7b5
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -2952,6 +3035,9 @@ INSERT INTO `wp_term_taxonomy` VALUES (1,1,'category','',0,1);
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d9d4cb3a396d18fc6a8ef2edcd40f8c0a1f0a7b5
 INSERT INTO `wp_term_taxonomy` VALUES (2,2,'nav_menu','',0,5);
 INSERT INTO `wp_term_taxonomy` VALUES (3,3,'product_type','',0,0);
 INSERT INTO `wp_term_taxonomy` VALUES (4,4,'product_type','',0,0);
@@ -2978,10 +3064,13 @@ INSERT INTO `wp_term_taxonomy` VALUES (24,24,'category_product','Muebles diseña
 INSERT INTO `wp_term_taxonomy` VALUES (25,25,'category_product','Taquillas diseñadas exclusivamente para su negocio',0,0);
 INSERT INTO `wp_term_taxonomy` VALUES (26,26,'category_product','Escritorios diseñados exclusivamente para tu empresa',0,0);
 INSERT INTO `wp_term_taxonomy` VALUES (28,28,'category_product','dasfasfasdasd',0,0);
+<<<<<<< HEAD
+=======
 =======
 INSERT INTO `wp_term_taxonomy` VALUES (2,2,'nav_menu','',0,6);
 >>>>>>> 36e0a78c6bd577816991e618fe24ddfbd46a27fe
 >>>>>>> c7570b01d67e20427c1cb5f437b5c7b5d2cd404b
+>>>>>>> d9d4cb3a396d18fc6a8ef2edcd40f8c0a1f0a7b5
 /*!40000 ALTER TABLE `wp_term_taxonomy` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -3037,10 +3126,14 @@ CREATE TABLE `wp_terms` (
   KEY `slug` (`slug`(191)),
   KEY `name` (`name`(191))
 <<<<<<< HEAD
+) ENGINE=InnoDB AUTO_INCREMENT=30 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+=======
+<<<<<<< HEAD
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 =======
 ) ENGINE=InnoDB AUTO_INCREMENT=30 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 >>>>>>> c7570b01d67e20427c1cb5f437b5c7b5d2cd404b
+>>>>>>> d9d4cb3a396d18fc6a8ef2edcd40f8c0a1f0a7b5
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -3052,6 +3145,9 @@ LOCK TABLES `wp_terms` WRITE;
 INSERT INTO `wp_terms` VALUES (1,'Uncategorized','uncategorized',0);
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
+>>>>>>> d9d4cb3a396d18fc6a8ef2edcd40f8c0a1f0a7b5
 INSERT INTO `wp_terms` VALUES (2,'menu1','menu1',0);
 INSERT INTO `wp_terms` VALUES (3,'simple','simple',0);
 INSERT INTO `wp_terms` VALUES (4,'grouped','grouped',0);
@@ -3078,7 +3174,10 @@ INSERT INTO `wp_terms` VALUES (24,'Muebles','muebles',0);
 INSERT INTO `wp_terms` VALUES (25,'Taquillas','taquillas',0);
 INSERT INTO `wp_terms` VALUES (26,'Escritorios','escritorios',0);
 INSERT INTO `wp_terms` VALUES (28,'Oficinas','oficinas',0);
+<<<<<<< HEAD
+=======
 >>>>>>> c7570b01d67e20427c1cb5f437b5c7b5d2cd404b
+>>>>>>> d9d4cb3a396d18fc6a8ef2edcd40f8c0a1f0a7b5
 /*!40000 ALTER TABLE `wp_terms` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -3098,6 +3197,9 @@ CREATE TABLE `wp_usermeta` (
   KEY `user_id` (`user_id`),
   KEY `meta_key` (`meta_key`(191))
 <<<<<<< HEAD
+) ENGINE=InnoDB AUTO_INCREMENT=35 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+=======
+<<<<<<< HEAD
 <<<<<<< HEAD
 ) ENGINE=InnoDB AUTO_INCREMENT=26 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 =======
@@ -3109,6 +3211,7 @@ CREATE TABLE `wp_usermeta` (
 ) ENGINE=InnoDB AUTO_INCREMENT=55 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 >>>>>>> 36e0a78c6bd577816991e618fe24ddfbd46a27fe
 >>>>>>> c7570b01d67e20427c1cb5f437b5c7b5d2cd404b
+>>>>>>> d9d4cb3a396d18fc6a8ef2edcd40f8c0a1f0a7b5
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -3133,6 +3236,10 @@ INSERT INTO `wp_usermeta` VALUES (13,1,'wp_user_level','10');
 INSERT INTO `wp_usermeta` VALUES (14,1,'dismissed_wp_pointers','');
 INSERT INTO `wp_usermeta` VALUES (15,1,'show_welcome_panel','1');
 <<<<<<< HEAD
+INSERT INTO `wp_usermeta` VALUES (16,1,'session_tokens','a:2:{s:64:\"6c404850ec95664bc52f8e55d434e8d13b1b5274e101b7d3b1af45a0cc35a986\";a:4:{s:10:\"expiration\";i:1613748516;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:117:\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15\";s:5:\"login\";i:1613575716;}s:64:\"fede1e9857b4dfffb78e85f4cac36fe99cdcd17be1c901d0ed240207ac08041f\";a:4:{s:10:\"expiration\";i:1613757852;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:121:\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36\";s:5:\"login\";i:1613585052;}}');
+INSERT INTO `wp_usermeta` VALUES (17,1,'wp_dashboard_quick_press_last_post_id','93');
+=======
+<<<<<<< HEAD
 INSERT INTO `wp_usermeta` VALUES (16,1,'session_tokens','a:2:{s:64:\"a5aa347eb3bc62f53647e6eb281d7d214fca033df6b0cc59ff56c36c4a4ea43a\";a:4:{s:10:\"expiration\";i:1612775493;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:117:\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15\";s:5:\"login\";i:1612602693;}s:64:\"716dde2c9eb6c3ffd04bbf5574d4f90e5a1fe0e005a68ebaf97ce6f08d7253db\";a:4:{s:10:\"expiration\";i:1612891800;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:121:\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36\";s:5:\"login\";i:1612719000;}}');
 INSERT INTO `wp_usermeta` VALUES (17,1,'wp_dashboard_quick_press_last_post_id','4');
 <<<<<<< HEAD
@@ -3141,10 +3248,17 @@ INSERT INTO `wp_usermeta` VALUES (17,1,'wp_dashboard_quick_press_last_post_id','
 INSERT INTO `wp_usermeta` VALUES (16,1,'session_tokens','a:2:{s:64:\"6c404850ec95664bc52f8e55d434e8d13b1b5274e101b7d3b1af45a0cc35a986\";a:4:{s:10:\"expiration\";i:1613748516;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:117:\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15\";s:5:\"login\";i:1613575716;}s:64:\"fede1e9857b4dfffb78e85f4cac36fe99cdcd17be1c901d0ed240207ac08041f\";a:4:{s:10:\"expiration\";i:1613757852;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:121:\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36\";s:5:\"login\";i:1613585052;}}');
 INSERT INTO `wp_usermeta` VALUES (17,1,'wp_dashboard_quick_press_last_post_id','93');
 >>>>>>> c7570b01d67e20427c1cb5f437b5c7b5d2cd404b
+>>>>>>> d9d4cb3a396d18fc6a8ef2edcd40f8c0a1f0a7b5
 INSERT INTO `wp_usermeta` VALUES (18,1,'community-events-location','a:1:{s:2:\"ip\";s:9:\"127.0.0.0\";}');
 INSERT INTO `wp_usermeta` VALUES (19,1,'enable_custom_fields','1');
 INSERT INTO `wp_usermeta` VALUES (20,1,'wp_user-settings','libraryContent=browse');
 INSERT INTO `wp_usermeta` VALUES (21,1,'wp_user-settings-time','1612719884');
+<<<<<<< HEAD
+INSERT INTO `wp_usermeta` VALUES (22,1,'closedpostboxes_page','a:2:{i:0;s:27:\"wp-mobile-menu-meta-options\";i:1;s:12:\"revisionsdiv\";}');
+INSERT INTO `wp_usermeta` VALUES (23,1,'metaboxhidden_page','a:0:{}');
+INSERT INTO `wp_usermeta` VALUES (24,1,'closedpostboxes_acf-field-group','a:0:{}');
+INSERT INTO `wp_usermeta` VALUES (25,1,'metaboxhidden_acf-field-group','a:1:{i:0;s:7:\"slugdiv\";}');
+=======
 <<<<<<< HEAD
 INSERT INTO `wp_usermeta` VALUES (22,1,'closedpostboxes_page','a:0:{}');
 INSERT INTO `wp_usermeta` VALUES (23,1,'metaboxhidden_page','a:0:{}');
@@ -3156,6 +3270,7 @@ INSERT INTO `wp_usermeta` VALUES (22,1,'closedpostboxes_page','a:2:{i:0;s:27:\"w
 INSERT INTO `wp_usermeta` VALUES (23,1,'metaboxhidden_page','a:0:{}');
 INSERT INTO `wp_usermeta` VALUES (24,1,'closedpostboxes_acf-field-group','a:0:{}');
 INSERT INTO `wp_usermeta` VALUES (25,1,'metaboxhidden_acf-field-group','a:1:{i:0;s:7:\"slugdiv\";}');
+>>>>>>> d9d4cb3a396d18fc6a8ef2edcd40f8c0a1f0a7b5
 INSERT INTO `wp_usermeta` VALUES (26,1,'managenav-menuscolumnshidden','a:5:{i:0;s:11:\"link-target\";i:1;s:11:\"css-classes\";i:2;s:3:\"xfn\";i:3;s:11:\"description\";i:4;s:15:\"title-attribute\";}');
 INSERT INTO `wp_usermeta` VALUES (27,1,'metaboxhidden_nav-menus','a:1:{i:0;s:12:\"add-post_tag\";}');
 INSERT INTO `wp_usermeta` VALUES (28,1,'nav_menu_recently_edited','2');
@@ -3165,6 +3280,8 @@ INSERT INTO `wp_usermeta` VALUES (31,1,'_woocommerce_tracks_anon_id','woo:FezFfi
 INSERT INTO `wp_usermeta` VALUES (32,1,'last_update','1613381153');
 INSERT INTO `wp_usermeta` VALUES (33,1,'woocommerce_admin_activity_panel_inbox_last_read','1613381153378');
 INSERT INTO `wp_usermeta` VALUES (34,1,'wc_last_active','1613347200');
+<<<<<<< HEAD
+=======
 =======
 INSERT INTO `wp_usermeta` VALUES (17,1,'wp_dashboard_quick_press_last_post_id','168');
 >>>>>>> c7570b01d67e20427c1cb5f437b5c7b5d2cd404b
@@ -3184,6 +3301,7 @@ INSERT INTO `wp_usermeta` VALUES (53,1,'metaboxhidden_page','a:6:{i:0;s:12:\"rev
 INSERT INTO `wp_usermeta` VALUES (54,1,'session_tokens','a:3:{s:64:\"5631bd1f5bd241f8c9722d5c521aafd0667afe66fea3ce84e823314c31f89503\";a:4:{s:10:\"expiration\";i:1613590095;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:121:\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36\";s:5:\"login\";i:1613417295;}s:64:\"76637b783dd2322c16742ba0fab58b2c28227bddc2a09cdfc7056a2c0e5c98dd\";a:4:{s:10:\"expiration\";i:1613746800;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:121:\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36\";s:5:\"login\";i:1613574000;}s:64:\"a8040650f62d6ad39ac70b6f8cd99245a96b511ae768db7979299ad6cff4e88b\";a:4:{s:10:\"expiration\";i:1613746800;s:2:\"ip\";s:9:\"127.0.0.1\";s:2:\"ua\";s:121:\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36\";s:5:\"login\";i:1613574000;}}');
 >>>>>>> 36e0a78c6bd577816991e618fe24ddfbd46a27fe
 >>>>>>> c7570b01d67e20427c1cb5f437b5c7b5d2cd404b
+>>>>>>> d9d4cb3a396d18fc6a8ef2edcd40f8c0a1f0a7b5
 /*!40000 ALTER TABLE `wp_usermeta` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -3221,11 +3339,1086 @@ LOCK TABLES `wp_users` WRITE;
 INSERT INTO `wp_users` VALUES (1,'admin','$P$BXeNBBHkz3NmlxzZ6nlbujb8.p67dG/','admin','dev-email@flywheel.local','http://localhost:10018','2021-02-06 09:10:32','',0,'admin');
 /*!40000 ALTER TABLE `wp_users` ENABLE KEYS */;
 UNLOCK TABLES;
+<<<<<<< HEAD
 
 --
 -- Table structure for table `wp_wc_admin_note_actions`
 --
 
+DROP TABLE IF EXISTS `wp_wc_admin_note_actions`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+ SET character_set_client = utf8mb4 ;
+CREATE TABLE `wp_wc_admin_note_actions` (
+  `action_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `note_id` bigint(20) unsigned NOT NULL,
+  `name` varchar(255) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `label` varchar(255) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `query` longtext COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `status` varchar(255) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `is_primary` tinyint(1) NOT NULL DEFAULT '0',
+  `actioned_text` varchar(255) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  PRIMARY KEY (`action_id`),
+  KEY `note_id` (`note_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=32 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `wp_wc_admin_note_actions`
+--
+
+LOCK TABLES `wp_wc_admin_note_actions` WRITE;
+/*!40000 ALTER TABLE `wp_wc_admin_note_actions` DISABLE KEYS */;
+INSERT INTO `wp_wc_admin_note_actions` VALUES (1,1,'learn-more','Learn more','https://docs.woocommerce.com/document/home-screen/?utm_source=inbox','actioned',1,'');
+INSERT INTO `wp_wc_admin_note_actions` VALUES (2,2,'connect','Connect','?page=wc-addons&section=helper','unactioned',0,'');
+INSERT INTO `wp_wc_admin_note_actions` VALUES (3,3,'yes-please','Yes please!','https://woocommerce.us8.list-manage.com/subscribe/post?u=2c1434dc56f9506bf3c3ecd21&amp;id=13860df971&amp;SIGNUPPAGE=plugin','actioned',0,'');
+INSERT INTO `wp_wc_admin_note_actions` VALUES (4,4,'open-marketing-hub','Open marketing hub','http://localhost:10018/wp-admin/admin.php?page=wc-admin&path=/marketing','actioned',0,'');
+INSERT INTO `wp_wc_admin_note_actions` VALUES (18,18,'remove-legacy-coupon-menu','Remove legacy coupon menu','http://localhost:10018/wp-admin/admin.php?page=wc-admin&action=remove-coupon-menu','actioned',1,'');
+INSERT INTO `wp_wc_admin_note_actions` VALUES (19,5,'upgrade_now_facebook_pixel_api','Upgrade now','plugin-install.php?tab=plugin-information&plugin=&section=changelog','actioned',1,'');
+INSERT INTO `wp_wc_admin_note_actions` VALUES (20,6,'learn_more_facebook_ec','Learn more','https://woocommerce.com/products/facebook/','unactioned',1,'');
+INSERT INTO `wp_wc_admin_note_actions` VALUES (21,7,'set-up-concierge','Schedule free session','https://wordpress.com/me/concierge','actioned',1,'');
+INSERT INTO `wp_wc_admin_note_actions` VALUES (22,8,'learn-more','Learn more','https://docs.woocommerce.com/document/woocommerce-shipping-and-tax/?utm_source=inbox','unactioned',1,'');
+INSERT INTO `wp_wc_admin_note_actions` VALUES (23,9,'learn-more-ecomm-unique-shopping-experience','Learn more','https://docs.woocommerce.com/document/product-add-ons/?utm_source=inbox','actioned',1,'');
+INSERT INTO `wp_wc_admin_note_actions` VALUES (24,10,'install-now','Install now','admin.php?page=wc-admin&action=setup-woocommerce-payments','actioned',1,'');
+INSERT INTO `wp_wc_admin_note_actions` VALUES (25,11,'install-now','Install now','admin.php?page=wc-admin&action=setup-woocommerce-payments','actioned',1,'');
+INSERT INTO `wp_wc_admin_note_actions` VALUES (26,12,'install-now','Install now','admin.php?page=wc-admin&action=setup-woocommerce-payments','actioned',1,'');
+INSERT INTO `wp_wc_admin_note_actions` VALUES (27,13,'install-now','Install now','admin.php?page=wc-admin&action=setup-woocommerce-payments','actioned',1,'');
+INSERT INTO `wp_wc_admin_note_actions` VALUES (28,14,'watch-the-webinar','Watch the webinar','https://youtu.be/V_2XtCOyZ7o','actioned',1,'');
+INSERT INTO `wp_wc_admin_note_actions` VALUES (29,15,'learn-more','Learn more','https://woocommerce.com/posts/ecommerce-shipping-solutions-guide/?utm_source=inbox','actioned',1,'');
+INSERT INTO `wp_wc_admin_note_actions` VALUES (30,16,'boost-sales-marketing-guide','See marketing guide','https://developer.apple.com/apple-pay/marketing/?utm_source=inbox&utm_campaign=square-boost-sales','actioned',1,'');
+INSERT INTO `wp_wc_admin_note_actions` VALUES (31,17,'grow-your-business-marketing-guide','See marketing guide','https://developer.apple.com/apple-pay/marketing/?utm_source=inbox&utm_campaign=square-grow-your-business','actioned',1,'');
+/*!40000 ALTER TABLE `wp_wc_admin_note_actions` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `wp_wc_admin_notes`
+--
+
+DROP TABLE IF EXISTS `wp_wc_admin_notes`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+ SET character_set_client = utf8mb4 ;
+CREATE TABLE `wp_wc_admin_notes` (
+  `note_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `type` varchar(20) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `locale` varchar(20) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `title` longtext COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `content` longtext COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `content_data` longtext COLLATE utf8mb4_unicode_520_ci,
+  `status` varchar(200) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `source` varchar(200) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `date_created` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `date_reminder` datetime DEFAULT NULL,
+  `is_snoozable` tinyint(1) NOT NULL DEFAULT '0',
+  `layout` varchar(20) COLLATE utf8mb4_unicode_520_ci NOT NULL DEFAULT '',
+  `image` varchar(200) COLLATE utf8mb4_unicode_520_ci DEFAULT NULL,
+  `is_deleted` tinyint(1) NOT NULL DEFAULT '0',
+  `icon` varchar(200) COLLATE utf8mb4_unicode_520_ci NOT NULL DEFAULT 'info',
+  PRIMARY KEY (`note_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `wp_wc_admin_notes`
+--
+
+LOCK TABLES `wp_wc_admin_notes` WRITE;
+/*!40000 ALTER TABLE `wp_wc_admin_notes` DISABLE KEYS */;
+INSERT INTO `wp_wc_admin_notes` VALUES (1,'wc-admin-manage-store-activity-from-home-screen','info','en_US','New! Manage your store activity from the Home screen','Start your day knowing the next steps you need to take with your orders, products, and customer feedback.<br /><br />Read more about how to use the activity panels on the Home screen.','{}','unactioned','woocommerce-admin','2021-02-15 09:25:51',NULL,0,'plain','',0,'info');
+INSERT INTO `wp_wc_admin_notes` VALUES (2,'wc-admin-wc-helper-connection','info','en_US','Connect to WooCommerce.com','Connect to get important product notifications and updates.','{}','unactioned','woocommerce-admin','2021-02-15 09:25:51',NULL,0,'plain','',0,'info');
+INSERT INTO `wp_wc_admin_notes` VALUES (3,'wc-admin-onboarding-email-marketing','info','en_US','Sign up for tips, product updates, and inspiration','We\'re here for you - get tips, product updates and inspiration straight to your email box','{}','unactioned','woocommerce-admin','2021-02-15 09:25:51',NULL,0,'plain','',0,'info');
+INSERT INTO `wp_wc_admin_notes` VALUES (4,'wc-admin-marketing-intro','info','en_US','Connect with your audience','Grow your customer base and increase your sales with marketing tools built for WooCommerce.','{}','unactioned','woocommerce-admin','2021-02-15 09:25:51',NULL,0,'plain','',0,'info');
+INSERT INTO `wp_wc_admin_notes` VALUES (5,'facebook_pixel_api_2021','marketing','en_US','Improve the performance of your Facebook ads','Enable Facebook Pixel and Conversions API through the latest version of Facebook for WooCommerce for improved performance and measurement of your Facebook ad campaigns.','{}','pending','woocommerce.com','2021-02-15 09:25:52',NULL,0,'plain','',0,'info');
+INSERT INTO `wp_wc_admin_notes` VALUES (6,'facebook_ec_2021','marketing','en_US','Sync your product catalog with Facebook to help boost sales','A single click adds all products to your Facebook Business Page shop. Product changes are automatically synced, with the flexibility to control which products are listed.','{}','pending','woocommerce.com','2021-02-15 09:25:52',NULL,0,'plain','',0,'info');
+INSERT INTO `wp_wc_admin_notes` VALUES (7,'ecomm-need-help-setting-up-your-store','info','en_US','Need help setting up your Store?','Schedule a free 30-min <a href=\"https://wordpress.com/support/concierge-support/\">quick start session</a> and get help from our specialists. We’re happy to walk through setup steps, show you around the WordPress.com dashboard, troubleshoot any issues you may have, and help you the find the features you need to accomplish your goals for your site.','{}','pending','woocommerce.com','2021-02-15 09:25:52',NULL,0,'plain','',0,'info');
+INSERT INTO `wp_wc_admin_notes` VALUES (8,'woocommerce-services','info','en_US','WooCommerce Shipping & Tax','WooCommerce Shipping &amp; Tax helps get your store “ready to sell” as quickly as possible. You create your products. We take care of tax calculation, payment processing, and shipping label printing! Learn more about the extension that you just installed.','{}','pending','woocommerce.com','2021-02-15 09:25:52',NULL,0,'plain','',0,'info');
+INSERT INTO `wp_wc_admin_notes` VALUES (9,'ecomm-unique-shopping-experience','info','en_US','For a shopping experience as unique as your customers','Product Add-Ons allow your customers to personalize products while they’re shopping on your online store. No more follow-up email requests—customers get what they want, before they’re done checking out. Learn more about this extension that comes included in your plan.','{}','pending','woocommerce.com','2021-02-15 09:25:52',NULL,0,'plain','',0,'info');
+INSERT INTO `wp_wc_admin_notes` VALUES (10,'wcpay-promo-2020-11','marketing','en_US','Manage subscriber payments from your store\'s dashboard','Securely accept cards and manage transactions right from your dashboard with <a href=\"https://woocommerce.com/payments/?utm_medium=notification&amp;utm_source=product&amp;utm_campaign=wcpay_ctrl20\" target=\"_blank\">WooCommerce Payments</a>  – now supporting <a href=\"https://woocommerce.com/products/woocommerce-subscriptions/?utm_medium=notification&amp;utm_source=product&amp;utm_campaign=wcpay_ctrl20\" target=\"_blank\">WooCommerce Subscriptions</a>! <br /><br /><em>By clicking \"Install now,\" you agree to our <a href=\"https://wordpress.com/tos/?utm_medium=notification&amp;utm_source=product&amp;utm_campaign=wcpay_ctrl20\" target=\"_blank\">Terms of Service</a>.</em>','{}','pending','woocommerce.com','2021-02-15 09:25:52',NULL,0,'plain','',0,'info');
+INSERT INTO `wp_wc_admin_notes` VALUES (11,'wcpay-subscriptions-2020-11','marketing','en_US','Manage subscriber payments from your store\'s dashboard','Securely accept cards and manage transactions right from your dashboard with <a href=\"https://woocommerce.com/payments/?utm_medium=notification&amp;utm_source=product&amp;utm_campaign=wcpay_ctrl20\" target=\"_blank\">WooCommerce Payments</a>  – now supporting <a href=\"https://woocommerce.com/products/woocommerce-subscriptions/?utm_medium=notification&amp;utm_source=product&amp;utm_campaign=wcpay_ctrl20\" target=\"_blank\">WooCommerce Subscriptions</a>! <br /><br /><em>By clicking \"Install now,\" you agree to our <a href=\"https://wordpress.com/tos/?utm_medium=notification&amp;utm_source=product&amp;utm_campaign=wcpay_ctrl20\" target=\"_blank\">Terms of Service</a>.</em>','{}','pending','woocommerce.com','2021-02-15 09:25:52',NULL,0,'plain','',0,'info');
+INSERT INTO `wp_wc_admin_notes` VALUES (12,'wcpay-promo-2020-12','marketing','en_US','Get 50% off transaction fees with WooCommerce Payments','Keep more of your hard-earned cash by adding <a href=\"https://woocommerce.com/payments/?utm_medium=notification&amp;utm_source=product&amp;utm_campaign=wcpay_exp20\" target=\"_blank\">WooCommerce Payments</a> to your store. Lock in a discounted rate of 1.5% + $0.15 for $25,000 of payments (or three months, whichever comes first). Limited time offer – don’t miss out! <br /><br /><em>By clicking \"Install now,\" you agree to our promotional <a href=\"https://woocommerce.com/terms-conditions/woocommerce-payments-promotion/?utm_medium=notification&amp;utm_source=product&amp;utm_campaign=wcpay_exp20\" target=\"_blank\">Terms of Service</a>.</em>','{}','pending','woocommerce.com','2021-02-15 09:25:52',NULL,0,'plain','',0,'info');
+INSERT INTO `wp_wc_admin_notes` VALUES (13,'wcpay-subscriptions-2020-12','marketing','en_US','Manage payments from your store\'s dashboard','Securely accept cards and manage transactions right from your dashboard with <a href=\"https://woocommerce.com/payments/?utm_medium=notification&amp;utm_source=product&amp;utm_campaign=wcpay_ctrl20\" target=\"_blank\">WooCommerce Payments</a>! Zero setup fees or monthly fees. Just pay-as-you-go, starting at just 2.9% + $0.30 per transaction for U.S.-issued cards. <br /><br /><em>By clicking \"Install now,\" you agree to our <a href=\"https://wordpress.com/tos/?utm_medium=notification&amp;utm_source=product&amp;utm_campaign=wcpay_ctrl20\" target=\"_blank\">Terms of Service</a>.</em>','{}','pending','woocommerce.com','2021-02-15 09:25:52',NULL,0,'plain','',0,'info');
+INSERT INTO `wp_wc_admin_notes` VALUES (14,'wc-admin-getting-started-in-ecommerce','info','en_US','Getting Started in eCommerce - webinar','We want to make eCommerce and this process of getting started as easy as possible for you. Watch this webinar to get tips on how to have our store up and running in a breeze.','{}','pending','woocommerce.com','2021-02-15 09:25:52',NULL,0,'plain','',0,'info');
+INSERT INTO `wp_wc_admin_notes` VALUES (15,'your-first-product','info','en_US','Your first product','That\'s huge! You\'re well on your way to building a successful online store — now it’s time to think about how you\'ll fulfill your orders.<br /><br />Read our shipping guide to learn best practices and options for putting together your shipping strategy. And for WooCommerce stores in the United States, you can print discounted shipping labels via USPS with <a href=\"https://href.li/?https://woocommerce.com/shipping\" target=\"_blank\">WooCommerce Shipping</a>.','{}','pending','woocommerce.com','2021-02-15 09:25:52',NULL,0,'plain','',0,'info');
+INSERT INTO `wp_wc_admin_notes` VALUES (16,'wc-square-apple-pay-boost-sales','marketing','en_US','Boost sales with Apple Pay','Now that you accept Apple Pay® with Square you can increase conversion rates by letting your customers know that Apple Pay® is available. Here’s a marketing guide to help you get started.','{}','pending','woocommerce.com','2021-02-15 09:25:52',NULL,0,'plain','',0,'info');
+INSERT INTO `wp_wc_admin_notes` VALUES (17,'wc-square-apple-pay-grow-your-business','marketing','en_US','Grow your business with Square and Apple Pay ','Now more than ever, shoppers want a fast, simple, and secure online checkout experience. Increase conversion rates by letting your customers know that you now accept Apple Pay®.','{}','pending','woocommerce.com','2021-02-15 09:25:52',NULL,0,'plain','',0,'info');
+INSERT INTO `wp_wc_admin_notes` VALUES (18,'wc-admin-coupon-page-moved','update','en_US','Coupon management has moved!','Coupons can now be managed from Marketing &gt; Coupons. Click the button below to remove the legacy WooCommerce &gt; Coupons menu item.','{}','unactioned','woocommerce-admin','2021-02-15 09:26:33',NULL,0,'plain','',0,'info');
+/*!40000 ALTER TABLE `wp_wc_admin_notes` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `wp_wc_category_lookup`
+--
+
+DROP TABLE IF EXISTS `wp_wc_category_lookup`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+ SET character_set_client = utf8mb4 ;
+CREATE TABLE `wp_wc_category_lookup` (
+  `category_tree_id` bigint(20) unsigned NOT NULL,
+  `category_id` bigint(20) unsigned NOT NULL,
+  PRIMARY KEY (`category_tree_id`,`category_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `wp_wc_category_lookup`
+--
+
+LOCK TABLES `wp_wc_category_lookup` WRITE;
+/*!40000 ALTER TABLE `wp_wc_category_lookup` DISABLE KEYS */;
+INSERT INTO `wp_wc_category_lookup` VALUES (16,16);
+/*!40000 ALTER TABLE `wp_wc_category_lookup` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `wp_wc_customer_lookup`
+--
+
+DROP TABLE IF EXISTS `wp_wc_customer_lookup`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+ SET character_set_client = utf8mb4 ;
+CREATE TABLE `wp_wc_customer_lookup` (
+  `customer_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `user_id` bigint(20) unsigned DEFAULT NULL,
+  `username` varchar(60) COLLATE utf8mb4_unicode_520_ci NOT NULL DEFAULT '',
+  `first_name` varchar(255) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `last_name` varchar(255) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `email` varchar(100) COLLATE utf8mb4_unicode_520_ci DEFAULT NULL,
+  `date_last_active` timestamp NULL DEFAULT NULL,
+  `date_registered` timestamp NULL DEFAULT NULL,
+  `country` char(2) COLLATE utf8mb4_unicode_520_ci NOT NULL DEFAULT '',
+  `postcode` varchar(20) COLLATE utf8mb4_unicode_520_ci NOT NULL DEFAULT '',
+  `city` varchar(100) COLLATE utf8mb4_unicode_520_ci NOT NULL DEFAULT '',
+  `state` varchar(100) COLLATE utf8mb4_unicode_520_ci NOT NULL DEFAULT '',
+  PRIMARY KEY (`customer_id`),
+  UNIQUE KEY `user_id` (`user_id`),
+  KEY `email` (`email`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `wp_wc_customer_lookup`
+--
+
+LOCK TABLES `wp_wc_customer_lookup` WRITE;
+/*!40000 ALTER TABLE `wp_wc_customer_lookup` DISABLE KEYS */;
+/*!40000 ALTER TABLE `wp_wc_customer_lookup` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `wp_wc_download_log`
+--
+
+DROP TABLE IF EXISTS `wp_wc_download_log`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+ SET character_set_client = utf8mb4 ;
+CREATE TABLE `wp_wc_download_log` (
+  `download_log_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `timestamp` datetime NOT NULL,
+  `permission_id` bigint(20) unsigned NOT NULL,
+  `user_id` bigint(20) unsigned DEFAULT NULL,
+  `user_ip_address` varchar(100) COLLATE utf8mb4_unicode_520_ci DEFAULT '',
+  PRIMARY KEY (`download_log_id`),
+  KEY `permission_id` (`permission_id`),
+  KEY `timestamp` (`timestamp`),
+  CONSTRAINT `fk_wp_wc_download_log_permission_id` FOREIGN KEY (`permission_id`) REFERENCES `wp_woocommerce_downloadable_product_permissions` (`permission_id`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `wp_wc_download_log`
+--
+
+LOCK TABLES `wp_wc_download_log` WRITE;
+/*!40000 ALTER TABLE `wp_wc_download_log` DISABLE KEYS */;
+/*!40000 ALTER TABLE `wp_wc_download_log` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `wp_wc_order_coupon_lookup`
+--
+
+DROP TABLE IF EXISTS `wp_wc_order_coupon_lookup`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+ SET character_set_client = utf8mb4 ;
+CREATE TABLE `wp_wc_order_coupon_lookup` (
+  `order_id` bigint(20) unsigned NOT NULL,
+  `coupon_id` bigint(20) NOT NULL,
+  `date_created` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `discount_amount` double NOT NULL DEFAULT '0',
+  PRIMARY KEY (`order_id`,`coupon_id`),
+  KEY `coupon_id` (`coupon_id`),
+  KEY `date_created` (`date_created`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `wp_wc_order_coupon_lookup`
+--
+
+LOCK TABLES `wp_wc_order_coupon_lookup` WRITE;
+/*!40000 ALTER TABLE `wp_wc_order_coupon_lookup` DISABLE KEYS */;
+/*!40000 ALTER TABLE `wp_wc_order_coupon_lookup` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `wp_wc_order_product_lookup`
+--
+
+DROP TABLE IF EXISTS `wp_wc_order_product_lookup`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+ SET character_set_client = utf8mb4 ;
+CREATE TABLE `wp_wc_order_product_lookup` (
+  `order_item_id` bigint(20) unsigned NOT NULL,
+  `order_id` bigint(20) unsigned NOT NULL,
+  `product_id` bigint(20) unsigned NOT NULL,
+  `variation_id` bigint(20) unsigned NOT NULL,
+  `customer_id` bigint(20) unsigned DEFAULT NULL,
+  `date_created` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `product_qty` int(11) NOT NULL,
+  `product_net_revenue` double NOT NULL DEFAULT '0',
+  `product_gross_revenue` double NOT NULL DEFAULT '0',
+  `coupon_amount` double NOT NULL DEFAULT '0',
+  `tax_amount` double NOT NULL DEFAULT '0',
+  `shipping_amount` double NOT NULL DEFAULT '0',
+  `shipping_tax_amount` double NOT NULL DEFAULT '0',
+  PRIMARY KEY (`order_item_id`),
+  KEY `order_id` (`order_id`),
+  KEY `product_id` (`product_id`),
+  KEY `customer_id` (`customer_id`),
+  KEY `date_created` (`date_created`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `wp_wc_order_product_lookup`
+--
+
+LOCK TABLES `wp_wc_order_product_lookup` WRITE;
+/*!40000 ALTER TABLE `wp_wc_order_product_lookup` DISABLE KEYS */;
+/*!40000 ALTER TABLE `wp_wc_order_product_lookup` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `wp_wc_order_stats`
+--
+
+DROP TABLE IF EXISTS `wp_wc_order_stats`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+ SET character_set_client = utf8mb4 ;
+CREATE TABLE `wp_wc_order_stats` (
+  `order_id` bigint(20) unsigned NOT NULL,
+  `parent_id` bigint(20) unsigned NOT NULL DEFAULT '0',
+  `date_created` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `date_created_gmt` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `num_items_sold` int(11) NOT NULL DEFAULT '0',
+  `total_sales` double NOT NULL DEFAULT '0',
+  `tax_total` double NOT NULL DEFAULT '0',
+  `shipping_total` double NOT NULL DEFAULT '0',
+  `net_total` double NOT NULL DEFAULT '0',
+  `returning_customer` tinyint(1) DEFAULT NULL,
+  `status` varchar(200) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `customer_id` bigint(20) unsigned NOT NULL,
+  PRIMARY KEY (`order_id`),
+  KEY `date_created` (`date_created`),
+  KEY `customer_id` (`customer_id`),
+  KEY `status` (`status`(191))
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `wp_wc_order_stats`
+--
+
+LOCK TABLES `wp_wc_order_stats` WRITE;
+/*!40000 ALTER TABLE `wp_wc_order_stats` DISABLE KEYS */;
+/*!40000 ALTER TABLE `wp_wc_order_stats` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `wp_wc_order_tax_lookup`
+--
+
+DROP TABLE IF EXISTS `wp_wc_order_tax_lookup`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+ SET character_set_client = utf8mb4 ;
+CREATE TABLE `wp_wc_order_tax_lookup` (
+  `order_id` bigint(20) unsigned NOT NULL,
+  `tax_rate_id` bigint(20) unsigned NOT NULL,
+  `date_created` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `shipping_tax` double NOT NULL DEFAULT '0',
+  `order_tax` double NOT NULL DEFAULT '0',
+  `total_tax` double NOT NULL DEFAULT '0',
+  PRIMARY KEY (`order_id`,`tax_rate_id`),
+  KEY `tax_rate_id` (`tax_rate_id`),
+  KEY `date_created` (`date_created`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `wp_wc_order_tax_lookup`
+--
+
+LOCK TABLES `wp_wc_order_tax_lookup` WRITE;
+/*!40000 ALTER TABLE `wp_wc_order_tax_lookup` DISABLE KEYS */;
+/*!40000 ALTER TABLE `wp_wc_order_tax_lookup` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `wp_wc_product_meta_lookup`
+--
+
+DROP TABLE IF EXISTS `wp_wc_product_meta_lookup`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+ SET character_set_client = utf8mb4 ;
+CREATE TABLE `wp_wc_product_meta_lookup` (
+  `product_id` bigint(20) NOT NULL,
+  `sku` varchar(100) COLLATE utf8mb4_unicode_520_ci DEFAULT '',
+  `virtual` tinyint(1) DEFAULT '0',
+  `downloadable` tinyint(1) DEFAULT '0',
+  `min_price` decimal(19,4) DEFAULT NULL,
+  `max_price` decimal(19,4) DEFAULT NULL,
+  `onsale` tinyint(1) DEFAULT '0',
+  `stock_quantity` double DEFAULT NULL,
+  `stock_status` varchar(100) COLLATE utf8mb4_unicode_520_ci DEFAULT 'instock',
+  `rating_count` bigint(20) DEFAULT '0',
+  `average_rating` decimal(3,2) DEFAULT '0.00',
+  `total_sales` bigint(20) DEFAULT '0',
+  `tax_status` varchar(100) COLLATE utf8mb4_unicode_520_ci DEFAULT 'taxable',
+  `tax_class` varchar(100) COLLATE utf8mb4_unicode_520_ci DEFAULT '',
+  PRIMARY KEY (`product_id`),
+  KEY `virtual` (`virtual`),
+  KEY `downloadable` (`downloadable`),
+  KEY `stock_status` (`stock_status`),
+  KEY `stock_quantity` (`stock_quantity`),
+  KEY `onsale` (`onsale`),
+  KEY `min_max_price` (`min_price`,`max_price`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `wp_wc_product_meta_lookup`
+--
+
+LOCK TABLES `wp_wc_product_meta_lookup` WRITE;
+/*!40000 ALTER TABLE `wp_wc_product_meta_lookup` DISABLE KEYS */;
+/*!40000 ALTER TABLE `wp_wc_product_meta_lookup` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `wp_wc_reserved_stock`
+--
+
+DROP TABLE IF EXISTS `wp_wc_reserved_stock`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+ SET character_set_client = utf8mb4 ;
+CREATE TABLE `wp_wc_reserved_stock` (
+  `order_id` bigint(20) NOT NULL,
+  `product_id` bigint(20) NOT NULL,
+  `stock_quantity` double NOT NULL DEFAULT '0',
+  `timestamp` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `expires` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  PRIMARY KEY (`order_id`,`product_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `wp_wc_reserved_stock`
+--
+
+LOCK TABLES `wp_wc_reserved_stock` WRITE;
+/*!40000 ALTER TABLE `wp_wc_reserved_stock` DISABLE KEYS */;
+/*!40000 ALTER TABLE `wp_wc_reserved_stock` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `wp_wc_tax_rate_classes`
+--
+
+DROP TABLE IF EXISTS `wp_wc_tax_rate_classes`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+ SET character_set_client = utf8mb4 ;
+CREATE TABLE `wp_wc_tax_rate_classes` (
+  `tax_rate_class_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `name` varchar(200) COLLATE utf8mb4_unicode_520_ci NOT NULL DEFAULT '',
+  `slug` varchar(200) COLLATE utf8mb4_unicode_520_ci NOT NULL DEFAULT '',
+  PRIMARY KEY (`tax_rate_class_id`),
+  UNIQUE KEY `slug` (`slug`(191))
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `wp_wc_tax_rate_classes`
+--
+
+LOCK TABLES `wp_wc_tax_rate_classes` WRITE;
+/*!40000 ALTER TABLE `wp_wc_tax_rate_classes` DISABLE KEYS */;
+INSERT INTO `wp_wc_tax_rate_classes` VALUES (1,'Reduced rate','reduced-rate');
+INSERT INTO `wp_wc_tax_rate_classes` VALUES (2,'Zero rate','zero-rate');
+/*!40000 ALTER TABLE `wp_wc_tax_rate_classes` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `wp_wc_webhooks`
+--
+
+DROP TABLE IF EXISTS `wp_wc_webhooks`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+ SET character_set_client = utf8mb4 ;
+CREATE TABLE `wp_wc_webhooks` (
+  `webhook_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `status` varchar(200) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `name` text COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `user_id` bigint(20) unsigned NOT NULL,
+  `delivery_url` text COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `secret` text COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `topic` varchar(200) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `date_created` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `date_created_gmt` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `date_modified` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `date_modified_gmt` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `api_version` smallint(4) NOT NULL,
+  `failure_count` smallint(10) NOT NULL DEFAULT '0',
+  `pending_delivery` tinyint(1) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`webhook_id`),
+  KEY `user_id` (`user_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `wp_wc_webhooks`
+--
+
+LOCK TABLES `wp_wc_webhooks` WRITE;
+/*!40000 ALTER TABLE `wp_wc_webhooks` DISABLE KEYS */;
+/*!40000 ALTER TABLE `wp_wc_webhooks` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `wp_woocommerce_api_keys`
+--
+
+DROP TABLE IF EXISTS `wp_woocommerce_api_keys`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+ SET character_set_client = utf8mb4 ;
+CREATE TABLE `wp_woocommerce_api_keys` (
+  `key_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `user_id` bigint(20) unsigned NOT NULL,
+  `description` varchar(200) COLLATE utf8mb4_unicode_520_ci DEFAULT NULL,
+  `permissions` varchar(10) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `consumer_key` char(64) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `consumer_secret` char(43) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `nonces` longtext COLLATE utf8mb4_unicode_520_ci,
+  `truncated_key` char(7) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `last_access` datetime DEFAULT NULL,
+  PRIMARY KEY (`key_id`),
+  KEY `consumer_key` (`consumer_key`),
+  KEY `consumer_secret` (`consumer_secret`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `wp_woocommerce_api_keys`
+--
+
+LOCK TABLES `wp_woocommerce_api_keys` WRITE;
+/*!40000 ALTER TABLE `wp_woocommerce_api_keys` DISABLE KEYS */;
+/*!40000 ALTER TABLE `wp_woocommerce_api_keys` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `wp_woocommerce_attribute_taxonomies`
+--
+
+DROP TABLE IF EXISTS `wp_woocommerce_attribute_taxonomies`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+ SET character_set_client = utf8mb4 ;
+CREATE TABLE `wp_woocommerce_attribute_taxonomies` (
+  `attribute_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `attribute_name` varchar(200) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `attribute_label` varchar(200) COLLATE utf8mb4_unicode_520_ci DEFAULT NULL,
+  `attribute_type` varchar(20) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `attribute_orderby` varchar(20) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `attribute_public` int(1) NOT NULL DEFAULT '1',
+  PRIMARY KEY (`attribute_id`),
+  KEY `attribute_name` (`attribute_name`(20))
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `wp_woocommerce_attribute_taxonomies`
+--
+
+LOCK TABLES `wp_woocommerce_attribute_taxonomies` WRITE;
+/*!40000 ALTER TABLE `wp_woocommerce_attribute_taxonomies` DISABLE KEYS */;
+/*!40000 ALTER TABLE `wp_woocommerce_attribute_taxonomies` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `wp_woocommerce_downloadable_product_permissions`
+--
+
+DROP TABLE IF EXISTS `wp_woocommerce_downloadable_product_permissions`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+ SET character_set_client = utf8mb4 ;
+CREATE TABLE `wp_woocommerce_downloadable_product_permissions` (
+  `permission_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `download_id` varchar(36) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `product_id` bigint(20) unsigned NOT NULL,
+  `order_id` bigint(20) unsigned NOT NULL DEFAULT '0',
+  `order_key` varchar(200) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `user_email` varchar(200) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `user_id` bigint(20) unsigned DEFAULT NULL,
+  `downloads_remaining` varchar(9) COLLATE utf8mb4_unicode_520_ci DEFAULT NULL,
+  `access_granted` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+  `access_expires` datetime DEFAULT NULL,
+  `download_count` bigint(20) unsigned NOT NULL DEFAULT '0',
+  PRIMARY KEY (`permission_id`),
+  KEY `download_order_key_product` (`product_id`,`order_id`,`order_key`(16),`download_id`),
+  KEY `download_order_product` (`download_id`,`order_id`,`product_id`),
+  KEY `order_id` (`order_id`),
+  KEY `user_order_remaining_expires` (`user_id`,`order_id`,`downloads_remaining`,`access_expires`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `wp_woocommerce_downloadable_product_permissions`
+--
+
+LOCK TABLES `wp_woocommerce_downloadable_product_permissions` WRITE;
+/*!40000 ALTER TABLE `wp_woocommerce_downloadable_product_permissions` DISABLE KEYS */;
+/*!40000 ALTER TABLE `wp_woocommerce_downloadable_product_permissions` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `wp_woocommerce_log`
+--
+
+DROP TABLE IF EXISTS `wp_woocommerce_log`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+ SET character_set_client = utf8mb4 ;
+CREATE TABLE `wp_woocommerce_log` (
+  `log_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `timestamp` datetime NOT NULL,
+  `level` smallint(4) NOT NULL,
+  `source` varchar(200) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `message` longtext COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `context` longtext COLLATE utf8mb4_unicode_520_ci,
+  PRIMARY KEY (`log_id`),
+  KEY `level` (`level`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `wp_woocommerce_log`
+--
+
+LOCK TABLES `wp_woocommerce_log` WRITE;
+/*!40000 ALTER TABLE `wp_woocommerce_log` DISABLE KEYS */;
+/*!40000 ALTER TABLE `wp_woocommerce_log` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `wp_woocommerce_order_itemmeta`
+--
+
+DROP TABLE IF EXISTS `wp_woocommerce_order_itemmeta`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+ SET character_set_client = utf8mb4 ;
+CREATE TABLE `wp_woocommerce_order_itemmeta` (
+  `meta_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `order_item_id` bigint(20) unsigned NOT NULL,
+  `meta_key` varchar(255) COLLATE utf8mb4_unicode_520_ci DEFAULT NULL,
+  `meta_value` longtext COLLATE utf8mb4_unicode_520_ci,
+  PRIMARY KEY (`meta_id`),
+  KEY `order_item_id` (`order_item_id`),
+  KEY `meta_key` (`meta_key`(32))
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `wp_woocommerce_order_itemmeta`
+--
+
+LOCK TABLES `wp_woocommerce_order_itemmeta` WRITE;
+/*!40000 ALTER TABLE `wp_woocommerce_order_itemmeta` DISABLE KEYS */;
+/*!40000 ALTER TABLE `wp_woocommerce_order_itemmeta` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `wp_woocommerce_order_items`
+--
+
+DROP TABLE IF EXISTS `wp_woocommerce_order_items`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+ SET character_set_client = utf8mb4 ;
+CREATE TABLE `wp_woocommerce_order_items` (
+  `order_item_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `order_item_name` text COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `order_item_type` varchar(200) COLLATE utf8mb4_unicode_520_ci NOT NULL DEFAULT '',
+  `order_id` bigint(20) unsigned NOT NULL,
+  PRIMARY KEY (`order_item_id`),
+  KEY `order_id` (`order_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `wp_woocommerce_order_items`
+--
+
+LOCK TABLES `wp_woocommerce_order_items` WRITE;
+/*!40000 ALTER TABLE `wp_woocommerce_order_items` DISABLE KEYS */;
+/*!40000 ALTER TABLE `wp_woocommerce_order_items` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `wp_woocommerce_payment_tokenmeta`
+--
+
+DROP TABLE IF EXISTS `wp_woocommerce_payment_tokenmeta`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+ SET character_set_client = utf8mb4 ;
+CREATE TABLE `wp_woocommerce_payment_tokenmeta` (
+  `meta_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `payment_token_id` bigint(20) unsigned NOT NULL,
+  `meta_key` varchar(255) COLLATE utf8mb4_unicode_520_ci DEFAULT NULL,
+  `meta_value` longtext COLLATE utf8mb4_unicode_520_ci,
+  PRIMARY KEY (`meta_id`),
+  KEY `payment_token_id` (`payment_token_id`),
+  KEY `meta_key` (`meta_key`(32))
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `wp_woocommerce_payment_tokenmeta`
+--
+
+LOCK TABLES `wp_woocommerce_payment_tokenmeta` WRITE;
+/*!40000 ALTER TABLE `wp_woocommerce_payment_tokenmeta` DISABLE KEYS */;
+/*!40000 ALTER TABLE `wp_woocommerce_payment_tokenmeta` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `wp_woocommerce_payment_tokens`
+--
+
+DROP TABLE IF EXISTS `wp_woocommerce_payment_tokens`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+ SET character_set_client = utf8mb4 ;
+CREATE TABLE `wp_woocommerce_payment_tokens` (
+  `token_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `gateway_id` varchar(200) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `token` text COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `user_id` bigint(20) unsigned NOT NULL DEFAULT '0',
+  `type` varchar(200) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `is_default` tinyint(1) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`token_id`),
+  KEY `user_id` (`user_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `wp_woocommerce_payment_tokens`
+--
+
+LOCK TABLES `wp_woocommerce_payment_tokens` WRITE;
+/*!40000 ALTER TABLE `wp_woocommerce_payment_tokens` DISABLE KEYS */;
+/*!40000 ALTER TABLE `wp_woocommerce_payment_tokens` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `wp_woocommerce_sessions`
+--
+
+DROP TABLE IF EXISTS `wp_woocommerce_sessions`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+ SET character_set_client = utf8mb4 ;
+CREATE TABLE `wp_woocommerce_sessions` (
+  `session_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `session_key` char(32) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `session_value` longtext COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `session_expiry` bigint(20) unsigned NOT NULL,
+  PRIMARY KEY (`session_id`),
+  UNIQUE KEY `session_key` (`session_key`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `wp_woocommerce_sessions`
+--
+
+LOCK TABLES `wp_woocommerce_sessions` WRITE;
+/*!40000 ALTER TABLE `wp_woocommerce_sessions` DISABLE KEYS */;
+INSERT INTO `wp_woocommerce_sessions` VALUES (1,'1','a:7:{s:4:\"cart\";s:6:\"a:0:{}\";s:11:\"cart_totals\";s:367:\"a:15:{s:8:\"subtotal\";i:0;s:12:\"subtotal_tax\";i:0;s:14:\"shipping_total\";i:0;s:12:\"shipping_tax\";i:0;s:14:\"shipping_taxes\";a:0:{}s:14:\"discount_total\";i:0;s:12:\"discount_tax\";i:0;s:19:\"cart_contents_total\";i:0;s:17:\"cart_contents_tax\";i:0;s:19:\"cart_contents_taxes\";a:0:{}s:9:\"fee_total\";i:0;s:7:\"fee_tax\";i:0;s:9:\"fee_taxes\";a:0:{}s:5:\"total\";i:0;s:9:\"total_tax\";i:0;}\";s:15:\"applied_coupons\";s:6:\"a:0:{}\";s:22:\"coupon_discount_totals\";s:6:\"a:0:{}\";s:26:\"coupon_discount_tax_totals\";s:6:\"a:0:{}\";s:21:\"removed_cart_contents\";s:6:\"a:0:{}\";s:8:\"customer\";s:738:\"a:26:{s:2:\"id\";s:1:\"1\";s:13:\"date_modified\";s:25:\"2021-02-15T09:25:53+00:00\";s:8:\"postcode\";s:0:\"\";s:4:\"city\";s:0:\"\";s:9:\"address_1\";s:0:\"\";s:7:\"address\";s:0:\"\";s:9:\"address_2\";s:0:\"\";s:5:\"state\";s:0:\"\";s:7:\"country\";s:2:\"GB\";s:17:\"shipping_postcode\";s:0:\"\";s:13:\"shipping_city\";s:0:\"\";s:18:\"shipping_address_1\";s:0:\"\";s:16:\"shipping_address\";s:0:\"\";s:18:\"shipping_address_2\";s:0:\"\";s:14:\"shipping_state\";s:0:\"\";s:16:\"shipping_country\";s:2:\"GB\";s:13:\"is_vat_exempt\";s:0:\"\";s:19:\"calculated_shipping\";s:0:\"\";s:10:\"first_name\";s:0:\"\";s:9:\"last_name\";s:0:\"\";s:7:\"company\";s:0:\"\";s:5:\"phone\";s:0:\"\";s:5:\"email\";s:24:\"dev-email@flywheel.local\";s:19:\"shipping_first_name\";s:0:\"\";s:18:\"shipping_last_name\";s:0:\"\";s:16:\"shipping_company\";s:0:\"\";}\";}',1613553954);
+/*!40000 ALTER TABLE `wp_woocommerce_sessions` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `wp_woocommerce_shipping_zone_locations`
+--
+
+DROP TABLE IF EXISTS `wp_woocommerce_shipping_zone_locations`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+ SET character_set_client = utf8mb4 ;
+CREATE TABLE `wp_woocommerce_shipping_zone_locations` (
+  `location_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `zone_id` bigint(20) unsigned NOT NULL,
+  `location_code` varchar(200) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `location_type` varchar(40) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  PRIMARY KEY (`location_id`),
+  KEY `location_id` (`location_id`),
+  KEY `location_type_code` (`location_type`(10),`location_code`(20))
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `wp_woocommerce_shipping_zone_locations`
+--
+
+LOCK TABLES `wp_woocommerce_shipping_zone_locations` WRITE;
+/*!40000 ALTER TABLE `wp_woocommerce_shipping_zone_locations` DISABLE KEYS */;
+/*!40000 ALTER TABLE `wp_woocommerce_shipping_zone_locations` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `wp_woocommerce_shipping_zone_methods`
+--
+
+DROP TABLE IF EXISTS `wp_woocommerce_shipping_zone_methods`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+ SET character_set_client = utf8mb4 ;
+CREATE TABLE `wp_woocommerce_shipping_zone_methods` (
+  `zone_id` bigint(20) unsigned NOT NULL,
+  `instance_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `method_id` varchar(200) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `method_order` bigint(20) unsigned NOT NULL,
+  `is_enabled` tinyint(1) NOT NULL DEFAULT '1',
+  PRIMARY KEY (`instance_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `wp_woocommerce_shipping_zone_methods`
+--
+
+LOCK TABLES `wp_woocommerce_shipping_zone_methods` WRITE;
+/*!40000 ALTER TABLE `wp_woocommerce_shipping_zone_methods` DISABLE KEYS */;
+/*!40000 ALTER TABLE `wp_woocommerce_shipping_zone_methods` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `wp_woocommerce_shipping_zones`
+--
+
+DROP TABLE IF EXISTS `wp_woocommerce_shipping_zones`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+ SET character_set_client = utf8mb4 ;
+CREATE TABLE `wp_woocommerce_shipping_zones` (
+  `zone_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `zone_name` varchar(200) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `zone_order` bigint(20) unsigned NOT NULL,
+  PRIMARY KEY (`zone_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `wp_woocommerce_shipping_zones`
+--
+
+LOCK TABLES `wp_woocommerce_shipping_zones` WRITE;
+/*!40000 ALTER TABLE `wp_woocommerce_shipping_zones` DISABLE KEYS */;
+/*!40000 ALTER TABLE `wp_woocommerce_shipping_zones` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `wp_woocommerce_tax_rate_locations`
+--
+
+DROP TABLE IF EXISTS `wp_woocommerce_tax_rate_locations`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+ SET character_set_client = utf8mb4 ;
+CREATE TABLE `wp_woocommerce_tax_rate_locations` (
+  `location_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `location_code` varchar(200) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `tax_rate_id` bigint(20) unsigned NOT NULL,
+  `location_type` varchar(40) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  PRIMARY KEY (`location_id`),
+  KEY `tax_rate_id` (`tax_rate_id`),
+  KEY `location_type_code` (`location_type`(10),`location_code`(20))
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `wp_woocommerce_tax_rate_locations`
+--
+
+LOCK TABLES `wp_woocommerce_tax_rate_locations` WRITE;
+/*!40000 ALTER TABLE `wp_woocommerce_tax_rate_locations` DISABLE KEYS */;
+/*!40000 ALTER TABLE `wp_woocommerce_tax_rate_locations` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `wp_woocommerce_tax_rates`
+--
+
+DROP TABLE IF EXISTS `wp_woocommerce_tax_rates`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+ SET character_set_client = utf8mb4 ;
+CREATE TABLE `wp_woocommerce_tax_rates` (
+  `tax_rate_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `tax_rate_country` varchar(2) COLLATE utf8mb4_unicode_520_ci NOT NULL DEFAULT '',
+  `tax_rate_state` varchar(200) COLLATE utf8mb4_unicode_520_ci NOT NULL DEFAULT '',
+  `tax_rate` varchar(8) COLLATE utf8mb4_unicode_520_ci NOT NULL DEFAULT '',
+  `tax_rate_name` varchar(200) COLLATE utf8mb4_unicode_520_ci NOT NULL DEFAULT '',
+  `tax_rate_priority` bigint(20) unsigned NOT NULL,
+  `tax_rate_compound` int(1) NOT NULL DEFAULT '0',
+  `tax_rate_shipping` int(1) NOT NULL DEFAULT '1',
+  `tax_rate_order` bigint(20) unsigned NOT NULL,
+  `tax_rate_class` varchar(200) COLLATE utf8mb4_unicode_520_ci NOT NULL DEFAULT '',
+  PRIMARY KEY (`tax_rate_id`),
+  KEY `tax_rate_country` (`tax_rate_country`),
+  KEY `tax_rate_state` (`tax_rate_state`(2)),
+  KEY `tax_rate_class` (`tax_rate_class`(10)),
+  KEY `tax_rate_priority` (`tax_rate_priority`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `wp_woocommerce_tax_rates`
+--
+
+LOCK TABLES `wp_woocommerce_tax_rates` WRITE;
+/*!40000 ALTER TABLE `wp_woocommerce_tax_rates` DISABLE KEYS */;
+/*!40000 ALTER TABLE `wp_woocommerce_tax_rates` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `wp_wpgmza`
+--
+
+DROP TABLE IF EXISTS `wp_wpgmza`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+ SET character_set_client = utf8mb4 ;
+CREATE TABLE `wp_wpgmza` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `map_id` int(11) NOT NULL,
+  `address` varchar(700) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `description` mediumtext COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `pic` varchar(700) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `link` varchar(2083) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `icon` varchar(700) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `lat` varchar(100) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `lng` varchar(100) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `anim` varchar(3) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `title` varchar(700) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `infoopen` varchar(3) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `category` varchar(500) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `approved` tinyint(1) DEFAULT '1',
+  `retina` tinyint(1) DEFAULT '0',
+  `type` tinyint(1) DEFAULT '0',
+  `did` varchar(500) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `sticky` tinyint(1) DEFAULT '0',
+  `other_data` longtext COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `latlng` point DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `wp_wpgmza`
+--
+
+LOCK TABLES `wp_wpgmza` WRITE;
+/*!40000 ALTER TABLE `wp_wpgmza` DISABLE KEYS */;
+INSERT INTO `wp_wpgmza` VALUES (1,1,'California','','','','','36.778261','-119.4179323999','','','','',1,0,0,'',0,'',_binary '\0\0\0\0\0\0\0J`s�cB@�`�g�\�]�');
+/*!40000 ALTER TABLE `wp_wpgmza` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `wp_wpgmza_circles`
+--
+
+DROP TABLE IF EXISTS `wp_wpgmza_circles`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+ SET character_set_client = utf8mb4 ;
+CREATE TABLE `wp_wpgmza_circles` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `map_id` int(11) NOT NULL,
+  `name` text COLLATE utf8mb4_unicode_520_ci,
+  `center` point DEFAULT NULL,
+  `radius` float DEFAULT NULL,
+  `color` varchar(16) COLLATE utf8mb4_unicode_520_ci DEFAULT NULL,
+  `opacity` float DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `wp_wpgmza_circles`
+--
+
+LOCK TABLES `wp_wpgmza_circles` WRITE;
+/*!40000 ALTER TABLE `wp_wpgmza_circles` DISABLE KEYS */;
+/*!40000 ALTER TABLE `wp_wpgmza_circles` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `wp_wpgmza_maps`
+--
+
+DROP TABLE IF EXISTS `wp_wpgmza_maps`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+ SET character_set_client = utf8mb4 ;
+CREATE TABLE `wp_wpgmza_maps` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `map_title` varchar(256) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `map_width` varchar(6) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `map_height` varchar(6) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `map_start_lat` varchar(700) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `map_start_lng` varchar(700) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `map_start_location` varchar(700) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `map_start_zoom` int(10) NOT NULL,
+  `default_marker` varchar(700) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `type` int(10) NOT NULL,
+  `alignment` int(10) NOT NULL,
+  `directions_enabled` int(10) NOT NULL,
+  `styling_enabled` int(10) NOT NULL,
+  `styling_json` mediumtext COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `active` int(1) NOT NULL,
+  `kml` varchar(700) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `bicycle` int(10) NOT NULL,
+  `traffic` int(10) NOT NULL,
+  `dbox` int(10) NOT NULL,
+  `dbox_width` varchar(10) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `listmarkers` int(10) NOT NULL,
+  `listmarkers_advanced` int(10) NOT NULL,
+  `filterbycat` tinyint(1) NOT NULL,
+  `ugm_enabled` int(10) NOT NULL,
+  `ugm_category_enabled` tinyint(1) NOT NULL,
+  `fusion` varchar(100) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `map_width_type` varchar(3) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `map_height_type` varchar(3) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `mass_marker_support` int(10) NOT NULL,
+  `ugm_access` int(10) NOT NULL,
+  `order_markers_by` int(10) NOT NULL,
+  `order_markers_choice` int(10) NOT NULL,
+  `show_user_location` int(3) NOT NULL,
+  `default_to` varchar(700) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `other_settings` longtext COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `wp_wpgmza_maps`
+--
+
+LOCK TABLES `wp_wpgmza_maps` WRITE;
+/*!40000 ALTER TABLE `wp_wpgmza_maps` DISABLE KEYS */;
+INSERT INTO `wp_wpgmza_maps` VALUES (1,'New Map','100','400','36.778261','-119.4179323999','45.950464398418106,-109.81550500000003',4,'',0,4,0,0,'',0,'',0,0,0,'',0,0,0,0,0,'','%','px',0,0,0,0,0,'','a:6:{s:8:\"map_type\";i:1;s:15:\"sl_stroke_color\";s:7:\"#FF0000\";s:13:\"sl_fill_color\";s:7:\"#FF0000\";s:17:\"sl_stroke_opacity\";i:1;s:15:\"sl_fill_opacity\";d:0.5;s:15:\"transport_layer\";N;}');
+/*!40000 ALTER TABLE `wp_wpgmza_maps` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `wp_wpgmza_polygon`
+--
+
+DROP TABLE IF EXISTS `wp_wpgmza_polygon`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+ SET character_set_client = utf8mb4 ;
+CREATE TABLE `wp_wpgmza_polygon` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `map_id` int(11) NOT NULL,
+  `polydata` longtext COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `description` text COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `innerpolydata` longtext COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `linecolor` varchar(7) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `lineopacity` varchar(7) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `fillcolor` varchar(7) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `opacity` varchar(3) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `title` varchar(250) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `link` varchar(700) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `ohfillcolor` varchar(7) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `ohlinecolor` varchar(7) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `ohopacity` varchar(3) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `polyname` varchar(100) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `wp_wpgmza_polygon`
+--
+
+LOCK TABLES `wp_wpgmza_polygon` WRITE;
+/*!40000 ALTER TABLE `wp_wpgmza_polygon` DISABLE KEYS */;
+/*!40000 ALTER TABLE `wp_wpgmza_polygon` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `wp_wpgmza_polylines`
+--
+
+DROP TABLE IF EXISTS `wp_wpgmza_polylines`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+ SET character_set_client = utf8mb4 ;
+CREATE TABLE `wp_wpgmza_polylines` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `map_id` int(11) NOT NULL,
+  `polydata` longtext COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `linecolor` varchar(7) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `linethickness` varchar(3) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `opacity` varchar(3) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  `polyname` varchar(100) COLLATE utf8mb4_unicode_520_ci NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `wp_wpgmza_polylines`
+--
+
+LOCK TABLES `wp_wpgmza_polylines` WRITE;
+/*!40000 ALTER TABLE `wp_wpgmza_polylines` DISABLE KEYS */;
+/*!40000 ALTER TABLE `wp_wpgmza_polylines` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `wp_wpgmza_rectangles`
+--
+
+DROP TABLE IF EXISTS `wp_wpgmza_rectangles`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+ SET character_set_client = utf8mb4 ;
+CREATE TABLE `wp_wpgmza_rectangles` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `map_id` int(11) NOT NULL,
+  `name` text COLLATE utf8mb4_unicode_520_ci,
+  `cornerA` point DEFAULT NULL,
+  `cornerB` point DEFAULT NULL,
+  `color` varchar(16) COLLATE utf8mb4_unicode_520_ci DEFAULT NULL,
+  `opacity` float DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `wp_wpgmza_rectangles`
+--
+
+LOCK TABLES `wp_wpgmza_rectangles` WRITE;
+/*!40000 ALTER TABLE `wp_wpgmza_rectangles` DISABLE KEYS */;
+/*!40000 ALTER TABLE `wp_wpgmza_rectangles` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+=======
+>>>>>>> d9d4cb3a396d18fc6a8ef2edcd40f8c0a1f0a7b5
+
+--
+-- Table structure for table `wp_wc_admin_note_actions`
+--
+
+<<<<<<< HEAD
+-- Dump completed on 2021-02-19 17:06:14
+=======
 DROP TABLE IF EXISTS `wp_wc_admin_note_actions`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
  SET character_set_client = utf8mb4 ;
@@ -4311,3 +5504,4 @@ UNLOCK TABLES;
 -- Dump completed on 2021-02-17 16:52:07
 >>>>>>> 36e0a78c6bd577816991e618fe24ddfbd46a27fe
 >>>>>>> c7570b01d67e20427c1cb5f437b5c7b5d2cd404b
+>>>>>>> d9d4cb3a396d18fc6a8ef2edcd40f8c0a1f0a7b5

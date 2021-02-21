@@ -588,6 +588,210 @@ Stack trace:
 =======
 [06-Feb-2021 09:51:10 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/functions.php on line 18
 [06-Feb-2021 09:53:11 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaweb/functions.php on line 18
+<<<<<<< HEAD
+[15-Feb-2021 10:14:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ignaweb_lista_categorias() in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php:11
+Stack trace:
+#0 /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/alfredo/...')
+#2 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
+#3 {main}
+  thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php on line 11
+[15-Feb-2021 10:15:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ignaweb_lista_categorias() in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php:11
+Stack trace:
+#0 /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/alfredo/...')
+#2 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
+#3 {main}
+  thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php on line 11
+[15-Feb-2021 10:18:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ignaweb_lista_categorias() in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php:11
+Stack trace:
+#0 /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/alfredo/...')
+#2 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
+#3 {main}
+  thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php on line 11
+[15-Feb-2021 10:20:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ignaweb_lista_categorias() in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php:11
+Stack trace:
+#0 /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/alfredo/...')
+#2 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
+#3 {main}
+  thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php on line 11
+[15-Feb-2021 10:20:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ignaweb_lista_categorias() in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php:11
+Stack trace:
+#0 /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/alfredo/...')
+#2 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
+#3 {main}
+  thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php on line 11
+[15-Feb-2021 10:20:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ignaweb_lista_categorias() in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php:11
+Stack trace:
+#0 /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/alfredo/...')
+#2 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
+#3 {main}
+  thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php on line 11
+[15-Feb-2021 10:20:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ignaweb_lista_categorias() in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php:11
+Stack trace:
+#0 /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/alfredo/...')
+#2 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
+#3 {main}
+  thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php on line 11
+[15-Feb-2021 10:23:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ignaweb_lista_categorias() in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php:10
+Stack trace:
+#0 /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/alfredo/...')
+#2 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
+#3 {main}
+  thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php on line 10
+[15-Feb-2021 10:23:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ignaweb_lista_categorias() in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php:10
+Stack trace:
+#0 /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/alfredo/...')
+#2 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
+#3 {main}
+  thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php on line 10
+[15-Feb-2021 10:23:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ignaweb_lista_categorias() in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php:10
+Stack trace:
+#0 /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/alfredo/...')
+#2 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
+#3 {main}
+  thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php on line 10
+[15-Feb-2021 10:24:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ignaweb_lista_categorias() in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php:10
+Stack trace:
+#0 /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/alfredo/...')
+#2 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
+#3 {main}
+  thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php on line 10
+[15-Feb-2021 10:24:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ignaweb_lista_categorias() in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php:10
+Stack trace:
+#0 /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/alfredo/...')
+#2 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
+#3 {main}
+  thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php on line 10
+[15-Feb-2021 10:24:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ignaweb_lista_categorias() in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php:10
+Stack trace:
+#0 /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/alfredo/...')
+#2 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
+#3 {main}
+  thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php on line 10
+[15-Feb-2021 10:24:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ignaweb_lista_categorias() in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php:10
+Stack trace:
+#0 /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/alfredo/...')
+#2 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
+#3 {main}
+  thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php on line 10
+[15-Feb-2021 10:24:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ignaweb_lista_categorias() in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php:10
+Stack trace:
+#0 /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/alfredo/...')
+#2 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
+#3 {main}
+  thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php on line 10
+[15-Feb-2021 10:31:06 UTC] PHP Warning:  Illegal offset type in isset or empty in /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/taxonomy.php on line 290
+[15-Feb-2021 10:31:06 UTC] PHP Stack trace:
+[15-Feb-2021 10:31:06 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[15-Feb-2021 10:31:06 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[15-Feb-2021 10:31:06 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[15-Feb-2021 10:31:06 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[15-Feb-2021 10:31:06 UTC] PHP   5. ignaweb_lista_categorias() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php:10
+[15-Feb-2021 10:31:06 UTC] PHP   6. get_terms() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php:11
+[15-Feb-2021 10:31:06 UTC] PHP   7. taxonomy_exists() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/taxonomy.php:1215
+[15-Feb-2021 10:31:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method WP_Error::have_posts() in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php:14
+Stack trace:
+#0 /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php(10): ignaweb_lista_categorias()
+#1 /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php(106): include('/Users/alfredo/...')
+#2 /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/alfredo/...')
+#3 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
+#4 {main}
+  thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 14
+[15-Feb-2021 10:39:12 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 13
+[15-Feb-2021 10:39:12 UTC] PHP Stack trace:
+[15-Feb-2021 10:39:12 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[15-Feb-2021 10:39:12 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[15-Feb-2021 10:39:12 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[15-Feb-2021 10:39:12 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[15-Feb-2021 10:39:12 UTC] PHP   5. ignaweb_lista_categorias() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php:10
+[15-Feb-2021 10:39:24 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 13
+[15-Feb-2021 10:39:24 UTC] PHP Stack trace:
+[15-Feb-2021 10:39:24 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[15-Feb-2021 10:39:24 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[15-Feb-2021 10:39:24 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[15-Feb-2021 10:39:24 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[15-Feb-2021 10:39:24 UTC] PHP   5. ignaweb_lista_categorias() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php:10
+[15-Feb-2021 10:39:25 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 13
+[15-Feb-2021 10:39:25 UTC] PHP Stack trace:
+[15-Feb-2021 10:39:25 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[15-Feb-2021 10:39:25 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[15-Feb-2021 10:39:25 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[15-Feb-2021 10:39:25 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[15-Feb-2021 10:39:25 UTC] PHP   5. ignaweb_lista_categorias() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php:10
+[15-Feb-2021 11:24:14 UTC] PHP Parse error:  syntax error, unexpected '{' in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 16
+[15-Feb-2021 11:24:14 UTC] PHP Parse error:  syntax error, unexpected '{' in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 16
+[15-Feb-2021 11:24:27 UTC] PHP Parse error:  syntax error, unexpected '{' in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 17
+[15-Feb-2021 12:01:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _taxonomy_image_url() in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php:30
+Stack trace:
+#0 /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php(10): ignaweb_lista_categorias()
+#1 /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php(106): include('/Users/alfredo/...')
+#2 /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/alfredo/...')
+#3 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
+#4 {main}
+  thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 30
+[15-Feb-2021 12:04:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sz_taxonomy_image_url() in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php:18
+Stack trace:
+#0 /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php(10): ignaweb_lista_categorias()
+#1 /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php(106): include('/Users/alfredo/...')
+#2 /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/alfredo/...')
+#3 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
+#4 {main}
+  thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 18
+[19-Feb-2021 16:06:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function z_taxonomy_image_url() in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php:18
+Stack trace:
+#0 /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php(10): ignaweb_lista_categorias()
+#1 /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php(106): include('/Users/alfredo/...')
+#2 /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/alfredo/...')
+#3 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
+#4 {main}
+  thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 18
+[19-Feb-2021 16:06:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function z_taxonomy_image_url() in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php:18
+Stack trace:
+#0 /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php(10): ignaweb_lista_categorias()
+#1 /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php(106): include('/Users/alfredo/...')
+#2 /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/alfredo/...')
+#3 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
+#4 {main}
+  thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 18
+[19-Feb-2021 16:06:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function z_taxonomy_image_url() in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php:18
+Stack trace:
+#0 /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php(10): ignaweb_lista_categorias()
+#1 /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php(106): include('/Users/alfredo/...')
+#2 /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/alfredo/...')
+#3 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
+#4 {main}
+  thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 18
+[19-Feb-2021 16:07:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function z_taxonomy_image_url() in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php:18
+Stack trace:
+#0 /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php(10): ignaweb_lista_categorias()
+#1 /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php(106): include('/Users/alfredo/...')
+#2 /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/alfredo/...')
+#3 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
+#4 {main}
+  thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 18
+[21-Feb-2021 11:43:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function z_taxonomy_image_url() in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php:18
+Stack trace:
+#0 /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php(10): ignaweb_lista_categorias()
+#1 /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php(106): include('/Users/alfredo/...')
+#2 /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/alfredo/...')
+#3 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
+#4 {main}
+  thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 18
+=======
 [14-Feb-2021 17:14:03 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'gymfitness_widgets' not found or invalid function name in /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/class-wp-hook.php on line 287
 [14-Feb-2021 17:14:03 UTC] PHP Stack trace:
 [14-Feb-2021 17:14:03 UTC] PHP   1. {main}() /Users/jorge/Local Sites/ignaweb/app/public/wp-admin/admin-ajax.php:0
@@ -921,3 +1125,13 @@ Stack trace:
 [15-Feb-2021 08:57:09 UTC] PHP   3. translations_api() /Users/jorge/Local Sites/ignaweb/app/public/wp-admin/includes/translation-install.php:133
 [15-Feb-2021 08:57:09 UTC] PHP   4. trigger_error() /Users/jorge/Local Sites/ignaweb/app/public/wp-admin/includes/translation-install.php:68
 >>>>>>> 268e9324196e849a7d35524c25102d6dc05c4787
+>>>>>>> d9d4cb3a396d18fc6a8ef2edcd40f8c0a1f0a7b5
+[21-Feb-2021 11:45:46 UTC] PHP Parse error:  syntax error, unexpected '===' (T_IS_IDENTICAL), expecting end of file in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/plugins/ignaser_post_types/ignaser_post_types.php on line 100
+[21-Feb-2021 11:45:51 UTC] PHP Parse error:  syntax error, unexpected '===' (T_IS_IDENTICAL), expecting end of file in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/plugins/ignaser_post_types/ignaser_post_types.php on line 100
+[21-Feb-2021 11:45:54 UTC] PHP Parse error:  syntax error, unexpected '===' (T_IS_IDENTICAL), expecting end of file in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/plugins/ignaser_post_types/ignaser_post_types.php on line 100
+[21-Feb-2021 11:46:26 UTC] PHP Parse error:  syntax error, unexpected '===' (T_IS_IDENTICAL), expecting end of file in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/plugins/ignaser_post_types/ignaser_post_types.php on line 100
+[21-Feb-2021 11:47:51 UTC] PHP Parse error:  syntax error, unexpected '===' (T_IS_IDENTICAL), expecting end of file in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/plugins/ignaser_post_types/ignaser_post_types.php on line 100
+[21-Feb-2021 11:47:51 UTC] PHP Parse error:  syntax error, unexpected '===' (T_IS_IDENTICAL), expecting end of file in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/plugins/ignaser_post_types/ignaser_post_types.php on line 100
+[21-Feb-2021 11:47:53 UTC] PHP Parse error:  syntax error, unexpected '===' (T_IS_IDENTICAL), expecting end of file in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/plugins/ignaser_post_types/ignaser_post_types.php on line 100
+[21-Feb-2021 11:47:53 UTC] PHP Parse error:  syntax error, unexpected '===' (T_IS_IDENTICAL), expecting end of file in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/plugins/ignaser_post_types/ignaser_post_types.php on line 100
+[21-Feb-2021 11:48:27 UTC] PHP Parse error:  syntax error, unexpected '===' (T_IS_IDENTICAL), expecting end of file in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/plugins/ignaser_post_types/ignaser_post_types.php on line 100
