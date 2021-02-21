@@ -162,3 +162,35 @@ Stack trace:
 #3 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
 #4 {main}
   thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 18
+[19-Feb-2021 16:06:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function z_taxonomy_image_url() in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php:18
+Stack trace:
+#0 /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php(10): ignaweb_lista_categorias()
+#1 /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php(106): include('/Users/alfredo/...')
+#2 /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/alfredo/...')
+#3 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
+#4 {main}
+  thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 18
+[19-Feb-2021 16:06:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function z_taxonomy_image_url() in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php:18
+Stack trace:
+#0 /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php(10): ignaweb_lista_categorias()
+#1 /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php(106): include('/Users/alfredo/...')
+#2 /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/alfredo/...')
+#3 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
+#4 {main}
+  thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 18
+[19-Feb-2021 16:06:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function z_taxonomy_image_url() in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php:18
+Stack trace:
+#0 /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php(10): ignaweb_lista_categorias()
+#1 /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php(106): include('/Users/alfredo/...')
+#2 /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/alfredo/...')
+#3 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
+#4 {main}
+  thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 18
+[19-Feb-2021 16:07:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function z_taxonomy_image_url() in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php:18
+Stack trace:
+#0 /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php(10): ignaweb_lista_categorias()
+#1 /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php(106): include('/Users/alfredo/...')
+#2 /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/alfredo/...')
+#3 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
+#4 {main}
+  thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 18
