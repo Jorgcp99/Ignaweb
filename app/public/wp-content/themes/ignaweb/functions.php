@@ -38,6 +38,8 @@ function pickApp_scripts_styles()
 
     wp_enqueue_style('googleFont', 'https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap', array(), '1.0.0');
 
+    wp_enqueue_style('style', get_stylesheet_uri(), array('googleFont'), '1.0.0');
+
     wp_enqueue_style('styles', get_stylesheet_uri(), array('googleFont', 'normalize'), '1.0.0');
 
     if (is_page('galeria')) :
@@ -46,26 +48,36 @@ function pickApp_scripts_styles()
     endif;
 
     wp_enqueue_script('scripts', get_template_directory_uri() . '/js/scripts.js', array('jquery', 'slickNavJS'), '1.0.0', true);
+
 }
 
 add_action('wp_enqueue_scripts', 'pickApp_scripts_styles');
 
 
-function ignaser_widgets(){
+function ignaser_widgets()
+{
     register_sidebar(array(
-        'name' => 'Nuestros valores',
-        'id' => 'nuestros_valores',
-        'before_widget' => '<div class="widget">',
+        'name' => 'Datos Contacto',
+        'id' => 'datos_contacto',
+        'before_widget' => '<div class="datosContacto">',
         'after_widget' => '</div>',
-        'before_title' => '<h3 class="text-center texto-primario">',
+        'before_title' => '<h3 class="contactoLabel">',
         'after_title' => '</h3>'
     ));
     register_sidebar(array(
-        'name' => 'SideBar2',
-        'id' => 'sidebar_2',
-        'before_widget' => '<div class="widget">',
+        'name' => 'Footer contacto',
+        'id' => 'footer_contacto',
+        'before_widget' => '<div class="footerContacto">',
         'after_widget' => '</div>',
-        'before_title' => '<h3 class="text-center texto-primario">',
+        'before_title' => '<h3 class="footerTit">',
+        'after_title' => '</h3>'
+    ));
+    register_sidebar(array(
+        'name' => 'Footer dirección',
+        'id' => 'footer_direccion',
+        'before_widget' => '<div class="footerDireccion">',
+        'after_widget' => '</div>',
+        'before_title' => '<h3 class="footerTit">',
         'after_title' => '</h3>'
     ));
 }
