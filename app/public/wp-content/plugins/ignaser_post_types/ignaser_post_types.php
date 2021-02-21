@@ -1,12 +1,12 @@
 <?php
 /*
-    Plugin Name: IgnaserWeb - Post Types
-    Plugin URI: 
-    Descripcion: Añade Post Types al sitio web Ignaser 
-    Version: 1.0.0
-    Author: Alfredo Manjon Canela, Jorge Caro Poza
-    Author URI:
-    Text Domain: ingaweb
+  Plugin Name: Ignaser - Post Types
+  Plugin URI:
+  Description: Añade post types al sitio Ignaser
+  Version: 1.0.0
+  Author: Jorge Caro Poza y Alfredo Manjón Canela
+  Author URI:
+  Text Domain: ignasertheme
 */
 
 // Registrar Custom Post Type
