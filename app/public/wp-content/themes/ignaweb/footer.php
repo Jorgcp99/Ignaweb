@@ -1,15 +1,15 @@
 <footer class="siteFooter">
-    <div class="footerContent">
-        <div class="footerDireccion">
-            <h4 class="footerTit">Dirección</h4>
-            <p class="footerInfo">C/Holanda Nº24</p>
-            <p class="footerInfo">28341 Valdemoro, Madrid</p>
+    <div class="footerContent row">
+        <div class="footerDir col-12 col-md-3 row">
+            <?php dynamic_sidebar('footer_direccion') ?>
+            <hr class="separator">
         </div>
-        <h3 class="copyright"><?php echo get_bloginfo('name') . " ® " . date('Y') ?></h3>
-        <div class="footerContacto">
-            <h4 class="footerTit">Contacto</h4>
-            <p class="footerInfo">Telf: 676938423</p>
-            <p class="footerInfo">info@ignaser.com</p>
+        <h3 class="copyright col-12 col-md-3"><?php echo get_bloginfo('name') . " ® " . date('Y') ?></h3>
+        
+        <div class="footerCont col-12 col-md-3 row">
+        <hr class="separator2">
+            <?php dynamic_sidebar('footer_contacto') ?>
+            
         </div>
     </div>
 

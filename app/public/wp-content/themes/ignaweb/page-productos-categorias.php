@@ -4,7 +4,7 @@
 while (have_posts()) : the_post();
 
 ?>
-    <h1 class="pageTitle">¿Qué estás buscando?</h1>
+    <h1 class="pageCategoriesTitle">¿Qué estás buscando?</h1>
     <div class="">
         <?php
         ignaweb_lista_categorias();
