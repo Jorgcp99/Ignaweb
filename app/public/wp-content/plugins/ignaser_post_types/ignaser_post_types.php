@@ -61,9 +61,41 @@ function ignaser_valores_post_type()
         'publicly_queryable'    => true,
         'capability_type'       => 'page',
     );
+
     register_post_type('ignaser_valores', $args);
 }
 add_action('init', 'ignaser_valores_post_type', 0);
+
+
+function create_product_taxonomies() {
+  
+  $labels = array(
+    'name'             => _x( 'Categorias', 'categories general name' ),
+    'singular_name'    => _x( 'Categoría', 'category singular name' ),
+    'search_items'     => __( 'Buscar por Categoría' ),
+    'all_items'        => __( 'Todos las Categoría' ),
+    'parent_item'      => __( 'Categoría padre' ),
+    'parent_item_colon'=> __( 'Categoría padre:' ),
+    'featured_image'   => __( 'Imagen Destacada'),
+    'edit_item'        => __( 'Editar Categoría' ),
+    'update_item'      => __( 'Actualizar Categoría' ),
+    'add_new_item'     => __( 'Añadir nueva Categoría' ),
+    'new_item_name'    => __( 'Nombre del la nueva Categoría' ),
+  );
+  
+  /* Registramos la taxonomía y la configuramos como jerárquica (al estilo de las categorías) */
+  register_taxonomy( 'category_product', array( 'ignaweb_productos' ), array(
+    'hierarchical'       => true,
+    'labels'             => $labels,
+    'show_ui'            => true,
+    'query_var'          => true,
+    'rewrite'            => array( 'slug' => 'product_category' ),
+  ));
+  
+}
+
+// Lo enganchamos en la acción init y llamamos a la función create_book_taxonomies() cuando arranque
+add_action( 'init', 'create_product_taxonomies', 0 );  
 
 // Registrar Custom Post Type
 function ignaser_productos_post_type() {
@@ -111,45 +143,24 @@ function ignaser_productos_post_type() {
 		'show_in_admin_bar'     => true,
 		'show_in_nav_menus'     => true,
 		'can_export'            => true,
-		'has_archive'           => true,
+    'rewrite' => array('slug' => 'product_category/%category_product%', 'with_front' => false), 
+		'has_archive'           => 'product_category',
 		'exclude_from_search'   => false,
 		'publicly_queryable'    => true,
 		'capability_type'       => 'page',
+  
 	);
+  
 	register_post_type( 'ignaweb_productos', $args );
 
 }
 add_action( 'init', 'ignaser_productos_post_type', 0);
 
-function create_product_taxonomies() {
-  
-  $labels = array(
-    'name'             => _x( 'Categorias', 'categories general name' ),
-    'singular_name'    => _x( 'Categoría', 'category singular name' ),
-    'search_items'     => __( 'Buscar por Categoría' ),
-    'all_items'        => __( 'Todos las Categoría' ),
-    'parent_item'      => __( 'Categoría padre' ),
-    'parent_item_colon'=> __( 'Categoría padre:' ),
-    'featured_image'   => __( 'Imagen Destacada'),
-    'edit_item'        => __( 'Editar Categoría' ),
-    'update_item'      => __( 'Actualizar Categoría' ),
-    'add_new_item'     => __( 'Añadir nueva Categoría' ),
-    'new_item_name'    => __( 'Nombre del la nueva Categoría' ),
-  );
-  
-  /* Registramos la taxonomía y la configuramos como jerárquica (al estilo de las categorías) */
-  register_taxonomy( 'category_product', array( 'ignaweb_productos' ), array(
-    'hierarchical'       => true,
-    'labels'             => $labels,
-    'show_ui'            => true,
-    'query_var'          => true,
-    'rewrite'            => array( 'slug' => 'Categoría' ),
-  ));
-  
+function custom_taxonomy_flush_rewrite() {
+  global $wp_rewrite;
+  $wp_rewrite->flush_rules();
 }
-
-// Lo enganchamos en la acción init y llamamos a la función create_book_taxonomies() cuando arranque
-add_action( 'init', 'create_product_taxonomies', 0 );  
+add_action('init', 'custom_taxonomy_flush_rewrite');
 
   
 
