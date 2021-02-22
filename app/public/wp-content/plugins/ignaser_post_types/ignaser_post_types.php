@@ -97,6 +97,12 @@ function create_product_taxonomies() {
 // Lo enganchamos en la acción init y llamamos a la función create_book_taxonomies() cuando arranque
 add_action( 'init', 'create_product_taxonomies', 0 );  
 
+function custom_taxonomy_flush_rewrite() {
+  global $wp_rewrite;
+  $wp_rewrite->flush_rules();
+}
+add_action('init', 'custom_taxonomy_flush_rewrite');
+
 // Registrar Custom Post Type
 function ignaser_productos_post_type() {
 
@@ -156,11 +162,6 @@ function ignaser_productos_post_type() {
 }
 add_action( 'init', 'ignaser_productos_post_type', 0);
 
-function custom_taxonomy_flush_rewrite() {
-  global $wp_rewrite;
-  $wp_rewrite->flush_rules();
-}
-add_action('init', 'custom_taxonomy_flush_rewrite');
 
   
 
