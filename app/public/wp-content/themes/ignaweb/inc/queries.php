@@ -60,7 +60,7 @@ function ignaweb_lista_categoria($taxonomy){
             $slug = get_post_field('post_name', get_the_ID());
             ?>
             <li class="productCategoryCard">
-                        <a href=<?php echo $slug; ?>>
+                        <a href=<?php  get_Permalink(); echo $slug; ?>>
                             <?php $img_url = wp_get_attachment_image_src(get_post_thumbnail_id(),'mediano'); ?>
                             <div class="">
                                 <img src="<?php echo $img_url[0];?>"/>
@@ -87,8 +87,6 @@ function ignaweb_lista_categoria($taxonomy){
          </div>
          <?php
      }
-
-
 }
 
 function ignaser_lista_valores()
@@ -119,5 +117,3 @@ function ignaser_lista_valores()
     </div>
 <?php
 }
-?>
-
