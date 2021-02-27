@@ -16,9 +16,11 @@ function ignaweb_lista_categorias() {
                     $titulo = $term->name;
                     $description = $term->description;
                     $imagen = z_taxonomy_image_url($term->term_id);
-                ?>
+                    $category_link = get_category_link($term->term_id);
+                ?>                  
+                    
                     <li class="category-card">
-                        <a href= "<?php $term->term_id ?>" class="category-gradient">
+                        <a href= "<?php echo get_term_link($term)?>" class="category-gradient">
                             <img src=<?php echo $imagen ?> />
                             <div class="contenido">
                                 <h3><?php echo $titulo; ?></h3>
@@ -39,23 +41,52 @@ function ignaweb_lista_categorias() {
 }
 
 function ignaweb_lista_categoria($taxonomy){
-
-    $posts_array = get_posts(
-        array(
-            'posts_per_page' => -1,
-            'post_type' => 'fabric_building',
-            'tax_query' => array(
-                array(
-                    'taxonomy' => $taxonomy,
-                    'field' => 'term_id',
-                    'terms' => $cat->term_id,
-                )
-            )
-        )
-    );
-
-    echo $posts_array[0];
-
+ 
+    $args = array('post_type' => 'ignaweb_productos',
+        'tax_query' => array(
+            array(
+                'taxonomy' => 'category_product',
+                'field' => 'slug',
+                'terms' => $taxonomy,
+            ),
+        ),
+     );
+     ?>
+    <ul class="listaCategoriasProductos">
+     <?php
+     $loop = new WP_Query($args);
+     if($loop->have_posts()) {
+        while($loop->have_posts()) : $loop->the_post();
+            $slug = get_post_field('post_name', get_the_ID());
+            ?>
+            <li class="productCategoryCard">
+                        <a href=<?php get_Permalink(); echo $slug; ?>>
+                            <?php $img_url = wp_get_attachment_image_src(get_post_thumbnail_id(),'mediano'); ?>
+                            <div class="">
+                                <img src="<?php echo $img_url[0];?>"/>
+                            </div>
+                            <div class="contenido">
+                                <h3><?php the_title(); ?></h3>
+                                <div class="contentCategoryDescription">
+                                    <p><?php the_content(); ?></p>
+                                </div>
+                                <h4 class="linkButton">Ver más ></h4>
+                            </div>
+                        </a>
+                    </li>
+            <?php
+        endwhile; wp_reset_postdata();
+        ?>
+        </ul>
+        <?php
+     }else{
+         ?>
+         <div class="noItemsCategoriaProductos">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/no_data.png" />
+            <h1>No hay productos aún en esta categoría</h1>
+         </div>
+         <?php
+     }
 }
 
 function ignaser_lista_valores()
@@ -86,5 +117,3 @@ function ignaser_lista_valores()
     </div>
 <?php
 }
-?>
-

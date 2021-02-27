@@ -1,5 +1,4 @@
 
 
-<?php get_header(); ?>
-<h1>Inicio</h1>
+<h1>Inicio del index.httml</h1>
 

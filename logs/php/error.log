@@ -1135,6 +1135,7 @@ Stack trace:
 [21-Feb-2021 11:47:53 UTC] PHP Parse error:  syntax error, unexpected '===' (T_IS_IDENTICAL), expecting end of file in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/plugins/ignaser_post_types/ignaser_post_types.php on line 100
 [21-Feb-2021 11:47:53 UTC] PHP Parse error:  syntax error, unexpected '===' (T_IS_IDENTICAL), expecting end of file in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/plugins/ignaser_post_types/ignaser_post_types.php on line 100
 [21-Feb-2021 11:48:27 UTC] PHP Parse error:  syntax error, unexpected '===' (T_IS_IDENTICAL), expecting end of file in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/plugins/ignaser_post_types/ignaser_post_types.php on line 100
+<<<<<<< HEAD
 [27-Feb-2021 12:41:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaserWeb/front-page.php:51
 Stack trace:
 #0 /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/template-loader.php(106): include()
@@ -1163,3 +1164,421 @@ Stack trace:
 #2 /Users/jorge/Local Sites/ignaweb/app/public/index.php(17): require('/Users/jorge/Lo...')
 #3 {main}
   thrown in /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaserWeb/front-page.php on line 51
+=======
+[21-Feb-2021 16:36:04 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_category(), 0 passed in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 21 and at least 1 expected in /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/category.php:91
+Stack trace:
+#0 /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php(21): get_category()
+#1 /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php(10): ignaweb_lista_categorias()
+#2 /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php(106): include('/Users/alfredo/...')
+#3 /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/alfredo/...')
+#4 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
+#5 {main}
+  thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/category.php on line 91
+[21-Feb-2021 16:41:28 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_category_link(), 0 passed in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 22 and exactly 1 expected in /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/category-template.php:20
+Stack trace:
+#0 /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php(22): get_category_link()
+#1 /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php(10): ignaweb_lista_categorias()
+#2 /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php(106): include('/Users/alfredo/...')
+#3 /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/alfredo/...')
+#4 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
+#5 {main}
+  thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/category-template.php on line 20
+[21-Feb-2021 16:41:29 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_category_link(), 0 passed in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 22 and exactly 1 expected in /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/category-template.php:20
+Stack trace:
+#0 /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php(22): get_category_link()
+#1 /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php(10): ignaweb_lista_categorias()
+#2 /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php(106): include('/Users/alfredo/...')
+#3 /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/alfredo/...')
+#4 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
+#5 {main}
+  thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/category-template.php on line 20
+[21-Feb-2021 16:41:30 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_category_link(), 0 passed in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 22 and exactly 1 expected in /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/category-template.php:20
+Stack trace:
+#0 /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php(22): get_category_link()
+#1 /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php(10): ignaweb_lista_categorias()
+#2 /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php(106): include('/Users/alfredo/...')
+#3 /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/alfredo/...')
+#4 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
+#5 {main}
+  thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/category-template.php on line 20
+[21-Feb-2021 16:58:06 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_category(), 0 passed in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 21 and at least 1 expected in /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/category.php:91
+Stack trace:
+#0 /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php(21): get_category()
+#1 /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php(10): ignaweb_lista_categorias()
+#2 /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php(106): include('/Users/alfredo/...')
+#3 /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/alfredo/...')
+#4 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
+#5 {main}
+  thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/category.php on line 91
+[21-Feb-2021 16:58:19 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_category(), 0 passed in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 21 and at least 1 expected in /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/category.php:91
+Stack trace:
+#0 /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php(21): get_category()
+#1 /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php(10): ignaweb_lista_categorias()
+#2 /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php(106): include('/Users/alfredo/...')
+#3 /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/alfredo/...')
+#4 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
+#5 {main}
+  thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/category.php on line 91
+[21-Feb-2021 16:58:27 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_category(), 0 passed in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 21 and at least 1 expected in /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/category.php:91
+Stack trace:
+#0 /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php(21): get_category()
+#1 /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/page-productos-categorias.php(10): ignaweb_lista_categorias()
+#2 /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php(106): include('/Users/alfredo/...')
+#3 /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/alfredo/...')
+#4 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
+#5 {main}
+  thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/category.php on line 91
+[21-Feb-2021 17:43:03 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/plugins/ignaser_post_types/ignaser_post_types.php on line 71
+[21-Feb-2021 18:19:13 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 59
+[21-Feb-2021 18:19:13 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 59
+[21-Feb-2021 18:52:34 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 57
+[21-Feb-2021 18:52:34 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 57
+[21-Feb-2021 18:52:34 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 57
+[21-Feb-2021 18:52:35 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 57
+[21-Feb-2021 18:52:42 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 57
+[21-Feb-2021 18:52:42 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 57
+[21-Feb-2021 18:52:43 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 57
+[21-Feb-2021 18:52:43 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 57
+[21-Feb-2021 18:53:16 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 60
+[21-Feb-2021 18:53:16 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 60
+[21-Feb-2021 18:53:17 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 60
+[21-Feb-2021 18:53:17 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 60
+[21-Feb-2021 19:09:06 UTC] PHP Warning:  Use of undefined constant toLowe - assumed 'toLowe' (this will throw an Error in a future version of PHP) in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 44
+[21-Feb-2021 19:09:06 UTC] PHP Stack trace:
+[21-Feb-2021 19:09:06 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[21-Feb-2021 19:09:06 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[21-Feb-2021 19:09:06 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[21-Feb-2021 19:09:06 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[21-Feb-2021 19:09:06 UTC] PHP   5. ignaweb_lista_categoria() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/taxonomy-category_product.php:11
+[21-Feb-2021 19:32:41 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 60
+[21-Feb-2021 19:32:41 UTC] PHP Stack trace:
+[21-Feb-2021 19:32:41 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[21-Feb-2021 19:32:41 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[21-Feb-2021 19:32:41 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[21-Feb-2021 19:32:41 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[21-Feb-2021 19:32:41 UTC] PHP   5. ignaweb_lista_categoria() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/taxonomy-category_product.php:11
+[21-Feb-2021 19:32:41 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 60
+[21-Feb-2021 19:32:41 UTC] PHP Stack trace:
+[21-Feb-2021 19:32:41 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[21-Feb-2021 19:32:41 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[21-Feb-2021 19:32:41 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[21-Feb-2021 19:32:41 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[21-Feb-2021 19:32:41 UTC] PHP   5. ignaweb_lista_categoria() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/taxonomy-category_product.php:11
+[21-Feb-2021 19:32:41 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 60
+[21-Feb-2021 19:32:41 UTC] PHP Stack trace:
+[21-Feb-2021 19:32:41 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[21-Feb-2021 19:32:41 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[21-Feb-2021 19:32:41 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[21-Feb-2021 19:32:41 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[21-Feb-2021 19:32:41 UTC] PHP   5. ignaweb_lista_categoria() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/taxonomy-category_product.php:11
+[21-Feb-2021 19:32:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on array in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php:65
+Stack trace:
+#0 /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/taxonomy-category_product.php(11): ignaweb_lista_categoria('Mamparas')
+#1 /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php(106): include('/Users/alfredo/...')
+#2 /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/alfredo/...')
+#3 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
+#4 {main}
+  thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 65
+[21-Feb-2021 19:32:53 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 60
+[21-Feb-2021 19:32:53 UTC] PHP Stack trace:
+[21-Feb-2021 19:32:53 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[21-Feb-2021 19:32:53 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[21-Feb-2021 19:32:53 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[21-Feb-2021 19:32:53 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[21-Feb-2021 19:32:53 UTC] PHP   5. ignaweb_lista_categoria() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/taxonomy-category_product.php:11
+[21-Feb-2021 19:32:53 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 60
+[21-Feb-2021 19:32:53 UTC] PHP Stack trace:
+[21-Feb-2021 19:32:53 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[21-Feb-2021 19:32:53 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[21-Feb-2021 19:32:53 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[21-Feb-2021 19:32:53 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[21-Feb-2021 19:32:53 UTC] PHP   5. ignaweb_lista_categoria() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/taxonomy-category_product.php:11
+[21-Feb-2021 19:32:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on array in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php:65
+Stack trace:
+#0 /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/taxonomy-category_product.php(11): ignaweb_lista_categoria('Mamparas')
+#1 /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php(106): include('/Users/alfredo/...')
+#2 /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/alfredo/...')
+#3 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
+#4 {main}
+  thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 65
+[21-Feb-2021 19:32:54 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 60
+[21-Feb-2021 19:32:54 UTC] PHP Stack trace:
+[21-Feb-2021 19:32:54 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[21-Feb-2021 19:32:54 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[21-Feb-2021 19:32:54 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[21-Feb-2021 19:32:54 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[21-Feb-2021 19:32:54 UTC] PHP   5. ignaweb_lista_categoria() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/taxonomy-category_product.php:11
+[21-Feb-2021 19:32:54 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 60
+[21-Feb-2021 19:32:54 UTC] PHP Stack trace:
+[21-Feb-2021 19:32:54 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[21-Feb-2021 19:32:54 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[21-Feb-2021 19:32:54 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[21-Feb-2021 19:32:54 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[21-Feb-2021 19:32:54 UTC] PHP   5. ignaweb_lista_categoria() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/taxonomy-category_product.php:11
+[21-Feb-2021 19:32:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on array in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php:65
+Stack trace:
+#0 /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/taxonomy-category_product.php(11): ignaweb_lista_categoria('Mamparas')
+#1 /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php(106): include('/Users/alfredo/...')
+#2 /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/alfredo/...')
+#3 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
+#4 {main}
+  thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 65
+[21-Feb-2021 19:33:44 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 60
+[21-Feb-2021 19:33:44 UTC] PHP Stack trace:
+[21-Feb-2021 19:33:44 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[21-Feb-2021 19:33:44 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[21-Feb-2021 19:33:44 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[21-Feb-2021 19:33:44 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[21-Feb-2021 19:33:44 UTC] PHP   5. ignaweb_lista_categoria() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/taxonomy-category_product.php:11
+[21-Feb-2021 19:33:44 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 60
+[21-Feb-2021 19:33:44 UTC] PHP Stack trace:
+[21-Feb-2021 19:33:44 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[21-Feb-2021 19:33:44 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[21-Feb-2021 19:33:44 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[21-Feb-2021 19:33:44 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[21-Feb-2021 19:33:44 UTC] PHP   5. ignaweb_lista_categoria() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/taxonomy-category_product.php:11
+[21-Feb-2021 19:33:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on array in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php:65
+Stack trace:
+#0 /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/taxonomy-category_product.php(11): ignaweb_lista_categoria('Mamparas')
+#1 /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php(106): include('/Users/alfredo/...')
+#2 /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/alfredo/...')
+#3 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
+#4 {main}
+  thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 65
+[21-Feb-2021 19:33:45 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 60
+[21-Feb-2021 19:33:45 UTC] PHP Stack trace:
+[21-Feb-2021 19:33:45 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[21-Feb-2021 19:33:45 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[21-Feb-2021 19:33:45 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[21-Feb-2021 19:33:45 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[21-Feb-2021 19:33:45 UTC] PHP   5. ignaweb_lista_categoria() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/taxonomy-category_product.php:11
+[21-Feb-2021 19:33:45 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 60
+[21-Feb-2021 19:33:45 UTC] PHP Stack trace:
+[21-Feb-2021 19:33:45 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[21-Feb-2021 19:33:45 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[21-Feb-2021 19:33:45 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[21-Feb-2021 19:33:45 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[21-Feb-2021 19:33:45 UTC] PHP   5. ignaweb_lista_categoria() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/taxonomy-category_product.php:11
+[21-Feb-2021 19:33:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on array in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php:65
+Stack trace:
+#0 /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/taxonomy-category_product.php(11): ignaweb_lista_categoria('Mamparas')
+#1 /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php(106): include('/Users/alfredo/...')
+#2 /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/alfredo/...')
+#3 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
+#4 {main}
+  thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 65
+[23-Feb-2021 09:02:29 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/update.php on line 173
+[23-Feb-2021 09:02:29 UTC] PHP Stack trace:
+[23-Feb-2021 09:02:29 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/wp-cron.php:0
+[23-Feb-2021 09:02:29 UTC] PHP   2. do_action_ref_array() /Users/alfredo/LocalSites/ignaweb/app/public/wp-cron.php:138
+[23-Feb-2021 09:02:29 UTC] PHP   3. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:551
+[23-Feb-2021 09:02:29 UTC] PHP   4. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[23-Feb-2021 09:02:29 UTC] PHP   5. wp_version_check() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[23-Feb-2021 09:02:29 UTC] PHP   6. trigger_error() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/update.php:173
+[23-Feb-2021 09:02:29 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/update.php on line 408
+[23-Feb-2021 09:02:29 UTC] PHP Stack trace:
+[23-Feb-2021 09:02:29 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/wp-cron.php:0
+[23-Feb-2021 09:02:29 UTC] PHP   2. do_action_ref_array() /Users/alfredo/LocalSites/ignaweb/app/public/wp-cron.php:138
+[23-Feb-2021 09:02:29 UTC] PHP   3. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:551
+[23-Feb-2021 09:02:29 UTC] PHP   4. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[23-Feb-2021 09:02:29 UTC] PHP   5. wp_update_plugins() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[23-Feb-2021 09:02:29 UTC] PHP   6. trigger_error() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/update.php:408
+[23-Feb-2021 09:02:29 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/update.php on line 612
+[23-Feb-2021 09:02:29 UTC] PHP Stack trace:
+[23-Feb-2021 09:02:29 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/wp-cron.php:0
+[23-Feb-2021 09:02:29 UTC] PHP   2. do_action_ref_array() /Users/alfredo/LocalSites/ignaweb/app/public/wp-cron.php:138
+[23-Feb-2021 09:02:29 UTC] PHP   3. WP_Hook->do_action() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/plugin.php:551
+[23-Feb-2021 09:02:29 UTC] PHP   4. WP_Hook->apply_filters() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:311
+[23-Feb-2021 09:02:29 UTC] PHP   5. wp_update_themes() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/class-wp-hook.php:287
+[23-Feb-2021 09:02:29 UTC] PHP   6. trigger_error() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/update.php:612
+[27-Feb-2021 10:47:24 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_post_type_archive_link(), 0 passed in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 62 and exactly 1 expected in /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/link-template.php:1219
+Stack trace:
+#0 /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php(62): get_post_type_archive_link()
+#1 /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/taxonomy-category_product.php(18): ignaweb_lista_categoria('escritorios')
+#2 /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php(106): include('/Users/alfredo/...')
+#3 /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/alfredo/...')
+#4 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
+#5 {main}
+  thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/link-template.php on line 1219
+[27-Feb-2021 10:47:26 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_post_type_archive_link(), 0 passed in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 62 and exactly 1 expected in /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/link-template.php:1219
+Stack trace:
+#0 /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php(62): get_post_type_archive_link()
+#1 /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/taxonomy-category_product.php(18): ignaweb_lista_categoria('escritorios')
+#2 /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php(106): include('/Users/alfredo/...')
+#3 /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/alfredo/...')
+#4 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
+#5 {main}
+  thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/link-template.php on line 1219
+[27-Feb-2021 11:20:20 UTC] PHP Recoverable fatal error:  Object of class WP_Error could not be converted to string in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 64
+[27-Feb-2021 11:20:20 UTC] PHP Stack trace:
+[27-Feb-2021 11:20:20 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[27-Feb-2021 11:20:20 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[27-Feb-2021 11:20:20 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[27-Feb-2021 11:20:20 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[27-Feb-2021 11:20:20 UTC] PHP   5. ignaweb_lista_categoria() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/taxonomy-category_product.php:18
+[27-Feb-2021 11:20:21 UTC] PHP Recoverable fatal error:  Object of class WP_Error could not be converted to string in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 64
+[27-Feb-2021 11:20:21 UTC] PHP Stack trace:
+[27-Feb-2021 11:20:21 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[27-Feb-2021 11:20:21 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[27-Feb-2021 11:20:21 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[27-Feb-2021 11:20:21 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[27-Feb-2021 11:20:21 UTC] PHP   5. ignaweb_lista_categoria() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/taxonomy-category_product.php:18
+[27-Feb-2021 11:20:24 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_term_link(), 0 passed in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 64 and at least 1 expected in /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/taxonomy.php:4343
+Stack trace:
+#0 /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php(64): get_term_link()
+#1 /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/taxonomy-category_product.php(18): ignaweb_lista_categoria('escritorios')
+#2 /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php(106): include('/Users/alfredo/...')
+#3 /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/alfredo/...')
+#4 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
+#5 {main}
+  thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/taxonomy.php on line 4343
+[27-Feb-2021 11:20:55 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_term_link(), 0 passed in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 64 and at least 1 expected in /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/taxonomy.php:4343
+Stack trace:
+#0 /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php(64): get_term_link()
+#1 /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/taxonomy-category_product.php(18): ignaweb_lista_categoria('escritorios')
+#2 /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php(106): include('/Users/alfredo/...')
+#3 /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/alfredo/...')
+#4 /Users/alfredo/LocalSites/ignaweb/app/public/index.php(17): require('/Users/alfredo/...')
+#5 {main}
+  thrown in /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/taxonomy.php on line 4343
+[27-Feb-2021 11:22:07 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 64
+[27-Feb-2021 11:22:07 UTC] PHP Stack trace:
+[27-Feb-2021 11:22:07 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[27-Feb-2021 11:22:07 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[27-Feb-2021 11:22:07 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[27-Feb-2021 11:22:07 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[27-Feb-2021 11:22:07 UTC] PHP   5. ignaweb_lista_categoria() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/taxonomy-category_product.php:18
+[27-Feb-2021 11:22:07 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 64
+[27-Feb-2021 11:22:07 UTC] PHP Stack trace:
+[27-Feb-2021 11:22:07 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[27-Feb-2021 11:22:07 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[27-Feb-2021 11:22:07 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[27-Feb-2021 11:22:07 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[27-Feb-2021 11:22:07 UTC] PHP   5. ignaweb_lista_categoria() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/taxonomy-category_product.php:18
+[27-Feb-2021 11:22:07 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 64
+[27-Feb-2021 11:22:07 UTC] PHP Stack trace:
+[27-Feb-2021 11:22:07 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[27-Feb-2021 11:22:07 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[27-Feb-2021 11:22:07 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[27-Feb-2021 11:22:07 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[27-Feb-2021 11:22:07 UTC] PHP   5. ignaweb_lista_categoria() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/taxonomy-category_product.php:18
+[27-Feb-2021 11:22:07 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 64
+[27-Feb-2021 11:22:07 UTC] PHP Stack trace:
+[27-Feb-2021 11:22:07 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[27-Feb-2021 11:22:07 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[27-Feb-2021 11:22:07 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[27-Feb-2021 11:22:07 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[27-Feb-2021 11:22:07 UTC] PHP   5. ignaweb_lista_categoria() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/taxonomy-category_product.php:18
+[27-Feb-2021 11:22:07 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 64
+[27-Feb-2021 11:22:07 UTC] PHP Stack trace:
+[27-Feb-2021 11:22:07 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[27-Feb-2021 11:22:07 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[27-Feb-2021 11:22:07 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[27-Feb-2021 11:22:07 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[27-Feb-2021 11:22:07 UTC] PHP   5. ignaweb_lista_categoria() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/taxonomy-category_product.php:18
+[27-Feb-2021 11:28:00 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 63
+[27-Feb-2021 11:28:00 UTC] PHP Stack trace:
+[27-Feb-2021 11:28:00 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[27-Feb-2021 11:28:00 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[27-Feb-2021 11:28:00 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[27-Feb-2021 11:28:00 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[27-Feb-2021 11:28:00 UTC] PHP   5. ignaweb_lista_categoria() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/taxonomy-category_product.php:18
+[27-Feb-2021 11:28:00 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 63
+[27-Feb-2021 11:28:00 UTC] PHP Stack trace:
+[27-Feb-2021 11:28:00 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[27-Feb-2021 11:28:00 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[27-Feb-2021 11:28:00 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[27-Feb-2021 11:28:00 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[27-Feb-2021 11:28:00 UTC] PHP   5. ignaweb_lista_categoria() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/taxonomy-category_product.php:18
+[27-Feb-2021 11:28:00 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 63
+[27-Feb-2021 11:28:00 UTC] PHP Stack trace:
+[27-Feb-2021 11:28:00 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[27-Feb-2021 11:28:00 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[27-Feb-2021 11:28:00 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[27-Feb-2021 11:28:00 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[27-Feb-2021 11:28:00 UTC] PHP   5. ignaweb_lista_categoria() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/taxonomy-category_product.php:18
+[27-Feb-2021 11:28:00 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 63
+[27-Feb-2021 11:28:00 UTC] PHP Stack trace:
+[27-Feb-2021 11:28:00 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[27-Feb-2021 11:28:00 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[27-Feb-2021 11:28:00 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[27-Feb-2021 11:28:00 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[27-Feb-2021 11:28:00 UTC] PHP   5. ignaweb_lista_categoria() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/taxonomy-category_product.php:18
+[27-Feb-2021 11:28:00 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 63
+[27-Feb-2021 11:28:00 UTC] PHP Stack trace:
+[27-Feb-2021 11:28:00 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[27-Feb-2021 11:28:00 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[27-Feb-2021 11:28:00 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[27-Feb-2021 11:28:00 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[27-Feb-2021 11:28:00 UTC] PHP   5. ignaweb_lista_categoria() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/taxonomy-category_product.php:18
+[27-Feb-2021 11:28:00 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 63
+[27-Feb-2021 11:28:00 UTC] PHP Stack trace:
+[27-Feb-2021 11:28:00 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[27-Feb-2021 11:28:00 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[27-Feb-2021 11:28:00 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[27-Feb-2021 11:28:00 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[27-Feb-2021 11:28:00 UTC] PHP   5. ignaweb_lista_categoria() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/taxonomy-category_product.php:18
+[27-Feb-2021 11:28:00 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 63
+[27-Feb-2021 11:28:00 UTC] PHP Stack trace:
+[27-Feb-2021 11:28:00 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[27-Feb-2021 11:28:00 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[27-Feb-2021 11:28:00 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[27-Feb-2021 11:28:00 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[27-Feb-2021 11:28:00 UTC] PHP   5. ignaweb_lista_categoria() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/taxonomy-category_product.php:18
+[27-Feb-2021 11:28:00 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 63
+[27-Feb-2021 11:28:00 UTC] PHP Stack trace:
+[27-Feb-2021 11:28:00 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[27-Feb-2021 11:28:00 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[27-Feb-2021 11:28:00 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[27-Feb-2021 11:28:00 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[27-Feb-2021 11:28:00 UTC] PHP   5. ignaweb_lista_categoria() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/taxonomy-category_product.php:18
+[27-Feb-2021 11:28:00 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 63
+[27-Feb-2021 11:28:00 UTC] PHP Stack trace:
+[27-Feb-2021 11:28:00 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[27-Feb-2021 11:28:00 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[27-Feb-2021 11:28:00 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[27-Feb-2021 11:28:00 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[27-Feb-2021 11:28:00 UTC] PHP   5. ignaweb_lista_categoria() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/taxonomy-category_product.php:18
+[27-Feb-2021 11:28:00 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 63
+[27-Feb-2021 11:28:00 UTC] PHP Stack trace:
+[27-Feb-2021 11:28:00 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[27-Feb-2021 11:28:00 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[27-Feb-2021 11:28:00 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[27-Feb-2021 11:28:00 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[27-Feb-2021 11:28:00 UTC] PHP   5. ignaweb_lista_categoria() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/taxonomy-category_product.php:18
+[27-Feb-2021 11:28:00 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 63
+[27-Feb-2021 11:28:00 UTC] PHP Stack trace:
+[27-Feb-2021 11:28:00 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[27-Feb-2021 11:28:00 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[27-Feb-2021 11:28:00 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[27-Feb-2021 11:28:00 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[27-Feb-2021 11:28:00 UTC] PHP   5. ignaweb_lista_categoria() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/taxonomy-category_product.php:18
+[27-Feb-2021 11:28:00 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 63
+[27-Feb-2021 11:28:00 UTC] PHP Stack trace:
+[27-Feb-2021 11:28:00 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[27-Feb-2021 11:28:00 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[27-Feb-2021 11:28:00 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[27-Feb-2021 11:28:00 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[27-Feb-2021 11:28:00 UTC] PHP   5. ignaweb_lista_categoria() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/taxonomy-category_product.php:18
+[27-Feb-2021 11:28:00 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 63
+[27-Feb-2021 11:28:00 UTC] PHP Stack trace:
+[27-Feb-2021 11:28:00 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[27-Feb-2021 11:28:00 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[27-Feb-2021 11:28:00 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[27-Feb-2021 11:28:00 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[27-Feb-2021 11:28:00 UTC] PHP   5. ignaweb_lista_categoria() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/taxonomy-category_product.php:18
+[27-Feb-2021 11:28:00 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 63
+[27-Feb-2021 11:28:00 UTC] PHP Stack trace:
+[27-Feb-2021 11:28:00 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[27-Feb-2021 11:28:00 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[27-Feb-2021 11:28:00 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[27-Feb-2021 11:28:00 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[27-Feb-2021 11:28:00 UTC] PHP   5. ignaweb_lista_categoria() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/taxonomy-category_product.php:18
+[27-Feb-2021 11:28:00 UTC] PHP Warning:  A non-numeric value encountered in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/inc/queries.php on line 63
+[27-Feb-2021 11:28:00 UTC] PHP Stack trace:
+[27-Feb-2021 11:28:00 UTC] PHP   1. {main}() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:0
+[27-Feb-2021 11:28:00 UTC] PHP   2. require() /Users/alfredo/LocalSites/ignaweb/app/public/index.php:17
+[27-Feb-2021 11:28:00 UTC] PHP   3. require_once() /Users/alfredo/LocalSites/ignaweb/app/public/wp-blog-header.php:19
+[27-Feb-2021 11:28:00 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
+[27-Feb-2021 11:28:00 UTC] PHP   5. ignaweb_lista_categoria() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/taxonomy-category_product.php:18
+>>>>>>> 3fda09ffedb2a0a501e6cec3810ee4d2fc317b49
