@@ -1135,3 +1135,31 @@ Stack trace:
 [21-Feb-2021 11:47:53 UTC] PHP Parse error:  syntax error, unexpected '===' (T_IS_IDENTICAL), expecting end of file in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/plugins/ignaser_post_types/ignaser_post_types.php on line 100
 [21-Feb-2021 11:47:53 UTC] PHP Parse error:  syntax error, unexpected '===' (T_IS_IDENTICAL), expecting end of file in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/plugins/ignaser_post_types/ignaser_post_types.php on line 100
 [21-Feb-2021 11:48:27 UTC] PHP Parse error:  syntax error, unexpected '===' (T_IS_IDENTICAL), expecting end of file in /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/plugins/ignaser_post_types/ignaser_post_types.php on line 100
+[27-Feb-2021 12:41:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaserWeb/front-page.php:51
+Stack trace:
+#0 /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/jorge/Local Sites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/jorge/Lo...')
+#2 /Users/jorge/Local Sites/ignaweb/app/public/index.php(17): require('/Users/jorge/Lo...')
+#3 {main}
+  thrown in /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaserWeb/front-page.php on line 51
+[27-Feb-2021 12:42:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaserWeb/front-page.php:51
+Stack trace:
+#0 /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/jorge/Local Sites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/jorge/Lo...')
+#2 /Users/jorge/Local Sites/ignaweb/app/public/index.php(17): require('/Users/jorge/Lo...')
+#3 {main}
+  thrown in /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaserWeb/front-page.php on line 51
+[27-Feb-2021 12:42:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaserWeb/front-page.php:51
+Stack trace:
+#0 /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/jorge/Local Sites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/jorge/Lo...')
+#2 /Users/jorge/Local Sites/ignaweb/app/public/index.php(17): require('/Users/jorge/Lo...')
+#3 {main}
+  thrown in /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaserWeb/front-page.php on line 51
+[27-Feb-2021 12:42:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaserWeb/front-page.php:51
+Stack trace:
+#0 /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/jorge/Local Sites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/jorge/Lo...')
+#2 /Users/jorge/Local Sites/ignaweb/app/public/index.php(17): require('/Users/jorge/Lo...')
+#3 {main}
+  thrown in /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaserWeb/front-page.php on line 51
