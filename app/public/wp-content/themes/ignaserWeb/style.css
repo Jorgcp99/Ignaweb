@@ -1619,27 +1619,234 @@ div.logo {
 
 @media (min-width: 1024px) {
 
-.contenedor-productos-description .text-productos-description {
-  flex: 0 0 58%;
-  padding-left: 40px;
-}
+  .contenedor-productos-description .text-productos-description {
+    flex: 0 0 58%;
+    padding-left: 40px;
+  }
 
-.contenedor-productos-description .image-productos-description{
-  flex: 0 0 40%;
-}
+  .contenedor-productos-description .image-productos-description{
+    flex: 0 0 40%;
+  }
 
-.contenedor-productos-description .image-productos-description img{
-  height: 400px;
-}
+  .contenedor-productos-description .image-productos-description img{
+    height: 400px;
+  }
 
 }
 
 /** Blog **/
 
-@media (min-width: 768px) {
+  .blogTitle, .TitleCategoriaBlog{
+    text-align: center;
+    padding-top: 150px;
+    color: #000;
+    font-size: 40px;
+    padding-bottom: 50px;
+  }
+
+  .listado-blog {
+    margin-top: 4rem;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  @media (min-width: 768px) {
+    .listado-blog {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+  
   .card {
-    flex: 0 0 calc(50% - 2rem);
+    margin-bottom: 4rem;
+    border-bottom: 1px solid var(--grisClaro);
+    height: 450px;
+    background-color: #F7F7F7;
+  }
+  
+  .card:last-of-type {
+    border-bottom: none;
+  }
+
+  @media (min-width: 768px) {
+  .gradient::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    height: 300px;
+
+    background: -moz-linear-gradient(
+      top,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.7) 100%
+    ); 
+    background: -webkit-linear-gradient(
+      top,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.7) 100%
+    ); 
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.7) 100%
+    ); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#80000000',GradientType=0 ); /* IE6-9 */
+  }
+
+  .card {
+    flex: 0 0 calc(50.0% - 2rem);
+    position: relative;
+    border: none;
+    margin-right: 2rem;
+    height: 300px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card {
+    flex: 0 0 calc(33.3% - 2rem);
     position: relative;
     border: none;
   }
+}
+
+.card a{
+  text-decoration: none;
+}
+
+.card img {
+  width: 100%;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+}
+
+@media (min-width: 1024px) {
+  .card {
+    height: auto;
+  }
+}
+
+.card .contenido {
+  padding: 2rem;
+}
+
+.card .contenido h3{
+  height: 72px;
+  font-size: 30px;
+  font-weight: 500;
+  overflow: hidden;
+  color: #000;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}
+
+@media (min-width: 768px) {
+  .card .contenido h3{
+    height: auto;
+    color: white;
+    text-decoration: underline;
+    text-decoration:dashed;
+  }
+}
+
+@media (min-width: 768px) {
+  .card .contenido {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    z-index: 2;
+  }
+}
+
+.post-categories {
+  display: flex;
+  justify-content: center;
+}
+
+  .post-categories {
+    position: absolute;
+    top: 2rem;
+
+    z-index: 10;
+  }
+
+.post-categories li {
+  padding: 0.1rem 1.5rem;
+  margin-right: 2rem;
+  border-radius: 2rem;
+}
+
+.post-categories li {
+  background-color: #2A69A8;
+}
+
+
+.post-categories li a {
+  font-size: 1.8rem;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .post-categories li a {
+    color: white;
+  }
+}
+
+.post-categories li:last-of-type {
+  margin-right: 0;
+}
+
+.card .contenido .meta span {
+  color: #2A69A8;
+}
+
+@media (min-width: 768px) {
+  .card .contenido .meta span {
+    color: white;
+  }
+}
+
+.card .contenido .meta,
+.card .contenido .meta a {
+  color: black;
+}
+
+@media (min-width: 768px) {
+  .card .contenido .meta,
+  .card .contenido .meta a {
+    color: white;
+    margin: 0;
+  }
+}
+
+/** Single **/
+
+.TitleSigular{
+  text-align: center;
+  padding-top: 200px;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: #000;
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+
+.dataSingular{
+  text-align: center;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.contentSingular{
+  padding-top: 70px;
+
 }
