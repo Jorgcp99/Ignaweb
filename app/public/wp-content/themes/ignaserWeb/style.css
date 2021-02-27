@@ -1576,6 +1576,12 @@ div.logo {
   padding-bottom: 5%;
 }
 
+@media (min-width: 768px) {
+  .contenedor-productos-description{
+    padding-left: 7%;
+  }
+}
+
 .contenedor-productos-description .text-productos-description {
   flex: 0 0 100%;
 }
