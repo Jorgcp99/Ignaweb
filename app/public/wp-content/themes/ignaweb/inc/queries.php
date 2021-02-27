@@ -57,9 +57,10 @@ function ignaweb_lista_categoria($taxonomy){
      $loop = new WP_Query($args);
      if($loop->have_posts()) {
         while($loop->have_posts()) : $loop->the_post();
+            $slug = get_post_field('post_name', get_the_ID());
             ?>
             <li class="productCategoryCard">
-                        <a href=<?php get_permalink(); ?>>
+                        <a href=<?php echo $slug; ?>>
                             <?php $img_url = wp_get_attachment_image_src(get_post_thumbnail_id(),'mediano'); ?>
                             <div class="">
                                 <img src="<?php echo $img_url[0];?>"/>
@@ -74,7 +75,7 @@ function ignaweb_lista_categoria($taxonomy){
                         </a>
                     </li>
             <?php
-        endwhile;
+        endwhile; wp_reset_postdata();
         ?>
         </ul>
         <?php

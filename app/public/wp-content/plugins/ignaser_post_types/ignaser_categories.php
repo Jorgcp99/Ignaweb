@@ -84,7 +84,6 @@ function create_product_taxonomies() {
           'description'           => __( 'Productos para el Sitio Web', 'ignasertheme' ),
           'labels'                => $labels,
           'supports'              => array( 'title', 'editor', 'thumbnail' ),
-          'hierarchical'          => false,
           'public'                => true,
           'show_ui'               => true,
           'show_in_menu'          => true,
