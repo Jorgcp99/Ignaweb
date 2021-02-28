@@ -1582,3 +1582,17 @@ Stack trace:
 [27-Feb-2021 11:28:00 UTC] PHP   4. include() /Users/alfredo/LocalSites/ignaweb/app/public/wp-includes/template-loader.php:106
 [27-Feb-2021 11:28:00 UTC] PHP   5. ignaweb_lista_categoria() /Users/alfredo/LocalSites/ignaweb/app/public/wp-content/themes/ignaweb/taxonomy-category_product.php:18
 >>>>>>> 3fda09ffedb2a0a501e6cec3810ee4d2fc317b49
+[28-Feb-2021 10:06:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaserWeb/front-page.php:30
+Stack trace:
+#0 /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/jorge/Local Sites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/jorge/Lo...')
+#2 /Users/jorge/Local Sites/ignaweb/app/public/index.php(17): require('/Users/jorge/Lo...')
+#3 {main}
+  thrown in /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaserWeb/front-page.php on line 30
+[28-Feb-2021 10:06:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaserWeb/front-page.php:30
+Stack trace:
+#0 /Users/jorge/Local Sites/ignaweb/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/jorge/Local Sites/ignaweb/app/public/wp-blog-header.php(19): require_once('/Users/jorge/Lo...')
+#2 /Users/jorge/Local Sites/ignaweb/app/public/index.php(17): require('/Users/jorge/Lo...')
+#3 {main}
+  thrown in /Users/jorge/Local Sites/ignaweb/app/public/wp-content/themes/ignaserWeb/front-page.php on line 30

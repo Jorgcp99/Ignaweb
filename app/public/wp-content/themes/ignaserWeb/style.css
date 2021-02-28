@@ -461,6 +461,18 @@ p {
   padding: 0;
 }
 /** Header **/
+.site-header-inicio {
+  background-color: transparent;
+  padding: 0.5rem 2rem;
+  display: none;
+  z-index: 4000;
+  content: '';
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  height: 70px;
+}
 .site-header {
   background-color: var(--colorAppBar);
   padding: 0.5rem 2rem;
@@ -487,6 +499,9 @@ div.logo {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+  .site-header-inicio {
+    display: block;
   }
   .site-header {
     display: block;
